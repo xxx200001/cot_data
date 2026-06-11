@@ -6714,12 +6714,12 @@
           "labels": {
             "133": "desk chair"
           },
-          "atomic_step": "Tighten the desk chair.",
+          "atomic_step": "Repair the caster on the desk chair.",
           "atomic_actions": [
             {
-              "action_id": "tighten",
+              "action_id": "repair",
               "relation": "on",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:tighten-->repair"
             }
           ]
         },
@@ -6843,12 +6843,12 @@
           "labels": {
             "238": "laptop"
           },
-          "atomic_step": "Plug in the laptop.",
+          "atomic_step": "Charge the laptop.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         }
@@ -14648,12 +14648,12 @@
           "labels": {
             "338": "keyboard"
           },
-          "atomic_step": "Reposition the keyboard.",
+          "atomic_step": "Repair the keyboard.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },

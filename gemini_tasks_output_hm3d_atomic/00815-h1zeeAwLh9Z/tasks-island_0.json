@@ -1581,12 +1581,12 @@
           "labels": {
             "430": "piano"
           },
-          "atomic_step": "Reposition the piano.",
+          "atomic_step": "Repair the piano.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         }

@@ -14657,12 +14657,12 @@
           "labels": {
             "436": "clothes"
           },
-          "atomic_step": "Straighten the clothes.",
+          "atomic_step": "Iron the clothes.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": null,
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;new_action_v1:straighten-->iron"
             }
           ]
         },

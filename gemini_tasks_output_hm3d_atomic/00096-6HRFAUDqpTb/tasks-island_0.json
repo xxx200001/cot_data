@@ -7488,12 +7488,12 @@
           "labels": {
             "218": "coffee machine"
           },
-          "atomic_step": "Start the coffee machine.",
+          "atomic_step": "Brew with the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -8397,12 +8397,12 @@
           "labels": {
             "174": "stairs railing"
           },
-          "atomic_step": "Attach the stairs railing.",
+          "atomic_step": "Repair the stairs railing.",
           "atomic_actions": [
             {
-              "action_id": "attach",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
             }
           ]
         },
@@ -12738,12 +12738,12 @@
           "labels": {
             "216": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         },

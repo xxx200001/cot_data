@@ -2575,12 +2575,12 @@
           "labels": {
             "318": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         },
@@ -9560,12 +9560,12 @@
           "labels": {
             "139": "hanging clothes"
           },
-          "atomic_step": "Straighten the hanging clothes.",
+          "atomic_step": "Iron the hanging clothes.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": null,
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;new_action_v1:straighten-->iron"
             }
           ]
         },

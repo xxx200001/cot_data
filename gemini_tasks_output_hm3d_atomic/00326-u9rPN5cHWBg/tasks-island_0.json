@@ -30231,12 +30231,12 @@
           "labels": {
             "1510": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -31901,12 +31901,12 @@
           "labels": {
             "1510": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -33312,12 +33312,12 @@
           "labels": {
             "1510": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -35856,12 +35856,12 @@
           "labels": {
             "1510": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -38316,12 +38316,12 @@
           "labels": {
             "836": "jacket"
           },
-          "atomic_step": "Straighten the jacket.",
+          "atomic_step": "Iron the jacket.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": null,
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;new_action_v1:straighten-->iron"
             }
           ]
         },

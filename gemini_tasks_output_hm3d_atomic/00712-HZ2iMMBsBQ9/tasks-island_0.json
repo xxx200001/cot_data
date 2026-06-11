@@ -8750,12 +8750,12 @@
           "labels": {
             "494": "cellular_telephone"
           },
-          "atomic_step": "Plug in the cellular_telephone.",
+          "atomic_step": "Charge the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         }
@@ -9437,12 +9437,12 @@
           "labels": {
             "430": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         }
@@ -17528,12 +17528,12 @@
           "labels": {
             "389": "pad"
           },
-          "atomic_step": "Plug in the pad.",
+          "atomic_step": "Charge the pad.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         },
@@ -17833,12 +17833,12 @@
           "labels": {
             "509": "camera"
           },
-          "atomic_step": "Plug in the camera.",
+          "atomic_step": "Charge the camera.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         }
@@ -18891,12 +18891,12 @@
           "labels": {
             "511": "laptop_computer"
           },
-          "atomic_step": "Plug in the laptop_computer.",
+          "atomic_step": "Charge the laptop_computer.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         }

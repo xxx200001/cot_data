@@ -3049,12 +3049,12 @@
           "labels": {
             "167": "guitar"
           },
-          "atomic_step": "Adjust the guitar.",
+          "atomic_step": "Tune the guitar.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": null,
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },
@@ -7068,12 +7068,12 @@
           "labels": {
             "167": "guitar"
           },
-          "atomic_step": "Adjust the guitar.",
+          "atomic_step": "Tune the guitar.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": null,
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },
@@ -9875,12 +9875,12 @@
           "labels": {
             "167": "guitar"
           },
-          "atomic_step": "Adjust the guitar.",
+          "atomic_step": "Tune the guitar.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": null,
-              "mapping_source": "adjust_control;vocab_gap:no_tune_action"
+              "mapping_source": "adjust_control;new_action_v1:set_control-->tune"
             }
           ]
         },
@@ -15225,12 +15225,12 @@
           "labels": {
             "167": "guitar"
           },
-          "atomic_step": "Adjust the guitar.",
+          "atomic_step": "Tune the guitar.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": null,
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },

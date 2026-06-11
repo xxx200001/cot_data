@@ -2901,12 +2901,12 @@
           "labels": {
             "386": "iron board"
           },
-          "atomic_step": "Straighten items on the iron board.",
+          "atomic_step": "Iron items on the iron board.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;new_action_v1:straighten-->iron"
             }
           ]
         },

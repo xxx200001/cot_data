@@ -864,12 +864,12 @@
           "labels": {
             "155": "candle holder"
           },
-          "atomic_step": "Turn on the candle holder.",
+          "atomic_step": "Light the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
             }
           ]
         }
@@ -4457,12 +4457,12 @@
           "labels": {
             "546": "coffee_maker"
           },
-          "atomic_step": "Turn on coffee maker.",
+          "atomic_step": "Brew with coffee maker.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;new_action_v1:turn_on-->brew"
             }
           ]
         },
@@ -5090,12 +5090,12 @@
           "labels": {
             "80": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         },
@@ -10780,12 +10780,12 @@
           "labels": {
             "546": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -12325,12 +12325,12 @@
           "labels": {
             "155": "candle holder"
           },
-          "atomic_step": "Turn on the candle holder.",
+          "atomic_step": "Light the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
             }
           ]
         },
@@ -12442,12 +12442,12 @@
           "labels": {
             "546": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -15046,12 +15046,12 @@
           "labels": {
             "155": "candle holder"
           },
-          "atomic_step": "Turn on the candle holder.",
+          "atomic_step": "Light the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "in",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
             }
           ]
         }
@@ -16584,12 +16584,12 @@
           "labels": {
             "155": "candle holder"
           },
-          "atomic_step": "Turn on the candle holder.",
+          "atomic_step": "Light the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "in",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
             }
           ]
         },
@@ -22604,12 +22604,12 @@
           "labels": {
             "155": "candle holder"
           },
-          "atomic_step": "Turn on the candle holder.",
+          "atomic_step": "Light the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
             }
           ]
         },
@@ -27133,12 +27133,12 @@
           "labels": {
             "546": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },

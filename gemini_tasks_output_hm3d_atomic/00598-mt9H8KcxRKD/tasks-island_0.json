@@ -383,12 +383,12 @@
           "labels": {
             "791": "cellular_telephone"
           },
-          "atomic_step": "Plug in the cellular_telephone.",
+          "atomic_step": "Charge the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         }

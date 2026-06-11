@@ -7828,12 +7828,12 @@
           "labels": {
             "728": "laptop_computer"
           },
-          "atomic_step": "Plug in the laptop_computer.",
+          "atomic_step": "Charge the laptop_computer.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         },

@@ -1640,12 +1640,12 @@
           "labels": {
             "279": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         },
@@ -2755,12 +2755,12 @@
           "labels": {
             "287": "coffee machine"
           },
-          "atomic_step": "Start the coffee machine.",
+          "atomic_step": "Brew with the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -5475,12 +5475,12 @@
           "labels": {
             "898": "shelf"
           },
-          "atomic_step": "Attach the shelf.",
+          "atomic_step": "Repair the shelf.",
           "atomic_actions": [
             {
-              "action_id": "attach",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
             }
           ]
         },
@@ -10597,12 +10597,12 @@
           "labels": {
             "449": "wash cabinet"
           },
-          "atomic_step": "Straighten items on the wash cabinet.",
+          "atomic_step": "Iron items on the wash cabinet.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;new_action_v1:straighten-->iron"
             }
           ]
         },
@@ -13629,12 +13629,12 @@
           "labels": {
             "222": "locker"
           },
-          "atomic_step": "Reposition the locker.",
+          "atomic_step": "Repair the locker handle.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },
@@ -17249,12 +17249,12 @@
           "labels": {
             "287": "coffee machine"
           },
-          "atomic_step": "Start the coffee machine.",
+          "atomic_step": "Brew with the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -17932,12 +17932,12 @@
           "labels": {
             "279": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         },
@@ -18063,12 +18063,12 @@
           "labels": {
             "995": "cellular_telephone"
           },
-          "atomic_step": "Plug in the cellular_telephone.",
+          "atomic_step": "Charge the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         },
@@ -21564,12 +21564,12 @@
           "labels": {
             "279": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         },
@@ -26668,12 +26668,12 @@
           "labels": {
             "995": "cellular_telephone"
           },
-          "atomic_step": "Plug in the cellular_telephone.",
+          "atomic_step": "Charge the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         },

@@ -7875,12 +7875,12 @@
           "labels": {
             "531": "bed"
           },
-          "atomic_step": "Smooth the bed.",
+          "atomic_step": "Iron the bed.",
           "atomic_actions": [
             {
-              "action_id": "smooth",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "replacement_from_straighten;new_action_v1:smooth-->iron"
             }
           ]
         },

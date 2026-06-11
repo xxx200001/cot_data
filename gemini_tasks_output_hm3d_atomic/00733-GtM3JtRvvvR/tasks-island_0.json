@@ -8709,12 +8709,12 @@
           "labels": {
             "215": "wash cabinet"
           },
-          "atomic_step": "Reposition the wash cabinet.",
+          "atomic_step": "Repair the wash cabinet.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },

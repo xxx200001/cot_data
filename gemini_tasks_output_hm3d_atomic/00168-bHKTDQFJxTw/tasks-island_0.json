@@ -704,12 +704,12 @@
           "labels": {
             "316": "toilet"
           },
-          "atomic_step": "Reposition the toilet.",
+          "atomic_step": "Repair the toilet.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         }
@@ -916,12 +916,12 @@
           "labels": {
             "322": "toilet"
           },
-          "atomic_step": "Reposition the toilet.",
+          "atomic_step": "Repair the toilet.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },
@@ -1389,12 +1389,12 @@
           "labels": {
             "9": "machine"
           },
-          "atomic_step": "Reposition the machine.",
+          "atomic_step": "Repair the machine.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },
@@ -5632,12 +5632,12 @@
           "labels": {
             "304": "machine"
           },
-          "atomic_step": "Reposition the machine.",
+          "atomic_step": "Repair the machine in the restroom area.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": "in",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         }
@@ -8281,12 +8281,12 @@
           "labels": {
             "304": "machine"
           },
-          "atomic_step": "Reposition the machine.",
+          "atomic_step": "Repair the machine.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },

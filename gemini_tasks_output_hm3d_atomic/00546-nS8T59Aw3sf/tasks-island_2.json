@@ -2247,12 +2247,12 @@
           "labels": {
             "503": "coffee machine"
           },
-          "atomic_step": "Start the coffee machine.",
+          "atomic_step": "Brew with the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -3158,12 +3158,12 @@
           "labels": {
             "503": "coffee machine"
           },
-          "atomic_step": "Start the coffee machine.",
+          "atomic_step": "Brew with the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         }

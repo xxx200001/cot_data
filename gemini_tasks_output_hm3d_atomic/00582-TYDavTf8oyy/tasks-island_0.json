@@ -840,12 +840,12 @@
           "labels": {
             "391": "candle holder"
           },
-          "atomic_step": "Turn on the candle holder.",
+          "atomic_step": "Light the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
             }
           ]
         },
@@ -1709,12 +1709,12 @@
           "labels": {
             "391": "candle holder"
           },
-          "atomic_step": "Turn on the candle holder.",
+          "atomic_step": "Light the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
             }
           ]
         },

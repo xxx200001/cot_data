@@ -2206,12 +2206,12 @@
           "labels": {
             "376": "guitar"
           },
-          "atomic_step": "Adjust the guitar on the stand.",
+          "atomic_step": "Tune the guitar on the stand.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": "on",
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },
@@ -3147,12 +3147,12 @@
           "labels": {
             "449": "electric guitar"
           },
-          "atomic_step": "Adjust the electric guitar.",
+          "atomic_step": "Tune the electric guitar.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": null,
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },
@@ -5798,12 +5798,12 @@
           "labels": {
             "374": "guitar"
           },
-          "atomic_step": "Adjust the guitar.",
+          "atomic_step": "Tune the guitar.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": null,
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },
@@ -12552,12 +12552,12 @@
           "labels": {
             "374": "guitar"
           },
-          "atomic_step": "Adjust the guitar on the wall.",
+          "atomic_step": "Tune the guitar on the wall.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": "on",
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },
@@ -13191,12 +13191,12 @@
           "labels": {
             "437": "electric guitar"
           },
-          "atomic_step": "Adjust the electric guitar.",
+          "atomic_step": "Tune the electric guitar.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": null,
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },
@@ -16270,12 +16270,12 @@
           "labels": {
             "374": "guitar"
           },
-          "atomic_step": "Adjust the guitar for the display.",
+          "atomic_step": "Tune the guitar for the display.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "tune",
               "relation": null,
-              "mapping_source": "tune_control;vocab_gap:no_tune_action"
+              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
             }
           ]
         },

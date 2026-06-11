@@ -11116,12 +11116,12 @@
           "labels": {
             "432": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         }
@@ -12576,12 +12576,12 @@
           "labels": {
             "61": "curtain"
           },
-          "atomic_step": "Smooth the curtain.",
+          "atomic_step": "Iron the curtain.",
           "atomic_actions": [
             {
-              "action_id": "smooth",
+              "action_id": "iron",
               "relation": null,
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "replacement_from_straighten;new_action_v1:smooth-->iron"
             }
           ]
         },

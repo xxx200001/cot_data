@@ -3460,12 +3460,12 @@
           "labels": {
             "433": "shelf"
           },
-          "atomic_step": "Attach the shelf.",
+          "atomic_step": "Repair the shelf in the lounge.",
           "atomic_actions": [
             {
-              "action_id": "attach",
+              "action_id": "repair",
               "relation": "in",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
             }
           ]
         },

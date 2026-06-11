@@ -3087,12 +3087,12 @@
           "labels": {
             "232": "kitchen shelf"
           },
-          "atomic_step": "Attach the kitchen shelf.",
+          "atomic_step": "Repair the kitchen shelf.",
           "atomic_actions": [
             {
-              "action_id": "attach",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
             }
           ]
         },
@@ -9258,12 +9258,12 @@
           "labels": {
             "451": "rack"
           },
-          "atomic_step": "Reposition the rack.",
+          "atomic_step": "Repair the rack.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         }
@@ -16348,12 +16348,12 @@
           "labels": {
             "573": "cellular_telephone"
           },
-          "atomic_step": "Plug in the cellular_telephone.",
+          "atomic_step": "Charge the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         }
@@ -16570,12 +16570,12 @@
           "labels": {
             "254": "kitchen cabinet"
           },
-          "atomic_step": "Reposition the kitchen cabinet.",
+          "atomic_step": "Repair the kitchen cabinet.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },

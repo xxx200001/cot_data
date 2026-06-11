@@ -4247,12 +4247,12 @@
           "labels": {
             "118": "dresser"
           },
-          "atomic_step": "Reposition the dresser.",
+          "atomic_step": "Repair the dresser.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },
@@ -4277,12 +4277,12 @@
           "labels": {
             "300": "cabinet"
           },
-          "atomic_step": "Reposition the cabinet.",
+          "atomic_step": "Repair the cabinet.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         }

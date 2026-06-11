@@ -2649,12 +2649,12 @@
           "labels": {
             "387": "ventilation"
           },
-          "atomic_step": "Reposition the ventilation.",
+          "atomic_step": "Repair the ventilation.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },
@@ -3328,12 +3328,12 @@
           "labels": {
             "387": "ventilation"
           },
-          "atomic_step": "Reposition the ventilation.",
+          "atomic_step": "Repair the ventilation.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },
@@ -4871,12 +4871,12 @@
           "labels": {
             "380": "cabinet door"
           },
-          "atomic_step": "Reposition the cabinet door.",
+          "atomic_step": "Repair the cabinet door.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
             }
           ]
         },

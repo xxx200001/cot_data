@@ -187,12 +187,12 @@
           "labels": {
             "399": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -3403,12 +3403,12 @@
           "labels": {
             "143": "coffee machine"
           },
-          "atomic_step": "Start the coffee machine.",
+          "atomic_step": "Brew with the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -6921,12 +6921,12 @@
           "labels": {
             "399": "coffee_maker"
           },
-          "atomic_step": "Start the coffee_maker.",
+          "atomic_step": "Brew with the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -6996,12 +6996,12 @@
           "labels": {
             "370": "device"
           },
-          "atomic_step": "Plug in the device.",
+          "atomic_step": "Charge the device.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         }
@@ -13124,12 +13124,12 @@
           "labels": {
             "99": "curtain rail"
           },
-          "atomic_step": "Attach the curtain rail.",
+          "atomic_step": "Repair the curtain rail.",
           "atomic_actions": [
             {
-              "action_id": "attach",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
             }
           ]
         },
@@ -16497,12 +16497,12 @@
           "labels": {
             "143": "coffee machine"
           },
-          "atomic_step": "Start the coffee machine.",
+          "atomic_step": "Brew with the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "start_machine",
+              "action_id": "brew",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
             }
           ]
         },
@@ -19014,12 +19014,12 @@
           "labels": {
             "186": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
             }
           ]
         },

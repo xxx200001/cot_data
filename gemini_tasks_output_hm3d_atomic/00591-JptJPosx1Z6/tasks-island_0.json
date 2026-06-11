@@ -18630,12 +18630,12 @@
           "labels": {
             "789": "bookshelf"
           },
-          "atomic_step": "Attach the bookshelf.",
+          "atomic_step": "Repair the bookshelf.",
           "atomic_actions": [
             {
-              "action_id": "attach",
+              "action_id": "repair",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
             }
           ]
         },
@@ -28585,12 +28585,12 @@
           "labels": {
             "1099": "cellular_telephone"
           },
-          "atomic_step": "Plug in the cellular_telephone.",
+          "atomic_step": "Charge the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "charge",
               "relation": "in",
-              "mapping_source": "operate"
+              "mapping_source": "operate;new_action_v1:plug_in-->charge"
             }
           ]
         },
@@ -37434,12 +37434,12 @@
           "labels": {
             "613": "clothes"
           },
-          "atomic_step": "Straighten the clothes.",
+          "atomic_step": "Iron the clothes.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": null,
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;new_action_v1:straighten-->iron"
             }
           ]
         },
