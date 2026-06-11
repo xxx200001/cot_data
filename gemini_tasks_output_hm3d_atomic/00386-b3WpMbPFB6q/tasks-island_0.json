@@ -508,12 +508,12 @@
           "labels": {
             "288": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -2607,12 +2607,12 @@
           "labels": {
             "288": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -6239,12 +6239,12 @@
           "labels": {
             "391": "shelf"
           },
-          "atomic_step": "Repair the shelf.",
+          "atomic_step": "Attach the shelf.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "attach",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         }
@@ -6515,12 +6515,12 @@
           "labels": {
             "288": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -19485,12 +19485,12 @@
           "labels": {
             "711": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -25227,12 +25227,12 @@
           "labels": {
             "288": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -26132,12 +26132,12 @@
           "labels": {
             "288": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

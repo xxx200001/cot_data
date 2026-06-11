@@ -1167,12 +1167,12 @@
           "labels": {
             "189": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -2311,7 +2311,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -3492,12 +3492,12 @@
           "labels": {
             "189": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -3857,7 +3857,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -4961,7 +4961,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -5123,12 +5123,12 @@
           "labels": {
             "189": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -5486,7 +5486,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -6170,7 +6170,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -6516,12 +6516,12 @@
           "labels": {
             "189": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -7150,7 +7150,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -7616,12 +7616,12 @@
           "labels": {
             "298": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -8479,7 +8479,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -8534,12 +8534,12 @@
           "labels": {
             "189": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -10451,12 +10451,12 @@
           "labels": {
             "246": "fence"
           },
-          "atomic_step": "Repair the fence.",
+          "atomic_step": "Reposition the fence.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -11117,12 +11117,12 @@
           "labels": {
             "298": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -12301,12 +12301,12 @@
           "labels": {
             "189": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -12812,12 +12812,12 @@
           "labels": {
             "299": "laptop_computer"
           },
-          "atomic_step": "Charge the laptop_computer.",
+          "atomic_step": "Plug in the laptop_computer.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -13211,12 +13211,12 @@
           "labels": {
             "190": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

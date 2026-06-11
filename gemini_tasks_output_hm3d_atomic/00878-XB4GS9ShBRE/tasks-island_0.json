@@ -5472,12 +5472,12 @@
           "labels": {
             "291": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -6144,12 +6144,12 @@
           "labels": {
             "399": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -7685,12 +7685,12 @@
           "labels": {
             "291": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -9615,12 +9615,12 @@
           "labels": {
             "399": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -10529,12 +10529,12 @@
           "labels": {
             "399": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -11971,12 +11971,12 @@
           "labels": {
             "399": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },

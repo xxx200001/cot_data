@@ -2488,7 +2488,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -2649,12 +2649,12 @@
           "labels": {
             "387": "ventilation"
           },
-          "atomic_step": "Repair the ventilation.",
+          "atomic_step": "Reposition the ventilation.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -3328,12 +3328,12 @@
           "labels": {
             "387": "ventilation"
           },
-          "atomic_step": "Repair the ventilation.",
+          "atomic_step": "Reposition the ventilation.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -4326,7 +4326,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -4871,12 +4871,12 @@
           "labels": {
             "380": "cabinet door"
           },
-          "atomic_step": "Repair the cabinet door.",
+          "atomic_step": "Reposition the cabinet door.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -9080,7 +9080,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }

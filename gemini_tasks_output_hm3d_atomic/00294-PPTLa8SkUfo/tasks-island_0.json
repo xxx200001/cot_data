@@ -438,12 +438,12 @@
           "labels": {
             "756": "heater"
           },
-          "atomic_step": "Repair the heater unit.",
+          "atomic_step": "Reposition the heater.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -1472,7 +1472,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -1903,12 +1903,12 @@
           "labels": {
             "533": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -2038,7 +2038,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -2198,7 +2198,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -2814,7 +2814,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -3089,12 +3089,12 @@
           "labels": {
             "447": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -3929,7 +3929,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -4411,12 +4411,12 @@
           "labels": {
             "393": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -4886,12 +4886,12 @@
           "labels": {
             "962": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -5157,7 +5157,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -5633,7 +5633,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -5939,7 +5939,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off"
+              "mapping_source": "turn_off;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -5949,12 +5949,12 @@
           "labels": {
             "447": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -6911,7 +6911,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -7270,7 +7270,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -9570,7 +9570,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -10290,12 +10290,12 @@
           "labels": {
             "533": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -10349,7 +10349,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -12235,12 +12235,12 @@
           "labels": {
             "393": "candle holder"
           },
-          "atomic_step": "Light the candle holder in the dining area.",
+          "atomic_step": "Turn on the candle holder in the dining area.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -12851,12 +12851,12 @@
           "labels": {
             "393": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -13140,7 +13140,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -13493,12 +13493,12 @@
           "labels": {
             "756": "heater"
           },
-          "atomic_step": "Repair the heater in the bedroom.",
+          "atomic_step": "Reposition the heater.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": "in",
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -13570,7 +13570,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -13625,12 +13625,12 @@
           "labels": {
             "393": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -14633,7 +14633,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -14846,7 +14846,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "prepare;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -16134,12 +16134,12 @@
           "labels": {
             "756": "heater"
           },
-          "atomic_step": "Repair the heater.",
+          "atomic_step": "Reposition the heater.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -17331,7 +17331,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -17680,7 +17680,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "prepare;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -18035,12 +18035,12 @@
           "labels": {
             "533": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -18892,12 +18892,12 @@
           "labels": {
             "533": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -19703,7 +19703,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "prepare;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -20733,12 +20733,12 @@
           "labels": {
             "962": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -21644,12 +21644,12 @@
           "labels": {
             "49": "railing"
           },
-          "atomic_step": "Repair the railing.",
+          "atomic_step": "Attach the railing.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "attach",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -22607,12 +22607,12 @@
           "labels": {
             "851": "shelf"
           },
-          "atomic_step": "Repair the shelf.",
+          "atomic_step": "Attach the shelf.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "attach",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -27285,7 +27285,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "prepare;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -29052,12 +29052,12 @@
           "labels": {
             "447": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -29624,12 +29624,12 @@
           "labels": {
             "14": "bench"
           },
-          "atomic_step": "Repair the bench.",
+          "atomic_step": "Reposition the bench.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         }
@@ -30757,12 +30757,12 @@
           "labels": {
             "393": "candle holder"
           },
-          "atomic_step": "Light the candle holder.",
+          "atomic_step": "Turn on the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -31520,12 +31520,12 @@
           "labels": {
             "14": "bench"
           },
-          "atomic_step": "Repair the bench.",
+          "atomic_step": "Reposition the bench.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -31594,12 +31594,12 @@
           "labels": {
             "533": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

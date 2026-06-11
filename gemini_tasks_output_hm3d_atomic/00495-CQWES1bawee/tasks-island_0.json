@@ -2568,7 +2568,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -9405,7 +9405,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -9673,12 +9673,12 @@
           "labels": {
             "946": "sink"
           },
-          "atomic_step": "Repair the sink connection.",
+          "atomic_step": "Reposition the sink.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -12482,7 +12482,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -17375,7 +17375,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -20390,7 +20390,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -21537,7 +21537,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -22924,7 +22924,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -26266,7 +26266,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -26669,12 +26669,12 @@
           "labels": {
             "266": "ironing board"
           },
-          "atomic_step": "Iron the ironing board.",
+          "atomic_step": "Straighten the ironing board.",
           "atomic_actions": [
             {
-              "action_id": "iron",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "straighten;new_action_v1:straighten-->iron"
+              "mapping_source": "straighten"
             }
           ]
         },
@@ -30268,7 +30268,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -31175,12 +31175,12 @@
           "labels": {
             "700": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },

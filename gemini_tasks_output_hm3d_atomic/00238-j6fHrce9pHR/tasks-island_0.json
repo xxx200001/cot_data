@@ -1637,7 +1637,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -3388,7 +3388,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -5736,12 +5736,12 @@
           "labels": {
             "887": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         }
@@ -8477,7 +8477,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -12830,7 +12830,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -14093,7 +14093,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -16067,12 +16067,12 @@
           "labels": {
             "907": "laptop_computer"
           },
-          "atomic_step": "Charge the laptop_computer.",
+          "atomic_step": "Plug in the laptop_computer.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -34025,7 +34025,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -36209,12 +36209,12 @@
           "labels": {
             "887": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         }
@@ -37662,7 +37662,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -37672,12 +37672,12 @@
           "labels": {
             "887": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         }
@@ -37887,7 +37887,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -38445,12 +38445,12 @@
           "labels": {
             "887": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -38847,12 +38847,12 @@
           "labels": {
             "873": "kettle"
           },
-          "atomic_step": "Brew with kettle.",
+          "atomic_step": "Turn on kettle.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;new_action_v1:turn_on-->brew"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -40856,7 +40856,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -41616,7 +41616,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -42824,7 +42824,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -44106,7 +44106,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -44692,12 +44692,12 @@
           "labels": {
             "887": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         }
@@ -45040,12 +45040,12 @@
           "labels": {
             "811": "handle"
           },
-          "atomic_step": "Repair the handle.",
+          "atomic_step": "Attach the handle.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "attach",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },

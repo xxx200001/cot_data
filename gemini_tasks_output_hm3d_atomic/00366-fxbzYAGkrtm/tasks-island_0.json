@@ -96,7 +96,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -676,7 +676,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -3121,7 +3121,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -3460,12 +3460,12 @@
           "labels": {
             "433": "shelf"
           },
-          "atomic_step": "Repair the shelf in the lounge.",
+          "atomic_step": "Attach the shelf.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "attach",
               "relation": "in",
-              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -4619,7 +4619,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -16262,7 +16262,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         }

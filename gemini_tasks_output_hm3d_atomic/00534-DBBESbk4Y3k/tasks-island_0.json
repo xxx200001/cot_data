@@ -260,7 +260,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -499,7 +499,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -951,7 +951,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;assume_gas_fireplace"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -1303,12 +1303,12 @@
           "labels": {
             "572": "coffee_maker"
           },
-          "atomic_step": "Brew with the coffee_maker.",
+          "atomic_step": "Start the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         }
@@ -1348,7 +1348,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -1408,7 +1408,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -3236,12 +3236,12 @@
           "labels": {
             "221": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         }
@@ -3332,12 +3332,12 @@
           "labels": {
             "572": "coffee_maker"
           },
-          "atomic_step": "Brew with the coffee_maker.",
+          "atomic_step": "Start the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         }
@@ -5148,7 +5148,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -6044,7 +6044,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -6882,12 +6882,12 @@
           "labels": {
             "221": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -7369,7 +7369,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -7469,7 +7469,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -7514,7 +7514,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -9972,7 +9972,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -10017,7 +10017,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -11320,7 +11320,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off;assume_gas_fireplace"
+              "mapping_source": "turn_off;vocab_gap:no_ignite_action"
             }
           ]
         },

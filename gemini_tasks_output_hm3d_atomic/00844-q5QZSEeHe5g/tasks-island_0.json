@@ -382,7 +382,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -3045,7 +3045,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -4101,12 +4101,12 @@
           "labels": {
             "1069": "cabinet"
           },
-          "atomic_step": "Repair the cabinet handle.",
+          "atomic_step": "Tighten the cabinet.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:tighten-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -5159,7 +5159,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -8235,7 +8235,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -10246,7 +10246,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -12760,7 +12760,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -17767,7 +17767,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -20156,7 +20156,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -23553,7 +23553,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

@@ -1069,7 +1069,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -1640,12 +1640,12 @@
           "labels": {
             "279": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -2449,7 +2449,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -2755,12 +2755,12 @@
           "labels": {
             "287": "coffee machine"
           },
-          "atomic_step": "Brew with the coffee machine.",
+          "atomic_step": "Start the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         },
@@ -5258,7 +5258,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -5475,12 +5475,12 @@
           "labels": {
             "898": "shelf"
           },
-          "atomic_step": "Repair the shelf.",
+          "atomic_step": "Attach the shelf.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "attach",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -6369,7 +6369,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -6531,7 +6531,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -6923,7 +6923,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -7411,7 +7411,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -8675,7 +8675,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -10110,7 +10110,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -10597,12 +10597,12 @@
           "labels": {
             "449": "wash cabinet"
           },
-          "atomic_step": "Iron items on the wash cabinet.",
+          "atomic_step": "Straighten items on the wash cabinet.",
           "atomic_actions": [
             {
-              "action_id": "iron",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "straighten;new_action_v1:straighten-->iron"
+              "mapping_source": "straighten"
             }
           ]
         },
@@ -11848,7 +11848,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -12330,7 +12330,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -13629,12 +13629,12 @@
           "labels": {
             "222": "locker"
           },
-          "atomic_step": "Repair the locker handle.",
+          "atomic_step": "Reposition the locker.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -13689,7 +13689,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -14034,7 +14034,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -16213,7 +16213,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -16446,7 +16446,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -17249,12 +17249,12 @@
           "labels": {
             "287": "coffee machine"
           },
-          "atomic_step": "Brew with the coffee machine.",
+          "atomic_step": "Start the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         },
@@ -17907,7 +17907,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -17932,12 +17932,12 @@
           "labels": {
             "279": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -18063,12 +18063,12 @@
           "labels": {
             "995": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -20108,7 +20108,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -21242,7 +21242,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -21564,12 +21564,12 @@
           "labels": {
             "279": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -21765,7 +21765,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -22344,7 +22344,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "prepare;assume_gas_fireplace"
+              "mapping_source": "prepare;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -23679,7 +23679,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -24517,7 +24517,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -26126,7 +26126,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -26668,12 +26668,12 @@
           "labels": {
             "995": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -26780,7 +26780,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -27970,7 +27970,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -28204,7 +28204,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -30473,7 +30473,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -32523,7 +32523,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -32636,7 +32636,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -33187,7 +33187,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },

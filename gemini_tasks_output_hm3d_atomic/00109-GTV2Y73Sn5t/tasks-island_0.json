@@ -741,12 +741,12 @@
           "labels": {
             "641": "coffee machine"
           },
-          "atomic_step": "Brew with the coffee machine.",
+          "atomic_step": "Start the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         },
@@ -776,7 +776,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -3790,7 +3790,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -12019,7 +12019,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -12560,7 +12560,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -14062,7 +14062,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -14650,7 +14650,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "prepare;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -16154,12 +16154,12 @@
           "labels": {
             "513": "pipe"
           },
-          "atomic_step": "Repair the pipe.",
+          "atomic_step": "Tighten the pipe.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:tighten-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -16689,12 +16689,12 @@
           "labels": {
             "641": "coffee machine"
           },
-          "atomic_step": "Brew with coffee machine.",
+          "atomic_step": "Turn on coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;new_action_v1:turn_on-->brew"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
             }
           ]
         },
@@ -17446,12 +17446,12 @@
           "labels": {
             "513": "pipe"
           },
-          "atomic_step": "Repair the pipe.",
+          "atomic_step": "Tighten the pipe.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:tighten-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },

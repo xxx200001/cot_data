@@ -3697,12 +3697,12 @@
           "labels": {
             "18": "sink"
           },
-          "atomic_step": "Repair the sink.",
+          "atomic_step": "Reposition the sink.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },

@@ -188,7 +188,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -10685,12 +10685,12 @@
           "labels": {
             "426": "coffee machine"
           },
-          "atomic_step": "Brew with the coffee machine.",
+          "atomic_step": "Start the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         },

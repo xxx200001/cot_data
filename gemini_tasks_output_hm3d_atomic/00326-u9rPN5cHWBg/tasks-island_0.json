@@ -3753,7 +3753,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -6267,7 +6267,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -7046,7 +7046,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -9402,7 +9402,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -26735,7 +26735,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -29446,7 +29446,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -30231,12 +30231,12 @@
           "labels": {
             "1510": "coffee_maker"
           },
-          "atomic_step": "Brew with the coffee_maker.",
+          "atomic_step": "Start the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         },
@@ -31243,7 +31243,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -31901,12 +31901,12 @@
           "labels": {
             "1510": "coffee_maker"
           },
-          "atomic_step": "Brew with the coffee_maker.",
+          "atomic_step": "Start the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         },
@@ -32142,7 +32142,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -33312,12 +33312,12 @@
           "labels": {
             "1510": "coffee_maker"
           },
-          "atomic_step": "Brew with the coffee_maker.",
+          "atomic_step": "Start the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         },
@@ -35263,7 +35263,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -35856,12 +35856,12 @@
           "labels": {
             "1510": "coffee_maker"
           },
-          "atomic_step": "Brew with the coffee_maker.",
+          "atomic_step": "Start the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food;new_action_v1:start_machine-->brew"
+              "mapping_source": "semantic_repair_fixed_action_lib:coffee_device_heat_food"
             }
           ]
         },
@@ -36239,7 +36239,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -37761,7 +37761,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -38316,12 +38316,12 @@
           "labels": {
             "836": "jacket"
           },
-          "atomic_step": "Iron the jacket.",
+          "atomic_step": "Straighten the jacket.",
           "atomic_actions": [
             {
-              "action_id": "iron",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "straighten;new_action_v1:straighten-->iron"
+              "mapping_source": "straighten"
             }
           ]
         },

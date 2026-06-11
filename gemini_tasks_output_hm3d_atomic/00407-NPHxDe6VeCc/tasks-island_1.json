@@ -462,7 +462,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare;assume_gas_fireplace"
+              "mapping_source": "prepare;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -2417,12 +2417,12 @@
           "labels": {
             "37": "candle"
           },
-          "atomic_step": "Light the candle on the table.",
+          "atomic_step": "Turn on the candle on the table.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -2746,7 +2746,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -2935,12 +2935,12 @@
           "labels": {
             "359": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -4296,7 +4296,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -4843,12 +4843,12 @@
           "labels": {
             "359": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -5261,12 +5261,12 @@
           "labels": {
             "37": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -6961,12 +6961,12 @@
           "labels": {
             "359": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -7626,12 +7626,12 @@
           "labels": {
             "37": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -8553,7 +8553,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -9913,12 +9913,12 @@
           "labels": {
             "37": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -11674,12 +11674,12 @@
           "labels": {
             "38": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -12797,12 +12797,12 @@
           "labels": {
             "359": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -13004,12 +13004,12 @@
           "labels": {
             "37": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -14443,12 +14443,12 @@
           "labels": {
             "37": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -14863,12 +14863,12 @@
           "labels": {
             "38": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -15695,12 +15695,12 @@
           "labels": {
             "37": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -16499,12 +16499,12 @@
           "labels": {
             "38": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -17598,12 +17598,12 @@
           "labels": {
             "361": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -18094,7 +18094,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -18149,12 +18149,12 @@
           "labels": {
             "359": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -18264,12 +18264,12 @@
           "labels": {
             "37": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

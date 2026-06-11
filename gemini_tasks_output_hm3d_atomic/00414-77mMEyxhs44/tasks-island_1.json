@@ -1617,7 +1617,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -2156,12 +2156,12 @@
           "labels": {
             "49": "electric guitar"
           },
-          "atomic_step": "Tune the electric guitar.",
+          "atomic_step": "Adjust the electric guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -2594,7 +2594,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -3736,12 +3736,12 @@
           "labels": {
             "576": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -4830,12 +4830,12 @@
           "labels": {
             "50": "electric guitar"
           },
-          "atomic_step": "Tune the electric guitar.",
+          "atomic_step": "Adjust the electric guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -6635,7 +6635,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -7737,7 +7737,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off"
+              "mapping_source": "turn_off;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -9463,7 +9463,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -12151,12 +12151,12 @@
           "labels": {
             "576": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -14465,12 +14465,12 @@
           "labels": {
             "54": "electric guitar"
           },
-          "atomic_step": "Tune the electric guitar.",
+          "atomic_step": "Adjust the electric guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -14662,7 +14662,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -16310,12 +16310,12 @@
           "labels": {
             "266": "chair"
           },
-          "atomic_step": "Repair the chair.",
+          "atomic_step": "Tighten the chair.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:tighten-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },

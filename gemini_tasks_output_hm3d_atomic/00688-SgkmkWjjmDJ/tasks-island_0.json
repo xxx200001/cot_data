@@ -2461,7 +2461,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -3980,12 +3980,12 @@
           "labels": {
             "4": "candlestick"
           },
-          "atomic_step": "Light the candlestick in the living room.",
+          "atomic_step": "Turn on the candlestick in the living room.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -6060,7 +6060,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -8525,12 +8525,12 @@
           "labels": {
             "517": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -8776,7 +8776,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -9707,7 +9707,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off"
+              "mapping_source": "turn_off;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -9898,12 +9898,12 @@
           "labels": {
             "517": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -10275,7 +10275,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },

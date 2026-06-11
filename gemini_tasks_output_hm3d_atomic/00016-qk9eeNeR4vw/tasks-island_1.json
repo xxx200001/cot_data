@@ -7609,7 +7609,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "prepare;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -8940,12 +8940,12 @@
           "labels": {
             "558": "laptop_computer"
           },
-          "atomic_step": "Charge the laptop_computer.",
+          "atomic_step": "Plug in the laptop_computer.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },

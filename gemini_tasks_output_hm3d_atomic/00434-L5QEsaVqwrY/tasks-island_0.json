@@ -30,7 +30,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -1405,12 +1405,12 @@
           "labels": {
             "568": "sink"
           },
-          "atomic_step": "Repair the sink.",
+          "atomic_step": "Reposition the sink.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -3711,7 +3711,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -3972,7 +3972,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -6045,7 +6045,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -7001,7 +7001,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "prepare;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -9658,12 +9658,12 @@
           "labels": {
             "372": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -10680,7 +10680,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -11156,7 +11156,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -13368,12 +13368,12 @@
           "labels": {
             "1006": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -15646,7 +15646,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -27353,7 +27353,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -28792,7 +28792,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -30141,12 +30141,12 @@
           "labels": {
             "1025": "laptop_computer"
           },
-          "atomic_step": "Charge the laptop_computer.",
+          "atomic_step": "Plug in the laptop_computer.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -38368,12 +38368,12 @@
           "labels": {
             "568": "sink"
           },
-          "atomic_step": "Repair the sink pipes.",
+          "atomic_step": "Reposition the sink.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -38834,7 +38834,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -39556,7 +39556,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -40532,7 +40532,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "prepare;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -40729,7 +40729,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause;assume_gas_fireplace"
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -44216,7 +44216,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -44924,12 +44924,12 @@
           "labels": {
             "77": "copier machine"
           },
-          "atomic_step": "Repair the copier machine.",
+          "atomic_step": "Reposition the copier machine.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -47261,7 +47261,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },

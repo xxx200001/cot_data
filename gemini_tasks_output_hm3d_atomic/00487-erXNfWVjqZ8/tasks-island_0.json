@@ -1540,7 +1540,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -2919,7 +2919,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare;assume_gas_fireplace"
+              "mapping_source": "prepare;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -5304,7 +5304,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -6903,12 +6903,12 @@
           "labels": {
             "496": "coffee machine"
           },
-          "atomic_step": "Brew with coffee machine.",
+          "atomic_step": "Turn on coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "brew",
+              "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;new_action_v1:turn_on-->brew"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
             }
           ]
         },
@@ -7022,7 +7022,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -8451,7 +8451,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -18078,7 +18078,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -19291,7 +19291,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off;assume_gas_fireplace"
+              "mapping_source": "turn_off;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -21195,7 +21195,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

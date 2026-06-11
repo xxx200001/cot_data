@@ -464,7 +464,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -1776,7 +1776,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -2868,7 +2868,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         }
@@ -3938,12 +3938,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -3968,12 +3968,12 @@
           "labels": {
             "108": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -4573,12 +4573,12 @@
           "labels": {
             "927": "cellular_telephone"
           },
-          "atomic_step": "Charge the cellular_telephone.",
+          "atomic_step": "Plug in the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },
@@ -7389,12 +7389,12 @@
           "labels": {
             "786": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -8248,12 +8248,12 @@
           "labels": {
             "108": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -9141,12 +9141,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -9988,12 +9988,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -12019,12 +12019,12 @@
           "labels": {
             "786": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -13539,7 +13539,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off"
+              "mapping_source": "turn_off;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -13980,7 +13980,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -15443,7 +15443,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off"
+              "mapping_source": "turn_off;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -15583,12 +15583,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -15892,12 +15892,12 @@
           "labels": {
             "397": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -16565,7 +16565,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -18046,12 +18046,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -19883,12 +19883,12 @@
           "labels": {
             "397": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -21748,12 +21748,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -22566,12 +22566,12 @@
           "labels": {
             "657": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -23045,12 +23045,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -25530,12 +25530,12 @@
           "labels": {
             "657": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -26806,12 +26806,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -27432,12 +27432,12 @@
           "labels": {
             "786": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -28180,12 +28180,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -28200,7 +28200,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -28807,12 +28807,12 @@
           "labels": {
             "108": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -29052,12 +29052,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -29082,12 +29082,12 @@
           "labels": {
             "108": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -29536,12 +29536,12 @@
           "labels": {
             "657": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -29653,12 +29653,12 @@
           "labels": {
             "321": "chair"
           },
-          "atomic_step": "Repair the chair.",
+          "atomic_step": "Tighten the chair.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:tighten-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -30821,12 +30821,12 @@
           "labels": {
             "108": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -32334,12 +32334,12 @@
           "labels": {
             "657": "candle"
           },
-          "atomic_step": "Light the candle.",
+          "atomic_step": "Turn on the candle.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -32432,12 +32432,12 @@
           "labels": {
             "267": "fireplace sconce"
           },
-          "atomic_step": "Light the fireplace sconce.",
+          "atomic_step": "Turn on the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

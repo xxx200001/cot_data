@@ -5364,7 +5364,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -6128,7 +6128,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -16010,7 +16010,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -19453,12 +19453,12 @@
           "labels": {
             "437": "laptop"
           },
-          "atomic_step": "Charge the laptop.",
+          "atomic_step": "Plug in the laptop.",
           "atomic_actions": [
             {
-              "action_id": "charge",
+              "action_id": "plug_in",
               "relation": "in",
-              "mapping_source": "operate;new_action_v1:plug_in-->charge"
+              "mapping_source": "operate"
             }
           ]
         },

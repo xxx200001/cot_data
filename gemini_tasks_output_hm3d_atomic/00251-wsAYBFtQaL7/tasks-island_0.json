@@ -533,7 +533,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -1973,7 +1973,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -4372,7 +4372,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -5178,7 +5178,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -6602,7 +6602,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -6772,12 +6772,12 @@
           "labels": {
             "593": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -7246,7 +7246,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -8412,7 +8412,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -8592,7 +8592,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -8976,12 +8976,12 @@
           "labels": {
             "593": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -10443,7 +10443,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -10920,12 +10920,12 @@
           "labels": {
             "593": "guitar"
           },
-          "atomic_step": "Tune the guitar in the study.",
+          "atomic_step": "Adjust the guitar in the study.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": "in",
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -14021,7 +14021,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -15589,7 +15589,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -18086,12 +18086,12 @@
           "labels": {
             "593": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -19354,7 +19354,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -21426,7 +21426,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -22459,7 +22459,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -23958,7 +23958,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -24282,7 +24282,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -28597,7 +28597,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -29634,12 +29634,12 @@
           "labels": {
             "11": "garage door railing"
           },
-          "atomic_step": "Repair the garage door railing.",
+          "atomic_step": "Attach the garage door railing.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "attach",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:attach-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -34534,7 +34534,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -36710,7 +36710,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_boil_action"
             }
           ]
         },
@@ -37350,7 +37350,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -37980,7 +37980,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -39390,12 +39390,12 @@
           "labels": {
             "593": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -40623,12 +40623,12 @@
           "labels": {
             "333": "vent"
           },
-          "atomic_step": "Repair the vent.",
+          "atomic_step": "Reposition the vent.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },

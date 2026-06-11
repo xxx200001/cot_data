@@ -255,12 +255,12 @@
           "labels": {
             "160": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -849,12 +849,12 @@
           "labels": {
             "151": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -3278,12 +3278,12 @@
           "labels": {
             "151": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -5001,12 +5001,12 @@
           "labels": {
             "151": "candlestick"
           },
-          "atomic_step": "Light the candlestick.",
+          "atomic_step": "Turn on the candlestick.",
           "atomic_actions": [
             {
-              "action_id": "light",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;new_action_v1:turn_on-->light"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

@@ -191,7 +191,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -2095,7 +2095,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -7875,12 +7875,12 @@
           "labels": {
             "531": "bed"
           },
-          "atomic_step": "Iron the bed.",
+          "atomic_step": "Smooth the bed.",
           "atomic_actions": [
             {
-              "action_id": "iron",
+              "action_id": "smooth",
               "relation": "on",
-              "mapping_source": "replacement_from_straighten;new_action_v1:smooth-->iron"
+              "mapping_source": "replacement_from_straighten"
             }
           ]
         },

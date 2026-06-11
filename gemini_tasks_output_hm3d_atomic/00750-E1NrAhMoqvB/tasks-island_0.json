@@ -60,7 +60,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -3160,12 +3160,12 @@
           "labels": {
             "769": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -3375,7 +3375,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -5808,7 +5808,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -6307,12 +6307,12 @@
           "labels": {
             "769": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -9601,12 +9601,12 @@
           "labels": {
             "554": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -10417,12 +10417,12 @@
           "labels": {
             "769": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         }
@@ -12716,7 +12716,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -16093,7 +16093,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -16897,12 +16897,12 @@
           "labels": {
             "769": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -19311,7 +19311,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -20155,12 +20155,12 @@
           "labels": {
             "553": "dishwasher"
           },
-          "atomic_step": "Unload dishwasher.",
+          "atomic_step": "Open dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "unload",
+              "action_id": "open",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;new_action_v1:open-->unload"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
             }
           ]
         },
@@ -20300,12 +20300,12 @@
           "labels": {
             "769": "guitar"
           },
-          "atomic_step": "Tune the guitar.",
+          "atomic_step": "Adjust the guitar.",
           "atomic_actions": [
             {
-              "action_id": "tune",
+              "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control;new_action_v1:set_control-->tune"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -22721,7 +22721,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;assume_gas_fireplace"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },

@@ -5850,12 +5850,12 @@
           "labels": {
             "177": "ironing board"
           },
-          "atomic_step": "Iron items on the ironing board.",
+          "atomic_step": "Straighten items on the ironing board.",
           "atomic_actions": [
             {
-              "action_id": "iron",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "straighten;new_action_v1:straighten-->iron"
+              "mapping_source": "straighten"
             }
           ]
         },
@@ -6320,12 +6320,12 @@
           "labels": {
             "50": "sink"
           },
-          "atomic_step": "Repair the sink.",
+          "atomic_step": "Reposition the sink.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
@@ -10022,12 +10022,12 @@
           "labels": {
             "36": "drawer"
           },
-          "atomic_step": "Repair the drawer.",
+          "atomic_step": "Reposition the drawer.",
           "atomic_actions": [
             {
-              "action_id": "repair",
+              "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair;new_action_v1:reposition-->repair"
+              "mapping_source": "replacement_from_repair"
             }
           ]
         },
