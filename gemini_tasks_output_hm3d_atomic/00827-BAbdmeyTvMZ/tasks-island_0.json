@@ -4329,12 +4329,12 @@
           "labels": {
             "290": "dishwasher"
           },
-          "atomic_step": "Rinse the dishes in the dishwasher.",
+          "atomic_step": "Rinse the dishwasher.",
           "atomic_actions": [
             {
               "action_id": "rinse",
-              "relation": "in",
-              "mapping_source": "replacement_from_wash;semantic_qa_v1:fix_patient_drift_rinse"
+              "relation": null,
+              "mapping_source": "replacement_from_wash;semantic_qa_v1:rollback_not_drift"
             }
           ]
         },
