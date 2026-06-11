@@ -346,12 +346,12 @@
           "labels": {
             "435": "shampoo"
           },
-          "atomic_step": "Fill the shampoo dispenser.",
+          "atomic_step": "Fill the shampoo.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_content_to_container"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container;semantic_qa_v1:grounding_fix_dispenser"
             }
           ]
         },
@@ -4000,12 +4000,12 @@
           "labels": {
             "113": "bathtub"
           },
-          "atomic_step": "Turn on the bathtub faucet.",
+          "atomic_step": "Turn on the bathtub.",
           "atomic_actions": [
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
             }
           ]
         },
@@ -4685,12 +4685,12 @@
           "labels": {
             "435": "shampoo"
           },
-          "atomic_step": "Fill the shampoo dispenser.",
+          "atomic_step": "Fill the shampoo.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_content_to_container"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container;semantic_qa_v1:grounding_fix_dispenser"
             }
           ]
         },
@@ -5716,12 +5716,12 @@
           "labels": {
             "435": "shampoo"
           },
-          "atomic_step": "Fill the shampoo dispenser.",
+          "atomic_step": "Fill the shampoo.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_content_to_container"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container;semantic_qa_v1:grounding_fix_dispenser"
             }
           ]
         },

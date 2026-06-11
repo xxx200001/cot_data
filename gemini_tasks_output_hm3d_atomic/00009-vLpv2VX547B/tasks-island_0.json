@@ -10284,12 +10284,12 @@
           "labels": {
             "1110": "shampoo"
           },
-          "atomic_step": "Fill the shampoo dispenser.",
+          "atomic_step": "Fill the shampoo.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_content_to_container"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container;semantic_qa_v1:grounding_fix_dispenser"
             }
           ]
         },
@@ -21198,12 +21198,12 @@
           "labels": {
             "1110": "shampoo"
           },
-          "atomic_step": "Fill the shampoo dispenser.",
+          "atomic_step": "Fill the shampoo.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_content_to_container"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container;semantic_qa_v1:grounding_fix_dispenser"
             }
           ]
         }
@@ -27744,12 +27744,12 @@
           "labels": {
             "1110": "shampoo"
           },
-          "atomic_step": "Fill the shampoo dispenser.",
+          "atomic_step": "Fill the shampoo.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_content_to_container"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container;semantic_qa_v1:grounding_fix_dispenser"
             }
           ]
         },
