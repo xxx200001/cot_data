@@ -1419,12 +1419,12 @@
           "labels": {
             "609": "shoe"
           },
-          "atomic_step": "Place the shoe.",
+          "atomic_step": "Straighten the shoe.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         }
@@ -4762,12 +4762,12 @@
           "labels": {
             "308": "bag"
           },
-          "atomic_step": "Store the bag.",
+          "atomic_step": "Straighten the bag.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:place_only_container_to_store"
+              "mapping_source": "semantic_repair_fixed_action_lib:place_only_container_to_store;referent_grounding_v1:unparsed"
             }
           ]
         }
@@ -15666,12 +15666,12 @@
           "labels": {
             "112": "exercise equipment"
           },
-          "atomic_step": "Place exercise equipment on surface.",
+          "atomic_step": "Straighten the weight.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:unparsed"
             }
           ]
         },
@@ -16585,12 +16585,12 @@
           "labels": {
             "360": "screen"
           },
-          "atomic_step": "Place screen on surface.",
+          "atomic_step": "Straighten the brightness.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:unparsed"
             }
           ]
         },
@@ -27629,12 +27629,12 @@
           "labels": {
             "651": "robe"
           },
-          "atomic_step": "Place the robe.",
+          "atomic_step": "Straighten the robe.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         },
@@ -33563,12 +33563,12 @@
           "labels": {
             "609": "shoe"
           },
-          "atomic_step": "Place the shoe.",
+          "atomic_step": "Straighten the shoe.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         },

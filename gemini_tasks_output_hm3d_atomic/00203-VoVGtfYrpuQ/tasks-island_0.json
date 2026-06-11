@@ -14809,12 +14809,12 @@
           "labels": {
             "379": "shoe"
           },
-          "atomic_step": "Place the shoe.",
+          "atomic_step": "Straighten the shoe.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         },

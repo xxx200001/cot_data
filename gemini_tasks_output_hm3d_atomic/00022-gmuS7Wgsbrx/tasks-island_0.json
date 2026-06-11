@@ -14077,12 +14077,12 @@
           "labels": {
             "73": "book rack"
           },
-          "atomic_step": "Place book rack on surface.",
+          "atomic_step": "Place the them on the book rack.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:unparsed"
             }
           ]
         },
@@ -41876,12 +41876,12 @@
           "labels": {
             "508": "book rack"
           },
-          "atomic_step": "Place book rack on surface.",
+          "atomic_step": "Place the books from the book rack.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:unparsed"
             }
           ]
         },

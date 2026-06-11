@@ -5703,12 +5703,12 @@
           "labels": {
             "403": "exhibition panel"
           },
-          "atomic_step": "Place exhibition panel in receptacle.",
+          "atomic_step": "Place the exhibition panel in the next hall.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:unparsed"
             }
           ]
         },

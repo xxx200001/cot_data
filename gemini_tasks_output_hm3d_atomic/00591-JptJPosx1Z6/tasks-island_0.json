@@ -535,12 +535,12 @@
           "labels": {
             "1075": "backpack"
           },
-          "atomic_step": "Store the backpack.",
+          "atomic_step": "Straighten the backpack.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:place_only_container_to_store"
+              "mapping_source": "semantic_repair_fixed_action_lib:place_only_container_to_store;referent_grounding_v1:unparsed"
             }
           ]
         }
@@ -2618,12 +2618,12 @@
           "labels": {
             "612": "shoe"
           },
-          "atomic_step": "Place the shoe.",
+          "atomic_step": "Straighten the shoe.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         }
@@ -20416,12 +20416,12 @@
           "labels": {
             "612": "shoe"
           },
-          "atomic_step": "Place the shoe.",
+          "atomic_step": "Straighten the shoe.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         },

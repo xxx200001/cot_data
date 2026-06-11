@@ -6865,12 +6865,12 @@
           "labels": {
             "267": "flowerpot"
           },
-          "atomic_step": "Place the flowerpot.",
+          "atomic_step": "Place the plant in the flowerpot.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "repot"
+              "mapping_source": "repot;referent_grounding_v1:unparsed"
             }
           ]
         },

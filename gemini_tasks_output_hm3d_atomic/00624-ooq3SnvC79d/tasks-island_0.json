@@ -2332,12 +2332,12 @@
           "labels": {
             "531": "dehumidifier"
           },
-          "atomic_step": "Place dehumidifier on surface.",
+          "atomic_step": "Straighten the settings.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:unparsed"
             }
           ]
         }
@@ -2752,12 +2752,12 @@
           "labels": {
             "364": "alcohol bottles"
           },
-          "atomic_step": "Place alcohol bottles on surface.",
+          "atomic_step": "Place the alcohol bottles on the shelf.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:unparsed"
             }
           ]
         },
@@ -8676,12 +8676,12 @@
           "labels": {
             "801": "handbag"
           },
-          "atomic_step": "Place the handbag.",
+          "atomic_step": "Straighten the handbag.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         },

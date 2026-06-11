@@ -19467,12 +19467,12 @@
           "labels": {
             "481": "iron board"
           },
-          "atomic_step": "Place iron board on surface.",
+          "atomic_step": "Fold the dried items on the iron board.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
+              "action_id": "fold",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:unparsed"
             }
           ]
         },

@@ -10678,12 +10678,12 @@
           "labels": {
             "351": "kitchen cabinet"
           },
-          "atomic_step": "Place the kitchen cabinet.",
+          "atomic_step": "Straighten the kitchen cabinet.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         },

@@ -1628,12 +1628,12 @@
           "labels": {
             "502": "bench"
           },
-          "atomic_step": "Place the bench.",
+          "atomic_step": "Straighten the bench.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         },

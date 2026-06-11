@@ -14894,12 +14894,12 @@
           "labels": {
             "512": "chest drawer"
           },
-          "atomic_step": "Place chest drawer in receptacle.",
+          "atomic_step": "Fold the clothes into the chest drawer.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
+              "action_id": "fold",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:unparsed"
             }
           ]
         },

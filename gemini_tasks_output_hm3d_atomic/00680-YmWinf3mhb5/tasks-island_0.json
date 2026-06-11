@@ -4238,12 +4238,12 @@
           "labels": {
             "200": "sink"
           },
-          "atomic_step": "Place sink in receptacle.",
+          "atomic_step": "Fill the watering can at the sink.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
-              "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "action_id": "fill",
+              "relation": "at",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:unparsed"
             }
           ]
         },

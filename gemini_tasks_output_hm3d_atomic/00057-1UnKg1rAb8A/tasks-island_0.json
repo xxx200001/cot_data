@@ -6763,12 +6763,12 @@
           "labels": {
             "238": "chest of drawers"
           },
-          "atomic_step": "Place chest of drawers in receptacle.",
+          "atomic_step": "Fold the clothes into the chest of drawers.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
+              "action_id": "fold",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:unparsed"
             }
           ]
         },
@@ -7569,12 +7569,12 @@
           "labels": {
             "252": "drawer"
           },
-          "atomic_step": "Place drawer in receptacle.",
+          "atomic_step": "Fold the clothes into the drawer.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
+              "action_id": "fold",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:unparsed"
             }
           ]
         },

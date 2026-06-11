@@ -15846,12 +15846,12 @@
           "labels": {
             "552": "cabinet"
           },
-          "atomic_step": "Store the cabinet.",
+          "atomic_step": "Store the files in the cabinet.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
+              "action_id": "store",
               "relation": "in",
-              "mapping_source": "store"
+              "mapping_source": "store;referent_grounding_v1:unparsed"
             }
           ]
         },

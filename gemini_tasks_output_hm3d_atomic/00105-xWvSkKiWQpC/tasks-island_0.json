@@ -15725,12 +15725,12 @@
           "labels": {
             "270": "file cabinet"
           },
-          "atomic_step": "Store the file cabinet.",
+          "atomic_step": "Store the files in the file cabinet.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
+              "action_id": "store",
               "relation": "in",
-              "mapping_source": "store"
+              "mapping_source": "store;referent_grounding_v1:unparsed"
             }
           ]
         },

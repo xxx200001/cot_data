@@ -6189,12 +6189,12 @@
           "labels": {
             "271": "shelf"
           },
-          "atomic_step": "Place shelf on surface.",
+          "atomic_step": "Align the books on the shelf.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:unparsed"
             }
           ]
         },

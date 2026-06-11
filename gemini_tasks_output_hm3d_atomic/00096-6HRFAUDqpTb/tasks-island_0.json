@@ -4604,12 +4604,12 @@
           "labels": {
             "532": "rack of weights"
           },
-          "atomic_step": "Place the rack of weights.",
+          "atomic_step": "Straighten the rack of weights.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "put_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "put_on;referent_grounding_v1:unparsed"
             }
           ]
         },
@@ -7189,12 +7189,12 @@
           "labels": {
             "190": "refrigerator"
           },
-          "atomic_step": "Place refrigerator in receptacle.",
+          "atomic_step": "Place the shelf in the refrigerator.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:unparsed"
             }
           ]
         },
