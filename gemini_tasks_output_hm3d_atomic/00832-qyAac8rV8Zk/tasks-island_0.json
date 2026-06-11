@@ -1,0 +1,1734 @@
+{
+  "scene_id": "00832-qyAac8rV8Zk",
+  "tasks": [
+    {
+      "task": "It's getting late.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the blinds to maintain privacy.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Close the blinds to maintain privacy.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the mat on the floor.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Smooth the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": "on",
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the air conditioning for the night.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the cushion on the seating area.",
+          "labels": {
+            "563": "cushion"
+          },
+          "atomic_step": "Fluff the cushion on the seating area.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the tv screen.",
+          "labels": {
+            "558": "tv"
+          },
+          "atomic_step": "Wipe tv.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "379": "blinds",
+        "512": "mat",
+        "554": "air conditioning",
+        "563": "cushion",
+        "558": "tv"
+      },
+      "regions": {
+        "379": 9,
+        "512": 13,
+        "554": 14,
+        "563": 14,
+        "558": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "The living room is a bit messy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Dust the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Adjust the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust_control"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the couch.",
+          "labels": {
+            "562": "couch"
+          },
+          "atomic_step": "Straighten the couch.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the dresser surface.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Wipe the dresser.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the picture on the wall.",
+          "labels": {
+            "544": "picture"
+          },
+          "atomic_step": "Straighten the picture on the wall.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": "on",
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "513": "stairs railing",
+        "379": "blinds",
+        "562": "couch",
+        "557": "dresser",
+        "544": "picture"
+      },
+      "regions": {
+        "513": 13,
+        "379": 9,
+        "562": 14,
+        "557": 14,
+        "544": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "I'm planning to relax here for a while.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Vacuum mat.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the blinds for comfortable lighting.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Adjust the blinds for comfortable lighting.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust_control"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the tv.",
+          "labels": {
+            "558": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set the air conditioning to a comfortable temperature.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Set the air conditioning to a comfortable temperature.",
+          "atomic_actions": [
+            {
+              "action_id": "set",
+              "relation": null,
+              "mapping_source": "repair_set"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Fluff the cushion.",
+          "labels": {
+            "564": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "512": "mat",
+        "379": "blinds",
+        "558": "tv",
+        "554": "air conditioning",
+        "564": "cushion"
+      },
+      "regions": {
+        "512": 13,
+        "379": 9,
+        "558": 14,
+        "554": 14,
+        "564": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "I have a guest arriving soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the mat by the entrance.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Smooth the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the blinds to let in light.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Open the blinds to let in light.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": "in",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Vacuum the couch.",
+          "labels": {
+            "562": "couch"
+          },
+          "atomic_step": "Vacuum the couch.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the picture frame.",
+          "labels": {
+            "546": "picture"
+          },
+          "atomic_step": "Dust the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "512": "mat",
+        "379": "blinds",
+        "562": "couch",
+        "546": "picture",
+        "554": "air conditioning"
+      },
+      "regions": {
+        "512": 13,
+        "379": 9,
+        "562": 14,
+        "546": 14,
+        "554": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "The air feels a bit stale.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Open the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe down the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the air conditioning to circulate air.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning to circulate air.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the cushion.",
+          "labels": {
+            "565": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the items on the dresser.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Place dresser on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "379": "blinds",
+        "513": "stairs railing",
+        "554": "air conditioning",
+        "565": "cushion",
+        "557": "dresser"
+      },
+      "regions": {
+        "379": 9,
+        "513": 13,
+        "554": 14,
+        "565": 14,
+        "557": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "This area looks quite cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Wipe the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the tv.",
+          "labels": {
+            "558": "tv"
+          },
+          "atomic_step": "Dust the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Fluff the cushion on the sofa.",
+          "labels": {
+            "566": "cushion"
+          },
+          "atomic_step": "Fluff the cushion on the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the picture glass.",
+          "labels": {
+            "544": "picture"
+          },
+          "atomic_step": "Dust picture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "513": "stairs railing",
+        "379": "blinds",
+        "558": "tv",
+        "566": "cushion",
+        "544": "picture"
+      },
+      "regions": {
+        "513": 13,
+        "379": 9,
+        "558": 14,
+        "566": 14,
+        "544": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "I have a few guests coming over later.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Smooth the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the dresser.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Dust the dresser.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Arrange the cushion.",
+          "labels": {
+            "563": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "379": "blinds",
+        "512": "mat",
+        "513": "stairs railing",
+        "554": "air conditioning",
+        "557": "dresser",
+        "563": "cushion"
+      },
+      "regions": {
+        "379": 9,
+        "512": 13,
+        "513": 13,
+        "554": 14,
+        "557": 14,
+        "563": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "It's getting late.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Smooth the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn off the tv.",
+          "labels": {
+            "558": "tv"
+          },
+          "atomic_step": "Turn off the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Reposition the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Fluff the cushion.",
+          "labels": {
+            "563": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clean the dresser.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Wipe dresser.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "379": "blinds",
+        "512": "mat",
+        "513": "stairs railing",
+        "558": "tv",
+        "554": "air conditioning",
+        "563": "cushion",
+        "557": "dresser"
+      },
+      "regions": {
+        "379": 9,
+        "512": 13,
+        "513": 13,
+        "558": 14,
+        "554": 14,
+        "563": 14,
+        "557": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "The living room is a bit untidy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the dresser.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Straighten dresser.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the couch.",
+          "labels": {
+            "562": "couch"
+          },
+          "atomic_step": "Push couch.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Plump the cushion.",
+          "labels": {
+            "563": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the picture.",
+          "labels": {
+            "544": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Vacuum mat.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Dust the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Dust the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "557": "dresser",
+        "562": "couch",
+        "563": "cushion",
+        "544": "picture",
+        "512": "mat",
+        "513": "stairs railing",
+        "379": "blinds"
+      },
+      "regions": {
+        "557": 14,
+        "562": 14,
+        "563": 14,
+        "544": 14,
+        "512": 13,
+        "513": 13,
+        "379": 9
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "I'm settling in for the evening.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Set the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Set up the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the tv.",
+          "labels": {
+            "558": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Prepare the couch.",
+          "labels": {
+            "562": "couch"
+          },
+          "atomic_step": "Set up the couch.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Position the cushion.",
+          "labels": {
+            "563": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Align the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Align the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clean the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "379": "blinds",
+        "554": "air conditioning",
+        "558": "tv",
+        "562": "couch",
+        "563": "cushion",
+        "512": "mat",
+        "513": "stairs railing"
+      },
+      "regions": {
+        "379": 9,
+        "554": 14,
+        "558": 14,
+        "562": 14,
+        "563": 14,
+        "512": 13,
+        "513": 13
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "Guests are arriving soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Smooth the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Open the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the picture.",
+          "labels": {
+            "544": "picture"
+          },
+          "atomic_step": "Align the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "wall_decor_adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the dresser.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Dust the dresser.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Arrange the couch.",
+          "labels": {
+            "562": "couch"
+          },
+          "atomic_step": "Push couch.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Set the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Set up the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "513": "stairs railing",
+        "512": "mat",
+        "379": "blinds",
+        "544": "picture",
+        "557": "dresser",
+        "562": "couch",
+        "554": "air conditioning"
+      },
+      "regions": {
+        "513": 13,
+        "512": 13,
+        "379": 9,
+        "544": 14,
+        "557": 14,
+        "562": 14,
+        "554": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "I want to relax here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Reposition the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Prepare the couch.",
+          "labels": {
+            "562": "couch"
+          },
+          "atomic_step": "Set up the couch.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fluff the cushion.",
+          "labels": {
+            "563": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the tv.",
+          "labels": {
+            "558": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Smooth the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Close the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "554": "air conditioning",
+        "562": "couch",
+        "563": "cushion",
+        "558": "tv",
+        "512": "mat",
+        "513": "stairs railing",
+        "379": "blinds"
+      },
+      "regions": {
+        "554": 14,
+        "562": 14,
+        "563": 14,
+        "558": 14,
+        "512": 13,
+        "513": 13,
+        "379": 9
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "It's too hot in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn off the tv.",
+          "labels": {
+            "558": "tv"
+          },
+          "atomic_step": "Turn off the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the dresser.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Wipe dresser.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the picture.",
+          "labels": {
+            "544": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Vacuum mat.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wipe the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Wipe the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "379": "blinds",
+        "554": "air conditioning",
+        "558": "tv",
+        "557": "dresser",
+        "544": "picture",
+        "512": "mat",
+        "513": "stairs railing"
+      },
+      "regions": {
+        "379": 9,
+        "554": 14,
+        "558": 14,
+        "557": 14,
+        "544": 14,
+        "512": 13,
+        "513": 13
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "The house needs some maintenance.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Dust the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Polish the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Polish the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Vacuum the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Vacuum the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Wipe the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the tv.",
+          "labels": {
+            "558": "tv"
+          },
+          "atomic_step": "Wipe tv.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the picture.",
+          "labels": {
+            "544": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Dust the dresser.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Dust the dresser.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "379": "blinds",
+        "513": "stairs railing",
+        "512": "mat",
+        "554": "air conditioning",
+        "558": "tv",
+        "544": "picture",
+        "557": "dresser"
+      },
+      "regions": {
+        "379": 9,
+        "513": 13,
+        "512": 13,
+        "554": 14,
+        "558": 14,
+        "544": 14,
+        "557": 14
+      },
+      "assets": {},
+      "start_region": 9
+    },
+    {
+      "task": "I need to clear this area.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the dresser.",
+          "labels": {
+            "557": "dresser"
+          },
+          "atomic_step": "Wipe dresser.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the cushion.",
+          "labels": {
+            "563": "cushion"
+          },
+          "atomic_step": "Carry the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the couch.",
+          "labels": {
+            "562": "couch"
+          },
+          "atomic_step": "Wipe the couch.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn off the air conditioning.",
+          "labels": {
+            "554": "air conditioning"
+          },
+          "atomic_step": "Turn off the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Roll up the mat.",
+          "labels": {
+            "512": "mat"
+          },
+          "atomic_step": "Smooth the mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the stairs railing.",
+          "labels": {
+            "513": "stairs railing"
+          },
+          "atomic_step": "Dust the stairs railing.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Adjust the blinds.",
+          "labels": {
+            "379": "blinds"
+          },
+          "atomic_step": "Adjust the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust_control"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "557": "dresser",
+        "563": "cushion",
+        "562": "couch",
+        "554": "air conditioning",
+        "512": "mat",
+        "513": "stairs railing",
+        "379": "blinds"
+      },
+      "regions": {
+        "557": 14,
+        "563": 14,
+        "562": 14,
+        "554": 14,
+        "512": 13,
+        "513": 13,
+        "379": 9
+      },
+      "assets": {},
+      "start_region": 9
+    }
+  ]
+}

@@ -1,0 +1,5215 @@
+{
+  "scene_id": "00741-w8GiikYuFRk",
+  "tasks": [
+    {
+      "task": "I'm going to start cooking.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe the counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Scrub stove.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Dust the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the rack.",
+          "labels": {
+            "383": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "434": "counter",
+        "385": "stove",
+        "479": "stand",
+        "383": "rack"
+      },
+      "regions": {
+        "434": 4,
+        "385": 4,
+        "479": 5,
+        "383": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I need to organize my study area.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the book display.",
+          "labels": {
+            "392": "book display"
+          },
+          "atomic_step": "Place book display on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Dust the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "418": "stack of papers",
+        "392": "book display",
+        "442": "display",
+        "480": "sculpture"
+      },
+      "regions": {
+        "418": 4,
+        "392": 4,
+        "442": 4,
+        "480": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The entryway looks a bit dusty.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Shake out the doormat.",
+          "labels": {
+            "498": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the sculpture.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Dust the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the wall board.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe the wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the decorative plant.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Dust decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "498": "doormat",
+        "501": "sculpture",
+        "421": "wall board",
+        "444": "decorative plant"
+      },
+      "regions": {
+        "498": 5,
+        "501": 5,
+        "421": 4,
+        "444": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I want to take some photos of the art collection.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Prepare the camera.",
+          "labels": {
+            "703": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "prepare"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the picture.",
+          "labels": {
+            "468": "picture"
+          },
+          "atomic_step": "Dust picture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Dust the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "703": "camera",
+        "479": "stand",
+        "468": "picture",
+        "480": "sculpture"
+      },
+      "regions": {
+        "703": 4,
+        "479": 5,
+        "468": 5,
+        "480": 5
+      },
+      "assets": {
+        "703": "camera"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I'm doing a deep clean today.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe the counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Wipe electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the sculpture.",
+          "labels": {
+            "481": "sculpture"
+          },
+          "atomic_step": "Dust the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the book display.",
+          "labels": {
+            "393": "book display"
+          },
+          "atomic_step": "Straighten book display.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "434": "counter",
+        "463": "electric box",
+        "481": "sculpture",
+        "393": "book display"
+      },
+      "regions": {
+        "434": 4,
+        "463": 5,
+        "481": 5,
+        "393": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I need to secure some valuables.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Open the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Tidy the cabinet.",
+          "labels": {
+            "433": "cabinet"
+          },
+          "atomic_step": "Straighten cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "432": "safe",
+        "433": "cabinet",
+        "442": "display",
+        "479": "stand"
+      },
+      "regions": {
+        "432": 4,
+        "433": 4,
+        "442": 4,
+        "479": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm setting up for a small tasting.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe the counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve the cup.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Pick up the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the wine bottle.",
+          "labels": {
+            "705": "wine_bottle"
+          },
+          "atomic_step": "Place wine bottle on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Dust the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "434": "counter",
+        "706": "cup",
+        "705": "wine_bottle",
+        "479": "stand"
+      },
+      "regions": {
+        "434": 4,
+        "706": 4,
+        "705": 4,
+        "479": 5
+      },
+      "assets": {
+        "706": "cup",
+        "705": "wine_bottle"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "The room is too bright.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the curtain.",
+          "labels": {
+            "449": "curtain"
+          },
+          "atomic_step": "Close the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Wipe the stove.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Dust the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the rack.",
+          "labels": {
+            "404": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "449": "curtain",
+        "385": "stove",
+        "479": "stand",
+        "404": "rack"
+      },
+      "regions": {
+        "449": 4,
+        "385": 4,
+        "479": 5,
+        "404": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm expecting a delivery.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the doormat.",
+          "labels": {
+            "499": "doormat"
+          },
+          "atomic_step": "Smooth the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the sculpture.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Dust the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the camera.",
+          "labels": {
+            "703": "camera"
+          },
+          "atomic_step": "Straighten camera.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the rack.",
+          "labels": {
+            "384": "rack"
+          },
+          "atomic_step": "Place rack on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "499": "doormat",
+        "501": "sculpture",
+        "703": "camera",
+        "384": "rack"
+      },
+      "regions": {
+        "499": 5,
+        "501": 5,
+        "703": 4,
+        "384": 4
+      },
+      "assets": {
+        "703": "camera"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I'm rearranging the decor.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the decorative plant.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Carry the decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Dust the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the wall board.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Straighten the wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "444": "decorative plant",
+        "479": "stand",
+        "480": "sculpture",
+        "421": "wall board"
+      },
+      "regions": {
+        "444": 4,
+        "479": 5,
+        "480": 5,
+        "421": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm finishing some office work.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the book display.",
+          "labels": {
+            "394": "book display"
+          },
+          "atomic_step": "Dust the book display.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "418": "stack of papers",
+        "394": "book display",
+        "442": "display",
+        "479": "stand"
+      },
+      "regions": {
+        "418": 4,
+        "394": 4,
+        "442": 4,
+        "479": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm planning to host a small gallery viewing tonight.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Wipe sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the picture.",
+          "labels": {
+            "468": "picture"
+          },
+          "atomic_step": "Wipe the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the curtain.",
+          "labels": {
+            "449": "curtain"
+          },
+          "atomic_step": "Close the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Dust the display.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "480": "sculpture",
+        "468": "picture",
+        "449": "curtain",
+        "442": "display",
+        "479": "stand"
+      },
+      "regions": {
+        "480": 5,
+        "468": 5,
+        "449": 4,
+        "442": 4,
+        "479": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm going to work on my research project now.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Turn on the display.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Open the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Check the book display.",
+          "labels": {
+            "392": "book display"
+          },
+          "atomic_step": "Inspect the book display.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "434": "counter",
+        "418": "stack of papers",
+        "442": "display",
+        "463": "electric box",
+        "392": "book display"
+      },
+      "regions": {
+        "434": 4,
+        "418": 4,
+        "442": 4,
+        "463": 5,
+        "392": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The entrance area is a bit of a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the doormat.",
+          "labels": {
+            "498": "doormat"
+          },
+          "atomic_step": "Smooth the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Dust the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the picture.",
+          "labels": {
+            "469": "picture"
+          },
+          "atomic_step": "Wipe the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "495": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the rack.",
+          "labels": {
+            "383": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "498": "doormat",
+        "479": "stand",
+        "469": "picture",
+        "495": "decorative plant",
+        "383": "rack"
+      },
+      "regions": {
+        "498": 5,
+        "479": 5,
+        "469": 5,
+        "495": 5,
+        "383": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm getting ready to cook a meal.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the wine bottle.",
+          "labels": {
+            "705": "wine_bottle"
+          },
+          "atomic_step": "Pick up the wine_bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Fetch a cup.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Pick up the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the cabinet.",
+          "labels": {
+            "433": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Scrub stove.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Check the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Inspect the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "705": "wine_bottle",
+        "706": "cup",
+        "433": "cabinet",
+        "385": "stove",
+        "463": "electric box"
+      },
+      "regions": {
+        "705": 4,
+        "706": 4,
+        "433": 4,
+        "385": 4,
+        "463": 5
+      },
+      "assets": {
+        "705": "wine_bottle",
+        "706": "cup"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I want to document the art collection.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the camera.",
+          "labels": {
+            "703": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the picture.",
+          "labels": {
+            "377": "picture"
+          },
+          "atomic_step": "Wipe the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the sculpture.",
+          "labels": {
+            "481": "sculpture"
+          },
+          "atomic_step": "Reposition the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the display.",
+          "labels": {
+            "474": "display"
+          },
+          "atomic_step": "Wipe display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Check the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Inspect the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "703": "camera",
+        "377": "picture",
+        "481": "sculpture",
+        "474": "display",
+        "432": "safe"
+      },
+      "regions": {
+        "703": 4,
+        "377": 4,
+        "481": 5,
+        "474": 5,
+        "432": 4
+      },
+      "assets": {
+        "703": "camera"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "The kitchen area needs tidying.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe the counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Fetch the cup.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Pick up the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Scrub stove.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the rack.",
+          "labels": {
+            "384": "rack"
+          },
+          "atomic_step": "Place rack on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Open the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Open the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "434": "counter",
+        "706": "cup",
+        "385": "stove",
+        "384": "rack",
+        "463": "electric box"
+      },
+      "regions": {
+        "434": 4,
+        "706": 4,
+        "385": 4,
+        "384": 4,
+        "463": 5
+      },
+      "assets": {
+        "706": "cup"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I need to check the building's electrical system.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Open the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the wall board.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe the wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Check the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Inspect the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the display.",
+          "labels": {
+            "474": "display"
+          },
+          "atomic_step": "Turn on the display.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "463": "electric box",
+        "421": "wall board",
+        "432": "safe",
+        "479": "stand",
+        "474": "display"
+      },
+      "regions": {
+        "463": 5,
+        "421": 4,
+        "432": 4,
+        "479": 5,
+        "474": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm feeling like some wine and reading.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the wine bottle.",
+          "labels": {
+            "705": "wine_bottle"
+          },
+          "atomic_step": "Pick up the wine_bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Fetch the cup.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Pick up the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the book display.",
+          "labels": {
+            "393": "book display"
+          },
+          "atomic_step": "Reposition the book display.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the curtain.",
+          "labels": {
+            "450": "curtain"
+          },
+          "atomic_step": "Open the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Check the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Inspect the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "705": "wine_bottle",
+        "706": "cup",
+        "393": "book display",
+        "450": "curtain",
+        "463": "electric box"
+      },
+      "regions": {
+        "705": 4,
+        "706": 4,
+        "393": 4,
+        "450": 4,
+        "463": 5
+      },
+      "assets": {
+        "705": "wine_bottle",
+        "706": "cup"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I'm expecting a visitor at the door.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the doormat.",
+          "labels": {
+            "499": "doormat"
+          },
+          "atomic_step": "Smooth the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the sculpture.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Wipe sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Dust the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "496": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the rack.",
+          "labels": {
+            "404": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "499": "doormat",
+        "501": "sculpture",
+        "479": "stand",
+        "496": "decorative plant",
+        "404": "rack"
+      },
+      "regions": {
+        "499": 5,
+        "501": 5,
+        "479": 5,
+        "496": 5,
+        "404": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The study area looks cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the wall board.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe the wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Close the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the book display.",
+          "labels": {
+            "394": "book display"
+          },
+          "atomic_step": "Place book display on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Check the electric box.",
+          "labels": {
+            "465": "electric box"
+          },
+          "atomic_step": "Inspect the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "418": "stack of papers",
+        "421": "wall board",
+        "432": "safe",
+        "394": "book display",
+        "465": "electric box"
+      },
+      "regions": {
+        "418": 4,
+        "421": 4,
+        "432": 4,
+        "394": 4,
+        "465": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I want to brighten up the living space.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the curtain.",
+          "labels": {
+            "449": "curtain"
+          },
+          "atomic_step": "Open the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the picture.",
+          "labels": {
+            "380": "picture"
+          },
+          "atomic_step": "Wipe the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the sculpture.",
+          "labels": {
+            "481": "sculpture"
+          },
+          "atomic_step": "Wipe sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "496": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "449": "curtain",
+        "380": "picture",
+        "481": "sculpture",
+        "496": "decorative plant",
+        "479": "stand"
+      },
+      "regions": {
+        "449": 4,
+        "380": 4,
+        "481": 5,
+        "496": 5,
+        "479": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm having some people over for a small celebration.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the wine bottle for the toast.",
+          "labels": {
+            "705": "wine_bottle"
+          },
+          "atomic_step": "Pick up the wine_bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Get the cup for serving drinks.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Pick up the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the stand to display the welcome sign.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the sculpture to ensure it is clean for guests.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Wipe the sculpture to ensure it is clean.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the doormat at the entrance.",
+          "labels": {
+            "498": "doormat"
+          },
+          "atomic_step": "Smooth the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": "at",
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the rack to hold guest coats.",
+          "labels": {
+            "383": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "705": "wine_bottle",
+        "706": "cup",
+        "479": "stand",
+        "480": "sculpture",
+        "498": "doormat",
+        "383": "rack"
+      },
+      "regions": {
+        "705": 4,
+        "706": 4,
+        "479": 5,
+        "480": 5,
+        "498": 5,
+        "383": 4
+      },
+      "assets": {
+        "705": "wine_bottle",
+        "706": "cup"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I'm worried about the insurance value of my belongings.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the camera to document the items.",
+          "labels": {
+            "703": "camera"
+          },
+          "atomic_step": "Pick up the camera to document the items.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the safe to verify the contents.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Open the safe to verify the contents.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the cabinet to inventory stored goods.",
+          "labels": {
+            "433": "cabinet"
+          },
+          "atomic_step": "Straighten cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the electric box for safety.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Close the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the display to check for any damage.",
+          "labels": {
+            "474": "display"
+          },
+          "atomic_step": "Wipe the display to check.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the picture to confirm its condition.",
+          "labels": {
+            "468": "picture"
+          },
+          "atomic_step": "Straighten the picture to confirm its condition.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "703": "camera",
+        "432": "safe",
+        "433": "cabinet",
+        "463": "electric box",
+        "474": "display",
+        "468": "picture"
+      },
+      "regions": {
+        "703": 4,
+        "432": 4,
+        "433": 4,
+        "463": 5,
+        "474": 5,
+        "468": 5
+      },
+      "assets": {
+        "703": "camera"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "The library area is a bit cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the book display to tidy up the collection.",
+          "labels": {
+            "392": "book display"
+          },
+          "atomic_step": "Straighten book display.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Tidy the stack of papers on the counter.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the wall board to remove old notes.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe the wall board to remove old notes.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Water the decorative plant in the corner.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the sculpture to remove dust.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Dust sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the curtain to let in more light.",
+          "labels": {
+            "449": "curtain"
+          },
+          "atomic_step": "Adjust the curtain to let in more light.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": "in",
+              "mapping_source": "adjust_curtain_control"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "392": "book display",
+        "418": "stack of papers",
+        "421": "wall board",
+        "444": "decorative plant",
+        "501": "sculpture",
+        "449": "curtain"
+      },
+      "regions": {
+        "392": 4,
+        "418": 4,
+        "421": 4,
+        "444": 4,
+        "501": 5,
+        "449": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm expecting several dinner guests tonight.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the stove before preparing the meal.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Scrub stove.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clear the counter for food preparation.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the rack for kitchen supplies.",
+          "labels": {
+            "404": "rack"
+          },
+          "atomic_step": "Place rack on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the display to read the recipe clearly.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe the display to read the recipe clearly.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the picture on the wall near the dining area.",
+          "labels": {
+            "377": "picture"
+          },
+          "atomic_step": "Dust the picture on the wall near the dining area.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": "on",
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the doormat for the arriving guests.",
+          "labels": {
+            "499": "doormat"
+          },
+          "atomic_step": "Smooth the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "385": "stove",
+        "434": "counter",
+        "404": "rack",
+        "442": "display",
+        "377": "picture",
+        "499": "doormat"
+      },
+      "regions": {
+        "385": 4,
+        "434": 4,
+        "404": 4,
+        "442": 4,
+        "377": 4,
+        "499": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "This room feels a bit dark and uninviting.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the curtain to brighten the space.",
+          "labels": {
+            "450": "curtain"
+          },
+          "atomic_step": "Open the curtain to brighten the space.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Prune the decorative plant to keep it healthy.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Straighten decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:cut_plant_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the picture to improve the room's aesthetics.",
+          "labels": {
+            "380": "picture"
+          },
+          "atomic_step": "Straighten the picture to improve the room's aesthetics.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Polish the sculpture to make it a focal point.",
+          "labels": {
+            "481": "sculpture"
+          },
+          "atomic_step": "Polish the sculpture to make it a focal point.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the stand to a more prominent position.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Carry the stand to the more prominent position.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the book display for a tidier look.",
+          "labels": {
+            "393": "book display"
+          },
+          "atomic_step": "Straighten book display.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "450": "curtain",
+        "444": "decorative plant",
+        "380": "picture",
+        "481": "sculpture",
+        "479": "stand",
+        "393": "book display"
+      },
+      "regions": {
+        "450": 4,
+        "444": 4,
+        "380": 4,
+        "481": 5,
+        "479": 5,
+        "393": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The entrance and hallway are a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Shake out the doormat to remove dirt.",
+          "labels": {
+            "498": "doormat"
+          },
+          "atomic_step": "Shake out the doormat to remove dirt.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the electric box in the hallway.",
+          "labels": {
+            "465": "electric box"
+          },
+          "atomic_step": "Dust the electric box in the hallway.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": "in",
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the picture on the hallway wall.",
+          "labels": {
+            "469": "picture"
+          },
+          "atomic_step": "Align the picture on the hallway wall.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": "on",
+              "mapping_source": "wall_decor_adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the rack used for storage.",
+          "labels": {
+            "384": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the counter surface.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe the counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "498": "doormat",
+        "465": "electric box",
+        "469": "picture",
+        "384": "rack",
+        "434": "counter",
+        "418": "stack of papers"
+      },
+      "regions": {
+        "498": 5,
+        "465": 5,
+        "469": 5,
+        "384": 4,
+        "434": 4,
+        "418": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I have a big project due tomorrow.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the book display to find reference materials.",
+          "labels": {
+            "394": "book display"
+          },
+          "atomic_step": "Straighten book display.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clear the counter to set up a workspace.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Retrieve the cup for a hot beverage.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Pick up the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the wall board for brainstorming.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Check the electric box for the power supply.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Inspect the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the picture to freshen up the office area.",
+          "labels": {
+            "470": "picture"
+          },
+          "atomic_step": "Dust the picture to freshen up the office area.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "394": "book display",
+        "434": "counter",
+        "706": "cup",
+        "421": "wall board",
+        "463": "electric box",
+        "470": "picture"
+      },
+      "regions": {
+        "394": 4,
+        "434": 4,
+        "706": 4,
+        "421": 4,
+        "463": 5,
+        "470": 5
+      },
+      "assets": {
+        "706": "cup"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "The room's layout feels stale.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the decorative plant to a new location.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Carry the decorative plant to the new location.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Reposition the sculpture for a fresh perspective.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Place sculpture on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the picture on the wall.",
+          "labels": {
+            "471": "picture"
+          },
+          "atomic_step": "Straighten the picture on the wall.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": "on",
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Change the books on the book display.",
+          "labels": {
+            "398": "book display"
+          },
+          "atomic_step": "Place items on the book display.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "put_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the display screen.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the stove surface.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Scrub stove.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "444": "decorative plant",
+        "480": "sculpture",
+        "471": "picture",
+        "398": "book display",
+        "442": "display",
+        "385": "stove"
+      },
+      "regions": {
+        "444": 4,
+        "480": 5,
+        "471": 5,
+        "398": 4,
+        "442": 4,
+        "385": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm feeling creative today.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up the camera.",
+          "labels": {
+            "703": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Reposition the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the display.",
+          "labels": {
+            "474": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the picture.",
+          "labels": {
+            "468": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Position the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Place stand on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clean the wall board.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "418": "stack of papers",
+        "703": "camera",
+        "480": "sculpture",
+        "474": "display",
+        "468": "picture",
+        "479": "stand",
+        "421": "wall board"
+      },
+      "regions": {
+        "418": 4,
+        "703": 4,
+        "480": 5,
+        "474": 5,
+        "468": 5,
+        "479": 5,
+        "421": 4
+      },
+      "assets": {
+        "703": "camera"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I have some important documents to store.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Gather the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Pick up the stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the cabinet.",
+          "labels": {
+            "433": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Unlock the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Unlock the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "unlock",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Close the curtain.",
+          "labels": {
+            "449": "curtain"
+          },
+          "atomic_step": "Close the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Check the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Inspect the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Arrange the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Place stand on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "418": "stack of papers",
+        "433": "cabinet",
+        "434": "counter",
+        "432": "safe",
+        "449": "curtain",
+        "463": "electric box",
+        "479": "stand"
+      },
+      "regions": {
+        "418": 4,
+        "433": 4,
+        "434": 4,
+        "432": 4,
+        "449": 4,
+        "463": 5,
+        "479": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "This gallery entrance looks a bit uninviting.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the book display.",
+          "labels": {
+            "392": "book display"
+          },
+          "atomic_step": "Dust the book display.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the decorative plant.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Carry the decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Shake out the doormat.",
+          "labels": {
+            "498": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Polish the sculpture.",
+          "labels": {
+            "481": "sculpture"
+          },
+          "atomic_step": "Polish the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the display.",
+          "labels": {
+            "474": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the picture.",
+          "labels": {
+            "470": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clean the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "392": "book display",
+        "444": "decorative plant",
+        "498": "doormat",
+        "481": "sculpture",
+        "474": "display",
+        "470": "picture",
+        "434": "counter"
+      },
+      "regions": {
+        "392": 4,
+        "444": 4,
+        "498": 5,
+        "481": 5,
+        "474": 5,
+        "470": 5,
+        "434": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm hosting a small gathering.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Prepare the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Turn on the stove.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "prepare"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve the wine bottle.",
+          "labels": {
+            "705": "wine_bottle"
+          },
+          "atomic_step": "Pick up the wine_bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Set down the cup.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Place the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "place"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the decorative plant.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Carry the decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Shake the doormat.",
+          "labels": {
+            "499": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Adjust the sculpture.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Reposition the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "385": "stove",
+        "705": "wine_bottle",
+        "706": "cup",
+        "434": "counter",
+        "444": "decorative plant",
+        "499": "doormat",
+        "501": "sculpture"
+      },
+      "regions": {
+        "385": 4,
+        "705": 4,
+        "706": 4,
+        "434": 4,
+        "444": 4,
+        "499": 5,
+        "501": 5
+      },
+      "assets": {
+        "705": "wine_bottle",
+        "706": "cup"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "The library area needs organizing.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Arrange the book display.",
+          "labels": {
+            "436": "book display"
+          },
+          "atomic_step": "Place book display on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the rack.",
+          "labels": {
+            "383": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Stack the papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Stack the stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the picture.",
+          "labels": {
+            "380": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Wipe sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Close the curtain.",
+          "labels": {
+            "450": "curtain"
+          },
+          "atomic_step": "Close the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "436": "book display",
+        "383": "rack",
+        "418": "stack of papers",
+        "442": "display",
+        "380": "picture",
+        "480": "sculpture",
+        "450": "curtain"
+      },
+      "regions": {
+        "436": 4,
+        "383": 4,
+        "418": 4,
+        "442": 4,
+        "380": 4,
+        "480": 5,
+        "450": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "Let's set up the new exhibition.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Position the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Place stand on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Mount the picture.",
+          "labels": {
+            "472": "picture"
+          },
+          "atomic_step": "Plug in the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "plug_in",
+              "relation": "in",
+              "mapping_source": "connect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Place the sculpture.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Place the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "place"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the decorative plant.",
+          "labels": {
+            "496": "decorative plant"
+          },
+          "atomic_step": "Reposition the decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the display.",
+          "labels": {
+            "474": "display"
+          },
+          "atomic_step": "Wipe display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Open the cabinet.",
+          "labels": {
+            "433": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Arrange the rack.",
+          "labels": {
+            "404": "rack"
+          },
+          "atomic_step": "Place rack on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "479": "stand",
+        "472": "picture",
+        "501": "sculpture",
+        "496": "decorative plant",
+        "474": "display",
+        "433": "cabinet",
+        "404": "rack"
+      },
+      "regions": {
+        "479": 5,
+        "472": 5,
+        "501": 5,
+        "496": 5,
+        "474": 5,
+        "433": 4,
+        "404": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The security check is starting soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Check the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Inspect the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Examine the camera.",
+          "labels": {
+            "703": "camera"
+          },
+          "atomic_step": "Inspect the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Inspect the electric box.",
+          "labels": {
+            "465": "electric box"
+          },
+          "atomic_step": "Inspect the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the curtain.",
+          "labels": {
+            "449": "curtain"
+          },
+          "atomic_step": "Close the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clear the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Straighten the picture.",
+          "labels": {
+            "377": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "432": "safe",
+        "703": "camera",
+        "465": "electric box",
+        "449": "curtain",
+        "434": "counter",
+        "442": "display",
+        "377": "picture"
+      },
+      "regions": {
+        "432": 4,
+        "703": 4,
+        "465": 5,
+        "449": 4,
+        "434": 4,
+        "442": 4,
+        "377": 4
+      },
+      "assets": {
+        "703": "camera"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I need to prepare for a presentation.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the wall board.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Polish the sculpture.",
+          "labels": {
+            "481": "sculpture"
+          },
+          "atomic_step": "Polish the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the picture.",
+          "labels": {
+            "473": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clear the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "421": "wall board",
+        "418": "stack of papers",
+        "442": "display",
+        "479": "stand",
+        "481": "sculpture",
+        "473": "picture",
+        "434": "counter"
+      },
+      "regions": {
+        "421": 4,
+        "418": 4,
+        "442": 4,
+        "479": 5,
+        "481": 5,
+        "473": 5,
+        "434": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "Time for some spring cleaning.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the book display.",
+          "labels": {
+            "393": "book display"
+          },
+          "atomic_step": "Dust the book display.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Scrub stove.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Shake the doormat.",
+          "labels": {
+            "498": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Wipe the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "495": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Polish the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Polish the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Scrub the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Scrub the counter.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "393": "book display",
+        "385": "stove",
+        "498": "doormat",
+        "463": "electric box",
+        "495": "decorative plant",
+        "480": "sculpture",
+        "434": "counter"
+      },
+      "regions": {
+        "393": 4,
+        "385": 4,
+        "498": 5,
+        "463": 5,
+        "495": 5,
+        "480": 5,
+        "434": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm moving some art pieces.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Unhook the picture.",
+          "labels": {
+            "377": "picture"
+          },
+          "atomic_step": "Inspect the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the sculpture.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Carry the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Reposition the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Place stand on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the rack.",
+          "labels": {
+            "384": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Open the cabinet.",
+          "labels": {
+            "433": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the decorative plant.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Reposition the decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Straighten the picture.",
+          "labels": {
+            "380": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "377": "picture",
+        "501": "sculpture",
+        "479": "stand",
+        "384": "rack",
+        "433": "cabinet",
+        "444": "decorative plant",
+        "380": "picture"
+      },
+      "regions": {
+        "377": 4,
+        "501": 5,
+        "479": 5,
+        "384": 4,
+        "433": 4,
+        "444": 4,
+        "380": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The kitchen area is quite cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Scrub stove.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wash the cup.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Rinse the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Store the wine bottle.",
+          "labels": {
+            "705": "wine_bottle"
+          },
+          "atomic_step": "Store the wine_bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe the counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Empty the doormat.",
+          "labels": {
+            "499": "doormat"
+          },
+          "atomic_step": "Dump doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the sculpture.",
+          "labels": {
+            "481": "sculpture"
+          },
+          "atomic_step": "Dust the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Close the curtain.",
+          "labels": {
+            "450": "curtain"
+          },
+          "atomic_step": "Close the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "385": "stove",
+        "706": "cup",
+        "705": "wine_bottle",
+        "434": "counter",
+        "499": "doormat",
+        "481": "sculpture",
+        "450": "curtain"
+      },
+      "regions": {
+        "385": 4,
+        "706": 4,
+        "705": 4,
+        "434": 4,
+        "499": 5,
+        "481": 5,
+        "450": 4
+      },
+      "assets": {
+        "706": "cup",
+        "705": "wine_bottle"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I want to refresh the decor.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Replace the picture.",
+          "labels": {
+            "380": "picture"
+          },
+          "atomic_step": "Place the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "place"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Prune the decorative plant.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Straighten decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:cut_plant_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Carry the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Position the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Place sculpture on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Change the doormat.",
+          "labels": {
+            "498": "doormat"
+          },
+          "atomic_step": "Place the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "put_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the curtain.",
+          "labels": {
+            "449": "curtain"
+          },
+          "atomic_step": "Smooth the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Dust the book display.",
+          "labels": {
+            "394": "book display"
+          },
+          "atomic_step": "Dust the book display.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "380": "picture",
+        "444": "decorative plant",
+        "479": "stand",
+        "480": "sculpture",
+        "498": "doormat",
+        "449": "curtain",
+        "394": "book display"
+      },
+      "regions": {
+        "380": 4,
+        "444": 4,
+        "479": 5,
+        "480": 5,
+        "498": 5,
+        "449": 4,
+        "394": 4
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "Let's document the collection.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Setup the camera.",
+          "labels": {
+            "703": "camera"
+          },
+          "atomic_step": "Inspect the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Align the book display.",
+          "labels": {
+            "398": "book display"
+          },
+          "atomic_step": "Align the book display.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Straighten stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Open the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the display.",
+          "labels": {
+            "474": "display"
+          },
+          "atomic_step": "Wipe the display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clean the sculpture.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Wipe sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "703": "camera",
+        "398": "book display",
+        "418": "stack of papers",
+        "432": "safe",
+        "479": "stand",
+        "474": "display",
+        "501": "sculpture"
+      },
+      "regions": {
+        "703": 4,
+        "398": 4,
+        "418": 4,
+        "432": 4,
+        "479": 5,
+        "474": 5,
+        "501": 5
+      },
+      "assets": {
+        "703": "camera"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "Preparing for the open house.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Shake the doormat.",
+          "labels": {
+            "498": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Polish the sculpture.",
+          "labels": {
+            "481": "sculpture"
+          },
+          "atomic_step": "Polish the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "496": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the cabinet.",
+          "labels": {
+            "433": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Set out the wine bottle.",
+          "labels": {
+            "705": "wine_bottle"
+          },
+          "atomic_step": "Place the wine_bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "place"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Arrange the book display.",
+          "labels": {
+            "400": "book display"
+          },
+          "atomic_step": "Place book display on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clean the display.",
+          "labels": {
+            "442": "display"
+          },
+          "atomic_step": "Wipe display.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "498": "doormat",
+        "481": "sculpture",
+        "496": "decorative plant",
+        "433": "cabinet",
+        "705": "wine_bottle",
+        "400": "book display",
+        "442": "display"
+      },
+      "regions": {
+        "498": 5,
+        "481": 5,
+        "496": 5,
+        "433": 4,
+        "705": 4,
+        "400": 4,
+        "442": 4
+      },
+      "assets": {
+        "705": "wine_bottle"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "I need to check the building's utilities.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Test the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Inspect the stove.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Inspect the electric box.",
+          "labels": {
+            "465": "electric box"
+          },
+          "atomic_step": "Inspect the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the wall board.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe the wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Close the curtain.",
+          "labels": {
+            "450": "curtain"
+          },
+          "atomic_step": "Close the curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Check the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Inspect the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "385": "stove",
+        "465": "electric box",
+        "421": "wall board",
+        "434": "counter",
+        "450": "curtain",
+        "432": "safe",
+        "479": "stand"
+      },
+      "regions": {
+        "385": 4,
+        "465": 5,
+        "421": 4,
+        "434": 4,
+        "450": 4,
+        "432": 4,
+        "479": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The study room is a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Tidy the book display.",
+          "labels": {
+            "405": "book display"
+          },
+          "atomic_step": "Straighten book display.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the rack.",
+          "labels": {
+            "404": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Stack the papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Stack the stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the picture.",
+          "labels": {
+            "377": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the sculpture.",
+          "labels": {
+            "480": "sculpture"
+          },
+          "atomic_step": "Dust the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Adjust the stand.",
+          "labels": {
+            "479": "stand"
+          },
+          "atomic_step": "Reposition the stand.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "405": "book display",
+        "404": "rack",
+        "418": "stack of papers",
+        "434": "counter",
+        "377": "picture",
+        "480": "sculpture",
+        "479": "stand"
+      },
+      "regions": {
+        "405": 4,
+        "404": 4,
+        "418": 4,
+        "434": 4,
+        "377": 4,
+        "480": 5,
+        "479": 5
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "Setting up the refreshments.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the counter.",
+          "labels": {
+            "434": "counter"
+          },
+          "atomic_step": "Wipe counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the wine bottle.",
+          "labels": {
+            "705": "wine_bottle"
+          },
+          "atomic_step": "Place the wine_bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "place"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Put out the cup.",
+          "labels": {
+            "706": "cup"
+          },
+          "atomic_step": "Place the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "manual_semantic_repair_v5"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the stove.",
+          "labels": {
+            "385": "stove"
+          },
+          "atomic_step": "Wipe the stove.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the decorative plant.",
+          "labels": {
+            "444": "decorative plant"
+          },
+          "atomic_step": "Reposition the decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Shake the doormat.",
+          "labels": {
+            "499": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Polish the sculpture.",
+          "labels": {
+            "501": "sculpture"
+          },
+          "atomic_step": "Polish the sculpture.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "434": "counter",
+        "705": "wine_bottle",
+        "706": "cup",
+        "385": "stove",
+        "444": "decorative plant",
+        "499": "doormat",
+        "501": "sculpture"
+      },
+      "regions": {
+        "434": 4,
+        "705": 4,
+        "706": 4,
+        "385": 4,
+        "444": 4,
+        "499": 5,
+        "501": 5
+      },
+      "assets": {
+        "705": "wine_bottle",
+        "706": "cup"
+      },
+      "start_region": 4
+    },
+    {
+      "task": "Organizing the archive.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Unlock the safe.",
+          "labels": {
+            "432": "safe"
+          },
+          "atomic_step": "Unlock the safe.",
+          "atomic_actions": [
+            {
+              "action_id": "unlock",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "File the stack of papers.",
+          "labels": {
+            "418": "stack of papers"
+          },
+          "atomic_step": "Store the stack of papers.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": null,
+              "mapping_source": "store"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the book display.",
+          "labels": {
+            "437": "book display"
+          },
+          "atomic_step": "Place book display on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the rack.",
+          "labels": {
+            "383": "rack"
+          },
+          "atomic_step": "Wipe rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the wall board.",
+          "labels": {
+            "421": "wall board"
+          },
+          "atomic_step": "Wipe wall board.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the picture.",
+          "labels": {
+            "377": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wipe the electric box.",
+          "labels": {
+            "463": "electric box"
+          },
+          "atomic_step": "Wipe the electric box.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "432": "safe",
+        "418": "stack of papers",
+        "437": "book display",
+        "383": "rack",
+        "421": "wall board",
+        "377": "picture",
+        "463": "electric box"
+      },
+      "regions": {
+        "432": 4,
+        "418": 4,
+        "437": 4,
+        "383": 4,
+        "421": 4,
+        "377": 4,
+        "463": 5
+      },
+      "assets": {},
+      "start_region": 4
+    }
+  ]
+}

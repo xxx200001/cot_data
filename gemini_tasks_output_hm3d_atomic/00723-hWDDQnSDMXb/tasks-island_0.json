@@ -1,0 +1,1532 @@
+{
+  "scene_id": "00723-hWDDQnSDMXb",
+  "tasks": [
+    {
+      "task": "I have some friends coming over for a game night.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Set the time on the wall clock.",
+          "labels": {
+            "791": "wall clock"
+          },
+          "atomic_step": "Place the time on the wall clock.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "repair_set_to_place"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the pool stick on the rack.",
+          "labels": {
+            "805": "pool stick"
+          },
+          "atomic_step": "Straighten pool stick.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Restock the mini fridge with beverages.",
+          "labels": {
+            "811": "mini fridge"
+          },
+          "atomic_step": "Place items in the mini fridge.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the arcade game.",
+          "labels": {
+            "849": "arcade game"
+          },
+          "atomic_step": "Turn on the arcade game.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "791": "wall clock",
+        "805": "pool stick",
+        "811": "mini fridge",
+        "849": "arcade game"
+      },
+      "regions": {
+        "791": 17,
+        "805": 17,
+        "811": 17,
+        "849": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "It's a bit chilly and cluttered in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the heater.",
+          "labels": {
+            "836": "heater"
+          },
+          "atomic_step": "Turn on the heater.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the chair.",
+          "labels": {
+            "832": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the basket.",
+          "labels": {
+            "804": "basket"
+          },
+          "atomic_step": "Straighten basket.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the display cabinet.",
+          "labels": {
+            "820": "display cabinet"
+          },
+          "atomic_step": "Wipe display cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "836": "heater",
+        "832": "chair",
+        "804": "basket",
+        "820": "display cabinet"
+      },
+      "regions": {
+        "836": 17,
+        "832": 17,
+        "804": 17,
+        "820": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "I want to listen to some music while I work.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the desk.",
+          "labels": {
+            "848": "desk"
+          },
+          "atomic_step": "Wipe desk.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Set up the speaker.",
+          "labels": {
+            "825": "speaker"
+          },
+          "atomic_step": "Set up the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the amplifier.",
+          "labels": {
+            "821": "amplifier"
+          },
+          "atomic_step": "Reposition the amplifier.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Position the bar chair.",
+          "labels": {
+            "818": "bar chair"
+          },
+          "atomic_step": "Push bar chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "848": "desk",
+        "825": "speaker",
+        "821": "amplifier",
+        "818": "bar chair"
+      },
+      "regions": {
+        "848": 17,
+        "825": 17,
+        "821": 17,
+        "818": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "The party just ended and the game room is a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the foosball game table.",
+          "labels": {
+            "819": "foosball game table"
+          },
+          "atomic_step": "Wipe foosball game table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Empty the basket of something.",
+          "labels": {
+            "812": "basket of something"
+          },
+          "atomic_step": "Dump basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe down the mini fridge.",
+          "labels": {
+            "811": "mini fridge"
+          },
+          "atomic_step": "Wipe the mini fridge.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Synchronize the wall clock.",
+          "labels": {
+            "797": "wall clock"
+          },
+          "atomic_step": "Adjust the wall clock to synchronized.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust",
+              "setting": "synchronized"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "819": "foosball game table",
+        "812": "basket of something",
+        "811": "mini fridge",
+        "797": "wall clock"
+      },
+      "regions": {
+        "819": 17,
+        "812": 17,
+        "811": 17,
+        "797": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "I have some guests coming over later.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Set the wall clock to the correct time.",
+          "labels": {
+            "791": "wall clock"
+          },
+          "atomic_step": "Adjust the wall clock.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "repair_set_to_control"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the amplifier for music.",
+          "labels": {
+            "821": "amplifier"
+          },
+          "atomic_step": "Turn on the amplifier.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the pool stick on the rack.",
+          "labels": {
+            "805": "pool stick"
+          },
+          "atomic_step": "Straighten pool stick.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe down the foosball game table.",
+          "labels": {
+            "819": "foosball game table"
+          },
+          "atomic_step": "Wipe the foosball game table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Restock the mini fridge with beverages.",
+          "labels": {
+            "811": "mini fridge"
+          },
+          "atomic_step": "Place items in the mini fridge.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "791": "wall clock",
+        "821": "amplifier",
+        "805": "pool stick",
+        "819": "foosball game table",
+        "811": "mini fridge"
+      },
+      "regions": {
+        "791": 17,
+        "821": 17,
+        "805": 17,
+        "819": 17,
+        "811": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "I'm feeling a bit cold.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the heater.",
+          "labels": {
+            "836": "heater"
+          },
+          "atomic_step": "Turn on the heater.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the bar chair to the desk.",
+          "labels": {
+            "818": "bar chair"
+          },
+          "atomic_step": "Reposition the bar chair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the surface of the desk.",
+          "labels": {
+            "848": "desk"
+          },
+          "atomic_step": "Wipe desk.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the items in the display cabinet.",
+          "labels": {
+            "820": "display cabinet"
+          },
+          "atomic_step": "Place display cabinet in receptacle.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Empty the trash from the basket.",
+          "labels": {
+            "804": "basket"
+          },
+          "atomic_step": "Place waste in the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "subject_preserving_rewrite"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "836": "heater",
+        "818": "bar chair",
+        "848": "desk",
+        "820": "display cabinet",
+        "804": "basket"
+      },
+      "regions": {
+        "836": 17,
+        "818": 17,
+        "848": 17,
+        "820": 17,
+        "804": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "This area feels a bit messy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Align the chair neatly.",
+          "labels": {
+            "832": "chair"
+          },
+          "atomic_step": "Align the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the screen of the arcade game.",
+          "labels": {
+            "849": "arcade game"
+          },
+          "atomic_step": "Wipe arcade game.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the top of the speaker.",
+          "labels": {
+            "825": "speaker"
+          },
+          "atomic_step": "Dust the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Sort the contents of the basket of something.",
+          "labels": {
+            "812": "basket of something"
+          },
+          "atomic_step": "Straighten basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Reset the wall clock after the power flicker.",
+          "labels": {
+            "797": "wall clock"
+          },
+          "atomic_step": "Adjust the wall clock to reset.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "operate",
+              "setting": "reset"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "832": "chair",
+        "849": "arcade game",
+        "825": "speaker",
+        "812": "basket of something",
+        "797": "wall clock"
+      },
+      "regions": {
+        "832": 17,
+        "849": 17,
+        "825": 17,
+        "812": 17,
+        "797": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "I'm expecting company for a game night.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the pool stick.",
+          "labels": {
+            "805": "pool stick"
+          },
+          "atomic_step": "Straighten pool stick.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the foosball game table.",
+          "labels": {
+            "819": "foosball game table"
+          },
+          "atomic_step": "Wipe foosball game table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Restock the mini fridge.",
+          "labels": {
+            "811": "mini fridge"
+          },
+          "atomic_step": "Place items in the mini fridge.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the bar chair.",
+          "labels": {
+            "818": "bar chair"
+          },
+          "atomic_step": "Push bar chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Set up the amplifier.",
+          "labels": {
+            "821": "amplifier"
+          },
+          "atomic_step": "Set up the amplifier.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Power on the arcade game.",
+          "labels": {
+            "849": "arcade game"
+          },
+          "atomic_step": "Turn on the arcade game.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "805": "pool stick",
+        "819": "foosball game table",
+        "811": "mini fridge",
+        "818": "bar chair",
+        "821": "amplifier",
+        "849": "arcade game"
+      },
+      "regions": {
+        "805": 17,
+        "819": 17,
+        "811": 17,
+        "818": 17,
+        "821": 17,
+        "849": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "This area feels a bit cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Tidy the basket of something.",
+          "labels": {
+            "812": "basket of something"
+          },
+          "atomic_step": "Straighten basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the display cabinet.",
+          "labels": {
+            "820": "display cabinet"
+          },
+          "atomic_step": "Wipe display cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the speaker.",
+          "labels": {
+            "825": "speaker"
+          },
+          "atomic_step": "Adjust the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the desk.",
+          "labels": {
+            "848": "desk"
+          },
+          "atomic_step": "Push desk.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the wall clock.",
+          "labels": {
+            "791": "wall clock"
+          },
+          "atomic_step": "Wipe the wall clock.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Position the pool stick.",
+          "labels": {
+            "807": "pool stick"
+          },
+          "atomic_step": "Place pool stick on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "812": "basket of something",
+        "820": "display cabinet",
+        "825": "speaker",
+        "848": "desk",
+        "791": "wall clock",
+        "807": "pool stick"
+      },
+      "regions": {
+        "812": 17,
+        "820": 17,
+        "825": 17,
+        "848": 17,
+        "791": 17,
+        "807": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "I'm going to spend the evening in the lounge.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the heater.",
+          "labels": {
+            "836": "heater"
+          },
+          "atomic_step": "Turn on the heater.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the chair.",
+          "labels": {
+            "832": "chair"
+          },
+          "atomic_step": "Straighten the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the foosball game table.",
+          "labels": {
+            "819": "foosball game table"
+          },
+          "atomic_step": "Wipe the foosball game table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the display cabinet.",
+          "labels": {
+            "820": "display cabinet"
+          },
+          "atomic_step": "Close the display cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the mini fridge.",
+          "labels": {
+            "811": "mini fridge"
+          },
+          "atomic_step": "Straighten mini fridge.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Secure the pool stick.",
+          "labels": {
+            "808": "pool stick"
+          },
+          "atomic_step": "Store the pool stick.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": null,
+              "mapping_source": "store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "836": "heater",
+        "832": "chair",
+        "819": "foosball game table",
+        "820": "display cabinet",
+        "811": "mini fridge",
+        "808": "pool stick"
+      },
+      "regions": {
+        "836": 17,
+        "832": 17,
+        "819": 17,
+        "820": 17,
+        "811": 17,
+        "808": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "I'm feeling inspired to play some music.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the amplifier.",
+          "labels": {
+            "821": "amplifier"
+          },
+          "atomic_step": "Turn on the amplifier.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the speaker.",
+          "labels": {
+            "825": "speaker"
+          },
+          "atomic_step": "Carry the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Align the chair.",
+          "labels": {
+            "833": "chair"
+          },
+          "atomic_step": "Align the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the desk.",
+          "labels": {
+            "848": "desk"
+          },
+          "atomic_step": "Wipe desk.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Power on the arcade game.",
+          "labels": {
+            "849": "arcade game"
+          },
+          "atomic_step": "Turn on the arcade game.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the wall clock.",
+          "labels": {
+            "797": "wall clock"
+          },
+          "atomic_step": "Wipe wall clock.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "821": "amplifier",
+        "825": "speaker",
+        "833": "chair",
+        "848": "desk",
+        "849": "arcade game",
+        "797": "wall clock"
+      },
+      "regions": {
+        "821": 17,
+        "825": 17,
+        "833": 17,
+        "848": 17,
+        "849": 17,
+        "797": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "The recreational space needs some attention.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe down the arcade game.",
+          "labels": {
+            "849": "arcade game"
+          },
+          "atomic_step": "Wipe the arcade game.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the bar chair.",
+          "labels": {
+            "818": "bar chair"
+          },
+          "atomic_step": "Place the bar chair.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "place"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the mini fridge.",
+          "labels": {
+            "811": "mini fridge"
+          },
+          "atomic_step": "Close the mini fridge.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the basket of something.",
+          "labels": {
+            "812": "basket of something"
+          },
+          "atomic_step": "Straighten basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the display cabinet.",
+          "labels": {
+            "820": "display cabinet"
+          },
+          "atomic_step": "Dust the display cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Put away the pool stick.",
+          "labels": {
+            "809": "pool stick"
+          },
+          "atomic_step": "Store the pool stick.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "849": "arcade game",
+        "818": "bar chair",
+        "811": "mini fridge",
+        "812": "basket of something",
+        "820": "display cabinet",
+        "809": "pool stick"
+      },
+      "regions": {
+        "849": 17,
+        "818": 17,
+        "811": 17,
+        "812": 17,
+        "820": 17,
+        "809": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "The tournament just finished.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Store the pool stick.",
+          "labels": {
+            "805": "pool stick"
+          },
+          "atomic_step": "Store the pool stick.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the foosball game table.",
+          "labels": {
+            "819": "foosball game table"
+          },
+          "atomic_step": "Wipe foosball game table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Tidy the basket.",
+          "labels": {
+            "804": "basket"
+          },
+          "atomic_step": "Straighten basket.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Switch off the amplifier.",
+          "labels": {
+            "821": "amplifier"
+          },
+          "atomic_step": "Turn off the amplifier.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the desk.",
+          "labels": {
+            "848": "desk"
+          },
+          "atomic_step": "Push desk.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the chair.",
+          "labels": {
+            "834": "chair"
+          },
+          "atomic_step": "Straighten the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "805": "pool stick",
+        "819": "foosball game table",
+        "804": "basket",
+        "821": "amplifier",
+        "848": "desk",
+        "834": "chair"
+      },
+      "regions": {
+        "805": 17,
+        "819": 17,
+        "804": 17,
+        "821": 17,
+        "848": 17,
+        "834": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "I have a deadline to meet.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear off the desk.",
+          "labels": {
+            "848": "desk"
+          },
+          "atomic_step": "Wipe desk.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the heater.",
+          "labels": {
+            "836": "heater"
+          },
+          "atomic_step": "Adjust the heater.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the chair.",
+          "labels": {
+            "832": "chair"
+          },
+          "atomic_step": "Reposition the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the wall clock.",
+          "labels": {
+            "791": "wall clock"
+          },
+          "atomic_step": "Wipe the wall clock.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Tidy the basket of something.",
+          "labels": {
+            "812": "basket of something"
+          },
+          "atomic_step": "Straighten basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Close the mini fridge.",
+          "labels": {
+            "811": "mini fridge"
+          },
+          "atomic_step": "Close the mini fridge.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "848": "desk",
+        "836": "heater",
+        "832": "chair",
+        "791": "wall clock",
+        "812": "basket of something",
+        "811": "mini fridge"
+      },
+      "regions": {
+        "848": 17,
+        "836": 17,
+        "832": 17,
+        "791": 17,
+        "812": 17,
+        "811": 17
+      },
+      "assets": {},
+      "start_region": 17
+    },
+    {
+      "task": "I have a few guests coming over later.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the arcade game.",
+          "labels": {
+            "849": "arcade game"
+          },
+          "atomic_step": "Wipe arcade game.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the pool stick.",
+          "labels": {
+            "805": "pool stick"
+          },
+          "atomic_step": "Place pool stick on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe down the mini fridge.",
+          "labels": {
+            "811": "mini fridge"
+          },
+          "atomic_step": "Wipe the mini fridge.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the foosball game table.",
+          "labels": {
+            "819": "foosball game table"
+          },
+          "atomic_step": "Wipe foosball game table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the speaker.",
+          "labels": {
+            "825": "speaker"
+          },
+          "atomic_step": "Turn on the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Arrange the chair.",
+          "labels": {
+            "832": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Turn on the heater.",
+          "labels": {
+            "836": "heater"
+          },
+          "atomic_step": "Turn on the heater.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "849": "arcade game",
+        "805": "pool stick",
+        "811": "mini fridge",
+        "819": "foosball game table",
+        "825": "speaker",
+        "832": "chair",
+        "836": "heater"
+      },
+      "regions": {
+        "849": 17,
+        "805": 17,
+        "811": 17,
+        "819": 17,
+        "825": 17,
+        "832": 17,
+        "836": 17
+      },
+      "assets": {},
+      "start_region": 17
+    }
+  ]
+}
