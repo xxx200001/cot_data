@@ -2076,12 +2076,12 @@
           "labels": {
             "548": "couch"
           },
-          "atomic_step": "Fluff the couch.",
+          "atomic_step": "Straighten the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -12171,12 +12171,12 @@
           "labels": {
             "565": "clock"
           },
-          "atomic_step": "Turn on the clock.",
+          "atomic_step": "Adjust the clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },
@@ -12772,12 +12772,12 @@
           "labels": {
             "565": "clock"
           },
-          "atomic_step": "Turn on the clock.",
+          "atomic_step": "Adjust the clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         }

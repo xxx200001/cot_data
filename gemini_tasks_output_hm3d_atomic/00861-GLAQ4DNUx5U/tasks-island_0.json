@@ -4510,12 +4510,12 @@
           "labels": {
             "913": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -6389,12 +6389,12 @@
           "labels": {
             "913": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -8186,12 +8186,12 @@
           "labels": {
             "913": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -9262,12 +9262,12 @@
           "labels": {
             "405": "sofa chair"
           },
-          "atomic_step": "Fluff the sofa chair.",
+          "atomic_step": "Straighten the sofa chair.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },

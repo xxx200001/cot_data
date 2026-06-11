@@ -1,0 +1,80 @@
+{
+  "rule": "R11_load_from_wardrobe",
+  "timestamp": "2026-06-11T17:09:30.240598",
+  "total_changes": 6,
+  "files_modified": 4,
+  "changes": [
+    {
+      "old_action": "load",
+      "new_action": "pick_up",
+      "object": "wardrobe",
+      "old_atomic_step": "Load items into the wardrobe.",
+      "new_atomic_step": "Pick up items from the wardrobe.",
+      "reason": "Direction reversed: packing FROM wardrobe should be pick_up, not load INTO",
+      "file": "00034-6imZUJGRUq4\\tasks-island_0.json",
+      "scene_id": "00034-6imZUJGRUq4",
+      "task": "I'm going on a trip.",
+      "step_id": 2
+    },
+    {
+      "old_action": "load",
+      "new_action": "pick_up",
+      "object": "wardrobe",
+      "old_atomic_step": "Load items into the wardrobe.",
+      "new_atomic_step": "Pick up items from the wardrobe.",
+      "reason": "Direction reversed: packing FROM wardrobe should be pick_up, not load INTO",
+      "file": "00034-6imZUJGRUq4\\tasks-island_0.json",
+      "scene_id": "00034-6imZUJGRUq4",
+      "task": "I'm getting ready for a trip.",
+      "step_id": 2
+    },
+    {
+      "old_action": "load",
+      "new_action": "pick_up",
+      "object": "wardrobe",
+      "old_atomic_step": "Load items into the wardrobe.",
+      "new_atomic_step": "Pick up items from the wardrobe.",
+      "reason": "Direction reversed: packing FROM wardrobe should be pick_up, not load INTO",
+      "file": "00034-6imZUJGRUq4\\tasks-island_0.json",
+      "scene_id": "00034-6imZUJGRUq4",
+      "task": "I need to get ready for a long trip.",
+      "step_id": 2
+    },
+    {
+      "old_action": "load",
+      "new_action": "pick_up",
+      "object": "wardrobe",
+      "old_atomic_step": "Load items into the wardrobe.",
+      "new_atomic_step": "Pick up items from the wardrobe.",
+      "reason": "Direction reversed: packing FROM wardrobe should be pick_up, not load INTO",
+      "file": "00238-j6fHrce9pHR\\tasks-island_0.json",
+      "scene_id": "00238-j6fHrce9pHR",
+      "task": "I'm getting ready for an important business trip.",
+      "step_id": 2
+    },
+    {
+      "old_action": "load",
+      "new_action": "pick_up",
+      "object": "wardrobe",
+      "old_atomic_step": "Load items into the wardrobe.",
+      "new_atomic_step": "Pick up items from the wardrobe.",
+      "reason": "Direction reversed: packing FROM wardrobe should be pick_up, not load INTO",
+      "file": "00324-DoSbsoo4EAg\\tasks-island_0.json",
+      "scene_id": "00324-DoSbsoo4EAg",
+      "task": "I'm leaving for a trip.",
+      "step_id": 1
+    },
+    {
+      "old_action": "load",
+      "new_action": "pick_up",
+      "object": "wardrobe",
+      "old_atomic_step": "Load items into the wardrobe.",
+      "new_atomic_step": "Pick up items from the wardrobe.",
+      "reason": "Direction reversed: packing FROM wardrobe should be pick_up, not load INTO",
+      "file": "00821-eF36g7L6Z9M\\tasks-island_0.json",
+      "scene_id": "00821-eF36g7L6Z9M",
+      "task": "I need to get ready for a trip tomorrow.",
+      "step_id": 4
+    }
+  ]
+}

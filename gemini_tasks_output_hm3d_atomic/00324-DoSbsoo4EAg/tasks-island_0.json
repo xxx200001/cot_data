@@ -5221,12 +5221,12 @@
           "labels": {
             "40": "wardrobe"
           },
-          "atomic_step": "Load items into the wardrobe.",
+          "atomic_step": "Pick up items from the wardrobe.",
           "atomic_actions": [
             {
-              "action_id": "load",
+              "action_id": "pick_up",
               "relation": "in",
-              "mapping_source": "pack"
+              "mapping_source": "semantic_repair_v5:load_from_wardrobe_to_pick_up"
             }
           ]
         },

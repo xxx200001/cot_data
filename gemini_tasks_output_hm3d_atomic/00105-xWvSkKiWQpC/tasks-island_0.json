@@ -13755,12 +13755,12 @@
           "labels": {
             "55": "printer"
           },
-          "atomic_step": "Fill the printer.",
+          "atomic_step": "Load the printer.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -15350,12 +15350,12 @@
           "labels": {
             "309": "cabinet"
           },
-          "atomic_step": "Fill the cabinet.",
+          "atomic_step": "Store items in the cabinet.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_cabinet_to_store"
             }
           ]
         },

@@ -3998,12 +3998,12 @@
           "labels": {
             "245": "couch"
           },
-          "atomic_step": "Fluff items on the couch.",
+          "atomic_step": "Straighten items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },

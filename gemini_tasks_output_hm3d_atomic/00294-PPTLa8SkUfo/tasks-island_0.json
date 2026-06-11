@@ -3894,12 +3894,12 @@
           "labels": {
             "769": "couch"
           },
-          "atomic_step": "Fluff the couch.",
+          "atomic_step": "Straighten the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -13120,12 +13120,12 @@
           "labels": {
             "769": "couch"
           },
-          "atomic_step": "Fluff items on the couch.",
+          "atomic_step": "Straighten items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -16489,12 +16489,12 @@
           "labels": {
             "226": "shower wall"
           },
-          "atomic_step": "Turn on the shower wall.",
+          "atomic_step": "Turn on the shower.",
           "atomic_actions": [
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "semantic_repair_v5:shower_wall_to_shower"
             }
           ]
         },
@@ -22475,12 +22475,12 @@
           "labels": {
             "769": "couch"
           },
-          "atomic_step": "Fluff the couch.",
+          "atomic_step": "Straighten the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -27863,12 +27863,12 @@
           "labels": {
             "766": "armchair"
           },
-          "atomic_step": "Fluff items on the armchair.",
+          "atomic_step": "Straighten items on the armchair.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         }

@@ -819,12 +819,12 @@
           "labels": {
             "393": "paper towel dispenser"
           },
-          "atomic_step": "Fill the paper towel dispenser.",
+          "atomic_step": "Store the paper towel dispenser.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
             }
           ]
         },
@@ -2287,12 +2287,12 @@
           "labels": {
             "393": "paper towel dispenser"
           },
-          "atomic_step": "Fill the paper towel dispenser in the kitchen.",
+          "atomic_step": "Store the paper towel dispenser in the kitchen.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": "in",
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
             }
           ]
         },
@@ -4391,12 +4391,12 @@
           "labels": {
             "393": "paper towel dispenser"
           },
-          "atomic_step": "Fill the paper towel dispenser.",
+          "atomic_step": "Store the paper towel dispenser.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
             }
           ]
         },
@@ -6013,12 +6013,12 @@
           "labels": {
             "393": "paper towel dispenser"
           },
-          "atomic_step": "Fill the paper towel dispenser.",
+          "atomic_step": "Store the paper towel dispenser.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
             }
           ]
         }
@@ -8778,12 +8778,12 @@
           "labels": {
             "393": "paper towel dispenser"
           },
-          "atomic_step": "Fill the paper towel dispenser.",
+          "atomic_step": "Store the paper towel dispenser.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
             }
           ]
         },
@@ -9196,12 +9196,12 @@
           "labels": {
             "312": "printer"
           },
-          "atomic_step": "Fill the printer with the paper.",
+          "atomic_step": "Load the printer with the paper.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -10938,12 +10938,12 @@
           "labels": {
             "795": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },

@@ -499,12 +499,12 @@
           "labels": {
             "540": "hose"
           },
-          "atomic_step": "Plug in the hose to the connector.",
+          "atomic_step": "Attach the hose to the connector.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "attach",
               "relation": "in",
-              "mapping_source": "connect"
+              "mapping_source": "semantic_repair_v5:plug_in_hose_to_attach"
             }
           ]
         },
@@ -815,12 +815,12 @@
           "labels": {
             "561": "hose"
           },
-          "atomic_step": "Plug in the hose to pump.",
+          "atomic_step": "Attach the hose to pump.",
           "atomic_actions": [
             {
-              "action_id": "plug_in",
+              "action_id": "attach",
               "relation": "in",
-              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+              "mapping_source": "semantic_repair_v5:plug_in_hose_to_attach"
             }
           ]
         },

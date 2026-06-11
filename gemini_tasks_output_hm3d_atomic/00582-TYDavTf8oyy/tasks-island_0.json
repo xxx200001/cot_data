@@ -12685,12 +12685,12 @@
           "labels": {
             "289": "sofa chair"
           },
-          "atomic_step": "Fluff the sofa chair in the living area.",
+          "atomic_step": "Straighten the sofa chair in the living area.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "in",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -13225,12 +13225,12 @@
           "labels": {
             "287": "sofa seat"
           },
-          "atomic_step": "Fluff the sofa seat.",
+          "atomic_step": "Straighten the sofa seat.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -15115,12 +15115,12 @@
           "labels": {
             "287": "sofa seat"
           },
-          "atomic_step": "Fluff the sofa seat.",
+          "atomic_step": "Straighten the sofa seat.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },

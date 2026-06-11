@@ -3893,12 +3893,12 @@
           "labels": {
             "503": "tissue box"
           },
-          "atomic_step": "Fill the tissue box.",
+          "atomic_step": "Store the tissue box.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_tissue_box_to_store"
             }
           ]
         }
@@ -5244,12 +5244,12 @@
           "labels": {
             "410": "printer"
           },
-          "atomic_step": "Use the printer to fill items.",
+          "atomic_step": "Use the printer to load items.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": "in",
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         }

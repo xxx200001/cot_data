@@ -687,12 +687,12 @@
           "labels": {
             "1047": "paper towel dispenser"
           },
-          "atomic_step": "Fill the paper towel dispenser.",
+          "atomic_step": "Store the paper towel dispenser.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
             }
           ]
         }
@@ -1957,12 +1957,12 @@
           "labels": {
             "726": "clock"
           },
-          "atomic_step": "Turn on the clock.",
+          "atomic_step": "Adjust the clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },
@@ -8566,12 +8566,12 @@
           "labels": {
             "1047": "paper towel dispenser"
           },
-          "atomic_step": "Fill the paper towel dispenser.",
+          "atomic_step": "Store the paper towel dispenser.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
             }
           ]
         }

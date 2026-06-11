@@ -2615,12 +2615,12 @@
           "labels": {
             "453": "sofa"
           },
-          "atomic_step": "Fluff the sofa.",
+          "atomic_step": "Straighten the sofa.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         }

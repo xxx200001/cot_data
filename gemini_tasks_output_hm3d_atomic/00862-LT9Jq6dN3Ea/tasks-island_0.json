@@ -15323,12 +15323,12 @@
           "labels": {
             "673": "shower wall"
           },
-          "atomic_step": "Turn on the shower wall.",
+          "atomic_step": "Turn on the shower.",
           "atomic_actions": [
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare"
+              "mapping_source": "semantic_repair_v5:shower_wall_to_shower"
             }
           ]
         },

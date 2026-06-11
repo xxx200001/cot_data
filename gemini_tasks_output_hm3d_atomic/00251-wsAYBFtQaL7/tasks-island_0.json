@@ -1983,12 +1983,12 @@
           "labels": {
             "270": "antique clock"
           },
-          "atomic_step": "Turn on the antique clock.",
+          "atomic_step": "Adjust the antique clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "turn_on"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },
@@ -3561,12 +3561,12 @@
           "labels": {
             "146": "paper towel"
           },
-          "atomic_step": "Fill the paper towel.",
+          "atomic_step": "Store the paper towel.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_to_store"
             }
           ]
         },
@@ -13195,12 +13195,12 @@
           "labels": {
             "733": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -14176,12 +14176,12 @@
           "labels": {
             "733": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -16402,12 +16402,12 @@
           "labels": {
             "733": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -18375,12 +18375,12 @@
           "labels": {
             "733": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -23630,12 +23630,12 @@
           "labels": {
             "270": "antique clock"
           },
-          "atomic_step": "Turn on the antique clock.",
+          "atomic_step": "Adjust the antique clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         }
@@ -24365,12 +24365,12 @@
           "labels": {
             "318": "l-shaped sofa"
           },
-          "atomic_step": "Fluff items on the l-shaped sofa.",
+          "atomic_step": "Straighten items on the l-shaped sofa.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -26385,12 +26385,12 @@
           "labels": {
             "146": "paper towel"
           },
-          "atomic_step": "Fill the paper towel.",
+          "atomic_step": "Store the paper towel.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_to_store"
             }
           ]
         }
@@ -26717,12 +26717,12 @@
           "labels": {
             "270": "antique clock"
           },
-          "atomic_step": "Turn on the antique clock.",
+          "atomic_step": "Adjust the antique clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },
@@ -28071,12 +28071,12 @@
           "labels": {
             "285": "couch"
           },
-          "atomic_step": "Fluff the couch.",
+          "atomic_step": "Straighten the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -31964,12 +31964,12 @@
           "labels": {
             "647": "printer"
           },
-          "atomic_step": "Fill the printer.",
+          "atomic_step": "Load the printer.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -32097,12 +32097,12 @@
           "labels": {
             "733": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -38565,12 +38565,12 @@
           "labels": {
             "270": "antique clock"
           },
-          "atomic_step": "Turn on the antique clock.",
+          "atomic_step": "Adjust the antique clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },

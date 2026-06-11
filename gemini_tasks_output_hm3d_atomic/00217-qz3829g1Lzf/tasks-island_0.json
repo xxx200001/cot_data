@@ -7773,12 +7773,12 @@
           "labels": {
             "616": "printer"
           },
-          "atomic_step": "Use the printer to fill items.",
+          "atomic_step": "Use the printer to load items.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": "in",
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -14161,12 +14161,12 @@
           "labels": {
             "649": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -18415,12 +18415,12 @@
           "labels": {
             "544": "clock"
           },
-          "atomic_step": "Turn on the clock.",
+          "atomic_step": "Adjust the clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         }

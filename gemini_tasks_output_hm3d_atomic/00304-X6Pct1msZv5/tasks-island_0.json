@@ -454,12 +454,12 @@
           "labels": {
             "49": "couch"
           },
-          "atomic_step": "Fluff the couch.",
+          "atomic_step": "Straighten the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         }
@@ -1403,12 +1403,12 @@
           "labels": {
             "49": "couch"
           },
-          "atomic_step": "Fluff the couch.",
+          "atomic_step": "Straighten the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -7641,12 +7641,12 @@
           "labels": {
             "144": "printer"
           },
-          "atomic_step": "Fill the printer.",
+          "atomic_step": "Load the printer.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -12339,12 +12339,12 @@
           "labels": {
             "49": "couch"
           },
-          "atomic_step": "Fluff the couch.",
+          "atomic_step": "Straighten the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },

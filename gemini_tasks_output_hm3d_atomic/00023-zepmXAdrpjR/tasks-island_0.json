@@ -15213,12 +15213,12 @@
           "labels": {
             "88": "bath towel"
           },
-          "atomic_step": "Fill the bath towel.",
+          "atomic_step": "Hang the bath towel.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "hang",
               "relation": null,
-              "mapping_source": "prepare"
+              "mapping_source": "semantic_repair_v5:fill_bath_towel_to_hang"
             }
           ]
         },

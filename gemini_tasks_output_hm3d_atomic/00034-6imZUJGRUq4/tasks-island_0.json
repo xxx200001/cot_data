@@ -3994,12 +3994,12 @@
           "labels": {
             "137": "armchair"
           },
-          "atomic_step": "Fluff the armchair.",
+          "atomic_step": "Straighten the armchair.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -6456,12 +6456,12 @@
           "labels": {
             "150": "couch"
           },
-          "atomic_step": "Fluff items on the couch.",
+          "atomic_step": "Straighten items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         }
@@ -8828,12 +8828,12 @@
           "labels": {
             "190": "wardrobe"
           },
-          "atomic_step": "Load items into the wardrobe.",
+          "atomic_step": "Pick up items from the wardrobe.",
           "atomic_actions": [
             {
-              "action_id": "load",
+              "action_id": "pick_up",
               "relation": "in",
-              "mapping_source": "pack"
+              "mapping_source": "semantic_repair_v5:load_from_wardrobe_to_pick_up"
             }
           ]
         },
@@ -11919,12 +11919,12 @@
           "labels": {
             "150": "couch"
           },
-          "atomic_step": "Fluff items on the couch.",
+          "atomic_step": "Straighten items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -14311,12 +14311,12 @@
           "labels": {
             "190": "wardrobe"
           },
-          "atomic_step": "Load items into the wardrobe.",
+          "atomic_step": "Pick up items from the wardrobe.",
           "atomic_actions": [
             {
-              "action_id": "load",
+              "action_id": "pick_up",
               "relation": "in",
-              "mapping_source": "pack"
+              "mapping_source": "semantic_repair_v5:load_from_wardrobe_to_pick_up"
             }
           ]
         },
@@ -23482,12 +23482,12 @@
           "labels": {
             "190": "wardrobe"
           },
-          "atomic_step": "Load items into the wardrobe.",
+          "atomic_step": "Pick up items from the wardrobe.",
           "atomic_actions": [
             {
-              "action_id": "load",
+              "action_id": "pick_up",
               "relation": "in",
-              "mapping_source": "pack"
+              "mapping_source": "semantic_repair_v5:load_from_wardrobe_to_pick_up"
             }
           ]
         },

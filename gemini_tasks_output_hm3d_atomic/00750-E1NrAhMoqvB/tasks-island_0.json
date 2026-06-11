@@ -8177,12 +8177,12 @@
           "labels": {
             "439": "couch"
           },
-          "atomic_step": "Fluff items on the couch.",
+          "atomic_step": "Straighten items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -11894,12 +11894,12 @@
           "labels": {
             "1027": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -13069,12 +13069,12 @@
           "labels": {
             "721": "antique clock"
           },
-          "atomic_step": "Turn on the antique clock.",
+          "atomic_step": "Adjust the antique clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },
@@ -23012,12 +23012,12 @@
           "labels": {
             "1027": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -23911,12 +23911,12 @@
           "labels": {
             "1027": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -26043,12 +26043,12 @@
           "labels": {
             "1027": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },

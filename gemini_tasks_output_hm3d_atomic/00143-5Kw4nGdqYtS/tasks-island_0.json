@@ -442,12 +442,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -2041,12 +2041,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -3819,12 +3819,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         }
@@ -5668,12 +5668,12 @@
           "labels": {
             "664": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -5713,12 +5713,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         }
@@ -6283,12 +6283,12 @@
           "labels": {
             "69": "wall clock"
           },
-          "atomic_step": "Turn on the wall clock.",
+          "atomic_step": "Adjust the wall clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },
@@ -6641,12 +6641,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -9382,12 +9382,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         }
@@ -13310,12 +13310,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -14760,12 +14760,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -15344,12 +15344,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         }
@@ -15804,12 +15804,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -15937,12 +15937,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -16312,12 +16312,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -16688,12 +16688,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -17081,12 +17081,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -17359,12 +17359,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -19488,12 +19488,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -21062,12 +21062,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         }
@@ -21910,12 +21910,12 @@
           "labels": {
             "648": "liquid soap"
           },
-          "atomic_step": "Fill the liquid soap.",
+          "atomic_step": "Fill the liquid soap dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },

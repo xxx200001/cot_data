@@ -1823,12 +1823,12 @@
           "labels": {
             "177": "wall clock"
           },
-          "atomic_step": "Turn on the wall clock.",
+          "atomic_step": "Adjust the wall clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         }
@@ -8955,12 +8955,12 @@
           "labels": {
             "177": "wall clock"
           },
-          "atomic_step": "Turn on the wall clock.",
+          "atomic_step": "Adjust the wall clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },

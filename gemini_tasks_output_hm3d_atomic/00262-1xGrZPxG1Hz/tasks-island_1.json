@@ -91,12 +91,12 @@
           "labels": {
             "411": "toilet paper"
           },
-          "atomic_step": "Fill the toilet paper.",
+          "atomic_step": "Store the toilet paper.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store"
             }
           ]
         },
@@ -1963,12 +1963,12 @@
           "labels": {
             "411": "toilet paper"
           },
-          "atomic_step": "Fill the toilet paper in the dispenser.",
+          "atomic_step": "Store the toilet paper in the dispenser.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": "in",
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store"
             }
           ]
         },
@@ -2439,12 +2439,12 @@
           "labels": {
             "411": "toilet paper"
           },
-          "atomic_step": "Fill the toilet paper.",
+          "atomic_step": "Store the toilet paper.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store"
             }
           ]
         },

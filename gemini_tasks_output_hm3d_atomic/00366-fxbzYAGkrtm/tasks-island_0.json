@@ -427,12 +427,12 @@
           "labels": {
             "514": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -1085,12 +1085,12 @@
           "labels": {
             "16": "printer"
           },
-          "atomic_step": "Fill the printer with the paper.",
+          "atomic_step": "Load the printer with the paper.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -15178,12 +15178,12 @@
           "labels": {
             "373": "cabinet"
           },
-          "atomic_step": "Fill the cabinet.",
+          "atomic_step": "Store items in the cabinet.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_cabinet_to_store"
             }
           ]
         },

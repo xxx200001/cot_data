@@ -5018,12 +5018,12 @@
           "labels": {
             "396": "printer"
           },
-          "atomic_step": "Use the printer to fill items.",
+          "atomic_step": "Use the printer to load items.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": "in",
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -6430,12 +6430,12 @@
           "labels": {
             "210": "wall clock"
           },
-          "atomic_step": "Turn on the wall clock.",
+          "atomic_step": "Adjust the wall clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },
@@ -11283,12 +11283,12 @@
           "labels": {
             "210": "wall clock"
           },
-          "atomic_step": "Turn on the wall clock.",
+          "atomic_step": "Adjust the wall clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "turn_on"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         },

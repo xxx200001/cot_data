@@ -10423,12 +10423,12 @@
           "labels": {
             "134": "wall clock"
           },
-          "atomic_step": "Turn on the wall clock.",
+          "atomic_step": "Adjust the wall clock.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
-              "relation": "on",
-              "mapping_source": "operate"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_repair_v5:turn_on_clock_to_set_control"
             }
           ]
         }
@@ -12529,12 +12529,12 @@
           "labels": {
             "377": "printer"
           },
-          "atomic_step": "Fill the printer with the paper.",
+          "atomic_step": "Load the printer with the paper.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -12804,12 +12804,12 @@
           "labels": {
             "219": "paper towel"
           },
-          "atomic_step": "Fill the paper towel.",
+          "atomic_step": "Store the paper towel.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "store",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_to_store"
             }
           ]
         },

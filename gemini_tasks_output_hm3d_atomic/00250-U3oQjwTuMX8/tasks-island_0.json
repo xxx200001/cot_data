@@ -1352,12 +1352,12 @@
           "labels": {
             "608": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         }
@@ -3681,12 +3681,12 @@
           "labels": {
             "608": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -5438,12 +5438,12 @@
           "labels": {
             "273": "couch"
           },
-          "atomic_step": "Fluff items on the couch.",
+          "atomic_step": "Straighten items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -7545,12 +7545,12 @@
           "labels": {
             "273": "couch"
           },
-          "atomic_step": "Fluff the couch.",
+          "atomic_step": "Straighten the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -9498,12 +9498,12 @@
           "labels": {
             "421": "bathrobe"
           },
-          "atomic_step": "Fill the bathrobe.",
+          "atomic_step": "Hang the bathrobe.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "hang",
               "relation": null,
-              "mapping_source": "prepare"
+              "mapping_source": "semantic_repair_v5:fill_bathrobe_to_hang"
             }
           ]
         },
@@ -10544,12 +10544,12 @@
           "labels": {
             "422": "bathrobe"
           },
-          "atomic_step": "Fill the bathrobe.",
+          "atomic_step": "Hang the bathrobe.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "hang",
               "relation": null,
-              "mapping_source": "prepare"
+              "mapping_source": "semantic_repair_v5:fill_bathrobe_to_hang"
             }
           ]
         },
@@ -10574,12 +10574,12 @@
           "labels": {
             "445": "shower wall"
           },
-          "atomic_step": "Turn on the shower wall.",
+          "atomic_step": "Turn on the shower.",
           "atomic_actions": [
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "semantic_repair_v5:shower_wall_to_shower"
             }
           ]
         },
@@ -11556,12 +11556,12 @@
           "labels": {
             "473": "bathrobe"
           },
-          "atomic_step": "Fill the bathrobe.",
+          "atomic_step": "Hang the bathrobe.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "hang",
               "relation": null,
-              "mapping_source": "prepare"
+              "mapping_source": "semantic_repair_v5:fill_bathrobe_to_hang"
             }
           ]
         },

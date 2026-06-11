@@ -2429,12 +2429,12 @@
           "labels": {
             "68": "printer"
           },
-          "atomic_step": "Use the printer to fill items.",
+          "atomic_step": "Use the printer to load items.",
           "atomic_actions": [
             {
-              "action_id": "fill",
+              "action_id": "load",
               "relation": "in",
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_printer_to_load"
             }
           ]
         },
@@ -3007,12 +3007,12 @@
           "labels": {
             "268": "couch"
           },
-          "atomic_step": "Fluff items on the couch.",
+          "atomic_step": "Straighten items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -10284,12 +10284,12 @@
           "labels": {
             "1110": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
@@ -11687,12 +11687,12 @@
           "labels": {
             "204": "crib"
           },
-          "atomic_step": "Smooth the crib.",
+          "atomic_step": "Straighten the crib.",
           "atomic_actions": [
             {
-              "action_id": "smooth",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "semantic_repair_v5:smooth_crib_to_straighten"
             }
           ]
         },
@@ -15739,12 +15739,12 @@
           "labels": {
             "268": "couch"
           },
-          "atomic_step": "Fluff items on the couch.",
+          "atomic_step": "Straighten items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "fluff",
+              "action_id": "straighten",
               "relation": "on",
-              "mapping_source": "fluff"
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
             }
           ]
         },
@@ -15939,12 +15939,12 @@
           "labels": {
             "204": "crib"
           },
-          "atomic_step": "Smooth the crib.",
+          "atomic_step": "Straighten the crib.",
           "atomic_actions": [
             {
-              "action_id": "smooth",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "semantic_repair_v5:smooth_crib_to_straighten"
             }
           ]
         },
@@ -21198,12 +21198,12 @@
           "labels": {
             "1110": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         }
@@ -25801,12 +25801,12 @@
           "labels": {
             "204": "crib"
           },
-          "atomic_step": "Smooth the crib.",
+          "atomic_step": "Straighten the crib.",
           "atomic_actions": [
             {
-              "action_id": "smooth",
+              "action_id": "straighten",
               "relation": null,
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "semantic_repair_v5:smooth_crib_to_straighten"
             }
           ]
         },
@@ -27744,12 +27744,12 @@
           "labels": {
             "1110": "shampoo"
           },
-          "atomic_step": "Fill the shampoo.",
+          "atomic_step": "Fill the shampoo dispenser.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": null,
-              "mapping_source": "fill"
+              "mapping_source": "semantic_repair_v5:fill_content_to_container"
             }
           ]
         },
