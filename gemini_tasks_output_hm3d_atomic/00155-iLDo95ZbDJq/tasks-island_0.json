@@ -8091,12 +8091,12 @@
           "labels": {
             "269": "wall clock"
           },
-          "atomic_step": "Vacuum the wall clock.",
+          "atomic_step": "Vacuum near the wall clock.",
           "atomic_actions": [
             {
               "action_id": "vacuum",
-              "relation": null,
-              "mapping_source": "vacuum"
+              "relation": "at",
+              "mapping_source": "vacuum;semantic_qa_v1:fix_patient_drift_vacuum"
             }
           ]
         }

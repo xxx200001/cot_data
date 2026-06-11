@@ -15014,12 +15014,12 @@
           "labels": {
             "887": "cellular_telephone"
           },
-          "atomic_step": "Place the cellular_telephone.",
+          "atomic_step": "Place the cellular_telephone on the charger.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:set_phone_to_place_on"
+              "mapping_source": "semantic_repair_v5:set_phone_to_place_on;semantic_qa_v1:fix_phone_text"
             }
           ]
         }
@@ -15487,12 +15487,12 @@
           "labels": {
             "887": "cellular_telephone"
           },
-          "atomic_step": "Set the cellular telephone.",
+          "atomic_step": "Set a timer on the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_repair_v5:set_phone_to_place_on"
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "semantic_qa_v1:rollback_place_on-->set_control"
             }
           ]
         },
@@ -38267,12 +38267,12 @@
           "labels": {
             "15": "sofa seat"
           },
-          "atomic_step": "Straighten items on the sofa seat.",
+          "atomic_step": "Fluff items on the sofa seat.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },

@@ -183,12 +183,12 @@
           "labels": {
             "102": "sofa chair"
           },
-          "atomic_step": "Straighten items on the sofa chair.",
+          "atomic_step": "Fluff items on the sofa chair.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -1398,12 +1398,12 @@
           "labels": {
             "286": "box of tissues"
           },
-          "atomic_step": "Store the box of tissues.",
+          "atomic_step": "Load the box of tissues.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "repair_store"
+              "mapping_source": "repair_store;semantic_qa_v1:store-->load"
             }
           ]
         }
@@ -5058,12 +5058,12 @@
           "labels": {
             "90": "tissue box"
           },
-          "atomic_step": "Store the tissue box.",
+          "atomic_step": "Load the tissue box.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_tissue_box_to_store"
+              "mapping_source": "semantic_repair_v5:fill_tissue_box_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },

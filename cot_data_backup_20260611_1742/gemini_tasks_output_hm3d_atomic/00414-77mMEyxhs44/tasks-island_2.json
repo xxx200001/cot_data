@@ -1,0 +1,1986 @@
+{
+  "scene_id": "00414-77mMEyxhs44",
+  "tasks": [
+    {
+      "task": "I am getting ready for my photography trip.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the camera.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the backpack.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Close the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Push armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Switch off the tv.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn off the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "961": "camera",
+        "963": "backpack",
+        "743": "armchair",
+        "750": "tv"
+      },
+      "regions": {
+        "961": 11,
+        "963": 11,
+        "743": 11,
+        "750": 11
+      },
+      "assets": {
+        "961": "camera",
+        "963": "backpack"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "I'm feeling a bit chilly.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the firewood chest to prepare for the fire.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Open the firewood chest to prepare.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Light the fireplace.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Turn on the fireplace.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the radiator for extra warmth.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn on the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the armchair closer to the heat source.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Reposition the armchair to the heat source.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Switch on the decorative lamp to create a warm atmosphere.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn on the decorative lamp to create a warm atmosphere.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "777": "firewood chest",
+        "754": "fireplace",
+        "746": "radiator",
+        "743": "armchair",
+        "757": "decorative lamp"
+      },
+      "regions": {
+        "777": 11,
+        "754": 11,
+        "746": 11,
+        "743": 11,
+        "757": 11
+      },
+      "assets": {},
+      "start_region": 11
+    },
+    {
+      "task": "I'm feeling nostalgic.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the camera to look at old photos.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Pick up the camera to look at old photos.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": "at",
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the backpack to find more memory cards.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Open the backpack to find more memory cards.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the armchair for a comfortable viewing spot.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Push armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the decorative lamp for better lighting.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn on the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the tv to display the photos.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn on the tv to the display the photos.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "961": "camera",
+        "963": "backpack",
+        "743": "armchair",
+        "757": "decorative lamp",
+        "750": "tv"
+      },
+      "regions": {
+        "961": 11,
+        "963": 11,
+        "743": 11,
+        "757": 11,
+        "750": 11
+      },
+      "assets": {
+        "961": "camera",
+        "963": "backpack"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "I'm heading out for a walk.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the backpack for the trip.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Straighten backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the camera inside the bag.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Place the camera in the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the firewood chest before leaving.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Close the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn off the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn off the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn off the tv.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn off the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "963": "backpack",
+        "961": "camera",
+        "777": "firewood chest",
+        "746": "radiator",
+        "750": "tv"
+      },
+      "regions": {
+        "963": 11,
+        "961": 11,
+        "777": 11,
+        "746": 11,
+        "750": 11
+      },
+      "assets": {
+        "963": "backpack",
+        "961": "camera"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "The living room is a bit messy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the backpack to its proper place.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Carry the backpack to the proper place.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the tv screen.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Dust the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Prune the decorative plant to keep it tidy.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Straighten decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:cut_plant_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Straighten the armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Close the firewood chest lid.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Close the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "963": "backpack",
+        "750": "tv",
+        "748": "decorative plant",
+        "743": "armchair",
+        "777": "firewood chest"
+      },
+      "regions": {
+        "963": 11,
+        "750": 11,
+        "748": 11,
+        "743": 11,
+        "777": 11
+      },
+      "assets": {
+        "963": "backpack"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "I'm getting ready for a cozy evening.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Ignite the fireplace.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Turn on the fireplace.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Refill the firewood chest.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Fill the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Warm up the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn on radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the tv for some entertainment.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Switch on the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn on the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "754": "fireplace",
+        "777": "firewood chest",
+        "746": "radiator",
+        "750": "tv",
+        "757": "decorative lamp"
+      },
+      "regions": {
+        "754": 11,
+        "777": 11,
+        "746": 11,
+        "750": 11,
+        "757": 11
+      },
+      "assets": {},
+      "start_region": 11
+    },
+    {
+      "task": "The room feels a bit dark.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn on the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Start the fireplace to provide some natural light.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Turn on the fireplace to provide some natural light.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the tv to brighten the room.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn on the tv to brighten the room.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the armchair to catch more light.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Push armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the decorative plant to a brighter spot.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Carry the decorative plant to the brighter spot.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "757": "decorative lamp",
+        "754": "fireplace",
+        "750": "tv",
+        "743": "armchair",
+        "748": "decorative plant"
+      },
+      "regions": {
+        "757": 11,
+        "754": 11,
+        "750": 11,
+        "743": 11,
+        "748": 11
+      },
+      "assets": {},
+      "start_region": 11
+    },
+    {
+      "task": "I have a guest arriving soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the armchair for the guest.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Straighten the armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the tv console.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Wipe tv.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Polish the camera on display.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Polish the camera on the display.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": "on",
+              "mapping_source": "polish"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the backpack and hide it away.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Close the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the radiator to ensure the guest is comfortable.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn on the radiator to ensure the guest is comfortable.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "743": "armchair",
+        "750": "tv",
+        "961": "camera",
+        "963": "backpack",
+        "746": "radiator"
+      },
+      "regions": {
+        "743": 11,
+        "750": 11,
+        "961": 11,
+        "963": 11,
+        "746": 11
+      },
+      "assets": {
+        "961": "camera",
+        "963": "backpack"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "I'm feeling bored.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the tv to find a show.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn on the tv to find a show.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up the camera to practice photography.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Pick up the camera to practice photography.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the backpack to find a book.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Open the backpack to find a book.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Switch on the decorative lamp to read.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn on the decorative lamp to read.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "750": "tv",
+        "961": "camera",
+        "963": "backpack",
+        "748": "decorative plant",
+        "757": "decorative lamp"
+      },
+      "regions": {
+        "750": 11,
+        "961": 11,
+        "963": 11,
+        "748": 11,
+        "757": 11
+      },
+      "assets": {
+        "961": "camera",
+        "963": "backpack"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "I'm going out to take some pictures.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the backpack.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Open the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the camera inside.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Place the camera inside.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "manual_semantic_repair_v4"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Wipe the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the television.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Dust the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Turn off the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn off the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "963": "backpack",
+        "961": "camera",
+        "757": "decorative lamp",
+        "750": "tv",
+        "748": "decorative plant",
+        "746": "radiator"
+      },
+      "regions": {
+        "963": 11,
+        "961": 11,
+        "757": 11,
+        "750": 11,
+        "748": 11,
+        "746": 11
+      },
+      "assets": {
+        "963": "backpack",
+        "961": "camera"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "This room could use some tidying up.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Push armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the fireplace.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Scrub fireplace.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Refill the firewood chest.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Fill the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Polish the television.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Polish the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Prune the decorative plant.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Straighten decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:cut_plant_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Dust the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "743": "armchair",
+        "754": "fireplace",
+        "777": "firewood chest",
+        "750": "tv",
+        "748": "decorative plant",
+        "757": "decorative lamp"
+      },
+      "regions": {
+        "743": 11,
+        "754": 11,
+        "777": 11,
+        "750": 11,
+        "748": 11,
+        "757": 11
+      },
+      "assets": {},
+      "start_region": 11
+    },
+    {
+      "task": "It's starting to feel a bit chilly in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn on the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the fireplace.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Turn on the fireplace.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Stock the firewood chest.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Place items in the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Switch on the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn on the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Straighten the armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Pack the camera.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Store the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:load_loose_object_to_store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "746": "radiator",
+        "754": "fireplace",
+        "777": "firewood chest",
+        "757": "decorative lamp",
+        "743": "armchair",
+        "961": "camera"
+      },
+      "regions": {
+        "746": 11,
+        "754": 11,
+        "777": 11,
+        "757": 11,
+        "743": 11,
+        "961": 11
+      },
+      "assets": {
+        "961": "camera"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "I have a friend coming over in a bit.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Sweep the fireplace.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Vacuum the fireplace.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the television screen.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Wipe the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Push armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Wipe decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the backpack.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Carry the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "748": "decorative plant",
+        "754": "fireplace",
+        "750": "tv",
+        "743": "armchair",
+        "757": "decorative lamp",
+        "963": "backpack"
+      },
+      "regions": {
+        "748": 11,
+        "754": 11,
+        "750": 11,
+        "743": 11,
+        "757": 11,
+        "963": 11
+      },
+      "assets": {
+        "963": "backpack"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "It's getting a bit chilly in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn on the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the firewood chest.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Open the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Prepare the fireplace.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Turn on the fireplace.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "prepare"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Reposition the armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn on the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Turn on the tv.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Mist the decorative plant.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Inspect the decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "746": "radiator",
+        "777": "firewood chest",
+        "754": "fireplace",
+        "743": "armchair",
+        "757": "decorative lamp",
+        "750": "tv",
+        "748": "decorative plant"
+      },
+      "regions": {
+        "746": 11,
+        "777": 11,
+        "754": 11,
+        "743": 11,
+        "757": 11,
+        "750": 11,
+        "748": 11
+      },
+      "assets": {},
+      "start_region": 11
+    },
+    {
+      "task": "This area looks a bit messy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the tv.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Dust the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe down the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Wipe the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Wipe decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Sweep the fireplace.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Vacuum the fireplace.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Straighten the armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the camera.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Wipe camera.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Trim the decorative plant.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Straighten decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:cut_plant_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "750": "tv",
+        "746": "radiator",
+        "757": "decorative lamp",
+        "754": "fireplace",
+        "743": "armchair",
+        "961": "camera",
+        "748": "decorative plant"
+      },
+      "regions": {
+        "750": 11,
+        "746": 11,
+        "757": 11,
+        "754": 11,
+        "743": 11,
+        "961": 11,
+        "748": 11
+      },
+      "assets": {
+        "961": "camera"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "I'm heading out for a while.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the backpack.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Open the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Put the camera in the backpack.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Place the camera in the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn off the tv.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn off the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn off the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn off the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Close the firewood chest.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Close the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Turn off the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn off the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Align the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Align the armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "963": "backpack",
+        "961": "camera",
+        "750": "tv",
+        "746": "radiator",
+        "777": "firewood chest",
+        "757": "decorative lamp",
+        "743": "armchair"
+      },
+      "regions": {
+        "963": 11,
+        "961": 11,
+        "750": 11,
+        "746": 11,
+        "777": 11,
+        "757": 11,
+        "743": 11
+      },
+      "assets": {
+        "963": "backpack",
+        "961": "camera"
+      },
+      "start_region": 11
+    },
+    {
+      "task": "A friend is stopping by soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Arrange the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Push armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Turn on the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Pour onto decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the tv.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Light the fireplace.",
+          "labels": {
+            "754": "fireplace"
+          },
+          "atomic_step": "Turn on the fireplace.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Check the firewood chest.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Inspect the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Turn on the decorative lamp.",
+          "labels": {
+            "757": "decorative lamp"
+          },
+          "atomic_step": "Turn on the decorative lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "743": "armchair",
+        "746": "radiator",
+        "748": "decorative plant",
+        "750": "tv",
+        "754": "fireplace",
+        "777": "firewood chest",
+        "757": "decorative lamp"
+      },
+      "regions": {
+        "743": 11,
+        "746": 11,
+        "748": 11,
+        "750": 11,
+        "754": 11,
+        "777": 11,
+        "757": 11
+      },
+      "assets": {},
+      "start_region": 11
+    },
+    {
+      "task": "I need to tidy up my things.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the backpack.",
+          "labels": {
+            "963": "backpack"
+          },
+          "atomic_step": "Close the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the camera in the firewood chest.",
+          "labels": {
+            "961": "camera"
+          },
+          "atomic_step": "Place the camera in the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Shut the firewood chest.",
+          "labels": {
+            "777": "firewood chest"
+          },
+          "atomic_step": "Close the firewood chest.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the tv screen.",
+          "labels": {
+            "750": "tv"
+          },
+          "atomic_step": "Wipe tv.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the armchair.",
+          "labels": {
+            "743": "armchair"
+          },
+          "atomic_step": "Reposition the armchair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the radiator.",
+          "labels": {
+            "746": "radiator"
+          },
+          "atomic_step": "Wipe the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Prune the decorative plant.",
+          "labels": {
+            "748": "decorative plant"
+          },
+          "atomic_step": "Straighten decorative plant.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:cut_plant_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "963": "backpack",
+        "961": "camera",
+        "777": "firewood chest",
+        "750": "tv",
+        "743": "armchair",
+        "746": "radiator",
+        "748": "decorative plant"
+      },
+      "regions": {
+        "963": 11,
+        "961": 11,
+        "777": 11,
+        "750": 11,
+        "743": 11,
+        "746": 11,
+        "748": 11
+      },
+      "assets": {
+        "963": "backpack",
+        "961": "camera"
+      },
+      "start_region": 11
+    }
+  ]
+}

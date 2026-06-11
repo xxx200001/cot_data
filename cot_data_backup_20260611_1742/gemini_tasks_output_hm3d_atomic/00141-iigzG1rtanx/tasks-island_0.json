@@ -1,0 +1,1677 @@
+{
+  "scene_id": "00141-iigzG1rtanx",
+  "tasks": [
+    {
+      "task": "The utility room equipment seems neglected.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the boiler.",
+          "labels": {
+            "634": "boiler"
+          },
+          "atomic_step": "Wipe boiler.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe down the machine.",
+          "labels": {
+            "632": "machine"
+          },
+          "atomic_step": "Wipe the machine.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the pipe.",
+          "labels": {
+            "631": "pipe"
+          },
+          "atomic_step": "Dust the pipe.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the air conditioning.",
+          "labels": {
+            "633": "air conditioning"
+          },
+          "atomic_step": "Reposition the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "634": "boiler",
+        "632": "machine",
+        "631": "pipe",
+        "633": "air conditioning"
+      },
+      "regions": {
+        "634": 16,
+        "632": 16,
+        "631": 16,
+        "633": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "This storage area is quite cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the hanging clothes.",
+          "labels": {
+            "602": "hanging clothes"
+          },
+          "atomic_step": "Straighten hanging clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Stack the box.",
+          "labels": {
+            "621": "box"
+          },
+          "atomic_step": "Stack the box.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the bag.",
+          "labels": {
+            "620": "bag"
+          },
+          "atomic_step": "Place bag on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the briefcase.",
+          "labels": {
+            "624": "briefcase"
+          },
+          "atomic_step": "Carry the briefcase.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "602": "hanging clothes",
+        "621": "box",
+        "620": "bag",
+        "624": "briefcase"
+      },
+      "regions": {
+        "602": 16,
+        "621": 16,
+        "620": 16,
+        "624": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "This space feels a bit stale.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Fluff the pillow.",
+          "labels": {
+            "643": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the flag.",
+          "labels": {
+            "614": "flag"
+          },
+          "atomic_step": "Straighten the flag.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the sliding glass door.",
+          "labels": {
+            "616": "sliding glass door"
+          },
+          "atomic_step": "Open the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Fold the clothes.",
+          "labels": {
+            "630": "clothes"
+          },
+          "atomic_step": "Fold the clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "fold",
+              "relation": null,
+              "mapping_source": "fold_then_place"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "643": "pillow",
+        "614": "flag",
+        "616": "sliding glass door",
+        "630": "clothes"
+      },
+      "regions": {
+        "643": 16,
+        "614": 16,
+        "616": 16,
+        "630": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "The storage area is cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the bag.",
+          "labels": {
+            "620": "bag"
+          },
+          "atomic_step": "Straighten bag.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Stack the box.",
+          "labels": {
+            "621": "box"
+          },
+          "atomic_step": "Stack the box.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the machine.",
+          "labels": {
+            "632": "machine"
+          },
+          "atomic_step": "Wipe the machine.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Fold the clothes.",
+          "labels": {
+            "630": "clothes"
+          },
+          "atomic_step": "Fold the clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "fold",
+              "relation": null,
+              "mapping_source": "fold_then_place"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Fluff the pillow.",
+          "labels": {
+            "643": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "620": "bag",
+        "621": "box",
+        "632": "machine",
+        "630": "clothes",
+        "643": "pillow"
+      },
+      "regions": {
+        "620": 16,
+        "621": 16,
+        "632": 16,
+        "630": 16,
+        "643": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "I'm heading out for a while.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn off the air conditioning.",
+          "labels": {
+            "633": "air conditioning"
+          },
+          "atomic_step": "Turn off the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pack the bag.",
+          "labels": {
+            "623": "bag"
+          },
+          "atomic_step": "Load the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the sliding glass door.",
+          "labels": {
+            "616": "sliding glass door"
+          },
+          "atomic_step": "Close the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the box.",
+          "labels": {
+            "622": "box"
+          },
+          "atomic_step": "Carry the box.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the boiler.",
+          "labels": {
+            "634": "boiler"
+          },
+          "atomic_step": "Reposition the boiler.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "633": "air conditioning",
+        "623": "bag",
+        "616": "sliding glass door",
+        "622": "box",
+        "634": "boiler"
+      },
+      "regions": {
+        "633": 16,
+        "623": 16,
+        "616": 16,
+        "622": 16,
+        "634": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "The utility room needs a deep clean.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the machine.",
+          "labels": {
+            "632": "machine"
+          },
+          "atomic_step": "Wipe machine.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the hanging clothes.",
+          "labels": {
+            "604": "hanging clothes"
+          },
+          "atomic_step": "Straighten the hanging clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the pipe.",
+          "labels": {
+            "631": "pipe"
+          },
+          "atomic_step": "Wipe the pipe.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the support beam.",
+          "labels": {
+            "642": "support beam"
+          },
+          "atomic_step": "Dust the support beam.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the boiler.",
+          "labels": {
+            "634": "boiler"
+          },
+          "atomic_step": "Wipe boiler.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "632": "machine",
+        "604": "hanging clothes",
+        "631": "pipe",
+        "642": "support beam",
+        "634": "boiler"
+      },
+      "regions": {
+        "632": 16,
+        "604": 16,
+        "631": 16,
+        "642": 16,
+        "634": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "I want to set up this space for a hobby.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the flag.",
+          "labels": {
+            "614": "flag"
+          },
+          "atomic_step": "Straighten the flag.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the box.",
+          "labels": {
+            "625": "box"
+          },
+          "atomic_step": "Place box on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the support beam.",
+          "labels": {
+            "641": "support beam"
+          },
+          "atomic_step": "Dust the support beam.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the sliding glass door.",
+          "labels": {
+            "617": "sliding glass door"
+          },
+          "atomic_step": "Open the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "633": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "614": "flag",
+        "625": "box",
+        "641": "support beam",
+        "617": "sliding glass door",
+        "633": "air conditioning"
+      },
+      "regions": {
+        "614": 16,
+        "625": 16,
+        "641": 16,
+        "617": 16,
+        "633": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "I need to organize items for donation.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Gather the hanging clothes.",
+          "labels": {
+            "608": "hanging clothes"
+          },
+          "atomic_step": "Lift the hanging clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pack the box.",
+          "labels": {
+            "622": "box"
+          },
+          "atomic_step": "Load the box.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up the bag.",
+          "labels": {
+            "620": "bag"
+          },
+          "atomic_step": "Lift the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pack the pillow.",
+          "labels": {
+            "644": "pillow"
+          },
+          "atomic_step": "Store the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:load_loose_object_to_store"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Close the sliding glass door.",
+          "labels": {
+            "616": "sliding glass door"
+          },
+          "atomic_step": "Close the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "608": "hanging clothes",
+        "622": "box",
+        "620": "bag",
+        "644": "pillow",
+        "616": "sliding glass door"
+      },
+      "regions": {
+        "608": 16,
+        "622": 16,
+        "620": 16,
+        "644": 16,
+        "616": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "The storage room is overflowing.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the box.",
+          "labels": {
+            "621": "box"
+          },
+          "atomic_step": "Straighten box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the hanging clothes.",
+          "labels": {
+            "602": "hanging clothes"
+          },
+          "atomic_step": "Straighten the hanging clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the pillow.",
+          "labels": {
+            "643": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the bag.",
+          "labels": {
+            "620": "bag"
+          },
+          "atomic_step": "Carry the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Fold the flag.",
+          "labels": {
+            "614": "flag"
+          },
+          "atomic_step": "Straighten flag.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Close the sliding glass door.",
+          "labels": {
+            "616": "sliding glass door"
+          },
+          "atomic_step": "Close the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "621": "box",
+        "602": "hanging clothes",
+        "643": "pillow",
+        "620": "bag",
+        "614": "flag",
+        "616": "sliding glass door"
+      },
+      "regions": {
+        "621": 16,
+        "602": 16,
+        "643": 16,
+        "620": 16,
+        "614": 16,
+        "616": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "The utility area needs maintenance.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the boiler.",
+          "labels": {
+            "634": "boiler"
+          },
+          "atomic_step": "Reposition the boiler.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Service the machine.",
+          "labels": {
+            "632": "machine"
+          },
+          "atomic_step": "Inspect the machine.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Repair the pipe.",
+          "labels": {
+            "631": "pipe"
+          },
+          "atomic_step": "Tighten the pipe.",
+          "atomic_actions": [
+            {
+              "action_id": "tighten",
+              "relation": null,
+              "mapping_source": "replacement_from_repair"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Fold the clothes.",
+          "labels": {
+            "630": "clothes"
+          },
+          "atomic_step": "Fold the clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "fold",
+              "relation": null,
+              "mapping_source": "fold_then_place"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the air conditioning.",
+          "labels": {
+            "633": "air conditioning"
+          },
+          "atomic_step": "Wipe the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Label the box.",
+          "labels": {
+            "622": "box"
+          },
+          "atomic_step": "Place a label on the box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "label"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "634": "boiler",
+        "632": "machine",
+        "631": "pipe",
+        "630": "clothes",
+        "633": "air conditioning",
+        "622": "box"
+      },
+      "regions": {
+        "634": 16,
+        "632": 16,
+        "631": 16,
+        "630": 16,
+        "633": 16,
+        "622": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "I need to get my things together.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pack the briefcase.",
+          "labels": {
+            "624": "briefcase"
+          },
+          "atomic_step": "Load the briefcase.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Fill the bag.",
+          "labels": {
+            "623": "bag"
+          },
+          "atomic_step": "Fill the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Retrieve the hanging clothes.",
+          "labels": {
+            "604": "hanging clothes"
+          },
+          "atomic_step": "Lift the hanging clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the pillow.",
+          "labels": {
+            "644": "pillow"
+          },
+          "atomic_step": "Carry the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Stack the box.",
+          "labels": {
+            "625": "box"
+          },
+          "atomic_step": "Stack the box.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Close the sliding glass door.",
+          "labels": {
+            "617": "sliding glass door"
+          },
+          "atomic_step": "Close the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "624": "briefcase",
+        "623": "bag",
+        "604": "hanging clothes",
+        "644": "pillow",
+        "625": "box",
+        "617": "sliding glass door"
+      },
+      "regions": {
+        "624": 16,
+        "623": 16,
+        "604": 16,
+        "644": 16,
+        "625": 16,
+        "617": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "I want to show someone the renovations.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the sliding glass door.",
+          "labels": {
+            "616": "sliding glass door"
+          },
+          "atomic_step": "Wipe the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the support beam.",
+          "labels": {
+            "642": "support beam"
+          },
+          "atomic_step": "Dust the support beam.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the flag.",
+          "labels": {
+            "614": "flag"
+          },
+          "atomic_step": "Straighten the flag.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Service the machine.",
+          "labels": {
+            "632": "machine"
+          },
+          "atomic_step": "Inspect the machine.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Repair the pipe.",
+          "labels": {
+            "631": "pipe"
+          },
+          "atomic_step": "Tighten the pipe.",
+          "atomic_actions": [
+            {
+              "action_id": "tighten",
+              "relation": null,
+              "mapping_source": "replacement_from_repair"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the hanging clothes.",
+          "labels": {
+            "607": "hanging clothes"
+          },
+          "atomic_step": "Straighten hanging clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "616": "sliding glass door",
+        "642": "support beam",
+        "614": "flag",
+        "632": "machine",
+        "631": "pipe",
+        "607": "hanging clothes"
+      },
+      "regions": {
+        "616": 16,
+        "642": 16,
+        "614": 16,
+        "632": 16,
+        "631": 16,
+        "607": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "The seasons are changing.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn off the boiler.",
+          "labels": {
+            "634": "boiler"
+          },
+          "atomic_step": "Turn off the boiler.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the air conditioning.",
+          "labels": {
+            "633": "air conditioning"
+          },
+          "atomic_step": "Wipe air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Store the hanging clothes.",
+          "labels": {
+            "608": "hanging clothes"
+          },
+          "atomic_step": "Store the hanging clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Put away the bag.",
+          "labels": {
+            "623": "bag"
+          },
+          "atomic_step": "Store the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the box.",
+          "labels": {
+            "622": "box"
+          },
+          "atomic_step": "Straighten box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the support beam.",
+          "labels": {
+            "641": "support beam"
+          },
+          "atomic_step": "Dust the support beam.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "634": "boiler",
+        "633": "air conditioning",
+        "608": "hanging clothes",
+        "623": "bag",
+        "622": "box",
+        "641": "support beam"
+      },
+      "regions": {
+        "634": 16,
+        "633": 16,
+        "608": 16,
+        "623": 16,
+        "622": 16,
+        "641": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "This storage area looks a bit disorganized.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Fold the clothes.",
+          "labels": {
+            "630": "clothes"
+          },
+          "atomic_step": "Fold the clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "fold",
+              "relation": null,
+              "mapping_source": "fold_then_place"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up the bag.",
+          "labels": {
+            "620": "bag"
+          },
+          "atomic_step": "Lift the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Stack the box.",
+          "labels": {
+            "621": "box"
+          },
+          "atomic_step": "Stack the box.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the flag.",
+          "labels": {
+            "614": "flag"
+          },
+          "atomic_step": "Straighten the flag.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Fluff the pillow.",
+          "labels": {
+            "643": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Close the sliding glass door.",
+          "labels": {
+            "616": "sliding glass door"
+          },
+          "atomic_step": "Close the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wipe the machine.",
+          "labels": {
+            "632": "machine"
+          },
+          "atomic_step": "Wipe the machine.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "630": "clothes",
+        "620": "bag",
+        "621": "box",
+        "614": "flag",
+        "643": "pillow",
+        "616": "sliding glass door",
+        "632": "machine"
+      },
+      "regions": {
+        "630": 16,
+        "620": 16,
+        "621": 16,
+        "614": 16,
+        "643": 16,
+        "616": 16,
+        "632": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "The utility room feels a bit neglected.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the boiler.",
+          "labels": {
+            "634": "boiler"
+          },
+          "atomic_step": "Dust the boiler.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "633": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Tighten the pipe.",
+          "labels": {
+            "631": "pipe"
+          },
+          "atomic_step": "Tighten the pipe.",
+          "atomic_actions": [
+            {
+              "action_id": "tighten",
+              "relation": null,
+              "mapping_source": "tighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Sort the hanging clothes.",
+          "labels": {
+            "602": "hanging clothes"
+          },
+          "atomic_step": "Straighten hanging clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the briefcase.",
+          "labels": {
+            "624": "briefcase"
+          },
+          "atomic_step": "Carry the briefcase.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the box.",
+          "labels": {
+            "622": "box"
+          },
+          "atomic_step": "Straighten box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Arrange the pillow.",
+          "labels": {
+            "644": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "634": "boiler",
+        "633": "air conditioning",
+        "631": "pipe",
+        "602": "hanging clothes",
+        "624": "briefcase",
+        "622": "box",
+        "644": "pillow"
+      },
+      "regions": {
+        "634": 16,
+        "633": 16,
+        "631": 16,
+        "602": 16,
+        "624": 16,
+        "622": 16,
+        "644": 16
+      },
+      "assets": {},
+      "start_region": 16
+    },
+    {
+      "task": "I'm planning to list this property soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the flag.",
+          "labels": {
+            "614": "flag"
+          },
+          "atomic_step": "Reposition the flag.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Polish the sliding glass door.",
+          "labels": {
+            "617": "sliding glass door"
+          },
+          "atomic_step": "Polish the sliding glass door.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Store the bag.",
+          "labels": {
+            "623": "bag"
+          },
+          "atomic_step": "Store the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pack the clothes.",
+          "labels": {
+            "630": "clothes"
+          },
+          "atomic_step": "Store the clothes.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:load_loose_object_to_store"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Secure the pipe.",
+          "labels": {
+            "631": "pipe"
+          },
+          "atomic_step": "Store the pipe.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": null,
+              "mapping_source": "store"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the machine.",
+          "labels": {
+            "632": "machine"
+          },
+          "atomic_step": "Wipe machine.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wipe the boiler.",
+          "labels": {
+            "634": "boiler"
+          },
+          "atomic_step": "Wipe the boiler.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "614": "flag",
+        "617": "sliding glass door",
+        "623": "bag",
+        "630": "clothes",
+        "631": "pipe",
+        "632": "machine",
+        "634": "boiler"
+      },
+      "regions": {
+        "614": 16,
+        "617": 16,
+        "623": 16,
+        "630": 16,
+        "631": 16,
+        "632": 16,
+        "634": 16
+      },
+      "assets": {},
+      "start_region": 16
+    }
+  ]
+}

@@ -3561,12 +3561,12 @@
           "labels": {
             "146": "paper towel"
           },
-          "atomic_step": "Store the paper towel.",
+          "atomic_step": "Load the paper towel.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_paper_towel_to_store"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -6777,7 +6777,7 @@
             {
               "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -8981,7 +8981,7 @@
             {
               "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -10925,7 +10925,7 @@
             {
               "action_id": "set_control",
               "relation": "in",
-              "mapping_source": "tune_control"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -18091,7 +18091,7 @@
             {
               "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },
@@ -24365,12 +24365,12 @@
           "labels": {
             "318": "l-shaped sofa"
           },
-          "atomic_step": "Straighten items on the l-shaped sofa.",
+          "atomic_step": "Fluff items on the l-shaped sofa.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -26385,12 +26385,12 @@
           "labels": {
             "146": "paper towel"
           },
-          "atomic_step": "Store the paper towel.",
+          "atomic_step": "Load the paper towel.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_paper_towel_to_store"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_to_store;semantic_qa_v1:store-->load"
             }
           ]
         }
@@ -28071,12 +28071,12 @@
           "labels": {
             "285": "couch"
           },
-          "atomic_step": "Straighten the couch.",
+          "atomic_step": "Fluff the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -34883,12 +34883,12 @@
           "labels": {
             "146": "paper towel"
           },
-          "atomic_step": "Store the paper towel.",
+          "atomic_step": "Load the paper towel.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "repair_store"
+              "mapping_source": "repair_store;semantic_qa_v1:store-->load"
             }
           ]
         }
@@ -39395,7 +39395,7 @@
             {
               "action_id": "set_control",
               "relation": null,
-              "mapping_source": "tune_control"
+              "mapping_source": "tune_control;vocab_gap:no_tune_action"
             }
           ]
         },

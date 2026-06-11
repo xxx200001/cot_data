@@ -6618,12 +6618,12 @@
           "labels": {
             "1617": "tissue"
           },
-          "atomic_step": "Store the tissue.",
+          "atomic_step": "Load the tissue.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_tissue_to_store"
+              "mapping_source": "semantic_repair_v5:fill_tissue_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -8291,12 +8291,12 @@
           "labels": {
             "1617": "tissue"
           },
-          "atomic_step": "Store the tissue.",
+          "atomic_step": "Load the tissue.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_tissue_to_store"
+              "mapping_source": "semantic_repair_v5:fill_tissue_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -9189,12 +9189,12 @@
           "labels": {
             "1617": "tissue"
           },
-          "atomic_step": "Store the tissue.",
+          "atomic_step": "Load the tissue.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_tissue_to_store"
+              "mapping_source": "semantic_repair_v5:fill_tissue_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -11956,12 +11956,12 @@
           "labels": {
             "1626": "paper towels"
           },
-          "atomic_step": "Store the paper towels.",
+          "atomic_step": "Load the paper towels.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_paper_towels_to_store"
+              "mapping_source": "semantic_repair_v5:fill_paper_towels_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -14750,12 +14750,12 @@
           "labels": {
             "1617": "tissue"
           },
-          "atomic_step": "Store the tissue.",
+          "atomic_step": "Load the tissue.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_tissue_to_store"
+              "mapping_source": "semantic_repair_v5:fill_tissue_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -16059,12 +16059,12 @@
           "labels": {
             "1617": "tissue"
           },
-          "atomic_step": "Store the tissue.",
+          "atomic_step": "Load the tissue.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_tissue_to_store"
+              "mapping_source": "semantic_repair_v5:fill_tissue_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -17481,12 +17481,12 @@
           "labels": {
             "1617": "tissue"
           },
-          "atomic_step": "Store the tissue.",
+          "atomic_step": "Load the tissue.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_tissue_to_store"
+              "mapping_source": "semantic_repair_v5:fill_tissue_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -20365,12 +20365,12 @@
           "labels": {
             "1626": "paper towels"
           },
-          "atomic_step": "Store the paper towels in the dispenser.",
+          "atomic_step": "Load the paper towels in the dispenser.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": "in",
-              "mapping_source": "semantic_repair_v5:fill_paper_towels_to_store"
+              "mapping_source": "semantic_repair_v5:fill_paper_towels_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -22420,12 +22420,12 @@
           "labels": {
             "1617": "tissue"
           },
-          "atomic_step": "Store the tissue.",
+          "atomic_step": "Load the tissue.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_tissue_to_store"
+              "mapping_source": "semantic_repair_v5:fill_tissue_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },

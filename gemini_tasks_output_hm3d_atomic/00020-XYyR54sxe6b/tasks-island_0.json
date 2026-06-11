@@ -577,12 +577,12 @@
           "labels": {
             "199": "dishwasher"
           },
-          "atomic_step": "Rinse the dishwasher.",
+          "atomic_step": "Rinse the pan in the dishwasher.",
           "atomic_actions": [
             {
               "action_id": "rinse",
               "relation": "in",
-              "mapping_source": "replacement_from_wash"
+              "mapping_source": "replacement_from_wash;semantic_qa_v1:fix_patient_drift_rinse"
             }
           ]
         },
@@ -4392,12 +4392,12 @@
           "labels": {
             "199": "dishwasher"
           },
-          "atomic_step": "Rinse the dishwasher.",
+          "atomic_step": "Rinse the dishes in the dishwasher.",
           "atomic_actions": [
             {
               "action_id": "rinse",
               "relation": "in",
-              "mapping_source": "replacement_from_wash"
+              "mapping_source": "replacement_from_wash;semantic_qa_v1:fix_patient_drift_rinse"
             }
           ]
         },

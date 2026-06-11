@@ -1,0 +1,3199 @@
+{
+  "scene_id": "00417-nGhNxKrgBPb",
+  "tasks": [
+    {
+      "task": "I have a lot of emails to catch up on.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Open the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the plate on the desk.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Place the plate on the desk.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the flashlight to improve lighting.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight to improve lighting.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set up the camera for the video call.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Set up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "438": "plate",
+        "439": "flashlight",
+        "437": "camera"
+      },
+      "regions": {
+        "473": 1,
+        "438": 1,
+        "439": 1,
+        "437": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "438": "plate",
+        "439": "flashlight",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The car is stuck in the garage.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Reposition the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Toggle the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Grip the flashlight to see the mechanism.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Inspect the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Align the garage door railing.",
+          "labels": {
+            "11": "garage door railing"
+          },
+          "atomic_step": "Align the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "16": "garage door motor",
+        "24": "fuse panel",
+        "439": "flashlight",
+        "11": "garage door railing"
+      },
+      "regions": {
+        "16": 1,
+        "24": 1,
+        "439": 1,
+        "11": 1
+      },
+      "assets": {
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I want to document my hobby progress.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Position the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Place camera on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Power on the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Turn on the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the plate out of the shot.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Carry the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Use the flashlight to highlight the details.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "repair_turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "437": "camera",
+        "473": "laptop_computer",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "regions": {
+        "437": 1,
+        "473": 1,
+        "438": 1,
+        "439": 1
+      },
+      "assets": {
+        "437": "camera",
+        "473": "laptop_computer",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "It's a bit dark in this corner while I'm working.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Activate the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the garage door railing.",
+          "labels": {
+            "11": "garage door railing"
+          },
+          "atomic_step": "Wipe garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Wipe the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Switch the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "439": "flashlight",
+        "11": "garage door railing",
+        "16": "garage door motor",
+        "24": "fuse panel"
+      },
+      "regions": {
+        "439": 1,
+        "11": 1,
+        "16": 1,
+        "24": 1
+      },
+      "assets": {
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "This workspace is cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Stack the plate.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Stack the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Close the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Store the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Store the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the camera to the shelf.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Carry the camera to the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "438": "plate",
+        "473": "laptop_computer",
+        "439": "flashlight",
+        "437": "camera"
+      },
+      "regions": {
+        "438": 1,
+        "473": 1,
+        "439": 1,
+        "437": 1
+      },
+      "assets": {
+        "438": "plate",
+        "473": "laptop_computer",
+        "439": "flashlight",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I need to check if the perimeter is safe.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Mount the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Plug in the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "plug_in",
+              "relation": "in",
+              "mapping_source": "connect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Log into the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Inspect the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "in",
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Reset the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "operate"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Grab the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Pick up the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "437": "camera",
+        "473": "laptop_computer",
+        "24": "fuse panel",
+        "439": "flashlight"
+      },
+      "regions": {
+        "437": 1,
+        "473": 1,
+        "24": 1,
+        "439": 1
+      },
+      "assets": {
+        "437": "camera",
+        "473": "laptop_computer",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I have a lot of video files to process.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Open the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Connect the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Plug in the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "plug_in",
+              "relation": "in",
+              "mapping_source": "connect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Set the plate aside.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Place plate on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Charge the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "operate"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "regions": {
+        "473": 1,
+        "437": 1,
+        "438": 1,
+        "439": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The lights keep dimming in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Toggle the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Close the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Dust the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Wipe the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "24": "fuse panel",
+        "439": "flashlight",
+        "473": "laptop_computer",
+        "16": "garage door motor",
+        "437": "camera"
+      },
+      "regions": {
+        "24": 1,
+        "439": 1,
+        "473": 1,
+        "16": 1,
+        "437": 1
+      },
+      "assets": {
+        "439": "flashlight",
+        "473": "laptop_computer",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I'm going to be under the car's hood for a while.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Position the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Place flashlight on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the plate on the workbench.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Place the plate on the workbench.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Open the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Wipe the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the garage door railing.",
+          "labels": {
+            "11": "garage door railing"
+          },
+          "atomic_step": "Wipe garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "439": "flashlight",
+        "438": "plate",
+        "473": "laptop_computer",
+        "16": "garage door motor",
+        "11": "garage door railing"
+      },
+      "regions": {
+        "439": 1,
+        "438": 1,
+        "473": 1,
+        "16": 1,
+        "11": 1
+      },
+      "assets": {
+        "439": "flashlight",
+        "438": "plate",
+        "473": "laptop_computer"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "Everything in here is covered in a layer of grey.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Dust the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the garage door railing.",
+          "labels": {
+            "12": "garage door railing"
+          },
+          "atomic_step": "Wipe the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Wipe camera.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Wipe the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the plate.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Rinse plate.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_rinse"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "16": "garage door motor",
+        "12": "garage door railing",
+        "437": "camera",
+        "24": "fuse panel",
+        "438": "plate"
+      },
+      "regions": {
+        "16": 1,
+        "12": 1,
+        "437": 1,
+        "24": 1,
+        "438": 1
+      },
+      "assets": {
+        "437": "camera",
+        "438": "plate"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I've been feeling uneasy about the backyard entrance.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Adjust the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Toggle the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Dust the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Close the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Straighten flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "437": "camera",
+        "24": "fuse panel",
+        "16": "garage door motor",
+        "473": "laptop_computer",
+        "439": "flashlight"
+      },
+      "regions": {
+        "437": 1,
+        "24": 1,
+        "16": 1,
+        "473": 1,
+        "439": 1
+      },
+      "assets": {
+        "437": "camera",
+        "473": "laptop_computer",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I need a spot to focus on my digital designs.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Open the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the plate on the side.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Place the plate on the side.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Position the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Place flashlight on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Wipe the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the garage door railing.",
+          "labels": {
+            "13": "garage door railing"
+          },
+          "atomic_step": "Wipe garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "438": "plate",
+        "439": "flashlight",
+        "24": "fuse panel",
+        "13": "garage door railing"
+      },
+      "regions": {
+        "473": 1,
+        "438": 1,
+        "439": 1,
+        "24": 1,
+        "13": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The automatic opener sounds a bit rough.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Dust the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the garage door railing.",
+          "labels": {
+            "14": "garage door railing"
+          },
+          "atomic_step": "Wipe the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Toggle the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Wipe the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "16": "garage door motor",
+        "14": "garage door railing",
+        "24": "fuse panel",
+        "439": "flashlight",
+        "437": "camera"
+      },
+      "regions": {
+        "16": 1,
+        "14": 1,
+        "24": 1,
+        "439": 1,
+        "437": 1
+      },
+      "assets": {
+        "439": "flashlight",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I can't see anything in that dark corner.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Pick up the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the plate.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Carry the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the garage door railing.",
+          "labels": {
+            "15": "garage door railing"
+          },
+          "atomic_step": "Wipe the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Wipe garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Dust the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "439": "flashlight",
+        "438": "plate",
+        "15": "garage door railing",
+        "16": "garage door motor",
+        "24": "fuse panel"
+      },
+      "regions": {
+        "439": 1,
+        "438": 1,
+        "15": 1,
+        "16": 1,
+        "24": 1
+      },
+      "assets": {
+        "439": "flashlight",
+        "438": "plate"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I'm heading inside for dinner now.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the plate.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Rinse plate.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_rinse"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Close the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Store the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Store the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Toggle the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Wipe the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "438": "plate",
+        "473": "laptop_computer",
+        "439": "flashlight",
+        "24": "fuse panel",
+        "437": "camera"
+      },
+      "regions": {
+        "438": 1,
+        "473": 1,
+        "439": 1,
+        "24": 1,
+        "437": 1
+      },
+      "assets": {
+        "438": "plate",
+        "473": "laptop_computer",
+        "439": "flashlight",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The side gate was left open this morning.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Adjust the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the garage door railing.",
+          "labels": {
+            "11": "garage door railing"
+          },
+          "atomic_step": "Wipe the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Toggle the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Dust the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Carry the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "437": "camera",
+        "11": "garage door railing",
+        "24": "fuse panel",
+        "16": "garage door motor",
+        "439": "flashlight"
+      },
+      "regions": {
+        "437": 1,
+        "11": 1,
+        "24": 1,
+        "16": 1,
+        "439": 1
+      },
+      "assets": {
+        "437": "camera",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I'm expecting a visitor with their vehicle.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the garage door railing.",
+          "labels": {
+            "12": "garage door railing"
+          },
+          "atomic_step": "Wipe the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up the plate.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Pick up the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Dust the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Wipe the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Straighten flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "12": "garage door railing",
+        "438": "plate",
+        "16": "garage door motor",
+        "24": "fuse panel",
+        "439": "flashlight"
+      },
+      "regions": {
+        "12": 1,
+        "438": 1,
+        "16": 1,
+        "24": 1,
+        "439": 1
+      },
+      "assets": {
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The garage doesn't feel very secure.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the camera to cover the entrance.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Adjust the camera to cover the entrance.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust",
+              "setting": "cover the entrance"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Reset the fuse panel for the security system.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "operate"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Tighten the garage door railing to prevent tampering.",
+          "labels": {
+            "11": "garage door railing"
+          },
+          "atomic_step": "Tighten the garage door railing to prevent tampering.",
+          "atomic_actions": [
+            {
+              "action_id": "tighten",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the garage door motor housing.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Close the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the laptop computer to a more secure location.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Carry the laptop_computer to the more secure location.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Pick up the flashlight for emergency use.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Pick up the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "437": "camera",
+        "24": "fuse panel",
+        "11": "garage door railing",
+        "16": "garage door motor",
+        "473": "laptop_computer",
+        "439": "flashlight"
+      },
+      "regions": {
+        "437": 1,
+        "24": 1,
+        "11": 1,
+        "16": 1,
+        "473": 1,
+        "439": 1
+      },
+      "assets": {
+        "437": "camera",
+        "473": "laptop_computer",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "This space is quite cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the plate left on the workbench.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Rinse plate.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_rinse"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the laptop computer to remove dust.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Wipe the laptop_computer to remove dust.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the camera lens.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Dust the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the flashlight to the storage shelf.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Carry the flashlight to the storage shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe down the garage door railing.",
+          "labels": {
+            "12": "garage door railing"
+          },
+          "atomic_step": "Wipe the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Close the fuse panel door.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Close the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "438": "plate",
+        "473": "laptop_computer",
+        "437": "camera",
+        "439": "flashlight",
+        "12": "garage door railing",
+        "24": "fuse panel"
+      },
+      "regions": {
+        "438": 1,
+        "473": 1,
+        "437": 1,
+        "439": 1,
+        "12": 1,
+        "24": 1
+      },
+      "assets": {
+        "438": "plate",
+        "473": "laptop_computer",
+        "437": "camera",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The weather forecast looks bad.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Toggle the fuse panel to ensure surge protection.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the flashlight to an accessible spot.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Carry the flashlight to the accessible spot.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the laptop computer to protect the screen.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Close the laptop_computer to protect the screen.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Secure the garage door railing against high winds.",
+          "labels": {
+            "13": "garage door railing"
+          },
+          "atomic_step": "Store the garage door railing against the high winds.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": null,
+              "mapping_source": "store"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe moisture off the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Wipe the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the camera to monitor the exterior conditions.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Adjust the camera to monitor the exterior conditions.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust",
+              "setting": "monitor the exterior conditions"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "24": "fuse panel",
+        "439": "flashlight",
+        "473": "laptop_computer",
+        "13": "garage door railing",
+        "16": "garage door motor",
+        "437": "camera"
+      },
+      "regions": {
+        "24": 1,
+        "439": 1,
+        "473": 1,
+        "13": 1,
+        "16": 1,
+        "437": 1
+      },
+      "assets": {
+        "439": "flashlight",
+        "473": "laptop_computer",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I have some projects to finish.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the plate out of the work area.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Carry the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the laptop computer to check the plans.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Open the laptop_computer to check the plans.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the flashlight for better visibility.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the fuse panel to check the circuit.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Open the fuse panel to check the circuit.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Position the camera to record the project progress.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Place camera on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the garage door railing for extra clearance.",
+          "labels": {
+            "14": "garage door railing"
+          },
+          "atomic_step": "Reposition the garage door railing for extra clearance.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "438": "plate",
+        "473": "laptop_computer",
+        "439": "flashlight",
+        "24": "fuse panel",
+        "437": "camera",
+        "14": "garage door railing"
+      },
+      "regions": {
+        "438": 1,
+        "473": 1,
+        "439": 1,
+        "24": 1,
+        "437": 1,
+        "14": 1
+      },
+      "assets": {
+        "438": "plate",
+        "473": "laptop_computer",
+        "439": "flashlight",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The garage door is making a weird noise.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the garage door motor to remove debris.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Wipe garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the garage door railing alignment.",
+          "labels": {
+            "15": "garage door railing"
+          },
+          "atomic_step": "Reposition the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Reset the fuse panel for the motor circuit.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "operate"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the flashlight to inspect the tracks.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight to inspect the tracks.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the laptop computer away from the door mechanism.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Carry the laptop_computer from the door mechanism.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the camera lens to monitor the door operation.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Wipe the camera to monitor the door operation.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "16": "garage door motor",
+        "15": "garage door railing",
+        "24": "fuse panel",
+        "439": "flashlight",
+        "473": "laptop_computer",
+        "437": "camera"
+      },
+      "regions": {
+        "16": 1,
+        "15": 1,
+        "24": 1,
+        "439": 1,
+        "473": 1,
+        "437": 1
+      },
+      "assets": {
+        "439": "flashlight",
+        "473": "laptop_computer",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I'm leaving for my vacation soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the camera for remote monitoring.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Turn on the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the garage door motor manual override.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Close the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the fuse panel securely.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Close the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the laptop computer to the house.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Carry the laptop_computer to the house.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the plate to the kitchen.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Carry the plate to the kitchen.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Tighten the garage door railing latch.",
+          "labels": {
+            "11": "garage door railing"
+          },
+          "atomic_step": "Tighten the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "tighten",
+              "relation": null,
+              "mapping_source": "tighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "437": "camera",
+        "16": "garage door motor",
+        "24": "fuse panel",
+        "473": "laptop_computer",
+        "438": "plate",
+        "11": "garage door railing"
+      },
+      "regions": {
+        "437": 1,
+        "16": 1,
+        "24": 1,
+        "473": 1,
+        "438": 1,
+        "11": 1
+      },
+      "assets": {
+        "437": "camera",
+        "473": "laptop_computer",
+        "438": "plate"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "It's time to head inside for the night.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn off the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Turn off the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the plate used for a snack.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Rinse plate.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_rinse"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn off the camera power.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Turn off the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tighten the garage door railing for the night.",
+          "labels": {
+            "12": "garage door railing"
+          },
+          "atomic_step": "Tighten the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "tighten",
+              "relation": null,
+              "mapping_source": "tighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn off the garage door motor switch.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Turn off the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Pick up the flashlight to carry inside.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Pick up the flashlight to carry inside.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": "in",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "438": "plate",
+        "437": "camera",
+        "12": "garage door railing",
+        "16": "garage door motor",
+        "439": "flashlight"
+      },
+      "regions": {
+        "473": 1,
+        "438": 1,
+        "437": 1,
+        "12": 1,
+        "16": 1,
+        "439": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "438": "plate",
+        "437": "camera",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I can't find anything in this garage.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the flashlight to its designated hook.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Carry the flashlight to the designated hook.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the fuse panel to tidy up the wall.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Close the fuse panel to tidy up the wall.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the garage door railing for a cleaner look.",
+          "labels": {
+            "13": "garage door railing"
+          },
+          "atomic_step": "Wipe the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the garage door motor casing.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Wipe garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the plate to the cupboard.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Carry the plate to the cupboard.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the camera to a standard position.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Adjust the camera to standard position.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust",
+              "setting": "standard position"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "439": "flashlight",
+        "24": "fuse panel",
+        "13": "garage door railing",
+        "16": "garage door motor",
+        "438": "plate",
+        "437": "camera"
+      },
+      "regions": {
+        "439": 1,
+        "24": 1,
+        "13": 1,
+        "16": 1,
+        "438": 1,
+        "437": 1
+      },
+      "assets": {
+        "439": "flashlight",
+        "438": "plate",
+        "437": "camera"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The garage needs some attention.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe down the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Wipe the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the camera lens.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Wipe camera.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the plate to the shelf.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Carry the plate to the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the fuse panel door.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Close the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Wipe the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Lubricate the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Inspect the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clean the garage door railing.",
+          "labels": {
+            "11": "garage door railing"
+          },
+          "atomic_step": "Wipe garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "24": "fuse panel",
+        "439": "flashlight",
+        "16": "garage door motor",
+        "11": "garage door railing"
+      },
+      "regions": {
+        "473": 1,
+        "437": 1,
+        "438": 1,
+        "24": 1,
+        "439": 1,
+        "16": 1,
+        "11": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I have a project to finish.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Open the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the camera angle.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Adjust the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wash the plate.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Rinse the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Toggle the fuse panel switch.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Turn on the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Tighten the garage door motor housing.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Tighten the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "tighten",
+              "relation": null,
+              "mapping_source": "tighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Dust the garage door railing.",
+          "labels": {
+            "12": "garage door railing"
+          },
+          "atomic_step": "Dust the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "24": "fuse panel",
+        "439": "flashlight",
+        "16": "garage door motor",
+        "12": "garage door railing"
+      },
+      "regions": {
+        "473": 1,
+        "437": 1,
+        "438": 1,
+        "24": 1,
+        "439": 1,
+        "16": 1,
+        "12": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "The weather forecast looks bad.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Charge the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Plug in the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "plug_in",
+              "relation": "in",
+              "mapping_source": "operate"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Secure the camera mount.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Store the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": null,
+              "mapping_source": "store"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Place the plate in a cabinet.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Place the plate in a cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Flip the fuse panel breaker.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Inspect the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Grab the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Pick up the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Oil the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Inspect the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wipe the garage door railing.",
+          "labels": {
+            "13": "garage door railing"
+          },
+          "atomic_step": "Wipe the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "24": "fuse panel",
+        "439": "flashlight",
+        "16": "garage door motor",
+        "13": "garage door railing"
+      },
+      "regions": {
+        "473": 1,
+        "437": 1,
+        "438": 1,
+        "24": 1,
+        "439": 1,
+        "16": 1,
+        "13": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "I can't find anything in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the laptop computer to the desk.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Carry the laptop_computer to the desk.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Reposition the camera.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Place camera in receptacle.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Stack the plate with others.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Stack the plate with the others.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Open the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Store the flashlight in the drawer.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Store the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": "in",
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Wipe garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Scrub the garage door railing.",
+          "labels": {
+            "14": "garage door railing"
+          },
+          "atomic_step": "Scrub the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "24": "fuse panel",
+        "439": "flashlight",
+        "16": "garage door motor",
+        "14": "garage door railing"
+      },
+      "regions": {
+        "473": 1,
+        "437": 1,
+        "438": 1,
+        "24": 1,
+        "439": 1,
+        "16": 1,
+        "14": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    },
+    {
+      "task": "We'll be gone for a week.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Lock the laptop computer.",
+          "labels": {
+            "473": "laptop_computer"
+          },
+          "atomic_step": "Lock the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "lock",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Activate the camera for security.",
+          "labels": {
+            "437": "camera"
+          },
+          "atomic_step": "Turn on the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the plate from the workbench.",
+          "labels": {
+            "438": "plate"
+          },
+          "atomic_step": "Wipe plate.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Shut the fuse panel.",
+          "labels": {
+            "24": "fuse panel"
+          },
+          "atomic_step": "Close the fuse panel.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pick up the flashlight.",
+          "labels": {
+            "439": "flashlight"
+          },
+          "atomic_step": "Pick up the flashlight.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Disconnect the garage door motor.",
+          "labels": {
+            "16": "garage door motor"
+          },
+          "atomic_step": "Unplug the garage door motor.",
+          "atomic_actions": [
+            {
+              "action_id": "unplug",
+              "relation": null,
+              "mapping_source": "disconnect"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Polish the garage door railing.",
+          "labels": {
+            "15": "garage door railing"
+          },
+          "atomic_step": "Polish the garage door railing.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "24": "fuse panel",
+        "439": "flashlight",
+        "16": "garage door motor",
+        "15": "garage door railing"
+      },
+      "regions": {
+        "473": 1,
+        "437": 1,
+        "438": 1,
+        "24": 1,
+        "439": 1,
+        "16": 1,
+        "15": 1
+      },
+      "assets": {
+        "473": "laptop_computer",
+        "437": "camera",
+        "438": "plate",
+        "439": "flashlight"
+      },
+      "start_region": 1
+    }
+  ]
+}

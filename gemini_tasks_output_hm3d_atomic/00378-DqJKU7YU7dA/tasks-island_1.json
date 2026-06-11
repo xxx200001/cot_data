@@ -3973,7 +3973,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -7394,7 +7394,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -8253,7 +8253,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -12024,7 +12024,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -13334,12 +13334,12 @@
           "labels": {
             "209": "couch"
           },
-          "atomic_step": "Straighten the couch.",
+          "atomic_step": "Fluff the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -19284,12 +19284,12 @@
           "labels": {
             "154": "toilet paper dispenser"
           },
-          "atomic_step": "Store the toilet paper dispenser.",
+          "atomic_step": "Load the toilet paper dispenser.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_toilet_paper_dispenser_to_store"
+              "mapping_source": "semantic_repair_v5:fill_toilet_paper_dispenser_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -22571,7 +22571,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -25535,7 +25535,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -27362,12 +27362,12 @@
           "labels": {
             "154": "toilet paper dispenser"
           },
-          "atomic_step": "Store the toilet paper dispenser.",
+          "atomic_step": "Load the toilet paper dispenser.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_toilet_paper_dispenser_to_store"
+              "mapping_source": "semantic_repair_v5:fill_toilet_paper_dispenser_to_store;semantic_qa_v1:store-->load"
             }
           ]
         }
@@ -27437,7 +27437,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -28812,7 +28812,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -29087,7 +29087,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         },
@@ -29541,7 +29541,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -30514,12 +30514,12 @@
           "labels": {
             "441": "couch"
           },
-          "atomic_step": "Straighten items on the couch.",
+          "atomic_step": "Fluff items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -30826,7 +30826,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }
@@ -32339,7 +32339,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
             }
           ]
         }

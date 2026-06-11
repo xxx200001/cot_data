@@ -1,0 +1,6996 @@
+{
+  "scene_id": "00207-FRQ75PjD278",
+  "tasks": [
+    {
+      "task": "I'm hungry.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Take food from the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Open the refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "repair_open_container"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Set the plate on the kitchen counter.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Place plate on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Warm it up in the microwave.",
+          "labels": {
+            "260": "microwave"
+          },
+          "atomic_step": "Turn on microwave.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Discard the wrapper in the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dispose of waste in the bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dispose",
+              "relation": "in",
+              "mapping_source": "repair_dispose"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "210": "refrigerator",
+        "528": "plate",
+        "260": "microwave",
+        "299": "bin"
+      },
+      "regions": {
+        "210": 5,
+        "528": 5,
+        "260": 5,
+        "299": 6
+      },
+      "assets": {
+        "528": "plate"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I want to work in the living room.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the laptop computer.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Pick up the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clear the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the chair.",
+          "labels": {
+            "336": "chair"
+          },
+          "atomic_step": "Reposition the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "538": "laptop_computer",
+        "276": "table",
+        "336": "chair",
+        "318": "air conditioning"
+      },
+      "regions": {
+        "538": 6,
+        "276": 6,
+        "336": 6,
+        "318": 6
+      },
+      "assets": {
+        "538": "laptop_computer"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I feel like being active indoors.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Tidy the sofa.",
+          "labels": {
+            "279": "sofa"
+          },
+          "atomic_step": "Straighten the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "tidy_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the kitchen cabinet.",
+          "labels": {
+            "223": "kitchen cabinet"
+          },
+          "atomic_step": "Straighten kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wash the kettle.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Rinse the kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "504": "exercise equipment",
+        "279": "sofa",
+        "223": "kitchen cabinet",
+        "527": "kettle"
+      },
+      "regions": {
+        "504": 9,
+        "279": 6,
+        "223": 5,
+        "527": 5
+      },
+      "assets": {
+        "527": "kettle"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm thirsty for some tea.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Fill the kettle with water.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Fill the kettle with the water.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place it on the stovetop.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Place it on the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Get a cup from the living room.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Pick up the cup from the living room.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "527": "kettle",
+        "200": "stovetop",
+        "531": "cup",
+        "261": "sink"
+      },
+      "regions": {
+        "527": 5,
+        "200": 5,
+        "531": 6,
+        "261": 5
+      },
+      "assets": {
+        "527": "kettle",
+        "531": "cup"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "It's getting dark and I want to relax.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the tv.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the cushion.",
+          "labels": {
+            "300": "cushion"
+          },
+          "atomic_step": "Smooth the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the stovetop.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Wipe the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "273": "lamp",
+        "272": "tv",
+        "300": "cushion",
+        "200": "stovetop"
+      },
+      "regions": {
+        "273": 6,
+        "272": 6,
+        "300": 6,
+        "200": 5
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "The kitchen is messy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Load the dishwasher.",
+          "labels": {
+            "221": "dishwasher"
+          },
+          "atomic_step": "Load the dishwasher.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the kitchen counter.",
+          "labels": {
+            "244": "kitchen counter"
+          },
+          "atomic_step": "Wipe the kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the kitchen cabinet.",
+          "labels": {
+            "223": "kitchen cabinet"
+          },
+          "atomic_step": "Straighten kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Empty the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dump bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "221": "dishwasher",
+        "244": "kitchen counter",
+        "223": "kitchen cabinet",
+        "299": "bin"
+      },
+      "regions": {
+        "221": 5,
+        "244": 5,
+        "223": 5,
+        "299": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I want to take some photos.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the camera.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the painting.",
+          "labels": {
+            "500": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the plant.",
+          "labels": {
+            "275": "plant"
+          },
+          "atomic_step": "Carry the plant.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the picture.",
+          "labels": {
+            "307": "picture"
+          },
+          "atomic_step": "Straighten the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "537": "camera",
+        "500": "painting",
+        "275": "plant",
+        "307": "picture"
+      },
+      "regions": {
+        "537": 9,
+        "500": 9,
+        "275": 6,
+        "307": 6
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "Guests are coming over later.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the pouffe.",
+          "labels": {
+            "278": "pouffe"
+          },
+          "atomic_step": "Push pouffe.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Water the plant.",
+          "labels": {
+            "275": "plant"
+          },
+          "atomic_step": "Pour onto plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Put away the umbrella.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Store the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "276": "table",
+        "278": "pouffe",
+        "275": "plant",
+        "501": "umbrella"
+      },
+      "regions": {
+        "276": 6,
+        "278": 6,
+        "275": 6,
+        "501": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "It's cold in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the radiator.",
+          "labels": {
+            "197": "radiator"
+          },
+          "atomic_step": "Turn on the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the blinds.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the water heater.",
+          "labels": {
+            "201": "water heater"
+          },
+          "atomic_step": "Turn on the water heater.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the sofa.",
+          "labels": {
+            "279": "sofa"
+          },
+          "atomic_step": "Straighten the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "tidy_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "197": "radiator",
+        "195": "blinds",
+        "201": "water heater",
+        "279": "sofa"
+      },
+      "regions": {
+        "197": 5,
+        "195": 5,
+        "201": 5,
+        "279": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I need to do some cleaning.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Scrub the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the stovetop.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Wipe the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Empty the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dump bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Discard the paper.",
+          "labels": {
+            "326": "paper"
+          },
+          "atomic_step": "Wipe paper.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "261": "sink",
+        "200": "stovetop",
+        "299": "bin",
+        "326": "paper"
+      },
+      "regions": {
+        "261": 5,
+        "200": 5,
+        "299": 6,
+        "326": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I want to watch a movie.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the tv.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dim the lamp.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Adjust the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Tidy the chaise.",
+          "labels": {
+            "293": "chaise"
+          },
+          "atomic_step": "Straighten chaise.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the microwave.",
+          "labels": {
+            "260": "microwave"
+          },
+          "atomic_step": "Wipe the microwave.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "272": "tv",
+        "273": "lamp",
+        "293": "chaise",
+        "260": "microwave"
+      },
+      "regions": {
+        "272": 6,
+        "273": 6,
+        "293": 6,
+        "260": 5
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "The fish need care.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the fish tank.",
+          "labels": {
+            "317": "fish tank"
+          },
+          "atomic_step": "Wipe fish tank.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Remove the sign.",
+          "labels": {
+            "313": "sign"
+          },
+          "atomic_step": "Wipe sign.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the cabinet.",
+          "labels": {
+            "323": "cabinet"
+          },
+          "atomic_step": "Wipe the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Get water from the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Inspect the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:pick_up_immovable_fixture"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "317": "fish tank",
+        "313": "sign",
+        "323": "cabinet",
+        "261": "sink"
+      },
+      "regions": {
+        "317": 6,
+        "313": 6,
+        "323": 6,
+        "261": 5
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "Time for a quick snack.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the freezer.",
+          "labels": {
+            "216": "freezer"
+          },
+          "atomic_step": "Open the freezer.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place a plate on the counter.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Place a plate on the counter.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Set the cooker.",
+          "labels": {
+            "222": "cooker"
+          },
+          "atomic_step": "Set up the cooker.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Take the cup to the table.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Pick up the cup to the table.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "216": "freezer",
+        "528": "plate",
+        "222": "cooker",
+        "531": "cup"
+      },
+      "regions": {
+        "216": 5,
+        "528": 5,
+        "222": 5,
+        "531": 6
+      },
+      "assets": {
+        "528": "plate",
+        "531": "cup"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm preparing to cook dinner.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the stovetop.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Wipe stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wash the kettle.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Rinse the kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the kitchen cabinet.",
+          "labels": {
+            "223": "kitchen cabinet"
+          },
+          "atomic_step": "Straighten kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Empty the dishwasher.",
+          "labels": {
+            "221": "dishwasher"
+          },
+          "atomic_step": "Open dishwasher.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "200": "stovetop",
+        "527": "kettle",
+        "223": "kitchen cabinet",
+        "221": "dishwasher"
+      },
+      "regions": {
+        "200": 5,
+        "527": 5,
+        "223": 5,
+        "221": 5
+      },
+      "assets": {
+        "527": "kettle"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm working from home today.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Set the laptop computer on the table.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Adjust the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": "on",
+              "mapping_source": "repair_set_to_control"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the chair.",
+          "labels": {
+            "336": "chair"
+          },
+          "atomic_step": "Reposition the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pick up the paper.",
+          "labels": {
+            "326": "paper"
+          },
+          "atomic_step": "Pick up the paper.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "538": "laptop_computer",
+        "336": "chair",
+        "318": "air conditioning",
+        "326": "paper"
+      },
+      "regions": {
+        "538": 6,
+        "336": 6,
+        "318": 6,
+        "326": 6
+      },
+      "assets": {
+        "538": "laptop_computer"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I want to tidy up the living area.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the cushion.",
+          "labels": {
+            "300": "cushion"
+          },
+          "atomic_step": "Smooth the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the pouffe.",
+          "labels": {
+            "278": "pouffe"
+          },
+          "atomic_step": "Carry the pouffe.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the picture.",
+          "labels": {
+            "307": "picture"
+          },
+          "atomic_step": "Dust the picture.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "300": "cushion",
+        "278": "pouffe",
+        "307": "picture",
+        "276": "table"
+      },
+      "regions": {
+        "300": 6,
+        "278": 6,
+        "307": 6,
+        "276": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm doing some household maintenance.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Check the water heater.",
+          "labels": {
+            "201": "water heater"
+          },
+          "atomic_step": "Inspect the water heater.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the pouffe.",
+          "labels": {
+            "278": "pouffe"
+          },
+          "atomic_step": "Push pouffe.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Retrieve the camera.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "201": "water heater",
+        "278": "pouffe",
+        "504": "exercise equipment",
+        "537": "camera"
+      },
+      "regions": {
+        "201": 5,
+        "278": 6,
+        "504": 9,
+        "537": 9
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "The kitchen needs a deep clean.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Scrub the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the microwave.",
+          "labels": {
+            "260": "microwave"
+          },
+          "atomic_step": "Wipe microwave.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the kitchen cabinet.",
+          "labels": {
+            "223": "kitchen cabinet"
+          },
+          "atomic_step": "Wipe the kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the stovetop.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Wipe stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "261": "sink",
+        "260": "microwave",
+        "223": "kitchen cabinet",
+        "200": "stovetop"
+      },
+      "regions": {
+        "261": 5,
+        "260": 5,
+        "223": 5,
+        "200": 5
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm having a quiet evening.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the blinds.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the kettle.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Turn on the kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Tidy the sofa.",
+          "labels": {
+            "279": "sofa"
+          },
+          "atomic_step": "Straighten the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "tidy_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Switch on the lamp.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "195": "blinds",
+        "527": "kettle",
+        "279": "sofa",
+        "273": "lamp"
+      },
+      "regions": {
+        "195": 5,
+        "527": 5,
+        "279": 6,
+        "273": 6
+      },
+      "assets": {
+        "527": "kettle"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm looking for my lost items.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Search the cabinet.",
+          "labels": {
+            "217": "cabinet"
+          },
+          "atomic_step": "Inspect the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Check the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Inspect the table.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up the umbrella.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Pick up the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Retrieve the camera.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "217": "cabinet",
+        "276": "table",
+        "501": "umbrella",
+        "537": "camera"
+      },
+      "regions": {
+        "217": 5,
+        "276": 6,
+        "501": 9,
+        "537": 9
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm reorganizing the furniture.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the pouffe.",
+          "labels": {
+            "278": "pouffe"
+          },
+          "atomic_step": "Carry the pouffe.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Reposition the plant.",
+          "labels": {
+            "275": "plant"
+          },
+          "atomic_step": "Place plant on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the chaise.",
+          "labels": {
+            "293": "chaise"
+          },
+          "atomic_step": "Reposition the chaise.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the umbrella.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Straighten umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "278": "pouffe",
+        "275": "plant",
+        "293": "chaise",
+        "501": "umbrella"
+      },
+      "regions": {
+        "278": 6,
+        "275": 6,
+        "293": 6,
+        "501": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm finishing my daily chores.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the kitchen cabinet.",
+          "labels": {
+            "223": "kitchen cabinet"
+          },
+          "atomic_step": "Wipe the kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Empty the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dump bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Put away the umbrella.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Store the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Retrieve the camera.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "223": "kitchen cabinet",
+        "299": "bin",
+        "501": "umbrella",
+        "537": "camera"
+      },
+      "regions": {
+        "223": 5,
+        "299": 6,
+        "501": 9,
+        "537": 9
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm preparing breakfast.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Open the refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Use the kettle.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Inspect the kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_device"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Take a plate.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Pick up the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set it on the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Place it on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "repair_set_to_place"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "210": "refrigerator",
+        "527": "kettle",
+        "528": "plate",
+        "276": "table"
+      },
+      "regions": {
+        "210": 5,
+        "527": 5,
+        "528": 5,
+        "276": 6
+      },
+      "assets": {
+        "527": "kettle",
+        "528": "plate"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "The living room is cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the paper.",
+          "labels": {
+            "326": "paper"
+          },
+          "atomic_step": "Pick up the paper.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the cabinet.",
+          "labels": {
+            "323": "cabinet"
+          },
+          "atomic_step": "Straighten cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Tidy the cushion.",
+          "labels": {
+            "300": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "tidy"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the painting.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "326": "paper",
+        "323": "cabinet",
+        "300": "cushion",
+        "269": "painting"
+      },
+      "regions": {
+        "326": 6,
+        "323": 6,
+        "300": 6,
+        "269": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm feeling hungry.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the refrigerator to find ingredients.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Open the refrigerator to find ingredients.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Take a plate for the food.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Pick up the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Place the plate on the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Place the plate on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pick up the umbrella to go get groceries later.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Pick up the umbrella to go get groceries later.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Throw the food packaging into the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Place the food packaging in the bin.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "210": "refrigerator",
+        "528": "plate",
+        "276": "table",
+        "501": "umbrella",
+        "299": "bin"
+      },
+      "regions": {
+        "210": 5,
+        "528": 5,
+        "276": 6,
+        "501": 9,
+        "299": 6
+      },
+      "assets": {
+        "528": "plate"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "The living area is a bit cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Put the book back in the cabinet.",
+          "labels": {
+            "217": "cabinet"
+          },
+          "atomic_step": "Place the book in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the cushions on the sofa.",
+          "labels": {
+            "300": "cushion"
+          },
+          "atomic_step": "Fluff the cushion on the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the paper from the table.",
+          "labels": {
+            "292": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Straighten exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Discard the trash in the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dispose of waste in the bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dispose",
+              "relation": "in",
+              "mapping_source": "repair_dispose"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "217": "cabinet",
+        "300": "cushion",
+        "292": "table",
+        "504": "exercise equipment",
+        "299": "bin"
+      },
+      "regions": {
+        "217": 5,
+        "300": 6,
+        "292": 6,
+        "504": 9,
+        "299": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm planning to work from home today.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Set up the laptop computer.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Set up the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the blinds for better light.",
+          "labels": {
+            "320": "blinds"
+          },
+          "atomic_step": "Adjust the blinds for better light.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust_control"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fetch the camera for the video call.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "538": "laptop_computer",
+        "320": "blinds",
+        "537": "camera",
+        "273": "lamp"
+      },
+      "regions": {
+        "538": 6,
+        "320": 6,
+        "537": 9,
+        "273": 6
+      },
+      "assets": {
+        "538": "laptop_computer",
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'd like to have some tea.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Fill the kettle with water.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Fill the kettle with the water.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the kettle on the stovetop.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Place the kettle on the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Get a cup from the living room.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Pick up the cup from the living room.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Grab the umbrella from storage in case it rains.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Pick up the umbrella in the case it rains.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": "in",
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the chaise for comfort.",
+          "labels": {
+            "293": "chaise"
+          },
+          "atomic_step": "Reposition the chaise for comfort.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "527": "kettle",
+        "200": "stovetop",
+        "531": "cup",
+        "501": "umbrella",
+        "293": "chaise"
+      },
+      "regions": {
+        "527": 5,
+        "200": 5,
+        "531": 6,
+        "501": 9,
+        "293": 6
+      },
+      "assets": {
+        "527": "kettle",
+        "531": "cup"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "This room is getting quite warm.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the radiator in the kitchen.",
+          "labels": {
+            "197": "radiator"
+          },
+          "atomic_step": "Adjust the radiator in the kitchen.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": "in",
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the blinds to block the sun.",
+          "labels": {
+            "320": "blinds"
+          },
+          "atomic_step": "Close the blinds to block the sun.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the umbrella to the corner.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Carry the umbrella to the corner.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Water the plant in the living room.",
+          "labels": {
+            "275": "plant"
+          },
+          "atomic_step": "Pour onto plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "197": "radiator",
+        "318": "air conditioning",
+        "320": "blinds",
+        "501": "umbrella",
+        "275": "plant"
+      },
+      "regions": {
+        "197": 5,
+        "318": 6,
+        "320": 6,
+        "501": 9,
+        "275": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I have a guest coming over soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the tv.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Dust the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the painting.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Straighten exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the kitchen counter.",
+          "labels": {
+            "244": "kitchen counter"
+          },
+          "atomic_step": "Wipe the kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "261": "sink",
+        "272": "tv",
+        "269": "painting",
+        "504": "exercise equipment",
+        "244": "kitchen counter"
+      },
+      "regions": {
+        "261": 5,
+        "272": 6,
+        "269": 6,
+        "504": 9,
+        "244": 5
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I want to take some photos of my collection.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear space on the kitchen counter.",
+          "labels": {
+            "265": "kitchen counter"
+          },
+          "atomic_step": "Wipe kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Bring the camera from the storage area.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Carry the camera from the storage area.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the fish tank for a background.",
+          "labels": {
+            "317": "fish tank"
+          },
+          "atomic_step": "Wipe fish tank.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set up the laptop computer to view photos.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Place the laptop_computer to view photos.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wash the plate to use as a prop.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Rinse the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "rinse",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "265": "kitchen counter",
+        "537": "camera",
+        "317": "fish tank",
+        "538": "laptop_computer",
+        "528": "plate"
+      },
+      "regions": {
+        "265": 5,
+        "537": 9,
+        "317": 6,
+        "538": 6,
+        "528": 5
+      },
+      "assets": {
+        "537": "camera",
+        "538": "laptop_computer",
+        "528": "plate"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm going to do some cleaning.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Empty the dishwasher.",
+          "labels": {
+            "221": "dishwasher"
+          },
+          "atomic_step": "Open dishwasher.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe down the kitchen cabinet.",
+          "labels": {
+            "223": "kitchen cabinet"
+          },
+          "atomic_step": "Wipe the kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Empty the bin in the living room.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dump bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the umbrella to the closet.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Carry the umbrella to the closet.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Polish the table.",
+          "labels": {
+            "292": "table"
+          },
+          "atomic_step": "Polish the table.",
+          "atomic_actions": [
+            {
+              "action_id": "polish",
+              "relation": null,
+              "mapping_source": "polish"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "221": "dishwasher",
+        "223": "kitchen cabinet",
+        "299": "bin",
+        "501": "umbrella",
+        "292": "table"
+      },
+      "regions": {
+        "221": 5,
+        "223": 5,
+        "299": 6,
+        "501": 9,
+        "292": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm feeling a bit chilly.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the radiator.",
+          "labels": {
+            "197": "radiator"
+          },
+          "atomic_step": "Adjust the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the blinds.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Check the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Inspect the exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the cushion.",
+          "labels": {
+            "301": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "197": "radiator",
+        "195": "blinds",
+        "318": "air conditioning",
+        "504": "exercise equipment",
+        "301": "cushion"
+      },
+      "regions": {
+        "197": 5,
+        "195": 5,
+        "318": 6,
+        "504": 9,
+        "301": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm going to prepare a meal.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Preheat the cooker.",
+          "labels": {
+            "222": "cooker"
+          },
+          "atomic_step": "Turn on cooker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Take a plate from the cabinet.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Pick up the plate from the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Check the tv for a cooking show.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Inspect the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Get the camera to record the process.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera to record the process.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wash the kitchen counter.",
+          "labels": {
+            "244": "kitchen counter"
+          },
+          "atomic_step": "Wipe the kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "222": "cooker",
+        "528": "plate",
+        "272": "tv",
+        "537": "camera",
+        "244": "kitchen counter"
+      },
+      "regions": {
+        "222": 5,
+        "528": 5,
+        "272": 6,
+        "537": 9,
+        "244": 5
+      },
+      "assets": {
+        "528": "plate",
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I need to get some light in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the blinds.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Open the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Water the plant.",
+          "labels": {
+            "305": "plant"
+          },
+          "atomic_step": "Pour onto plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Retrieve the camera.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Switch on the tv.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "195": "blinds",
+        "273": "lamp",
+        "305": "plant",
+        "537": "camera",
+        "272": "tv"
+      },
+      "regions": {
+        "195": 5,
+        "273": 6,
+        "305": 6,
+        "537": 9,
+        "272": 6
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm planning to do some yoga.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the chair out of the way.",
+          "labels": {
+            "230": "chair"
+          },
+          "atomic_step": "Reposition the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clear the sofa area.",
+          "labels": {
+            "279": "sofa"
+          },
+          "atomic_step": "Vacuum sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_floor_covering_to_vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Bring the exercise equipment from the other room.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment from the other room.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set up the laptop computer for a tutorial.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Set up the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Get a cup of water.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Pick up the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "230": "chair",
+        "279": "sofa",
+        "504": "exercise equipment",
+        "538": "laptop_computer",
+        "531": "cup"
+      },
+      "regions": {
+        "230": 5,
+        "279": 6,
+        "504": 9,
+        "538": 6,
+        "531": 6
+      },
+      "assets": {
+        "538": "laptop_computer",
+        "531": "cup"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "The kitchen is a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Load the dishwasher.",
+          "labels": {
+            "221": "dishwasher"
+          },
+          "atomic_step": "Load the dishwasher.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Put the kettle away.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Store the kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the kitchen cabinet.",
+          "labels": {
+            "249": "kitchen cabinet"
+          },
+          "atomic_step": "Straighten kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Straighten exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "221": "dishwasher",
+        "527": "kettle",
+        "249": "kitchen cabinet",
+        "276": "table",
+        "504": "exercise equipment"
+      },
+      "regions": {
+        "221": 5,
+        "527": 5,
+        "249": 5,
+        "276": 6,
+        "504": 9
+      },
+      "assets": {
+        "527": "kettle"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm starving.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the refrigerator to find some food.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Open the refrigerator to find some food.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the food on a plate.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Place the food on a plate.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Heat the food in the microwave.",
+          "labels": {
+            "260": "microwave"
+          },
+          "atomic_step": "Turn on microwave.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Carry the meal to the dining table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Reposition the table.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "full_semantic_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Retrieve a cup for a drink.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Pick up the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the umbrella out of the walkway.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Carry the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "210": "refrigerator",
+        "528": "plate",
+        "260": "microwave",
+        "276": "table",
+        "531": "cup",
+        "501": "umbrella"
+      },
+      "regions": {
+        "210": 5,
+        "528": 5,
+        "260": 5,
+        "276": 6,
+        "531": 6,
+        "501": 9
+      },
+      "assets": {
+        "528": "plate",
+        "531": "cup"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "It's getting dark and a bit chilly in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the blinds to keep the heat in.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Close the blinds to keep the heat in.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": "in",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the lamp for some light.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the air conditioning settings.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Reposition the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pick up the umbrella from the floor.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Pick up the umbrella from the floor.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the chair neatly.",
+          "labels": {
+            "336": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the book on the counter.",
+          "labels": {
+            "207": "book"
+          },
+          "atomic_step": "Straighten book.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "195": "blinds",
+        "273": "lamp",
+        "318": "air conditioning",
+        "501": "umbrella",
+        "336": "chair",
+        "207": "book"
+      },
+      "regions": {
+        "195": 5,
+        "273": 6,
+        "318": 6,
+        "501": 9,
+        "336": 6,
+        "207": 5
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I need to start my morning routine.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Fill the kettle with water.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Fill the kettle with the water.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Get a cup from the living area.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Pick up the cup from the living area.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the stovetop to cook breakfast.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Turn on the stovetop to cook breakfast.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Retrieve items from the freezer.",
+          "labels": {
+            "216": "freezer"
+          },
+          "atomic_step": "Pick up the freezer.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "repair_pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Put the laptop_computer away.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Store the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the exercise equipment to the side.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment to the side.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "527": "kettle",
+        "531": "cup",
+        "200": "stovetop",
+        "216": "freezer",
+        "538": "laptop_computer",
+        "504": "exercise equipment"
+      },
+      "regions": {
+        "527": 5,
+        "531": 6,
+        "200": 5,
+        "216": 5,
+        "538": 6,
+        "504": 9
+      },
+      "assets": {
+        "527": "kettle",
+        "531": "cup",
+        "538": "laptop_computer"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "The living area is a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the paper scattered on the floor.",
+          "labels": {
+            "326": "paper"
+          },
+          "atomic_step": "Pick up the paper on the floor.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": "on",
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Throw the trash into the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dispose of waste in the bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dispose",
+              "relation": "in",
+              "mapping_source": "repair_dispose"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fluff the cushion on the sofa.",
+          "labels": {
+            "300": "cushion"
+          },
+          "atomic_step": "Fluff the cushion on the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Reposition the pouffe.",
+          "labels": {
+            "278": "pouffe"
+          },
+          "atomic_step": "Push pouffe.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe down the kitchen counter.",
+          "labels": {
+            "244": "kitchen counter"
+          },
+          "atomic_step": "Wipe the kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Store the umbrella in the corner.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Store the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": "in",
+              "mapping_source": "repair_store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "326": "paper",
+        "299": "bin",
+        "300": "cushion",
+        "278": "pouffe",
+        "244": "kitchen counter",
+        "501": "umbrella"
+      },
+      "regions": {
+        "326": 6,
+        "299": 6,
+        "300": 6,
+        "278": 6,
+        "244": 5,
+        "501": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm feeling a bit cold.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the radiator.",
+          "labels": {
+            "197": "radiator"
+          },
+          "atomic_step": "Turn on the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the blinds in the living room.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Close the blinds in the living room.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": "in",
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the air conditioning to warm the room.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Reposition the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the sofa.",
+          "labels": {
+            "279": "sofa"
+          },
+          "atomic_step": "Straighten the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Use the water heater for a hot drink.",
+          "labels": {
+            "201": "water heater"
+          },
+          "atomic_step": "Inspect the water heater.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the painting on the wall.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Straighten the painting on the wall.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": "on",
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "197": "radiator",
+        "195": "blinds",
+        "318": "air conditioning",
+        "279": "sofa",
+        "201": "water heater",
+        "269": "painting"
+      },
+      "regions": {
+        "197": 5,
+        "195": 5,
+        "318": 6,
+        "279": 6,
+        "201": 5,
+        "269": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm preparing to host a small gathering.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the sink in the kitchen.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Empty the dishwasher.",
+          "labels": {
+            "221": "dishwasher"
+          },
+          "atomic_step": "Open dishwasher.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the chair for guests.",
+          "labels": {
+            "230": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the table surface.",
+          "labels": {
+            "292": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Check the supplies in the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Inspect the refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "in",
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Set a plate on the counter.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Place plate on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "261": "sink",
+        "221": "dishwasher",
+        "230": "chair",
+        "292": "table",
+        "210": "refrigerator",
+        "528": "plate"
+      },
+      "regions": {
+        "261": 5,
+        "221": 5,
+        "230": 5,
+        "292": 6,
+        "210": 5,
+        "528": 5
+      },
+      "assets": {
+        "528": "plate"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "My fish tank area needs some attention.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the fish tank glass.",
+          "labels": {
+            "317": "fish tank"
+          },
+          "atomic_step": "Wipe fish tank.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the plant next to the tank.",
+          "labels": {
+            "275": "plant"
+          },
+          "atomic_step": "Dust the plant next to the tank.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Empty the nearby bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dump bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe down the cabinet.",
+          "labels": {
+            "323": "cabinet"
+          },
+          "atomic_step": "Wipe the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the kitchen cabinet.",
+          "labels": {
+            "223": "kitchen cabinet"
+          },
+          "atomic_step": "Straighten kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Wipe the exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "317": "fish tank",
+        "275": "plant",
+        "299": "bin",
+        "323": "cabinet",
+        "223": "kitchen cabinet",
+        "504": "exercise equipment"
+      },
+      "regions": {
+        "317": 6,
+        "275": 6,
+        "299": 6,
+        "323": 6,
+        "223": 5,
+        "504": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I need to get some work done.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Bring the laptop_computer to the workspace.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Carry the laptop_computer to the workspace.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the lamp for better focus.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pull up a chair.",
+          "labels": {
+            "336": "chair"
+          },
+          "atomic_step": "Pull the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "pull",
+              "relation": null,
+              "mapping_source": "pull"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set a cup on the desk.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Place cup on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the blinds to reduce glare.",
+          "labels": {
+            "320": "blinds"
+          },
+          "atomic_step": "Adjust the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust_control"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Put the camera away in the storage area.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Store the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": "in",
+              "mapping_source": "repair_store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "538": "laptop_computer",
+        "273": "lamp",
+        "336": "chair",
+        "531": "cup",
+        "320": "blinds",
+        "537": "camera"
+      },
+      "regions": {
+        "538": 6,
+        "273": 6,
+        "336": 6,
+        "531": 6,
+        "320": 6,
+        "537": 9
+      },
+      "assets": {
+        "538": "laptop_computer",
+        "531": "cup",
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I want to watch a movie.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the tv.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dim the lamp in the living room.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Adjust the lamp in the living room.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": "in",
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the cushion for comfort.",
+          "labels": {
+            "301": "cushion"
+          },
+          "atomic_step": "Fluff the cushion for comfort.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "adjust_soft_fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the kitchen counter for snacks.",
+          "labels": {
+            "265": "kitchen counter"
+          },
+          "atomic_step": "Wipe kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Get a beverage from the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Open the refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "repair_open_container"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the exercise equipment out of sight.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "272": "tv",
+        "273": "lamp",
+        "301": "cushion",
+        "265": "kitchen counter",
+        "210": "refrigerator",
+        "504": "exercise equipment"
+      },
+      "regions": {
+        "272": 6,
+        "273": 6,
+        "301": 6,
+        "265": 5,
+        "210": 5,
+        "504": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm finishing up some kitchen chores.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Put away the kettle.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Store the kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Scrub the stovetop.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Scrub the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the painting on the living room wall.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Straighten the painting on the living room wall.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": "on",
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the cabinet in the corner.",
+          "labels": {
+            "323": "cabinet"
+          },
+          "atomic_step": "Dust the cabinet in the corner.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": "in",
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Straighten refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Relocate the umbrella to the gym area.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Carry the umbrella to the gym area.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "527": "kettle",
+        "200": "stovetop",
+        "269": "painting",
+        "323": "cabinet",
+        "210": "refrigerator",
+        "501": "umbrella"
+      },
+      "regions": {
+        "527": 5,
+        "200": 5,
+        "269": 6,
+        "323": 6,
+        "210": 5,
+        "501": 9
+      },
+      "assets": {
+        "527": "kettle"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm getting ready for bed.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn off the cooker.",
+          "labels": {
+            "222": "cooker"
+          },
+          "atomic_step": "Turn off the cooker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the kitchen cabinet doors.",
+          "labels": {
+            "224": "kitchen cabinet"
+          },
+          "atomic_step": "Close the kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn off the tv.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn off the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Shut down the air conditioning.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Close the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the chaise lounge.",
+          "labels": {
+            "293": "chaise"
+          },
+          "atomic_step": "Straighten the chaise.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Check the painting in the back room.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Inspect the painting in the back room.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "in",
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "222": "cooker",
+        "224": "kitchen cabinet",
+        "272": "tv",
+        "318": "air conditioning",
+        "293": "chaise",
+        "269": "painting"
+      },
+      "regions": {
+        "222": 5,
+        "224": 5,
+        "272": 6,
+        "318": 6,
+        "293": 6,
+        "269": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm planning to bake something later.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the kitchen counter space.",
+          "labels": {
+            "265": "kitchen counter"
+          },
+          "atomic_step": "Wipe kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the kitchen cabinet for ingredients.",
+          "labels": {
+            "249": "kitchen cabinet"
+          },
+          "atomic_step": "Straighten kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Preheat the cooker.",
+          "labels": {
+            "222": "cooker"
+          },
+          "atomic_step": "Turn on cooker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn off the tv in the next room.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn off the tv in the next room.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": "in",
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe down the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "265": "kitchen counter",
+        "249": "kitchen cabinet",
+        "222": "cooker",
+        "272": "tv",
+        "276": "table",
+        "504": "exercise equipment"
+      },
+      "regions": {
+        "265": 5,
+        "249": 5,
+        "222": 5,
+        "272": 6,
+        "276": 6,
+        "504": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm doing a deep clean today.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Sanitize the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the microwave interior.",
+          "labels": {
+            "260": "microwave"
+          },
+          "atomic_step": "Wipe the microwave.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the tv screen.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Dust the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the sign decoration.",
+          "labels": {
+            "313": "sign"
+          },
+          "atomic_step": "Wipe sign.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe down the painting frame.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Sanitize the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Wipe exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "261": "sink",
+        "260": "microwave",
+        "272": "tv",
+        "313": "sign",
+        "269": "painting",
+        "504": "exercise equipment"
+      },
+      "regions": {
+        "261": 5,
+        "260": 5,
+        "272": 6,
+        "313": 6,
+        "269": 6,
+        "504": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm having a quiet afternoon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Prepare tea using the kettle.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Turn on kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up a book to read.",
+          "labels": {
+            "207": "book"
+          },
+          "atomic_step": "Pick up the book to read.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the cushion on the sofa.",
+          "labels": {
+            "302": "cushion"
+          },
+          "atomic_step": "Fluff the cushion on the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Shift the sofa for a better view.",
+          "labels": {
+            "298": "sofa"
+          },
+          "atomic_step": "Reposition the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Place the cup on the table.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Place the cup on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Store the umbrella in the gym.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Store the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": "in",
+              "mapping_source": "repair_store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "527": "kettle",
+        "207": "book",
+        "302": "cushion",
+        "298": "sofa",
+        "531": "cup",
+        "501": "umbrella"
+      },
+      "regions": {
+        "527": 5,
+        "207": 5,
+        "302": 6,
+        "298": 6,
+        "531": 6,
+        "501": 9
+      },
+      "assets": {
+        "527": "kettle",
+        "531": "cup"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I need to reorganize the furniture a bit.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the chair to the side.",
+          "labels": {
+            "231": "chair"
+          },
+          "atomic_step": "Reposition the chair to the side.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Reposition the table in the living room.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Push table.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Shift the sofa slightly.",
+          "labels": {
+            "279": "sofa"
+          },
+          "atomic_step": "Reposition the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the plant to the corner.",
+          "labels": {
+            "275": "plant"
+          },
+          "atomic_step": "Carry the plant to the corner.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Relocate the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Check the refrigerator in the storage area.",
+          "labels": {
+            "512": "refrigerator"
+          },
+          "atomic_step": "Inspect the refrigerator in the storage area.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "in",
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "231": "chair",
+        "276": "table",
+        "279": "sofa",
+        "275": "plant",
+        "504": "exercise equipment",
+        "512": "refrigerator"
+      },
+      "regions": {
+        "231": 5,
+        "276": 6,
+        "279": 6,
+        "275": 6,
+        "504": 9,
+        "512": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm hungry.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve ingredients from the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Open the refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "repair_open_container"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the food on a plate.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Place the food on a plate.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Heat the food in the microwave.",
+          "labels": {
+            "260": "microwave"
+          },
+          "atomic_step": "Turn on microwave.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set the food down on the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Place the food down on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "repair_set_to_place"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the chair for a meal.",
+          "labels": {
+            "336": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dispose of packaging in the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dispose of waste in the bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dispose",
+              "relation": "in",
+              "mapping_source": "repair_dispose"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Check the camera for any delivery notifications.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Inspect the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "210": "refrigerator",
+        "528": "plate",
+        "260": "microwave",
+        "276": "table",
+        "336": "chair",
+        "299": "bin",
+        "537": "camera"
+      },
+      "regions": {
+        "210": 5,
+        "528": 5,
+        "260": 5,
+        "276": 6,
+        "336": 6,
+        "299": 6,
+        "537": 9
+      },
+      "assets": {
+        "528": "plate",
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "It's getting a bit cold in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the radiator.",
+          "labels": {
+            "197": "radiator"
+          },
+          "atomic_step": "Turn on the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the kitchen blinds.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Adjust the air conditioning settings.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Reposition the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_reposition_default"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place a cushion on the sofa.",
+          "labels": {
+            "300": "cushion"
+          },
+          "atomic_step": "Place a cushion on the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the exercise equipment to clear the floor.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment to clear the floor.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Check the camera to ensure the door is sealed.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Inspect the camera to ensure the door is sealed.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Boil water in the kettle for a hot drink.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Turn on kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "197": "radiator",
+        "195": "blinds",
+        "318": "air conditioning",
+        "300": "cushion",
+        "504": "exercise equipment",
+        "537": "camera",
+        "527": "kettle"
+      },
+      "regions": {
+        "197": 5,
+        "195": 5,
+        "318": 6,
+        "300": 6,
+        "504": 9,
+        "537": 9,
+        "527": 5
+      },
+      "assets": {
+        "537": "camera",
+        "527": "kettle"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "The living area is looking quite cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the kitchen cabinet to store stray items.",
+          "labels": {
+            "223": "kitchen cabinet"
+          },
+          "atomic_step": "Open the kitchen cabinet to store stray items.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the sink of any dirty dishes.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe down the dining table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Gather the scattered paper.",
+          "labels": {
+            "326": "paper"
+          },
+          "atomic_step": "Pick up the paper.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Empty the waste bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dump bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Store the umbrella by the door.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Store the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Organize the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Straighten exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "223": "kitchen cabinet",
+        "261": "sink",
+        "276": "table",
+        "326": "paper",
+        "299": "bin",
+        "501": "umbrella",
+        "504": "exercise equipment"
+      },
+      "regions": {
+        "223": 5,
+        "261": 5,
+        "276": 6,
+        "326": 6,
+        "299": 6,
+        "501": 9,
+        "504": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm going to watch a long movie.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Heat up some popcorn in the microwave.",
+          "labels": {
+            "260": "microwave"
+          },
+          "atomic_step": "Turn on microwave.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the tv.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dim the lamp for better viewing.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Adjust the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the living room blinds.",
+          "labels": {
+            "320": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Fluff the cushion on the couch.",
+          "labels": {
+            "301": "cushion"
+          },
+          "atomic_step": "Fluff the cushion on the couch.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Position the pouffe for foot support.",
+          "labels": {
+            "278": "pouffe"
+          },
+          "atomic_step": "Push pouffe.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Check the security camera before settling in.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Inspect the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "in",
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "260": "microwave",
+        "272": "tv",
+        "273": "lamp",
+        "320": "blinds",
+        "301": "cushion",
+        "278": "pouffe",
+        "537": "camera"
+      },
+      "regions": {
+        "260": 5,
+        "272": 6,
+        "273": 6,
+        "320": 6,
+        "301": 6,
+        "278": 6,
+        "537": 9
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I need to get some work done.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the kitchen counter.",
+          "labels": {
+            "244": "kitchen counter"
+          },
+          "atomic_step": "Wipe kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Prepare the kettle for a coffee.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Turn on the kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "full_semantic_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Power on the laptop computer.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Turn on the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set up the workspace on the table.",
+          "labels": {
+            "292": "table"
+          },
+          "atomic_step": "Set up the workspace on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": "on",
+              "mapping_source": "repair_setup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the desk chair.",
+          "labels": {
+            "336": "chair"
+          },
+          "atomic_step": "Reposition the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the loose paper.",
+          "labels": {
+            "326": "paper"
+          },
+          "atomic_step": "Straighten paper.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Set the camera aside.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Place camera on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "244": "kitchen counter",
+        "527": "kettle",
+        "538": "laptop_computer",
+        "292": "table",
+        "336": "chair",
+        "326": "paper",
+        "537": "camera"
+      },
+      "regions": {
+        "244": 5,
+        "527": 5,
+        "538": 6,
+        "292": 6,
+        "336": 6,
+        "326": 6,
+        "537": 9
+      },
+      "assets": {
+        "527": "kettle",
+        "538": "laptop_computer",
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm feeling quite thirsty.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Fill a pitcher at the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Use the sink to fill a container.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": "at",
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Heat the kettle for tea.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Turn on kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Retrieve a cup from the side table.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Pick up the cup from the side table.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear a space on the table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pull out the dining chair.",
+          "labels": {
+            "336": "chair"
+          },
+          "atomic_step": "Pull the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "pull",
+              "relation": null,
+              "mapping_source": "pull"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Get milk from the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Open the refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "repair_open_container"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Move the umbrella out of the walkway.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Carry the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "261": "sink",
+        "527": "kettle",
+        "531": "cup",
+        "276": "table",
+        "336": "chair",
+        "210": "refrigerator",
+        "501": "umbrella"
+      },
+      "regions": {
+        "261": 5,
+        "527": 5,
+        "531": 6,
+        "276": 6,
+        "336": 6,
+        "210": 5,
+        "501": 9
+      },
+      "assets": {
+        "527": "kettle",
+        "531": "cup"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm planning to start my morning workout.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get a cold drink from the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Open the refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "repair_open_container"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Rinse out a bottle in the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": "in",
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the air conditioning.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Turn on the air conditioning.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the blinds for more light.",
+          "labels": {
+            "320": "blinds"
+          },
+          "atomic_step": "Open the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clear the bin area.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Dump bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_trash_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Prepare the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Wipe exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Mount the camera to record the session.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Plug in the camera to record the session.",
+          "atomic_actions": [
+            {
+              "action_id": "plug_in",
+              "relation": "in",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "210": "refrigerator",
+        "261": "sink",
+        "318": "air conditioning",
+        "320": "blinds",
+        "299": "bin",
+        "504": "exercise equipment",
+        "537": "camera"
+      },
+      "regions": {
+        "210": 5,
+        "261": 5,
+        "318": 6,
+        "320": 6,
+        "299": 6,
+        "504": 9,
+        "537": 9
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I have a few guests arriving shortly.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Empty the dishwasher.",
+          "labels": {
+            "221": "dishwasher"
+          },
+          "atomic_step": "Open dishwasher.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the kitchen counter.",
+          "labels": {
+            "265": "kitchen counter"
+          },
+          "atomic_step": "Wipe kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust off the dining table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Dust the table.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the sofa.",
+          "labels": {
+            "279": "sofa"
+          },
+          "atomic_step": "Straighten the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Water the decorative plant.",
+          "labels": {
+            "275": "plant"
+          },
+          "atomic_step": "Pour onto plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the storage cabinet.",
+          "labels": {
+            "323": "cabinet"
+          },
+          "atomic_step": "Straighten cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Ensure the entryway painting is straight.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Inspect the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "221": "dishwasher",
+        "265": "kitchen counter",
+        "276": "table",
+        "279": "sofa",
+        "275": "plant",
+        "323": "cabinet",
+        "269": "painting"
+      },
+      "regions": {
+        "221": 5,
+        "265": 5,
+        "276": 6,
+        "279": 6,
+        "275": 6,
+        "323": 6,
+        "269": 6
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "It's time to wake up and start the day.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the kitchen blinds.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Open the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the stovetop.",
+          "labels": {
+            "200": "stovetop"
+          },
+          "atomic_step": "Turn on the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Boil the kettle.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Turn on kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the tv for news.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pick up the morning paper.",
+          "labels": {
+            "326": "paper"
+          },
+          "atomic_step": "Pick up the paper.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Check the umbrella for the weather.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Inspect the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Pick up the camera to take a morning photo.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera to take a morning photo.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "195": "blinds",
+        "200": "stovetop",
+        "527": "kettle",
+        "272": "tv",
+        "326": "paper",
+        "501": "umbrella",
+        "537": "camera"
+      },
+      "regions": {
+        "195": 5,
+        "200": 5,
+        "527": 5,
+        "272": 6,
+        "326": 6,
+        "501": 9,
+        "537": 9
+      },
+      "assets": {
+        "527": "kettle",
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm going to enjoy some afternoon tea.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get a tea bag from the kitchen cabinet.",
+          "labels": {
+            "224": "kitchen cabinet"
+          },
+          "atomic_step": "Open the kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "repair_open_container"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place a snack on the plate.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Place a snack on the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the kettle.",
+          "labels": {
+            "527": "kettle"
+          },
+          "atomic_step": "Turn on the kettle.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Bring a cup to the living area.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Carry the cup to the living area.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Set the tray on the table.",
+          "labels": {
+            "292": "table"
+          },
+          "atomic_step": "Place the tray on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "repair_set_to_place"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Arrange the sofa for relaxation.",
+          "labels": {
+            "298": "sofa"
+          },
+          "atomic_step": "Push sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Check the camera settings.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Inspect the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "224": "kitchen cabinet",
+        "528": "plate",
+        "527": "kettle",
+        "531": "cup",
+        "292": "table",
+        "298": "sofa",
+        "537": "camera"
+      },
+      "regions": {
+        "224": 5,
+        "528": 5,
+        "527": 5,
+        "531": 6,
+        "292": 6,
+        "298": 6,
+        "537": 9
+      },
+      "assets": {
+        "528": "plate",
+        "527": "kettle",
+        "531": "cup",
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm feeling a bit bored and want to relax.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up a book.",
+          "labels": {
+            "207": "book"
+          },
+          "atomic_step": "Pick up the book.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the tv.",
+          "labels": {
+            "272": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Check the laptop computer for messages.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Inspect the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Feed the fish in the fish tank.",
+          "labels": {
+            "317": "fish tank"
+          },
+          "atomic_step": "Inspect the fish tank.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "in",
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Admire the painting on the wall.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Inspect the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "on",
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the exercise equipment out of sight.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Carry the exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "207": "book",
+        "272": "tv",
+        "538": "laptop_computer",
+        "317": "fish tank",
+        "269": "painting",
+        "504": "exercise equipment"
+      },
+      "regions": {
+        "207": 5,
+        "272": 6,
+        "538": 6,
+        "317": 6,
+        "269": 6,
+        "504": 9
+      },
+      "assets": {
+        "538": "laptop_computer"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "The kitchen needs a good cleaning.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Scrub the sink.",
+          "labels": {
+            "261": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe down the kitchen cabinet doors.",
+          "labels": {
+            "249": "kitchen cabinet"
+          },
+          "atomic_step": "Wipe the kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Load the dishwasher.",
+          "labels": {
+            "221": "dishwasher"
+          },
+          "atomic_step": "Load the dishwasher.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Take out the trash to the bin.",
+          "labels": {
+            "299": "bin"
+          },
+          "atomic_step": "Pick up the bin.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": "in",
+              "mapping_source": "repair_pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the dining table.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the door of the refrigerator.",
+          "labels": {
+            "210": "refrigerator"
+          },
+          "atomic_step": "Wipe the refrigerator.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Relocate the umbrella.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Carry the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "261": "sink",
+        "249": "kitchen cabinet",
+        "221": "dishwasher",
+        "299": "bin",
+        "276": "table",
+        "210": "refrigerator",
+        "501": "umbrella"
+      },
+      "regions": {
+        "261": 5,
+        "249": 5,
+        "221": 5,
+        "299": 6,
+        "276": 6,
+        "210": 5,
+        "501": 9
+      },
+      "assets": {},
+      "start_region": 5
+    },
+    {
+      "task": "I'm preparing for the evening.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the blinds.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Close the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the cooker.",
+          "labels": {
+            "222": "cooker"
+          },
+          "atomic_step": "Turn on the cooker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Start the dishwasher.",
+          "labels": {
+            "221": "dishwasher"
+          },
+          "atomic_step": "Turn on the dishwasher.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Switch on the lamp.",
+          "labels": {
+            "273": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Tidy the sofa cushions.",
+          "labels": {
+            "303": "sofa"
+          },
+          "atomic_step": "Straighten the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "tidy_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Arrange the cushion for comfort.",
+          "labels": {
+            "302": "cushion"
+          },
+          "atomic_step": "Fluff the cushion.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Review the camera footage.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Inspect the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "195": "blinds",
+        "222": "cooker",
+        "221": "dishwasher",
+        "273": "lamp",
+        "303": "sofa",
+        "302": "cushion",
+        "537": "camera"
+      },
+      "regions": {
+        "195": 5,
+        "222": 5,
+        "221": 5,
+        "273": 6,
+        "303": 6,
+        "302": 6,
+        "537": 9
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I want to prepare a small snack.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get frozen fruit from the freezer.",
+          "labels": {
+            "216": "freezer"
+          },
+          "atomic_step": "Pick up the freezer.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "repair_pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Defrost the fruit in the microwave.",
+          "labels": {
+            "260": "microwave"
+          },
+          "atomic_step": "Open the microwave.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": "in",
+              "mapping_source": "full_semantic_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Transfer the fruit to a plate.",
+          "labels": {
+            "528": "plate"
+          },
+          "atomic_step": "Inspect the plate.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "subject_preserving_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the kitchen counter area.",
+          "labels": {
+            "265": "kitchen counter"
+          },
+          "atomic_step": "Wipe kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pour a drink into a cup.",
+          "labels": {
+            "531": "cup"
+          },
+          "atomic_step": "Pour into the cup.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": "in",
+              "mapping_source": "pour"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Bring the snack to the table.",
+          "labels": {
+            "292": "table"
+          },
+          "atomic_step": "Reposition the table.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "full_semantic_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Move the umbrella.",
+          "labels": {
+            "501": "umbrella"
+          },
+          "atomic_step": "Carry the umbrella.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "216": "freezer",
+        "260": "microwave",
+        "528": "plate",
+        "265": "kitchen counter",
+        "531": "cup",
+        "292": "table",
+        "501": "umbrella"
+      },
+      "regions": {
+        "216": 5,
+        "260": 5,
+        "528": 5,
+        "265": 5,
+        "531": 6,
+        "292": 6,
+        "501": 9
+      },
+      "assets": {
+        "528": "plate",
+        "531": "cup"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I want to freshen up the living space.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the kitchen blinds.",
+          "labels": {
+            "195": "blinds"
+          },
+          "atomic_step": "Open the blinds.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn off the radiator.",
+          "labels": {
+            "197": "radiator"
+          },
+          "atomic_step": "Turn off the radiator.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Set the air conditioning to fan mode.",
+          "labels": {
+            "318": "air conditioning"
+          },
+          "atomic_step": "Set the air conditioning to fan mode.",
+          "atomic_actions": [
+            {
+              "action_id": "set",
+              "relation": null,
+              "mapping_source": "repair_set"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Water the plant.",
+          "labels": {
+            "305": "plant"
+          },
+          "atomic_step": "Pour onto plant.",
+          "atomic_actions": [
+            {
+              "action_id": "pour",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:water_to_pour"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the painting.",
+          "labels": {
+            "269": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the exercise equipment.",
+          "labels": {
+            "504": "exercise equipment"
+          },
+          "atomic_step": "Wipe exercise equipment.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wipe the lens of the camera.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Wipe the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "195": "blinds",
+        "197": "radiator",
+        "318": "air conditioning",
+        "305": "plant",
+        "269": "painting",
+        "504": "exercise equipment",
+        "537": "camera"
+      },
+      "regions": {
+        "195": 5,
+        "197": 5,
+        "318": 6,
+        "305": 6,
+        "269": 6,
+        "504": 9,
+        "537": 9
+      },
+      "assets": {
+        "537": "camera"
+      },
+      "start_region": 5
+    },
+    {
+      "task": "I'm working on my photography hobby.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve photo paper from the kitchen cabinet.",
+          "labels": {
+            "251": "kitchen cabinet"
+          },
+          "atomic_step": "Open the kitchen cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "repair_open_container"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Set up a workspace on the kitchen counter.",
+          "labels": {
+            "244": "kitchen counter"
+          },
+          "atomic_step": "Set up a workspace on the kitchen counter.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": "on",
+              "mapping_source": "repair_setup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Edit photos on the laptop computer.",
+          "labels": {
+            "538": "laptop_computer"
+          },
+          "atomic_step": "Inspect the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "on",
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the table for a shoot.",
+          "labels": {
+            "276": "table"
+          },
+          "atomic_step": "Push table.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Place the chair for the subject.",
+          "labels": {
+            "336": "chair"
+          },
+          "atomic_step": "Place the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "place"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Prepare the camera for use.",
+          "labels": {
+            "537": "camera"
+          },
+          "atomic_step": "Pick up the camera.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "prepare"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Take a photo of the painting.",
+          "labels": {
+            "500": "painting"
+          },
+          "atomic_step": "Pick up the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "251": "kitchen cabinet",
+        "244": "kitchen counter",
+        "538": "laptop_computer",
+        "276": "table",
+        "336": "chair",
+        "537": "camera",
+        "500": "painting"
+      },
+      "regions": {
+        "251": 5,
+        "244": 5,
+        "538": 6,
+        "276": 6,
+        "336": 6,
+        "537": 9,
+        "500": 9
+      },
+      "assets": {
+        "538": "laptop_computer",
+        "537": "camera"
+      },
+      "start_region": 5
+    }
+  ]
+}

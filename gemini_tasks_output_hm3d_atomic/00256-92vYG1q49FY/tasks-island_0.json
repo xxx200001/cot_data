@@ -687,12 +687,12 @@
           "labels": {
             "1047": "paper towel dispenser"
           },
-          "atomic_step": "Store the paper towel dispenser.",
+          "atomic_step": "Load the paper towel dispenser.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store;semantic_qa_v1:store-->load"
             }
           ]
         }
@@ -8566,12 +8566,12 @@
           "labels": {
             "1047": "paper towel dispenser"
           },
-          "atomic_step": "Store the paper towel dispenser.",
+          "atomic_step": "Load the paper towel dispenser.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store"
+              "mapping_source": "semantic_repair_v5:fill_paper_towel_dispenser_to_store;semantic_qa_v1:store-->load"
             }
           ]
         }

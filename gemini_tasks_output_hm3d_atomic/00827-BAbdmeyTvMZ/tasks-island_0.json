@@ -1556,12 +1556,12 @@
           "labels": {
             "203": "couch"
           },
-          "atomic_step": "Straighten the couch.",
+          "atomic_step": "Fluff the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -4329,12 +4329,12 @@
           "labels": {
             "290": "dishwasher"
           },
-          "atomic_step": "Rinse the dishwasher.",
+          "atomic_step": "Rinse the dishes in the dishwasher.",
           "atomic_actions": [
             {
               "action_id": "rinse",
-              "relation": null,
-              "mapping_source": "replacement_from_wash"
+              "relation": "in",
+              "mapping_source": "replacement_from_wash;semantic_qa_v1:fix_patient_drift_rinse"
             }
           ]
         },

@@ -1487,12 +1487,12 @@
           "labels": {
             "183": "armchair"
           },
-          "atomic_step": "Straighten items on the armchair.",
+          "atomic_step": "Fluff items on the armchair.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },

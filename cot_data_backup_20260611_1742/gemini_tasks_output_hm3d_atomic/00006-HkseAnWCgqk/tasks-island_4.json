@@ -1,0 +1,3928 @@
+{
+  "scene_id": "00006-HkseAnWCgqk",
+  "tasks": [
+    {
+      "task": "I'm going on a trip.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Lift the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pack the items on the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Place items on the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "subject_preserving_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Put the speaker inside the luggage.",
+          "labels": {
+            "116": "speaker"
+          },
+          "atomic_step": "Place the speaker in the luggage.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place the suitcase on the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Place the suitcase on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "453": "suitcase",
+        "162": "shelf",
+        "116": "speaker",
+        "168": "table"
+      },
+      "regions": {
+        "453": 2,
+        "162": 3,
+        "116": 2,
+        "168": 3
+      },
+      "assets": {
+        "453": "suitcase"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "It's getting late and I want to read.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get a book from the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Inspect the book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "full_semantic_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the book on the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Place the book on the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the pillows.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "127": "book rack",
+        "164": "stool",
+        "121": "lamp",
+        "91": "pillow"
+      },
+      "regions": {
+        "127": 2,
+        "164": 3,
+        "121": 2,
+        "91": 2
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "I need to pack my things for school.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Lift the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Put the cellular telephone inside.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place the cellular telephone inside.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "manual_semantic_repair_v4"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Collect the book.",
+          "labels": {
+            "140": "book"
+          },
+          "atomic_step": "Pick up the book.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place the backpack on the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Place the backpack on the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "454": "backpack",
+        "456": "cellular_telephone",
+        "140": "book",
+        "164": "stool"
+      },
+      "regions": {
+        "454": 2,
+        "456": 3,
+        "140": 2,
+        "164": 3
+      },
+      "assets": {
+        "454": "backpack",
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm planning to watch a movie.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the tv.",
+          "labels": {
+            "115": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the stool for a footrest.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the pillows.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "115": "tv",
+        "164": "stool",
+        "91": "pillow",
+        "168": "table"
+      },
+      "regions": {
+        "115": 2,
+        "164": 3,
+        "91": 2,
+        "168": 3
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "This room needs tidying.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Put the books back in the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Place items on the book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "subject_preserving_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Close the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe down the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "127": "book rack",
+        "162": "shelf",
+        "120": "cabinet",
+        "168": "table"
+      },
+      "regions": {
+        "127": 2,
+        "162": 3,
+        "120": 2,
+        "168": 3
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "I need to make a phone call while working.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the cellular telephone.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Pick up the cellular_telephone.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the phone on the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Place the phone on the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Get the book from the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Inspect the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:pick_up_immovable_fixture"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "456": "cellular_telephone",
+        "120": "cabinet",
+        "121": "lamp",
+        "162": "shelf"
+      },
+      "regions": {
+        "456": 3,
+        "120": 2,
+        "121": 2,
+        "162": 3
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I want to listen to some music.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the speaker.",
+          "labels": {
+            "116": "speaker"
+          },
+          "atomic_step": "Turn on the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clear the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the pillows on the floor.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Fluff the pillow on the floor.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the cellular telephone.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Carry the cellular_telephone.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "116": "speaker",
+        "168": "table",
+        "91": "pillow",
+        "456": "cellular_telephone"
+      },
+      "regions": {
+        "116": 2,
+        "168": 3,
+        "91": 2,
+        "456": 3
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm coming home from a trip.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Bring in the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Carry the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": "in",
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Put the keys on the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Place the keys on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the cabinet to store items.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Open the cabinet to store items.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "453": "suitcase",
+        "168": "table",
+        "120": "cabinet",
+        "162": "shelf"
+      },
+      "regions": {
+        "453": 2,
+        "168": 3,
+        "120": 2,
+        "162": 3
+      },
+      "assets": {
+        "453": "suitcase"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm leaving for a trip.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Lift the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the suitcase on the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Place the suitcase on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pack the speaker into the suitcase.",
+          "labels": {
+            "131": "speaker"
+          },
+          "atomic_step": "Load the speaker into the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": "in",
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Put a book inside the suitcase.",
+          "labels": {
+            "140": "book"
+          },
+          "atomic_step": "Place a book in the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Place the phone in the suitcase side pocket.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place items in the cellular_telephone.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "453": "suitcase",
+        "168": "table",
+        "131": "speaker",
+        "140": "book",
+        "456": "cellular_telephone"
+      },
+      "regions": {
+        "453": 2,
+        "168": 3,
+        "131": 2,
+        "140": 2,
+        "456": 3
+      },
+      "assets": {
+        "453": "suitcase",
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "This area is quite cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the pillow from the floor.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Lift the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the pillow on the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Place the pillow on the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Store the box in the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Store the box in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": "in",
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the items on the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Place shelf on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the books in the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Place book rack in receptacle.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "91": "pillow",
+        "164": "stool",
+        "120": "cabinet",
+        "162": "shelf",
+        "127": "book rack"
+      },
+      "regions": {
+        "91": 2,
+        "164": 3,
+        "120": 2,
+        "162": 3,
+        "127": 2
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "I want to relax and read for a while.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clear the table to make space.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up a book to read.",
+          "labels": {
+            "141": "book"
+          },
+          "atomic_step": "Pick up the book to read.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pull the stool closer.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Pull the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "pull",
+              "relation": null,
+              "mapping_source": "pull"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Fluff the pillow for comfort.",
+          "labels": {
+            "92": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "121": "lamp",
+        "168": "table",
+        "141": "book",
+        "164": "stool",
+        "92": "pillow"
+      },
+      "regions": {
+        "121": 2,
+        "168": 3,
+        "141": 2,
+        "164": 3,
+        "92": 2
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "I'm heading out to a class.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Lift the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Set the backpack on the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Place the backpack on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "repair_set_to_place"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pack the book for the lesson.",
+          "labels": {
+            "142": "book"
+          },
+          "atomic_step": "Store the book.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:load_loose_object_to_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Put the phone into the backpack.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place items in the cellular_telephone.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Secure the speaker inside.",
+          "labels": {
+            "117": "speaker"
+          },
+          "atomic_step": "Store the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "454": "backpack",
+        "168": "table",
+        "142": "book",
+        "456": "cellular_telephone",
+        "117": "speaker"
+      },
+      "regions": {
+        "454": 2,
+        "168": 3,
+        "142": 2,
+        "456": 3,
+        "117": 2
+      },
+      "assets": {
+        "454": "backpack",
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm hosting a small gathering later.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Arrange the pillows on the seating.",
+          "labels": {
+            "93": "pillow"
+          },
+          "atomic_step": "Fluff the pillow on the seating.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the stool to create more room.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool to create more room.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:malformed_to_the_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the speaker for music.",
+          "labels": {
+            "131": "speaker"
+          },
+          "atomic_step": "Turn on the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the shelf surface.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Dust shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dim the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Adjust the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "93": "pillow",
+        "164": "stool",
+        "131": "speaker",
+        "162": "shelf",
+        "121": "lamp"
+      },
+      "regions": {
+        "93": 2,
+        "164": 3,
+        "131": 2,
+        "162": 3,
+        "121": 2
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "I need to do some research for my project.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Take a reference book from the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Inspect the book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "full_semantic_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the book on the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Place the book on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Bring the phone to check online sources.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Carry the cellular_telephone to check online sources.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Retrieve the box containing notes.",
+          "labels": {
+            "119": "box"
+          },
+          "atomic_step": "Lift the box.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the cabinet drawers.",
+          "labels": {
+            "128": "cabinet"
+          },
+          "atomic_step": "Straighten cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "127": "book rack",
+        "168": "table",
+        "456": "cellular_telephone",
+        "119": "box",
+        "128": "cabinet"
+      },
+      "regions": {
+        "127": 2,
+        "168": 3,
+        "456": 3,
+        "119": 2,
+        "128": 2
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm preparing to watch a movie.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the tv.",
+          "labels": {
+            "115": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Position the stool as a footrest.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Push stool.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Activate the speaker for surround sound.",
+          "labels": {
+            "116": "speaker"
+          },
+          "atomic_step": "Turn on the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the table for snacks.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the pillow.",
+          "labels": {
+            "94": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "adjust_soft_fluff"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "115": "tv",
+        "164": "stool",
+        "116": "speaker",
+        "168": "table",
+        "94": "pillow"
+      },
+      "regions": {
+        "115": 2,
+        "164": 3,
+        "116": 2,
+        "168": 3,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "I'm moving some items to storage.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Open the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pack items from the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Place items on the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_object_pair_repair_v2:load_shelf"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Place the speaker in the suitcase.",
+          "labels": {
+            "117": "speaker"
+          },
+          "atomic_step": "Place the speaker in the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set the phone on the table temporarily.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Place the phone on the table temporarily.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "repair_set_to_place"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pack the box into the suitcase.",
+          "labels": {
+            "119": "box"
+          },
+          "atomic_step": "Load the box into the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": "in",
+              "mapping_source": "pack"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "453": "suitcase",
+        "162": "shelf",
+        "117": "speaker",
+        "168": "table",
+        "119": "box"
+      },
+      "regions": {
+        "453": 2,
+        "162": 3,
+        "117": 2,
+        "168": 3,
+        "119": 2
+      },
+      "assets": {
+        "453": "suitcase"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm setting up a home office space.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe down the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Position the lamp on the desk.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Place lamp on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the shelf for office supplies.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the books neatly.",
+          "labels": {
+            "143": "book"
+          },
+          "atomic_step": "Place book on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Place the phone on the table.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place items on the cellular_telephone.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "168": "table",
+        "121": "lamp",
+        "162": "shelf",
+        "143": "book",
+        "456": "cellular_telephone"
+      },
+      "regions": {
+        "168": 3,
+        "121": 2,
+        "162": 3,
+        "143": 2,
+        "456": 3
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm looking for my lost keys.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Search inside the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Inspect the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "in",
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clear the table to see better.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the backpack aside.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Carry the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Look under the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Inspect the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Open the suitcase to check inside.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Open the suitcase to check inside.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": "in",
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "120": "cabinet",
+        "168": "table",
+        "454": "backpack",
+        "164": "stool",
+        "453": "suitcase"
+      },
+      "regions": {
+        "120": 2,
+        "168": 3,
+        "454": 2,
+        "164": 3,
+        "453": 2
+      },
+      "assets": {
+        "454": "backpack",
+        "453": "suitcase"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm tidying up the lounge area.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the pillows.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Straighten the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the table surface.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Put the books away in the cabinet.",
+          "labels": {
+            "128": "cabinet"
+          },
+          "atomic_step": "Store items in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": "in",
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Dust the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn off the tv.",
+          "labels": {
+            "115": "tv"
+          },
+          "atomic_step": "Turn off the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "91": "pillow",
+        "168": "table",
+        "128": "cabinet",
+        "162": "shelf",
+        "115": "tv"
+      },
+      "regions": {
+        "91": 2,
+        "168": 3,
+        "128": 2,
+        "162": 3,
+        "115": 2
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "I'm leaving for a trip.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Open the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pack the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Load the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pick up the cellular telephone.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Pick up the cellular_telephone.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clear the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "453": "suitcase",
+        "454": "backpack",
+        "164": "stool",
+        "162": "shelf",
+        "456": "cellular_telephone",
+        "168": "table"
+      },
+      "regions": {
+        "453": 2,
+        "454": 2,
+        "164": 3,
+        "162": 3,
+        "456": 3,
+        "168": 3
+      },
+      "assets": {
+        "453": "suitcase",
+        "454": "backpack",
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "The living room is quite messy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the pillow.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "organize"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Tidy the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Put the box inside the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Place the box in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place the speaker on the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Place the speaker on the book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe down the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "91": "pillow",
+        "162": "shelf",
+        "120": "cabinet",
+        "127": "book rack",
+        "164": "stool",
+        "168": "table"
+      },
+      "regions": {
+        "91": 2,
+        "162": 3,
+        "120": 2,
+        "127": 2,
+        "164": 3,
+        "168": 3
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "I want to listen to some music.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the speaker.",
+          "labels": {
+            "116": "speaker"
+          },
+          "atomic_step": "Turn on the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Adjust the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up the book.",
+          "labels": {
+            "140": "book"
+          },
+          "atomic_step": "Pick up the book.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place the cellular telephone on the table.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place the cellular telephone on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clear the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Wipe stool.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Arrange the pillow.",
+          "labels": {
+            "92": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "116": "speaker",
+        "121": "lamp",
+        "140": "book",
+        "456": "cellular_telephone",
+        "164": "stool",
+        "92": "pillow"
+      },
+      "regions": {
+        "116": 2,
+        "121": 2,
+        "140": 2,
+        "456": 3,
+        "164": 3,
+        "92": 2
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I need to do some studying.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve a book from the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Inspect the book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "full_semantic_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Place the book on the table.",
+          "labels": {
+            "141": "book"
+          },
+          "atomic_step": "Place the book on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Position the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Push stool.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pack the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Load the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "121": "lamp",
+        "127": "book rack",
+        "141": "book",
+        "164": "stool",
+        "454": "backpack",
+        "162": "shelf"
+      },
+      "regions": {
+        "121": 2,
+        "127": 2,
+        "141": 2,
+        "164": 3,
+        "454": 2,
+        "162": 3
+      },
+      "assets": {
+        "454": "backpack"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "It's time for a movie.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the tv.",
+          "labels": {
+            "115": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Set the speaker volume.",
+          "labels": {
+            "116": "speaker"
+          },
+          "atomic_step": "Set the speaker volume.",
+          "atomic_actions": [
+            {
+              "action_id": "set",
+              "relation": null,
+              "mapping_source": "repair_set"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fluff the pillow.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Put away the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Store the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Place the cellular telephone on the table.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place the cellular telephone on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "115": "tv",
+        "116": "speaker",
+        "91": "pillow",
+        "453": "suitcase",
+        "164": "stool",
+        "456": "cellular_telephone"
+      },
+      "regions": {
+        "115": 2,
+        "116": 2,
+        "91": 2,
+        "453": 2,
+        "164": 3,
+        "456": 3
+      },
+      "assets": {
+        "453": "suitcase",
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm searching for my lost keys.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the pillow.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Carry the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Shift the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Carry the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Open the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Open the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "120": "cabinet",
+        "91": "pillow",
+        "453": "suitcase",
+        "162": "shelf",
+        "168": "table",
+        "454": "backpack"
+      },
+      "regions": {
+        "120": 2,
+        "91": 2,
+        "453": 2,
+        "162": 3,
+        "168": 3,
+        "454": 2
+      },
+      "assets": {
+        "453": "suitcase",
+        "454": "backpack"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm preparing to host a small book club.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Arrange the books on the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Place book rack on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the tv.",
+          "labels": {
+            "115": "tv"
+          },
+          "atomic_step": "Dust the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the pillows.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "organize"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Position the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Push stool.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Place the cellular telephone on the shelf.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place the cellular telephone on the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "127": "book rack",
+        "115": "tv",
+        "91": "pillow",
+        "168": "table",
+        "164": "stool",
+        "456": "cellular_telephone"
+      },
+      "regions": {
+        "127": 2,
+        "115": 2,
+        "91": 2,
+        "168": 3,
+        "164": 3,
+        "456": 3
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm organizing my storage.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Place the box in the cabinet.",
+          "labels": {
+            "128": "cabinet"
+          },
+          "atomic_step": "Place the box in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Stack the books.",
+          "labels": {
+            "140": "book"
+          },
+          "atomic_step": "Stack the book.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Carry the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Place shelf on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clear the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Wipe stool.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "128": "cabinet",
+        "140": "book",
+        "453": "suitcase",
+        "162": "shelf",
+        "164": "stool",
+        "168": "table"
+      },
+      "regions": {
+        "128": 2,
+        "140": 2,
+        "453": 2,
+        "162": 3,
+        "164": 3,
+        "168": 3
+      },
+      "assets": {
+        "453": "suitcase"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm going to do some research.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up a book.",
+          "labels": {
+            "141": "book"
+          },
+          "atomic_step": "Pick up the book.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Open the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set up the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Set up the table.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Position the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Push stool.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Pick up the cellular telephone.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Pick up the cellular_telephone.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "141": "book",
+        "121": "lamp",
+        "454": "backpack",
+        "168": "table",
+        "164": "stool",
+        "456": "cellular_telephone"
+      },
+      "regions": {
+        "141": 2,
+        "121": 2,
+        "454": 2,
+        "168": 3,
+        "164": 3,
+        "456": 3
+      },
+      "assets": {
+        "454": "backpack",
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm getting ready for bed.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn off the tv.",
+          "labels": {
+            "115": "tv"
+          },
+          "atomic_step": "Turn off the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the speaker.",
+          "labels": {
+            "131": "speaker"
+          },
+          "atomic_step": "Adjust the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the pillow.",
+          "labels": {
+            "93": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place the cellular telephone on the table.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place the cellular telephone on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn off the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Turn off the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clear the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "115": "tv",
+        "131": "speaker",
+        "93": "pillow",
+        "456": "cellular_telephone",
+        "121": "lamp",
+        "162": "shelf"
+      },
+      "regions": {
+        "115": 2,
+        "131": 2,
+        "93": 2,
+        "456": 3,
+        "121": 2,
+        "162": 3
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm heading out for a business trip.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Open the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the cellular telephone inside.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place the cellular telephone inside.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "manual_semantic_repair_v4"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Retrieve a book from the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Inspect the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:pick_up_immovable_fixture"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Close the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Straighten cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clear the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "453": "suitcase",
+        "456": "cellular_telephone",
+        "162": "shelf",
+        "454": "backpack",
+        "120": "cabinet",
+        "164": "stool",
+        "168": "table"
+      },
+      "regions": {
+        "453": 2,
+        "456": 3,
+        "162": 3,
+        "454": 2,
+        "120": 2,
+        "164": 3,
+        "168": 3
+      },
+      "assets": {
+        "453": "suitcase",
+        "456": "cellular_telephone",
+        "454": "backpack"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I need some quiet time to read.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the pillow.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Retrieve a book from the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Inspect the book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "full_semantic_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the stool closer.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the speaker.",
+          "labels": {
+            "116": "speaker"
+          },
+          "atomic_step": "Adjust the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Open the cabinet.",
+          "labels": {
+            "128": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "121": "lamp",
+        "91": "pillow",
+        "127": "book rack",
+        "164": "stool",
+        "168": "table",
+        "116": "speaker",
+        "128": "cabinet"
+      },
+      "regions": {
+        "121": 2,
+        "91": 2,
+        "127": 2,
+        "164": 3,
+        "168": 3,
+        "116": 2,
+        "128": 2
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "This room is starting to look cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Wipe book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Align the speaker.",
+          "labels": {
+            "131": "speaker"
+          },
+          "atomic_step": "Align the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize items on the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Place shelf on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Close the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Close the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Fold the pillow.",
+          "labels": {
+            "92": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "semantic_object_pair_repair_v2:fold_pillow"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Reposition the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "arrange"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "127": "book rack",
+        "131": "speaker",
+        "168": "table",
+        "162": "shelf",
+        "120": "cabinet",
+        "92": "pillow",
+        "164": "stool"
+      },
+      "regions": {
+        "127": 2,
+        "131": 2,
+        "168": 3,
+        "162": 3,
+        "120": 2,
+        "92": 2,
+        "164": 3
+      },
+      "assets": {},
+      "start_region": 2
+    },
+    {
+      "task": "It's movie night.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the tv.",
+          "labels": {
+            "115": "tv"
+          },
+          "atomic_step": "Turn on the tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the speaker.",
+          "labels": {
+            "116": "speaker"
+          },
+          "atomic_step": "Adjust the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dim the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Adjust the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place the cellular telephone on the table.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place the cellular telephone on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clear the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the pillow.",
+          "labels": {
+            "93": "pillow"
+          },
+          "atomic_step": "Straighten the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Close the cabinet.",
+          "labels": {
+            "128": "cabinet"
+          },
+          "atomic_step": "Close the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "115": "tv",
+        "116": "speaker",
+        "121": "lamp",
+        "456": "cellular_telephone",
+        "162": "shelf",
+        "93": "pillow",
+        "128": "cabinet"
+      },
+      "regions": {
+        "115": 2,
+        "116": 2,
+        "121": 2,
+        "456": 3,
+        "162": 3,
+        "93": 2,
+        "128": 2
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I can't find my phone anywhere.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Open the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the pillow.",
+          "labels": {
+            "94": "pillow"
+          },
+          "atomic_step": "Carry the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Wipe book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Place shelf on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Pick up the cellular telephone.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Pick up the cellular_telephone.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "454": "backpack",
+        "94": "pillow",
+        "127": "book rack",
+        "120": "cabinet",
+        "162": "shelf",
+        "164": "stool",
+        "456": "cellular_telephone"
+      },
+      "regions": {
+        "454": 2,
+        "94": 2,
+        "127": 2,
+        "120": 2,
+        "162": 3,
+        "164": 3,
+        "456": 3
+      },
+      "assets": {
+        "454": "backpack",
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I want to listen to some music while I work.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the speaker.",
+          "labels": {
+            "117": "speaker"
+          },
+          "atomic_step": "Turn on the speaker.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Plug in the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Plug in the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "plug_in",
+              "relation": "in",
+              "mapping_source": "connect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Carry the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe the table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Reposition the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "adjust_furniture_reposition"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Close the cabinet.",
+          "labels": {
+            "128": "cabinet"
+          },
+          "atomic_step": "Close the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "117": "speaker",
+        "121": "lamp",
+        "453": "suitcase",
+        "164": "stool",
+        "168": "table",
+        "162": "shelf",
+        "128": "cabinet"
+      },
+      "regions": {
+        "117": 2,
+        "121": 2,
+        "453": 2,
+        "164": 3,
+        "168": 3,
+        "162": 3,
+        "128": 2
+      },
+      "assets": {
+        "453": "suitcase"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I have a big exam to study for.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the lamp.",
+          "labels": {
+            "121": "lamp"
+          },
+          "atomic_step": "Turn on the lamp.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve a book.",
+          "labels": {
+            "140": "book"
+          },
+          "atomic_step": "Pick up the book.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Place the book on the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Place the book on the table.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Position the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Push stool.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Put the cellular telephone on the shelf.",
+          "labels": {
+            "456": "cellular_telephone"
+          },
+          "atomic_step": "Place the cellular telephone on the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Open the cabinet.",
+          "labels": {
+            "120": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Straighten the pillow.",
+          "labels": {
+            "91": "pillow"
+          },
+          "atomic_step": "Straighten the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "121": "lamp",
+        "140": "book",
+        "168": "table",
+        "164": "stool",
+        "456": "cellular_telephone",
+        "120": "cabinet",
+        "91": "pillow"
+      },
+      "regions": {
+        "121": 2,
+        "140": 2,
+        "168": 3,
+        "164": 3,
+        "456": 3,
+        "120": 2,
+        "91": 2
+      },
+      "assets": {
+        "456": "cellular_telephone"
+      },
+      "start_region": 2
+    },
+    {
+      "task": "I'm moving my things out.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the suitcase.",
+          "labels": {
+            "453": "suitcase"
+          },
+          "atomic_step": "Open the suitcase.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the book rack.",
+          "labels": {
+            "127": "book rack"
+          },
+          "atomic_step": "Wipe book rack.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the backpack.",
+          "labels": {
+            "454": "backpack"
+          },
+          "atomic_step": "Carry the backpack.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the table.",
+          "labels": {
+            "168": "table"
+          },
+          "atomic_step": "Wipe table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the shelf.",
+          "labels": {
+            "162": "shelf"
+          },
+          "atomic_step": "Wipe shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_surface_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Move the stool.",
+          "labels": {
+            "164": "stool"
+          },
+          "atomic_step": "Reposition the stool.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Close the cabinet.",
+          "labels": {
+            "128": "cabinet"
+          },
+          "atomic_step": "Close the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "453": "suitcase",
+        "127": "book rack",
+        "454": "backpack",
+        "168": "table",
+        "162": "shelf",
+        "164": "stool",
+        "128": "cabinet"
+      },
+      "regions": {
+        "453": 2,
+        "127": 2,
+        "454": 2,
+        "168": 3,
+        "162": 3,
+        "164": 3,
+        "128": 2
+      },
+      "assets": {
+        "453": "suitcase",
+        "454": "backpack"
+      },
+      "start_region": 2
+    }
+  ]
+}

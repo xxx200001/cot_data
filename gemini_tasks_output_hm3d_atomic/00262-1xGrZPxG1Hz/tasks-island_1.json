@@ -91,12 +91,12 @@
           "labels": {
             "411": "toilet paper"
           },
-          "atomic_step": "Store the toilet paper.",
+          "atomic_step": "Load the toilet paper.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store"
+              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -1963,12 +1963,12 @@
           "labels": {
             "411": "toilet paper"
           },
-          "atomic_step": "Store the toilet paper in the dispenser.",
+          "atomic_step": "Load the toilet paper in the dispenser.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": "in",
-              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store"
+              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -2439,12 +2439,12 @@
           "labels": {
             "411": "toilet paper"
           },
-          "atomic_step": "Store the toilet paper.",
+          "atomic_step": "Load the toilet paper.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store"
+              "mapping_source": "semantic_repair_v5:fill_toilet_paper_to_store;semantic_qa_v1:store-->load"
             }
           ]
         },
@@ -3667,12 +3667,12 @@
           "labels": {
             "411": "toilet paper"
           },
-          "atomic_step": "Store the toilet paper.",
+          "atomic_step": "Load the toilet paper.",
           "atomic_actions": [
             {
-              "action_id": "store",
+              "action_id": "load",
               "relation": null,
-              "mapping_source": "repair_store"
+              "mapping_source": "repair_store;semantic_qa_v1:store-->load"
             }
           ]
         }

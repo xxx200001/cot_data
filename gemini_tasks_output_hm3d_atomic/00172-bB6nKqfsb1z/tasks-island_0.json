@@ -137,12 +137,12 @@
           "labels": {
             "513": "dishwasher"
           },
-          "atomic_step": "Rinse the dishwasher.",
+          "atomic_step": "Rinse the plate in the dishwasher.",
           "atomic_actions": [
             {
               "action_id": "rinse",
               "relation": "in",
-              "mapping_source": "replacement_from_wash"
+              "mapping_source": "replacement_from_wash;semantic_qa_v1:fix_patient_drift_rinse"
             }
           ]
         }
@@ -3406,12 +3406,12 @@
           "labels": {
             "478": "couch"
           },
-          "atomic_step": "Straighten items on the couch.",
+          "atomic_step": "Fluff items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -5191,12 +5191,12 @@
           "labels": {
             "477": "couch"
           },
-          "atomic_step": "Straighten items on the couch.",
+          "atomic_step": "Fluff items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -9186,12 +9186,12 @@
           "labels": {
             "477": "couch"
           },
-          "atomic_step": "Straighten items on the couch.",
+          "atomic_step": "Fluff items on the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -11631,12 +11631,12 @@
           "labels": {
             "477": "couch"
           },
-          "atomic_step": "Straighten the couch.",
+          "atomic_step": "Fluff the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -13394,12 +13394,12 @@
           "labels": {
             "477": "couch"
           },
-          "atomic_step": "Straighten the couch.",
+          "atomic_step": "Fluff the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },
@@ -15921,12 +15921,12 @@
           "labels": {
             "478": "couch"
           },
-          "atomic_step": "Straighten the couch.",
+          "atomic_step": "Fluff the couch.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "fluff",
               "relation": null,
-              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
             }
           ]
         },

@@ -1,0 +1,5328 @@
+{
+  "scene_id": "00272-kA2nG18hCAr",
+  "tasks": [
+    {
+      "task": "This floor looks cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the newspaper on the floor.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Pick up the newspaper on the floor.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": "on",
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dispose of the paper in the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dispose of waste in the trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dispose",
+              "relation": "in",
+              "mapping_source": "repair_dispose"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Smooth the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the cart to its storage spot.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Carry the cart to the storage spot.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "443": "newspaper",
+        "403": "trashcan",
+        "552": "floor mat",
+        "416": "cart",
+        "329": "painting"
+      },
+      "regions": {
+        "443": 9,
+        "403": 9,
+        "552": 9,
+        "416": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "It's a bit stuffy and messy in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Shift the cart aside.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Carry the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up the detergent.",
+          "labels": {
+            "594": "bottle of detergent"
+          },
+          "atomic_step": "Pick up the bottle of detergent.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Stack the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Stack the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "414": "fan",
+        "416": "cart",
+        "594": "bottle of detergent",
+        "466": "storage box",
+        "329": "painting"
+      },
+      "regions": {
+        "414": 9,
+        "416": 9,
+        "594": 9,
+        "466": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I need to tidy up the shoe area.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the shoe.",
+          "labels": {
+            "576": "shoe"
+          },
+          "atomic_step": "Pick up the shoe.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the shoe inside the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Place the shoe in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the storage box.",
+          "labels": {
+            "468": "storage box"
+          },
+          "atomic_step": "Straighten storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tuck away the newspaper.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Inspect the newspaper.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "576": "shoe",
+        "575": "cabinet",
+        "468": "storage box",
+        "443": "newspaper",
+        "329": "painting"
+      },
+      "regions": {
+        "576": 9,
+        "575": 9,
+        "468": 9,
+        "443": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I need to store these decorations.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the holiday wreath.",
+          "labels": {
+            "428": "wreath"
+          },
+          "atomic_step": "Pick up the wreath.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place it in the storage box.",
+          "labels": {
+            "469": "storage box"
+          },
+          "atomic_step": "Store the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "semantic_repair_fixed_action_lib:place_only_container_to_store"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Place basket on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Fold the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Straighten ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Align the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Align the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "428": "wreath",
+        "469": "storage box",
+        "461": "basket",
+        "415": "ladder",
+        "329": "painting"
+      },
+      "regions": {
+        "428": 9,
+        "469": 9,
+        "461": 9,
+        "415": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The car is covered in dust.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get the detergent.",
+          "labels": {
+            "634": "bottle of detergent"
+          },
+          "atomic_step": "Pick up the bottle of detergent.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Prepare the bucket.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Dust bucket.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Unroll the hose.",
+          "labels": {
+            "438": "hose"
+          },
+          "atomic_step": "Straighten the hose.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "smooth"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Grab the bottle.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Pick up the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "634": "bottle of detergent",
+        "587": "bucket",
+        "438": "hose",
+        "1151": "bottle",
+        "329": "painting"
+      },
+      "regions": {
+        "634": 9,
+        "587": 9,
+        "438": 9,
+        "1151": 9,
+        "329": 8
+      },
+      "assets": {
+        "1151": "bottle"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "I have a deadline to meet.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Set up the laptop.",
+          "labels": {
+            "1172": "laptop_computer"
+          },
+          "atomic_step": "Set up the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Bring a bottle of water.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Carry the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the storage box to clear space.",
+          "labels": {
+            "482": "storage box"
+          },
+          "atomic_step": "Carry the storage box to clear space.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the fan for air.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "1172": "laptop_computer",
+        "1151": "bottle",
+        "482": "storage box",
+        "414": "fan",
+        "329": "painting"
+      },
+      "regions": {
+        "1172": 9,
+        "1151": 9,
+        "482": 9,
+        "414": 9,
+        "329": 8
+      },
+      "assets": {
+        "1172": "laptop_computer",
+        "1151": "bottle"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "The entrance is a bit of a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the stray shoe.",
+          "labels": {
+            "608": "shoe"
+          },
+          "atomic_step": "Pick up the shoe.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Put the shoe in the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Place the shoe in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the basket.",
+          "labels": {
+            "462": "basket"
+          },
+          "atomic_step": "Carry the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Set aside the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Place ladder on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "608": "shoe",
+        "575": "cabinet",
+        "462": "basket",
+        "415": "ladder",
+        "329": "painting"
+      },
+      "regions": {
+        "608": 9,
+        "575": 9,
+        "462": 9,
+        "415": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I need to clear some floor space.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Relocate the storage box.",
+          "labels": {
+            "483": "storage box"
+          },
+          "atomic_step": "Carry the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up the basket.",
+          "labels": {
+            "553": "basket of something"
+          },
+          "atomic_step": "Lift the basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Shift the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Carry the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Empty the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "483": "storage box",
+        "553": "basket of something",
+        "416": "cart",
+        "403": "trashcan",
+        "329": "painting"
+      },
+      "regions": {
+        "483": 9,
+        "553": 9,
+        "416": 9,
+        "403": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "My tools are all over the place.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the hammer.",
+          "labels": {
+            "447": "hammer"
+          },
+          "atomic_step": "Pick up the hammer.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place it in the tool box.",
+          "labels": {
+            "547": "tool box"
+          },
+          "atomic_step": "Place it in the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "manual_semantic_repair_v4"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Carry the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Lean the ladder against the wall.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Reposition the ladder against the wall.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "447": "hammer",
+        "547": "tool box",
+        "416": "cart",
+        "415": "ladder",
+        "329": "painting"
+      },
+      "regions": {
+        "447": 9,
+        "547": 9,
+        "416": 9,
+        "415": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I have a long night of studying ahead.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the bottle.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Pick up the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the laptop.",
+          "labels": {
+            "1172": "laptop_computer"
+          },
+          "atomic_step": "Open the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the storage box.",
+          "labels": {
+            "501": "storage box"
+          },
+          "atomic_step": "Carry the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "1151": "bottle",
+        "1172": "laptop_computer",
+        "414": "fan",
+        "501": "storage box",
+        "329": "painting"
+      },
+      "regions": {
+        "1151": 9,
+        "1172": 9,
+        "414": 9,
+        "501": 9,
+        "329": 8
+      },
+      "assets": {
+        "1151": "bottle",
+        "1172": "laptop_computer"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "The garage is quite cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the shoe.",
+          "labels": {
+            "576": "shoe"
+          },
+          "atomic_step": "Pick up the shoe.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the shoe in the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Place the shoe in the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Put the tool in the tool box.",
+          "labels": {
+            "556": "tool"
+          },
+          "atomic_step": "Place the tool in the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Throw the trash in the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dispose of waste in the trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dispose",
+              "relation": "in",
+              "mapping_source": "repair_dispose"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "576": "shoe",
+        "466": "storage box",
+        "556": "tool",
+        "403": "trashcan",
+        "329": "painting"
+      },
+      "regions": {
+        "576": 9,
+        "466": 9,
+        "556": 9,
+        "403": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The yard needs some work.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the shovel.",
+          "labels": {
+            "417": "shovel"
+          },
+          "atomic_step": "Pick up the shovel.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the hose.",
+          "labels": {
+            "437": "hose"
+          },
+          "atomic_step": "Carry the hose.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Carry the bucket.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Carry the bucket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Bring the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Carry the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "417": "shovel",
+        "437": "hose",
+        "587": "bucket",
+        "461": "basket",
+        "329": "painting"
+      },
+      "regions": {
+        "417": 9,
+        "437": 9,
+        "587": 9,
+        "461": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I think there's a leak in the garage.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the tool.",
+          "labels": {
+            "556": "tool"
+          },
+          "atomic_step": "Pick up the tool.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the tool box.",
+          "labels": {
+            "544": "tool box"
+          },
+          "atomic_step": "Open the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the bucket to the leak.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Carry the bucket to the leak.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Wipe the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Use the ladder to reach the pipes.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Inspect the ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Align the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Align the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "556": "tool",
+        "544": "tool box",
+        "587": "bucket",
+        "552": "floor mat",
+        "415": "ladder",
+        "329": "painting"
+      },
+      "regions": {
+        "556": 9,
+        "544": 9,
+        "587": 9,
+        "552": 9,
+        "415": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The holidays are coming up.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the wreath.",
+          "labels": {
+            "428": "wreath"
+          },
+          "atomic_step": "Pick up the wreath.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the storage box for ornaments.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Open the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the ladder to hang decorations.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Reposition the ladder to hang decorations.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Carry the basket of something.",
+          "labels": {
+            "553": "basket of something"
+          },
+          "atomic_step": "Carry the basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the newspaper to clear the area.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Carry the newspaper to clear the area.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "428": "wreath",
+        "466": "storage box",
+        "415": "ladder",
+        "553": "basket of something",
+        "443": "newspaper",
+        "329": "painting"
+      },
+      "regions": {
+        "428": 9,
+        "466": 9,
+        "415": 9,
+        "553": 9,
+        "443": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The floor is quite dirty.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the cart out of the way.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Carry the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Carry the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fill the bucket with water.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Fill the bucket with the water.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Use the bottle of detergent.",
+          "labels": {
+            "594": "bottle of detergent"
+          },
+          "atomic_step": "Inspect the bottle of detergent.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "416": "cart",
+        "552": "floor mat",
+        "587": "bucket",
+        "594": "bottle of detergent",
+        "329": "painting"
+      },
+      "regions": {
+        "416": 9,
+        "552": 9,
+        "587": 9,
+        "594": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I need to clear some space down here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Load the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Load the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the box on the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Place the box on the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Use the ladder to reach the upper shelves.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Inspect the ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Carry the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Carry the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the rope.",
+          "labels": {
+            "613": "rope"
+          },
+          "atomic_step": "Carry the rope.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "466": "storage box",
+        "416": "cart",
+        "415": "ladder",
+        "461": "basket",
+        "613": "rope",
+        "329": "painting"
+      },
+      "regions": {
+        "466": 9,
+        "416": 9,
+        "415": 9,
+        "461": 9,
+        "613": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I'm starting a new wood project.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get the saw.",
+          "labels": {
+            "445": "saw"
+          },
+          "atomic_step": "Pick up the saw.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve the hammer.",
+          "labels": {
+            "447": "hammer"
+          },
+          "atomic_step": "Pick up the hammer.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the tool box.",
+          "labels": {
+            "544": "tool box"
+          },
+          "atomic_step": "Open the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the fan for ventilation.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Use the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Inspect the ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Adjust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Align the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "wall_decor_adjust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "445": "saw",
+        "447": "hammer",
+        "544": "tool box",
+        "414": "fan",
+        "415": "ladder",
+        "329": "painting"
+      },
+      "regions": {
+        "445": 9,
+        "447": 9,
+        "544": 9,
+        "414": 9,
+        "415": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "There are shoes everywhere.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the shoe.",
+          "labels": {
+            "576": "shoe"
+          },
+          "atomic_step": "Pick up the shoe.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Place the shoe in the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Place the shoe in the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Smooth the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Empty the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "576": "shoe",
+        "575": "cabinet",
+        "466": "storage box",
+        "552": "floor mat",
+        "403": "trashcan",
+        "329": "painting"
+      },
+      "regions": {
+        "576": 9,
+        "575": 9,
+        "466": 9,
+        "552": 9,
+        "403": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "There's a storm coming.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the garage door opener bar.",
+          "labels": {
+            "409": "garage door opener bar"
+          },
+          "atomic_step": "Close the garage door opener bar.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the shovel inside.",
+          "labels": {
+            "417": "shovel"
+          },
+          "atomic_step": "Carry the shovel.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": "in",
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Store the hose in the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Store the hose in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": "in",
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place the bucket in a secure spot.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Place the bucket in a secure spot.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Use the rope to tie down items.",
+          "labels": {
+            "613": "rope"
+          },
+          "atomic_step": "Inspect the rope.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Secure the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Store the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": null,
+              "mapping_source": "store"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "409": "garage door opener bar",
+        "417": "shovel",
+        "575": "cabinet",
+        "587": "bucket",
+        "613": "rope",
+        "329": "painting"
+      },
+      "regions": {
+        "409": 9,
+        "417": 9,
+        "575": 9,
+        "587": 9,
+        "613": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The car is really dirty.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get the bucket.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Lift the bucket.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Connect the hose.",
+          "labels": {
+            "437": "hose"
+          },
+          "atomic_step": "Attach the hose.",
+          "atomic_actions": [
+            {
+              "action_id": "attach",
+              "relation": "in",
+              "mapping_source": "semantic_repair_v5:plug_in_hose_to_attach"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Use the cart to carry supplies.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Inspect the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pick up the bottle.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Pick up the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "587": "bucket",
+        "437": "hose",
+        "416": "cart",
+        "1151": "bottle",
+        "329": "painting"
+      },
+      "regions": {
+        "587": 9,
+        "437": 9,
+        "416": 9,
+        "1151": 9,
+        "329": 8
+      },
+      "assets": {
+        "1151": "bottle"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "I need to get some work done.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Set up the laptop computer.",
+          "labels": {
+            "1172": "laptop_computer"
+          },
+          "atomic_step": "Set up the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the newspaper.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Wipe newspaper.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Bring the bottle.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Carry the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Carry the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "1172": "laptop_computer",
+        "414": "fan",
+        "443": "newspaper",
+        "1151": "bottle",
+        "416": "cart",
+        "329": "painting"
+      },
+      "regions": {
+        "1172": 9,
+        "414": 9,
+        "443": 9,
+        "1151": 9,
+        "416": 9,
+        "329": 8
+      },
+      "assets": {
+        "1172": "laptop_computer",
+        "1151": "bottle"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "It's quite dry in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the bottle.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Pick up the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Throw the newspaper in the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dispose of waste in the trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dispose",
+              "relation": "in",
+              "mapping_source": "repair_dispose"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Move the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Carry the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Straighten the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Smooth the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Close the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Close the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Align the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Align the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "1151": "bottle",
+        "403": "trashcan",
+        "466": "storage box",
+        "552": "floor mat",
+        "575": "cabinet",
+        "329": "painting"
+      },
+      "regions": {
+        "1151": 9,
+        "403": 9,
+        "466": 9,
+        "552": 9,
+        "575": 9,
+        "329": 8
+      },
+      "assets": {
+        "1151": "bottle"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "The laundry area is disorganized.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the bottle of detergent.",
+          "labels": {
+            "594": "bottle of detergent"
+          },
+          "atomic_step": "Carry the bottle of detergent.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place the bottle in the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Place the bottle in the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the bucket.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Straighten bucket.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Carry the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Carry the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Open the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "594": "bottle of detergent",
+        "466": "storage box",
+        "587": "bucket",
+        "461": "basket",
+        "575": "cabinet",
+        "329": "painting"
+      },
+      "regions": {
+        "594": 9,
+        "466": 9,
+        "587": 9,
+        "461": 9,
+        "575": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I can't park the car in here.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Move the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Reposition the ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Push the cart to the side.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Push the cart to the side.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "push"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up the shovel.",
+          "labels": {
+            "417": "shovel"
+          },
+          "atomic_step": "Pick up the shovel.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Roll up the hose.",
+          "labels": {
+            "437": "hose"
+          },
+          "atomic_step": "Straighten hose.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "415": "ladder",
+        "416": "cart",
+        "417": "shovel",
+        "437": "hose",
+        "329": "painting"
+      },
+      "regions": {
+        "415": 9,
+        "416": 9,
+        "417": 9,
+        "437": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I have too much stuff.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Bring out the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Carry the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Set up the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Set up the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the wreath.",
+          "labels": {
+            "428": "wreath"
+          },
+          "atomic_step": "Place wreath on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place the tool on display.",
+          "labels": {
+            "556": "tool"
+          },
+          "atomic_step": "Place the tool on display.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "step_text_place_on_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clear the newspaper.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Wipe newspaper.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "466": "storage box",
+        "416": "cart",
+        "428": "wreath",
+        "556": "tool",
+        "443": "newspaper",
+        "329": "painting"
+      },
+      "regions": {
+        "466": 9,
+        "416": 9,
+        "428": 9,
+        "556": 9,
+        "443": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The walls look a bit dull.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Set up the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Set up the ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Carry the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Open the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Open the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Remove the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "415": "ladder",
+        "552": "floor mat",
+        "414": "fan",
+        "575": "cabinet",
+        "329": "painting"
+      },
+      "regions": {
+        "415": 9,
+        "552": 9,
+        "414": 9,
+        "575": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I can't find anything in the storage.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Open the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Open the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the basket of something.",
+          "labels": {
+            "553": "basket of something"
+          },
+          "atomic_step": "Carry the basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Place the shoe in the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Place the shoe in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Put the hammer in the tool box.",
+          "labels": {
+            "447": "hammer"
+          },
+          "atomic_step": "Place the hammer in the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Empty the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "466": "storage box",
+        "553": "basket of something",
+        "575": "cabinet",
+        "447": "hammer",
+        "403": "trashcan",
+        "329": "painting"
+      },
+      "regions": {
+        "466": 9,
+        "553": 9,
+        "575": 9,
+        "447": 9,
+        "403": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I'm ready to plant some flowers.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Retrieve the shovel.",
+          "labels": {
+            "417": "shovel"
+          },
+          "atomic_step": "Pick up the shovel.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Get the bucket.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Lift the bucket.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Bring the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Carry the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the hose.",
+          "labels": {
+            "437": "hose"
+          },
+          "atomic_step": "Carry the hose.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Align the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "wall_decor_adjust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "417": "shovel",
+        "587": "bucket",
+        "461": "basket",
+        "437": "hose",
+        "329": "painting"
+      },
+      "regions": {
+        "417": 9,
+        "587": 9,
+        "461": 9,
+        "437": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The stairs feel a bit unsafe.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Get the hammer.",
+          "labels": {
+            "447": "hammer"
+          },
+          "atomic_step": "Pick up the hammer.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the bucket.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Carry the bucket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the tool box.",
+          "labels": {
+            "544": "tool box"
+          },
+          "atomic_step": "Open the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the ladder to the staircase.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Reposition the ladder to the staircase.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Tighten the staircase handrail.",
+          "labels": {
+            "558": "staircase handrail"
+          },
+          "atomic_step": "Tighten the staircase handrail.",
+          "atomic_actions": [
+            {
+              "action_id": "tighten",
+              "relation": null,
+              "mapping_source": "tighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "447": "hammer",
+        "587": "bucket",
+        "544": "tool box",
+        "415": "ladder",
+        "558": "staircase handrail",
+        "329": "painting"
+      },
+      "regions": {
+        "447": 9,
+        "587": 9,
+        "544": 9,
+        "415": 9,
+        "558": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "It's getting stuffy in the garage.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Turn on the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Open the garage door opener bar.",
+          "labels": {
+            "409": "garage door opener bar"
+          },
+          "atomic_step": "Open the garage door opener bar.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Get the bottle.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Pick up the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Carry the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clear the newspaper.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Wipe newspaper.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Straighten the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "414": "fan",
+        "409": "garage door opener bar",
+        "1151": "bottle",
+        "416": "cart",
+        "443": "newspaper",
+        "329": "painting"
+      },
+      "regions": {
+        "414": 9,
+        "409": 9,
+        "1151": 9,
+        "416": 9,
+        "443": 9,
+        "329": 8
+      },
+      "assets": {
+        "1151": "bottle"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "The overhead area is a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Position the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Place ladder on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Hand up the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Inspect the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Lift the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Lift the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Use the rope to secure items.",
+          "labels": {
+            "613": "rope"
+          },
+          "atomic_step": "Inspect the rope.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the saw.",
+          "labels": {
+            "445": "saw"
+          },
+          "atomic_step": "Carry the saw.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "415": "ladder",
+        "466": "storage box",
+        "461": "basket",
+        "613": "rope",
+        "445": "saw",
+        "329": "painting"
+      },
+      "regions": {
+        "415": 9,
+        "466": 9,
+        "461": 9,
+        "613": 9,
+        "445": 9,
+        "329": 8
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The backyard needs some work.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust off the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve the shovel.",
+          "labels": {
+            "417": "shovel"
+          },
+          "atomic_step": "Pick up the shovel.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Coil the hose.",
+          "labels": {
+            "437": "hose"
+          },
+          "atomic_step": "Inspect the hose.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Carry the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Discard the newspaper.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Wipe newspaper.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "417": "shovel",
+        "437": "hose",
+        "416": "cart",
+        "443": "newspaper"
+      },
+      "regions": {
+        "329": 8,
+        "417": 9,
+        "437": 9,
+        "416": 9,
+        "443": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The garage is quite dusty.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe down the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Empty the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Straighten storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Dust the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Dust the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Put away the hammer.",
+          "labels": {
+            "447": "hammer"
+          },
+          "atomic_step": "Store the hammer.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Store the tool box.",
+          "labels": {
+            "544": "tool box"
+          },
+          "atomic_step": "Store the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Fold the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Straighten ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "403": "trashcan",
+        "466": "storage box",
+        "575": "cabinet",
+        "447": "hammer",
+        "544": "tool box",
+        "415": "ladder"
+      },
+      "regions": {
+        "329": 8,
+        "403": 9,
+        "466": 9,
+        "575": 9,
+        "447": 9,
+        "544": 9,
+        "415": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I'm having trouble walking through the mudroom.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Align the shoe.",
+          "labels": {
+            "576": "shoe"
+          },
+          "atomic_step": "Align the shoe.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "explicit_align"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up the rope.",
+          "labels": {
+            "613": "rope"
+          },
+          "atomic_step": "Pick up the rope.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Place items in the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Place items in the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Shake out the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Shake out the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the staircase handrail.",
+          "labels": {
+            "558": "staircase handrail"
+          },
+          "atomic_step": "Wipe the staircase handrail.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Turn off the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn off the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_off",
+              "relation": null,
+              "mapping_source": "turn_off"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "576": "shoe",
+        "613": "rope",
+        "461": "basket",
+        "552": "floor mat",
+        "558": "staircase handrail",
+        "414": "fan"
+      },
+      "regions": {
+        "329": 8,
+        "576": 9,
+        "613": 9,
+        "461": 9,
+        "552": 9,
+        "558": 9,
+        "414": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I need to finish that repair project.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Inspect the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Inspect the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve the saw.",
+          "labels": {
+            "445": "saw"
+          },
+          "atomic_step": "Pick up the saw.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up the tool.",
+          "labels": {
+            "556": "tool"
+          },
+          "atomic_step": "Pick up the tool.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Check the garage door opener bar.",
+          "labels": {
+            "409": "garage door opener bar"
+          },
+          "atomic_step": "Inspect the garage door opener bar.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Open the tool box.",
+          "labels": {
+            "547": "tool box"
+          },
+          "atomic_step": "Open the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Position the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Place ladder on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clear the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_trash_container_to_dump"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "445": "saw",
+        "556": "tool",
+        "409": "garage door opener bar",
+        "547": "tool box",
+        "415": "ladder",
+        "403": "trashcan"
+      },
+      "regions": {
+        "329": 8,
+        "445": 9,
+        "556": 9,
+        "409": 9,
+        "547": 9,
+        "415": 9,
+        "403": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The floor is looking really dirty.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Get the bottle of detergent.",
+          "labels": {
+            "594": "bottle of detergent"
+          },
+          "atomic_step": "Pick up the bottle of detergent.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fill the bucket.",
+          "labels": {
+            "587": "bucket"
+          },
+          "atomic_step": "Fill the bucket.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Scrub with the brush.",
+          "labels": {
+            "424": "brush"
+          },
+          "atomic_step": "Inspect the brush.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Place the bottle.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Place the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": null,
+              "mapping_source": "place"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the basket of something.",
+          "labels": {
+            "553": "basket of something"
+          },
+          "atomic_step": "Straighten basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wipe the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Wipe the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "594": "bottle of detergent",
+        "587": "bucket",
+        "424": "brush",
+        "1151": "bottle",
+        "553": "basket of something",
+        "552": "floor mat"
+      },
+      "regions": {
+        "329": 8,
+        "594": 9,
+        "587": 9,
+        "424": 9,
+        "1151": 9,
+        "553": 9,
+        "552": 9
+      },
+      "assets": {
+        "1151": "bottle"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "There are too many things scattered around.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up the newspaper.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Pick up the newspaper.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pack the storage box.",
+          "labels": {
+            "468": "storage box"
+          },
+          "atomic_step": "Load the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the shovel.",
+          "labels": {
+            "418": "shovel"
+          },
+          "atomic_step": "Carry the shovel.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Push the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Push the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "push"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the hose.",
+          "labels": {
+            "438": "hose"
+          },
+          "atomic_step": "Straighten hose.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "443": "newspaper",
+        "468": "storage box",
+        "418": "shovel",
+        "416": "cart",
+        "438": "hose"
+      },
+      "regions": {
+        "329": 8,
+        "443": 9,
+        "468": 9,
+        "418": 9,
+        "416": 9,
+        "438": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The holiday season is over.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Adjust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Align the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "align",
+              "relation": null,
+              "mapping_source": "wall_decor_adjust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Take down the wreath.",
+          "labels": {
+            "428": "wreath"
+          },
+          "atomic_step": "Wipe wreath.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Store in the storage box.",
+          "labels": {
+            "469": "storage box"
+          },
+          "atomic_step": "Inspect the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": "in",
+              "mapping_source": "bad_missing_place_object"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Use the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Inspect the ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Close the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Close the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Clean the staircase.",
+          "labels": {
+            "557": "staircase"
+          },
+          "atomic_step": "Wipe staircase.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wash the brush.",
+          "labels": {
+            "425": "brush"
+          },
+          "atomic_step": "Wipe brush.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "428": "wreath",
+        "469": "storage box",
+        "415": "ladder",
+        "575": "cabinet",
+        "557": "staircase",
+        "425": "brush"
+      },
+      "regions": {
+        "329": 8,
+        "428": 9,
+        "469": 9,
+        "415": 9,
+        "575": 9,
+        "557": 9,
+        "425": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I need a quiet place to work.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Set up the laptop computer.",
+          "labels": {
+            "1172": "laptop_computer"
+          },
+          "atomic_step": "Set up the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Turn on the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the bottle.",
+          "labels": {
+            "1151": "bottle"
+          },
+          "atomic_step": "Carry the bottle.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Tidy the storage box.",
+          "labels": {
+            "470": "storage box"
+          },
+          "atomic_step": "Straighten storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Arrange the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Smooth the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Wipe the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Wipe the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "1172": "laptop_computer",
+        "414": "fan",
+        "1151": "bottle",
+        "470": "storage box",
+        "552": "floor mat",
+        "575": "cabinet"
+      },
+      "regions": {
+        "329": 8,
+        "1172": 9,
+        "414": 9,
+        "1151": 9,
+        "470": 9,
+        "552": 9,
+        "575": 9
+      },
+      "assets": {
+        "1172": "laptop_computer",
+        "1151": "bottle"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "I need to organize the storage area.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust off the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve the hammer.",
+          "labels": {
+            "447": "hammer"
+          },
+          "atomic_step": "Pick up the hammer.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the tool box.",
+          "labels": {
+            "544": "tool box"
+          },
+          "atomic_step": "Straighten tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Coil the rope.",
+          "labels": {
+            "613": "rope"
+          },
+          "atomic_step": "Inspect the rope.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the basket.",
+          "labels": {
+            "462": "basket"
+          },
+          "atomic_step": "Place basket on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Empty the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Inspect the garage door opener bar.",
+          "labels": {
+            "409": "garage door opener bar"
+          },
+          "atomic_step": "Inspect the garage door opener bar.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "447": "hammer",
+        "544": "tool box",
+        "613": "rope",
+        "462": "basket",
+        "403": "trashcan",
+        "409": "garage door opener bar"
+      },
+      "regions": {
+        "329": 8,
+        "447": 9,
+        "544": 9,
+        "613": 9,
+        "462": 9,
+        "403": 9,
+        "409": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I can't find my gardening tools.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Find the shovel.",
+          "labels": {
+            "419": "shovel"
+          },
+          "atomic_step": "Pick up the shovel.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Find the fork.",
+          "labels": {
+            "432": "fork"
+          },
+          "atomic_step": "Pick up the fork.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Load the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Load the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Sort the storage box.",
+          "labels": {
+            "475": "storage box"
+          },
+          "atomic_step": "Straighten storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Check the basket of something.",
+          "labels": {
+            "554": "basket of something"
+          },
+          "atomic_step": "Inspect the basket of something.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Retrieve the tool.",
+          "labels": {
+            "556": "tool"
+          },
+          "atomic_step": "Pick up the tool.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "419": "shovel",
+        "432": "fork",
+        "416": "cart",
+        "475": "storage box",
+        "554": "basket of something",
+        "556": "tool"
+      },
+      "regions": {
+        "329": 8,
+        "419": 9,
+        "432": 9,
+        "416": 9,
+        "475": 9,
+        "554": 9,
+        "556": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The stairs and floor need a deep clean.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Get the bottle of detergent.",
+          "labels": {
+            "634": "bottle of detergent"
+          },
+          "atomic_step": "Pick up the bottle of detergent.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fill the bucket.",
+          "labels": {
+            "629": "bucket"
+          },
+          "atomic_step": "Fill the bucket.",
+          "atomic_actions": [
+            {
+              "action_id": "fill",
+              "relation": null,
+              "mapping_source": "fill"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wash down with the hose.",
+          "labels": {
+            "437": "hose"
+          },
+          "atomic_step": "Wipe hose.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the staircase handrail.",
+          "labels": {
+            "558": "staircase handrail"
+          },
+          "atomic_step": "Wipe the staircase handrail.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Shake the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Shake out the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "634": "bottle of detergent",
+        "629": "bucket",
+        "437": "hose",
+        "558": "staircase handrail",
+        "552": "floor mat"
+      },
+      "regions": {
+        "329": 8,
+        "634": 9,
+        "629": 9,
+        "437": 9,
+        "558": 9,
+        "552": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I need to clear a path for the car.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Straighten the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Move the ladder.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Reposition the ladder.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Push the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Push the cart.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "push"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pick up the shoe.",
+          "labels": {
+            "577": "shoe"
+          },
+          "atomic_step": "Pick up the shoe.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Discard the newspaper.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Wipe newspaper.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Set aside the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Adjust the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "set_control",
+              "relation": null,
+              "mapping_source": "repair_set_to_control"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clear the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_trash_container_to_dump"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "415": "ladder",
+        "416": "cart",
+        "577": "shoe",
+        "443": "newspaper",
+        "414": "fan",
+        "403": "trashcan"
+      },
+      "regions": {
+        "329": 8,
+        "415": 9,
+        "416": 9,
+        "577": 9,
+        "443": 9,
+        "414": 9,
+        "403": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "My workshop is a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe down the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Wipe the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Put away the saw.",
+          "labels": {
+            "445": "saw"
+          },
+          "atomic_step": "Store the saw.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the tool box.",
+          "labels": {
+            "547": "tool box"
+          },
+          "atomic_step": "Straighten tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Straighten cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Stack the storage box.",
+          "labels": {
+            "476": "storage box"
+          },
+          "atomic_step": "Stack the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "stack",
+              "relation": null,
+              "mapping_source": "stack"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Hang the shovel.",
+          "labels": {
+            "420": "shovel"
+          },
+          "atomic_step": "Hang the shovel.",
+          "atomic_actions": [
+            {
+              "action_id": "hang",
+              "relation": null,
+              "mapping_source": "hang"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Clean the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Vacuum floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_vacuum"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "445": "saw",
+        "547": "tool box",
+        "575": "cabinet",
+        "476": "storage box",
+        "420": "shovel",
+        "552": "floor mat"
+      },
+      "regions": {
+        "329": 8,
+        "445": 9,
+        "547": 9,
+        "575": 9,
+        "476": 9,
+        "420": 9,
+        "552": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I'm preparing for some outdoor landscaping.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust the painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Check the hose.",
+          "labels": {
+            "437": "hose"
+          },
+          "atomic_step": "Inspect the hose.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Prepare the cart.",
+          "labels": {
+            "416": "cart"
+          },
+          "atomic_step": "Wipe cart.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Move the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Carry the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pick up the tool.",
+          "labels": {
+            "556": "tool"
+          },
+          "atomic_step": "Pick up the tool.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "437": "hose",
+        "416": "cart",
+        "461": "basket",
+        "556": "tool"
+      },
+      "regions": {
+        "329": 8,
+        "437": 9,
+        "416": 9,
+        "461": 9,
+        "556": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "I'm setting up for the community sale.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the painting.",
+          "labels": {
+            "329": "painting"
+          },
+          "atomic_step": "Dust painting.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Prepare the laptop computer.",
+          "labels": {
+            "1172": "laptop_computer"
+          },
+          "atomic_step": "Pick up the laptop_computer.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "prepare"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Display the wreath.",
+          "labels": {
+            "439": "wreath"
+          },
+          "atomic_step": "Place wreath on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Label the storage box.",
+          "labels": {
+            "477": "storage box"
+          },
+          "atomic_step": "Place a label on the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "label"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Turn on the fan.",
+          "labels": {
+            "414": "fan"
+          },
+          "atomic_step": "Turn on the fan.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Wipe the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Wipe the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 7,
+          "step": "Empty the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "329": "painting",
+        "1172": "laptop_computer",
+        "439": "wreath",
+        "477": "storage box",
+        "414": "fan",
+        "575": "cabinet",
+        "403": "trashcan"
+      },
+      "regions": {
+        "329": 8,
+        "1172": 9,
+        "439": 9,
+        "477": 9,
+        "414": 9,
+        "575": 9,
+        "403": 9
+      },
+      "assets": {
+        "1172": "laptop_computer"
+      },
+      "start_region": 8
+    },
+    {
+      "task": "I need to fix that broken shelf.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Bring the ladder to the shelf.",
+          "labels": {
+            "415": "ladder"
+          },
+          "atomic_step": "Reposition the ladder to the shelf.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Retrieve the hammer from the rack.",
+          "labels": {
+            "447": "hammer"
+          },
+          "atomic_step": "Pick up the hammer from the rack.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Open the tool box for extra supplies.",
+          "labels": {
+            "544": "tool box"
+          },
+          "atomic_step": "Open the tool box.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "open"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Use the bottle of detergent to clean the surface.",
+          "labels": {
+            "594": "bottle of detergent"
+          },
+          "atomic_step": "Inspect the bottle of detergent.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "repair_inspect_object"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "415": "ladder",
+        "447": "hammer",
+        "544": "tool box",
+        "594": "bottle of detergent"
+      },
+      "regions": {
+        "415": 9,
+        "447": 9,
+        "544": 9,
+        "594": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "There are shoes scattered everywhere.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the shoe from the floor.",
+          "labels": {
+            "576": "shoe"
+          },
+          "atomic_step": "Pick up the shoe from the floor.",
+          "atomic_actions": [
+            {
+              "action_id": "pick_up",
+              "relation": null,
+              "mapping_source": "pickup"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Store the footwear in the cabinet.",
+          "labels": {
+            "575": "cabinet"
+          },
+          "atomic_step": "Store the footwear in the cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": "in",
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Straighten the floor mat.",
+          "labels": {
+            "552": "floor mat"
+          },
+          "atomic_step": "Smooth the floor mat.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Throw away the debris in the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dispose of waste in the trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dispose",
+              "relation": "in",
+              "mapping_source": "repair_dispose"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "576": "shoe",
+        "575": "cabinet",
+        "552": "floor mat",
+        "403": "trashcan"
+      },
+      "regions": {
+        "576": 9,
+        "575": 9,
+        "552": 9,
+        "403": 9
+      },
+      "assets": {},
+      "start_region": 8
+    },
+    {
+      "task": "The storage area is overflowing.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Recycle the old newspaper.",
+          "labels": {
+            "443": "newspaper"
+          },
+          "atomic_step": "Inspect the newspaper.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "fallback_inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Empty the contents of the basket.",
+          "labels": {
+            "461": "basket"
+          },
+          "atomic_step": "Dump basket.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Label the storage box.",
+          "labels": {
+            "466": "storage box"
+          },
+          "atomic_step": "Place a label on the storage box.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "label"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clear the area around the trashcan.",
+          "labels": {
+            "403": "trashcan"
+          },
+          "atomic_step": "Dump trashcan.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_trash_container_to_dump"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "443": "newspaper",
+        "461": "basket",
+        "466": "storage box",
+        "403": "trashcan"
+      },
+      "regions": {
+        "443": 9,
+        "461": 9,
+        "466": 9,
+        "403": 9
+      },
+      "assets": {},
+      "start_region": 8
+    }
+  ]
+}

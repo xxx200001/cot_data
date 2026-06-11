@@ -1,0 +1,3269 @@
+{
+  "scene_id": "00263-GGBvSFddQgs",
+  "tasks": [
+    {
+      "task": "I'm feeling a bit tired.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the spa bench in the spa area.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench in the spa area.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": "in",
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Fold the towel near the living area.",
+          "labels": {
+            "786": "towel"
+          },
+          "atomic_step": "Fold the towel near the living area.",
+          "atomic_actions": [
+            {
+              "action_id": "fold",
+              "relation": null,
+              "mapping_source": "fold_then_place"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the wardrobe in the dressing area.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Adjust the pillow on the sofa.",
+          "labels": {
+            "781": "pillow"
+          },
+          "atomic_step": "Fluff the pillow on the sofa.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": "on",
+              "mapping_source": "adjust_soft_fluff"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "786": "towel",
+        "94": "wardrobe",
+        "781": "pillow"
+      },
+      "regions": {
+        "137": 4,
+        "786": 1,
+        "94": 2,
+        "781": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The living area is quite untidy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Straighten spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up the bag from the floor.",
+          "labels": {
+            "53": "bag"
+          },
+          "atomic_step": "Lift the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the wardrobe door.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Close the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Empty the storage bin.",
+          "labels": {
+            "74": "storage bin"
+          },
+          "atomic_step": "Dump storage bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "53": "bag",
+        "94": "wardrobe",
+        "74": "storage bin"
+      },
+      "regions": {
+        "137": 4,
+        "53": 1,
+        "94": 2,
+        "74": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm feeling a bit hungry.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe the kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Close the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Turn on the stovetop.",
+          "labels": {
+            "70": "stovetop"
+          },
+          "atomic_step": "Turn on the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "48": "kitchen table",
+        "94": "wardrobe",
+        "70": "stovetop"
+      },
+      "regions": {
+        "137": 4,
+        "48": 1,
+        "94": 2,
+        "70": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm feeling a bit cold.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Arrange the sofa set.",
+          "labels": {
+            "62": "sofa set"
+          },
+          "atomic_step": "Place sofa set on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Close the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the window curtain.",
+          "labels": {
+            "44": "window curtain"
+          },
+          "atomic_step": "Close the window curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "62": "sofa set",
+        "94": "wardrobe",
+        "44": "window curtain"
+      },
+      "regions": {
+        "137": 4,
+        "62": 1,
+        "94": 2,
+        "44": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm ready for some entertainment.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Straighten the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the led tv.",
+          "labels": {
+            "54": "led tv"
+          },
+          "atomic_step": "Turn on the led tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Close the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Close the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the chair.",
+          "labels": {
+            "49": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "54": "led tv",
+        "94": "wardrobe",
+        "49": "chair"
+      },
+      "regions": {
+        "137": 4,
+        "54": 1,
+        "94": 2,
+        "49": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm going to have dinner.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Dust the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe the kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Scrub the stovetop.",
+          "labels": {
+            "70": "stovetop"
+          },
+          "atomic_step": "Scrub the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Fold the towel.",
+          "labels": {
+            "786": "towel"
+          },
+          "atomic_step": "Fold the towel.",
+          "atomic_actions": [
+            {
+              "action_id": "fold",
+              "relation": null,
+              "mapping_source": "fold_then_place"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "94": "wardrobe",
+        "48": "kitchen table",
+        "70": "stovetop",
+        "786": "towel"
+      },
+      "regions": {
+        "137": 4,
+        "94": 2,
+        "48": 1,
+        "70": 1,
+        "786": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The living area is a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Straighten the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Straighten the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the sofa set.",
+          "labels": {
+            "62": "sofa set"
+          },
+          "atomic_step": "Place sofa set on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the chest of drawers.",
+          "labels": {
+            "61": "chest of drawers"
+          },
+          "atomic_step": "Straighten chest of drawers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Adjust the window curtain.",
+          "labels": {
+            "44": "window curtain"
+          },
+          "atomic_step": "Smooth the window curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "94": "wardrobe",
+        "62": "sofa set",
+        "61": "chest of drawers",
+        "44": "window curtain"
+      },
+      "regions": {
+        "137": 4,
+        "94": 2,
+        "62": 1,
+        "61": 1,
+        "44": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I need to prepare some snacks.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe down the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Fetch a tray from the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Open the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "open",
+              "relation": null,
+              "mapping_source": "subject_preserving_rewrite"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Set the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Set up the kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "set_up",
+              "relation": null,
+              "mapping_source": "setup_refinement"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the oven.",
+          "labels": {
+            "69": "oven"
+          },
+          "atomic_step": "Scrub oven.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the stovetop.",
+          "labels": {
+            "70": "stovetop"
+          },
+          "atomic_step": "Wipe the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "94": "wardrobe",
+        "48": "kitchen table",
+        "69": "oven",
+        "70": "stovetop"
+      },
+      "regions": {
+        "137": 4,
+        "94": 2,
+        "48": 1,
+        "69": 1,
+        "70": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The kitchen needs a deep clean.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Dust the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wash the window curtain.",
+          "labels": {
+            "44": "window curtain"
+          },
+          "atomic_step": "Wipe the window curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the sink.",
+          "labels": {
+            "71": "sink"
+          },
+          "atomic_step": "Scrub sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Shake out the doormat.",
+          "labels": {
+            "77": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "94": "wardrobe",
+        "44": "window curtain",
+        "71": "sink",
+        "77": "doormat"
+      },
+      "regions": {
+        "94": 2,
+        "44": 1,
+        "71": 1,
+        "77": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm expecting company soon.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Dust the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Vacuum the sofa set.",
+          "labels": {
+            "62": "sofa set"
+          },
+          "atomic_step": "Vacuum the sofa set.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the led tv.",
+          "labels": {
+            "54": "led tv"
+          },
+          "atomic_step": "Wipe led tv.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the chair.",
+          "labels": {
+            "49": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "94": "wardrobe",
+        "62": "sofa set",
+        "54": "led tv",
+        "49": "chair"
+      },
+      "regions": {
+        "137": 4,
+        "94": 2,
+        "62": 1,
+        "54": 1,
+        "49": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I have a lot of chores to do.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Pick up the towel.",
+          "labels": {
+            "786": "towel"
+          },
+          "atomic_step": "Lift the towel.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Place items in the storage bin.",
+          "labels": {
+            "74": "storage bin"
+          },
+          "atomic_step": "Place items in the storage bin.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "step_text_place_in_pattern"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fluff the pillows on the sofa set.",
+          "labels": {
+            "62": "sofa set"
+          },
+          "atomic_step": "Straighten items on the sofa set.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": "on",
+              "mapping_source": "semantic_repair_v5:fluff_furniture_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Scrub the sink.",
+          "labels": {
+            "71": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "786": "towel",
+        "74": "storage bin",
+        "62": "sofa set",
+        "71": "sink",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "786": 1,
+        "74": 1,
+        "62": 1,
+        "71": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm going to cook a big meal.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Dust the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Dust the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the stovetop.",
+          "labels": {
+            "70": "stovetop"
+          },
+          "atomic_step": "Wipe stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wash the sink.",
+          "labels": {
+            "71": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "94": "wardrobe",
+        "48": "kitchen table",
+        "70": "stovetop",
+        "71": "sink"
+      },
+      "regions": {
+        "137": 4,
+        "94": 2,
+        "48": 1,
+        "70": 1,
+        "71": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm feeling a bit chilly.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Close the window curtain.",
+          "labels": {
+            "44": "window curtain"
+          },
+          "atomic_step": "Close the window curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Get a pillow.",
+          "labels": {
+            "781": "pillow"
+          },
+          "atomic_step": "Lift the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Tidy the shelf cubby.",
+          "labels": {
+            "57": "shelf cubby"
+          },
+          "atomic_step": "Straighten shelf cubby.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Check the wardrobe for a blanket.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Inspect the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "inspect",
+              "relation": null,
+              "mapping_source": "inspect"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the doorpost.",
+          "labels": {
+            "109": "doorpost"
+          },
+          "atomic_step": "Wipe doorpost.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "44": "window curtain",
+        "781": "pillow",
+        "57": "shelf cubby",
+        "94": "wardrobe",
+        "109": "doorpost"
+      },
+      "regions": {
+        "44": 1,
+        "781": 1,
+        "57": 1,
+        "94": 2,
+        "109": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The house is dusty.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Dust the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Dust wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Dust the led tv.",
+          "labels": {
+            "54": "led tv"
+          },
+          "atomic_step": "Dust the led tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Clean the shelf cubby.",
+          "labels": {
+            "57": "shelf cubby"
+          },
+          "atomic_step": "Dust shelf cubby.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "94": "wardrobe",
+        "54": "led tv",
+        "57": "shelf cubby"
+      },
+      "regions": {
+        "137": 4,
+        "94": 2,
+        "54": 1,
+        "57": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "Everything is out of place.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Organize the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Straighten spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Tidy the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Put the bag away.",
+          "labels": {
+            "53": "bag"
+          },
+          "atomic_step": "Store the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "store",
+              "relation": null,
+              "mapping_source": "repair_store"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Sort the storage bin.",
+          "labels": {
+            "74": "storage bin"
+          },
+          "atomic_step": "Straighten storage bin.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe the kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "94": "wardrobe",
+        "53": "bag",
+        "74": "storage bin",
+        "48": "kitchen table"
+      },
+      "regions": {
+        "137": 4,
+        "94": 2,
+        "53": 1,
+        "74": 1,
+        "48": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm in the mood for some cookies.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe the kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clean the oven.",
+          "labels": {
+            "69": "oven"
+          },
+          "atomic_step": "Scrub oven.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Scrub the sink.",
+          "labels": {
+            "71": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Arrange the chair.",
+          "labels": {
+            "49": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Dust the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "48": "kitchen table",
+        "69": "oven",
+        "71": "sink",
+        "49": "chair",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "48": 1,
+        "69": 1,
+        "71": 1,
+        "49": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "It's time for my favorite show.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the led tv.",
+          "labels": {
+            "54": "led tv"
+          },
+          "atomic_step": "Wipe led tv.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Adjust the pillow.",
+          "labels": {
+            "782": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "adjust_soft_fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the sofa set.",
+          "labels": {
+            "62": "sofa set"
+          },
+          "atomic_step": "Place sofa set on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the window curtain.",
+          "labels": {
+            "44": "window curtain"
+          },
+          "atomic_step": "Close the window curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Wipe the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Wipe the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "54": "led tv",
+        "782": "pillow",
+        "62": "sofa set",
+        "44": "window curtain",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "54": 1,
+        "782": 1,
+        "62": 1,
+        "44": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I want to settle in for the night.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the window curtain.",
+          "labels": {
+            "44": "window curtain"
+          },
+          "atomic_step": "Close the window curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fluff the pillow.",
+          "labels": {
+            "781": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Clean the doorpost.",
+          "labels": {
+            "109": "doorpost"
+          },
+          "atomic_step": "Wipe doorpost.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "44": "window curtain",
+        "781": "pillow",
+        "94": "wardrobe",
+        "109": "doorpost"
+      },
+      "regions": {
+        "137": 4,
+        "44": 1,
+        "781": 1,
+        "94": 2,
+        "109": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I have some friends coming over later.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe down the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wash the sink.",
+          "labels": {
+            "71": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pick up the bag.",
+          "labels": {
+            "53": "bag"
+          },
+          "atomic_step": "Lift the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "71": "sink",
+        "48": "kitchen table",
+        "94": "wardrobe",
+        "53": "bag"
+      },
+      "regions": {
+        "137": 4,
+        "71": 1,
+        "48": 1,
+        "94": 2,
+        "53": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm going to cook a large meal.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Tidy the kitchen lower cabinet.",
+          "labels": {
+            "68": "kitchen lower cabinet"
+          },
+          "atomic_step": "Straighten kitchen lower cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the stovetop.",
+          "labels": {
+            "70": "stovetop"
+          },
+          "atomic_step": "Wipe the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the chair.",
+          "labels": {
+            "49": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "68": "kitchen lower cabinet",
+        "70": "stovetop",
+        "94": "wardrobe",
+        "49": "chair"
+      },
+      "regions": {
+        "137": 4,
+        "68": 1,
+        "70": 1,
+        "94": 2,
+        "49": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The living room is quite cluttered.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Dust the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Wipe the led tv.",
+          "labels": {
+            "54": "led tv"
+          },
+          "atomic_step": "Wipe the led tv.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Plump the pillow.",
+          "labels": {
+            "781": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the chest of drawers.",
+          "labels": {
+            "61": "chest of drawers"
+          },
+          "atomic_step": "Straighten chest of drawers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "54": "led tv",
+        "781": "pillow",
+        "61": "chest of drawers",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "137": 4,
+        "54": 1,
+        "781": 1,
+        "61": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "This area needs a thorough cleaning.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Straighten the window curtain.",
+          "labels": {
+            "44": "window curtain"
+          },
+          "atomic_step": "Smooth the window curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "smooth",
+              "relation": null,
+              "mapping_source": "replacement_from_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Empty the basket.",
+          "labels": {
+            "58": "basket"
+          },
+          "atomic_step": "Dump basket.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Close the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Close the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Organize the storage bin.",
+          "labels": {
+            "74": "storage bin"
+          },
+          "atomic_step": "Straighten storage bin.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "44": "window curtain",
+        "58": "basket",
+        "94": "wardrobe",
+        "74": "storage bin"
+      },
+      "regions": {
+        "137": 4,
+        "44": 1,
+        "58": 1,
+        "94": 2,
+        "74": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm expecting a visitor today.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Shake the doormat.",
+          "labels": {
+            "77": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clear the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Tidy the shelf cubby.",
+          "labels": {
+            "57": "shelf cubby"
+          },
+          "atomic_step": "Straighten shelf cubby.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "77": "doormat",
+        "48": "kitchen table",
+        "94": "wardrobe",
+        "57": "shelf cubby"
+      },
+      "regions": {
+        "137": 4,
+        "77": 1,
+        "48": 1,
+        "94": 2,
+        "57": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I need to get organized for my trip.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Dust the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Pick up the bag.",
+          "labels": {
+            "53": "bag"
+          },
+          "atomic_step": "Lift the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fold the towel.",
+          "labels": {
+            "786": "towel"
+          },
+          "atomic_step": "Fold the towel.",
+          "atomic_actions": [
+            {
+              "action_id": "fold",
+              "relation": null,
+              "mapping_source": "fold_then_place"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Tidy the chest of drawers.",
+          "labels": {
+            "61": "chest of drawers"
+          },
+          "atomic_step": "Straighten chest of drawers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "53": "bag",
+        "786": "towel",
+        "94": "wardrobe",
+        "61": "chest of drawers"
+      },
+      "regions": {
+        "137": 4,
+        "53": 1,
+        "786": 1,
+        "94": 2,
+        "61": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The kitchen is a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Scrub the sink.",
+          "labels": {
+            "71": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Wipe the stovetop.",
+          "labels": {
+            "70": "stovetop"
+          },
+          "atomic_step": "Wipe the stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the sofa set.",
+          "labels": {
+            "62": "sofa set"
+          },
+          "atomic_step": "Place sofa set on surface.",
+          "atomic_actions": [
+            {
+              "action_id": "place_on",
+              "relation": "on",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "71": "sink",
+        "70": "stovetop",
+        "94": "wardrobe",
+        "62": "sofa set"
+      },
+      "regions": {
+        "137": 4,
+        "71": 1,
+        "70": 1,
+        "94": 2,
+        "62": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The entrance looks a bit untidy.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Shake the doormat.",
+          "labels": {
+            "77": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the chair.",
+          "labels": {
+            "51": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Pick up the bag.",
+          "labels": {
+            "53": "bag"
+          },
+          "atomic_step": "Lift the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "77": "doormat",
+        "51": "chair",
+        "94": "wardrobe",
+        "53": "bag"
+      },
+      "regions": {
+        "137": 4,
+        "77": 1,
+        "51": 1,
+        "94": 2,
+        "53": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "It's time for some spring cleaning.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Dust the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Scrub the oven.",
+          "labels": {
+            "69": "oven"
+          },
+          "atomic_step": "Scrub the oven.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Organize the kitchen lower cabinet.",
+          "labels": {
+            "68": "kitchen lower cabinet"
+          },
+          "atomic_step": "Straighten kitchen lower cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Sweep the stair step.",
+          "labels": {
+            "32": "stair step"
+          },
+          "atomic_step": "Vacuum the stair step.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "vacuum"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "69": "oven",
+        "68": "kitchen lower cabinet",
+        "94": "wardrobe",
+        "32": "stair step"
+      },
+      "regions": {
+        "137": 4,
+        "69": 1,
+        "68": 1,
+        "94": 2,
+        "32": 1
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "We have a big family dinner tonight.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Clear the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the oven.",
+          "labels": {
+            "69": "oven"
+          },
+          "atomic_step": "Scrub oven.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Rinse the sink.",
+          "labels": {
+            "71": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Arrange the items in the chest of drawers.",
+          "labels": {
+            "61": "chest of drawers"
+          },
+          "atomic_step": "Place chest of drawers in receptacle.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Tidy the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "48": "kitchen table",
+        "69": "oven",
+        "71": "sink",
+        "61": "chest of drawers",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "137": 4,
+        "48": 1,
+        "69": 1,
+        "71": 1,
+        "61": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The living area is a bit of a mess.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Dust the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Dust the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Fold the towel.",
+          "labels": {
+            "786": "towel"
+          },
+          "atomic_step": "Fold the towel.",
+          "atomic_actions": [
+            {
+              "action_id": "fold",
+              "relation": null,
+              "mapping_source": "fold_then_place"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Fluff the pillow.",
+          "labels": {
+            "781": "pillow"
+          },
+          "atomic_step": "Fluff the pillow.",
+          "atomic_actions": [
+            {
+              "action_id": "fluff",
+              "relation": null,
+              "mapping_source": "fluff"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Pick up the bag.",
+          "labels": {
+            "53": "bag"
+          },
+          "atomic_step": "Lift the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the sofa set.",
+          "labels": {
+            "62": "sofa set"
+          },
+          "atomic_step": "Straighten the sofa set.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "786": "towel",
+        "781": "pillow",
+        "53": "bag",
+        "62": "sofa set",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "137": 4,
+        "786": 1,
+        "781": 1,
+        "53": 1,
+        "62": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "My friends are coming over to watch a film.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Turn on the led tv.",
+          "labels": {
+            "54": "led tv"
+          },
+          "atomic_step": "Turn on the led tv.",
+          "atomic_actions": [
+            {
+              "action_id": "turn_on",
+              "relation": "on",
+              "mapping_source": "turn_on"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the chair.",
+          "labels": {
+            "49": "chair"
+          },
+          "atomic_step": "Push chair.",
+          "atomic_actions": [
+            {
+              "action_id": "push",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_furniture_to_push"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the basket.",
+          "labels": {
+            "58": "basket"
+          },
+          "atomic_step": "Straighten basket.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Shake out the doormat.",
+          "labels": {
+            "77": "doormat"
+          },
+          "atomic_step": "Shake out the doormat.",
+          "atomic_actions": [
+            {
+              "action_id": "shake_out",
+              "relation": null,
+              "mapping_source": "shake"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Tidy the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "54": "led tv",
+        "49": "chair",
+        "58": "basket",
+        "77": "doormat",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "137": 4,
+        "54": 1,
+        "49": 1,
+        "58": 1,
+        "77": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "The house hasn't been cleaned in weeks.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Scrub the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Scrub the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "scrub"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Empty the storage bin.",
+          "labels": {
+            "74": "storage bin"
+          },
+          "atomic_step": "Dump storage bin.",
+          "atomic_actions": [
+            {
+              "action_id": "dump",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:empty_container_to_dump"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the kitchen lower cabinet.",
+          "labels": {
+            "68": "kitchen lower cabinet"
+          },
+          "atomic_step": "Wipe kitchen lower cabinet.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Sweep the stair step.",
+          "labels": {
+            "32": "stair step"
+          },
+          "atomic_step": "Vacuum the stair step.",
+          "atomic_actions": [
+            {
+              "action_id": "vacuum",
+              "relation": null,
+              "mapping_source": "vacuum"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Dust the led tv.",
+          "labels": {
+            "54": "led tv"
+          },
+          "atomic_step": "Dust the led tv.",
+          "atomic_actions": [
+            {
+              "action_id": "dust",
+              "relation": null,
+              "mapping_source": "dust"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "74": "storage bin",
+        "68": "kitchen lower cabinet",
+        "32": "stair step",
+        "54": "led tv",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "137": 4,
+        "74": 1,
+        "68": 1,
+        "32": 1,
+        "54": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I'm leaving for a trip tomorrow morning.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clear the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clear_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Close the window curtain.",
+          "labels": {
+            "44": "window curtain"
+          },
+          "atomic_step": "Close the window curtain.",
+          "atomic_actions": [
+            {
+              "action_id": "close",
+              "relation": null,
+              "mapping_source": "close"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Pick up the bag.",
+          "labels": {
+            "53": "bag"
+          },
+          "atomic_step": "Lift the bag.",
+          "atomic_actions": [
+            {
+              "action_id": "lift",
+              "relation": null,
+              "mapping_source": "replacement_from_pick_up"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Organize the storage bin.",
+          "labels": {
+            "74": "storage bin"
+          },
+          "atomic_step": "Straighten storage bin.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Straighten the chair.",
+          "labels": {
+            "51": "chair"
+          },
+          "atomic_step": "Straighten the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Pack the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Load the wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "load",
+              "relation": null,
+              "mapping_source": "pack"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "44": "window curtain",
+        "53": "bag",
+        "74": "storage bin",
+        "51": "chair",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "137": 4,
+        "44": 1,
+        "53": 1,
+        "74": 1,
+        "51": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "Breakfast left the kitchen in a state.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Wipe the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe the spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Rinse the sink.",
+          "labels": {
+            "71": "sink"
+          },
+          "atomic_step": "Scrub the sink.",
+          "atomic_actions": [
+            {
+              "action_id": "scrub",
+              "relation": null,
+              "mapping_source": "replacement_from_wash"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Clean the stovetop.",
+          "labels": {
+            "70": "stovetop"
+          },
+          "atomic_step": "Wipe stovetop.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Wipe the kitchen table.",
+          "labels": {
+            "48": "kitchen table"
+          },
+          "atomic_step": "Wipe the kitchen table.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the chair.",
+          "labels": {
+            "50": "chair"
+          },
+          "atomic_step": "Reposition the chair.",
+          "atomic_actions": [
+            {
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "71": "sink",
+        "70": "stovetop",
+        "48": "kitchen table",
+        "50": "chair",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "137": 4,
+        "71": 1,
+        "70": 1,
+        "48": 1,
+        "50": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    },
+    {
+      "task": "I can't find anything in these storage spots.",
+      "plan": [
+        {
+          "step_id": 1,
+          "step": "Clean the spa bench.",
+          "labels": {
+            "137": "spa bench"
+          },
+          "atomic_step": "Wipe spa bench.",
+          "atomic_actions": [
+            {
+              "action_id": "wipe",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:clean_to_wipe"
+            }
+          ]
+        },
+        {
+          "step_id": 2,
+          "step": "Organize the storage bin.",
+          "labels": {
+            "74": "storage bin"
+          },
+          "atomic_step": "Straighten storage bin.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 3,
+          "step": "Arrange the shelf cubby.",
+          "labels": {
+            "57": "shelf cubby"
+          },
+          "atomic_step": "Place shelf cubby in receptacle.",
+          "atomic_actions": [
+            {
+              "action_id": "place_in",
+              "relation": "in",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+            }
+          ]
+        },
+        {
+          "step_id": 4,
+          "step": "Tidy the chest of drawers.",
+          "labels": {
+            "61": "chest of drawers"
+          },
+          "atomic_step": "Straighten chest of drawers.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        },
+        {
+          "step_id": 5,
+          "step": "Move the basket.",
+          "labels": {
+            "60": "basket"
+          },
+          "atomic_step": "Carry the basket.",
+          "atomic_actions": [
+            {
+              "action_id": "carry",
+              "relation": null,
+              "mapping_source": "move"
+            }
+          ]
+        },
+        {
+          "step_id": 6,
+          "step": "Organize the wardrobe.",
+          "labels": {
+            "94": "wardrobe"
+          },
+          "atomic_step": "Straighten wardrobe.",
+          "atomic_actions": [
+            {
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:tidy_openable_to_straighten"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "137": "spa bench",
+        "74": "storage bin",
+        "57": "shelf cubby",
+        "61": "chest of drawers",
+        "60": "basket",
+        "94": "wardrobe"
+      },
+      "regions": {
+        "137": 4,
+        "74": 1,
+        "57": 1,
+        "61": 1,
+        "60": 1,
+        "94": 2
+      },
+      "assets": {},
+      "start_region": 4
+    }
+  ]
+}
