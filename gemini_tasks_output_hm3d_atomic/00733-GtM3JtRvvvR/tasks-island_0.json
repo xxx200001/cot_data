@@ -8709,12 +8709,12 @@
           "labels": {
             "215": "wash cabinet"
           },
-          "atomic_step": "Reposition the wash cabinet.",
+          "atomic_step": "Tighten the wash cabinet.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },

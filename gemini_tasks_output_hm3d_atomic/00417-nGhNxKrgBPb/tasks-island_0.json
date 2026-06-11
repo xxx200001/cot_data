@@ -652,12 +652,12 @@
           "labels": {
             "158": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -1976,12 +1976,12 @@
           "labels": {
             "158": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         }
@@ -5288,12 +5288,12 @@
           "labels": {
             "158": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -8100,12 +8100,12 @@
           "labels": {
             "223": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload the dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         },
@@ -8421,12 +8421,12 @@
           "labels": {
             "158": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -9554,12 +9554,12 @@
           "labels": {
             "158": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -12047,12 +12047,12 @@
           "labels": {
             "158": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -13450,12 +13450,12 @@
           "labels": {
             "158": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -13763,12 +13763,12 @@
           "labels": {
             "158": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },

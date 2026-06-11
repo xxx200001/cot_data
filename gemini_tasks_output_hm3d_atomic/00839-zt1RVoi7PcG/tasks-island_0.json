@@ -588,7 +588,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -2280,7 +2280,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -2935,7 +2935,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -4324,7 +4324,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -4448,7 +4448,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -6048,7 +6048,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -6355,7 +6355,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -6805,7 +6805,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -8270,7 +8270,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause;vocab_gap:no_ignite_action"
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause;assume_gas_fireplace"
             }
           ]
         },
@@ -10441,7 +10441,7 @@
             {
               "action_id": "reposition",
               "relation": "in",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         }
@@ -11046,7 +11046,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -12193,7 +12193,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -12829,7 +12829,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -13100,7 +13100,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -13980,7 +13980,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -14432,7 +14432,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -15598,7 +15598,7 @@
             {
               "action_id": "inspect",
               "relation": "in",
-              "mapping_source": "fallback_inspect"
+              "mapping_source": "fallback_inspect;vocab_gap:roll"
             }
           ]
         },
@@ -16863,7 +16863,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -20194,7 +20194,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         }
@@ -20916,7 +20916,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -20946,7 +20946,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -22123,7 +22123,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -23480,7 +23480,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },

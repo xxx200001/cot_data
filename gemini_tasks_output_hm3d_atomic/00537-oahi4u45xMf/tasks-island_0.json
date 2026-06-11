@@ -574,7 +574,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -1495,7 +1495,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -3191,7 +3191,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause;vocab_gap:no_ignite_action"
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause;assume_gas_fireplace"
             }
           ]
         },
@@ -3497,12 +3497,12 @@
           "labels": {
             "116": "appliance"
           },
-          "atomic_step": "Inspect the appliance.",
+          "atomic_step": "Start the coffee machine.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:nonfood_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:nonfood_device_heat_food;vocab_extension_v1:inspect->start_machine"
             }
           ]
         },
@@ -3956,7 +3956,7 @@
             {
               "action_id": "smooth",
               "relation": null,
-              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat"
+              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat;vocab_gap:roll"
             }
           ]
         },
@@ -4079,12 +4079,12 @@
           "labels": {
             "127": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload the clean dishes from the dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         },

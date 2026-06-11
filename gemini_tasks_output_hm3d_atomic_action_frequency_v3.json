@@ -1,305 +1,56 @@
 {
-  "root": "gemini_tasks_output_hm3d_atomic",
-  "files": 217,
-  "plan_steps": 179546,
-  "atomic_action_entries": 179546,
-  "unique_actions": 49,
-  "bad_json_files": 0,
-  "missing_or_empty_actions": 0,
-  "actions": [
-    {
-      "action_id": "wipe",
-      "count": 27247,
-      "frequency": 0.15175498201018123,
-      "frequency_percent": 15.175498201018124
-    },
-    {
-      "action_id": "straighten",
-      "count": 16236,
-      "frequency": 0.0904280797121629,
-      "frequency_percent": 9.04280797121629
-    },
-    {
-      "action_id": "pick_up",
-      "count": 12546,
-      "frequency": 0.06987624341394406,
-      "frequency_percent": 6.9876243413944055
-    },
-    {
-      "action_id": "turn_on",
-      "count": 11277,
-      "frequency": 0.0628084167845566,
-      "frequency_percent": 6.28084167845566
-    },
-    {
-      "action_id": "inspect",
-      "count": 9786,
-      "frequency": 0.05450413821527631,
-      "frequency_percent": 5.450413821527631
-    },
-    {
-      "action_id": "place_on",
-      "count": 8905,
-      "frequency": 0.0495973176790349,
-      "frequency_percent": 4.95973176790349
-    },
-    {
-      "action_id": "scrub",
-      "count": 8400,
-      "frequency": 0.04678466799594533,
-      "frequency_percent": 4.678466799594533
-    },
-    {
-      "action_id": "dust",
-      "count": 7814,
-      "frequency": 0.04352088044289486,
-      "frequency_percent": 4.352088044289486
-    },
-    {
-      "action_id": "reposition",
-      "count": 6102,
-      "frequency": 0.03398571953705457,
-      "frequency_percent": 3.3985719537054573
-    },
-    {
-      "action_id": "open",
-      "count": 6089,
-      "frequency": 0.03391331469372751,
-      "frequency_percent": 3.3913314693727514
-    },
-    {
-      "action_id": "close",
-      "count": 5843,
-      "frequency": 0.03254319227384626,
-      "frequency_percent": 3.2543192273846255
-    },
-    {
-      "action_id": "push",
-      "count": 5140,
-      "frequency": 0.02862776113085226,
-      "frequency_percent": 2.8627761130852263
-    },
-    {
-      "action_id": "smooth",
-      "count": 5042,
-      "frequency": 0.0280819400042329,
-      "frequency_percent": 2.8081940004232897
-    },
-    {
-      "action_id": "carry",
-      "count": 4782,
-      "frequency": 0.026633843137691734,
-      "frequency_percent": 2.6633843137691735
-    },
-    {
-      "action_id": "fluff",
-      "count": 4607,
-      "frequency": 0.025659162554442873,
-      "frequency_percent": 2.565916255444287
-    },
-    {
-      "action_id": "lift",
-      "count": 4458,
-      "frequency": 0.024829291657848127,
-      "frequency_percent": 2.482929165784813
-    },
-    {
-      "action_id": "place_in",
-      "count": 3463,
-      "frequency": 0.01928753634166175,
-      "frequency_percent": 1.9287536341661746
-    },
-    {
-      "action_id": "dump",
-      "count": 3455,
-      "frequency": 0.019242979514998943,
-      "frequency_percent": 1.9242979514998941
-    },
-    {
-      "action_id": "set_control",
-      "count": 3065,
-      "frequency": 0.017070834215187194,
-      "frequency_percent": 1.7070834215187194
-    },
-    {
-      "action_id": "turn_off",
-      "count": 2657,
-      "frequency": 0.014798436055384136,
-      "frequency_percent": 1.4798436055384137
-    },
-    {
-      "action_id": "store",
-      "count": 2512,
-      "frequency": 0.013990843572120793,
-      "frequency_percent": 1.3990843572120795
-    },
-    {
-      "action_id": "hang",
-      "count": 2112,
-      "frequency": 0.01176300223898054,
-      "frequency_percent": 1.176300223898054
-    },
-    {
-      "action_id": "fold",
-      "count": 1899,
-      "frequency": 0.010576676729083355,
-      "frequency_percent": 1.0576676729083354
-    },
-    {
-      "action_id": "set_up",
-      "count": 1786,
-      "frequency": 0.009947311552471232,
-      "frequency_percent": 0.9947311552471233
-    },
-    {
-      "action_id": "load",
-      "count": 1759,
-      "frequency": 0.009796932262484266,
-      "frequency_percent": 0.9796932262484266
-    },
-    {
-      "action_id": "pour",
-      "count": 1757,
-      "frequency": 0.009785793055818564,
-      "frequency_percent": 0.9785793055818565
-    },
-    {
-      "action_id": "fill",
-      "count": 1729,
-      "frequency": 0.009629844162498747,
-      "frequency_percent": 0.9629844162498746
-    },
-    {
-      "action_id": "rinse",
-      "count": 1272,
-      "frequency": 0.007084535439386007,
-      "frequency_percent": 0.7084535439386007
-    },
-    {
-      "action_id": "polish",
-      "count": 1131,
-      "frequency": 0.006299221369454068,
-      "frequency_percent": 0.6299221369454068
-    },
-    {
-      "action_id": "align",
-      "count": 1091,
-      "frequency": 0.006076437236140042,
-      "frequency_percent": 0.6076437236140042
-    },
-    {
-      "action_id": "start_machine",
-      "count": 800,
-      "frequency": 0.004455682666280507,
-      "frequency_percent": 0.44556826662805077
-    },
-    {
-      "action_id": "stack",
-      "count": 785,
-      "frequency": 0.004372138616287748,
-      "frequency_percent": 0.4372138616287748
-    },
-    {
-      "action_id": "vacuum",
-      "count": 688,
-      "frequency": 0.0038318870930012365,
-      "frequency_percent": 0.38318870930012366
-    },
-    {
-      "action_id": "set",
-      "count": 609,
-      "frequency": 0.0033918884297060364,
-      "frequency_percent": 0.33918884297060364
-    },
-    {
-      "action_id": "plug_in",
-      "count": 553,
-      "frequency": 0.003079990643066401,
-      "frequency_percent": 0.3079990643066401
-    },
-    {
-      "action_id": "dispose",
-      "count": 390,
-      "frequency": 0.0021721452998117474,
-      "frequency_percent": 0.21721452998117474
-    },
-    {
-      "action_id": "shake_out",
-      "count": 376,
-      "frequency": 0.0020941708531518385,
-      "frequency_percent": 0.20941708531518385
-    },
-    {
-      "action_id": "cover",
-      "count": 349,
-      "frequency": 0.0019437915631648713,
-      "frequency_percent": 0.19437915631648714
-    },
-    {
-      "action_id": "pull",
-      "count": 308,
-      "frequency": 0.0017154378265179953,
-      "frequency_percent": 0.17154378265179954
-    },
-    {
-      "action_id": "tighten",
-      "count": 229,
-      "frequency": 0.0012754391632227953,
-      "frequency_percent": 0.12754391632227952
-    },
-    {
-      "action_id": "lock",
-      "count": 118,
-      "frequency": 0.0006572131932763749,
-      "frequency_percent": 0.06572131932763749
-    },
-    {
-      "action_id": "attach",
-      "count": 107,
-      "frequency": 0.0005959475566150178,
-      "frequency_percent": 0.05959475566150179
-    },
-    {
-      "action_id": "flush",
-      "count": 96,
-      "frequency": 0.000534681919953661,
-      "frequency_percent": 0.05346819199536609
-    },
-    {
-      "action_id": "mop",
-      "count": 57,
-      "frequency": 0.00031746738997248615,
-      "frequency_percent": 0.031746738997248614
-    },
-    {
-      "action_id": "tuck",
-      "count": 42,
-      "frequency": 0.00023392333997972664,
-      "frequency_percent": 0.023392333997972664
-    },
-    {
-      "action_id": "press",
-      "count": 40,
-      "frequency": 0.0002227841333140254,
-      "frequency_percent": 0.022278413331402538
-    },
-    {
-      "action_id": "unplug",
-      "count": 26,
-      "frequency": 0.0001448096866541165,
-      "frequency_percent": 0.01448096866541165
-    },
-    {
-      "action_id": "unlock",
-      "count": 10,
-      "frequency": 5.569603332850635e-05,
-      "frequency_percent": 0.0055696033328506344
-    },
-    {
-      "action_id": "pack",
-      "count": 1,
-      "frequency": 5.569603332850634e-06,
-      "frequency_percent": 0.0005569603332850634
-    }
-  ]
+  "action_frequencies": {
+    "stack": 785,
+    "lift": 4458,
+    "push": 5140,
+    "straighten": 16263,
+    "open": 6023,
+    "wipe": 27247,
+    "turn_on": 11067,
+    "turn_off": 2657,
+    "set_up": 1786,
+    "reposition": 6069,
+    "dump": 3453,
+    "align": 1094,
+    "pick_up": 12552,
+    "close": 5843,
+    "dust": 7814,
+    "fluff": 4607,
+    "place_on": 8913,
+    "inspect": 9766,
+    "dispose": 390,
+    "place_in": 3463,
+    "carry": 4782,
+    "pull": 308,
+    "set_control": 3107,
+    "store": 2507,
+    "set": 609,
+    "scrub": 8400,
+    "polish": 1131,
+    "load": 1855,
+    "plug_in": 548,
+    "fill": 1619,
+    "cover": 350,
+    "lock": 118,
+    "pour": 1757,
+    "start_machine": 817,
+    "hang": 2125,
+    "fold": 1899,
+    "press": 40,
+    "shake_out": 376,
+    "vacuum": 688,
+    "smooth": 4988,
+    "rinse": 1272,
+    "tighten": 259,
+    "attach": 112,
+    "tuck": 42,
+    "light": 176,
+    "mop": 57,
+    "iron": 27,
+    "unplug": 26,
+    "unload": 54,
+    "flush": 96,
+    "unlock": 10,
+    "pack": 1
+  }
 }

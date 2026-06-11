@@ -4962,7 +4962,7 @@
             {
               "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         },
@@ -9273,12 +9273,12 @@
           "labels": {
             "499": "iron board"
           },
-          "atomic_step": "Straighten the iron board.",
+          "atomic_step": "Iron the clothes.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
-              "relation": null,
-              "mapping_source": "straighten"
+              "action_id": "iron",
+              "relation": "on",
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         },
@@ -11453,12 +11453,12 @@
           "labels": {
             "499": "iron board"
           },
-          "atomic_step": "Straighten items on the iron board.",
+          "atomic_step": "Iron the work shirt on the iron board.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         },

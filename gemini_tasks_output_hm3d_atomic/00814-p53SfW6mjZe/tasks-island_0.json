@@ -1708,7 +1708,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -5697,7 +5697,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -7337,7 +7337,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -9036,7 +9036,7 @@
             {
               "action_id": "smooth",
               "relation": null,
-              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat"
+              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat;vocab_gap:roll"
             }
           ]
         },
@@ -9227,12 +9227,12 @@
           "labels": {
             "347": "sink"
           },
-          "atomic_step": "Reposition the sink.",
+          "atomic_step": "Tighten the sink.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": "in",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },
@@ -14551,7 +14551,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "replacement_from_navigate;vocab_gap:no_ignite_action"
+              "mapping_source": "replacement_from_navigate;assume_gas_fireplace"
             }
           ]
         }
@@ -16098,7 +16098,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -16655,7 +16655,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -18325,7 +18325,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -22091,7 +22091,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -23161,7 +23161,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -23410,7 +23410,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -26578,7 +26578,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -30006,7 +30006,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -33311,7 +33311,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },

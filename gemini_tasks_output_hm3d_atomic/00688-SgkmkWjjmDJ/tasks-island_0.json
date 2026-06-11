@@ -2461,7 +2461,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -3980,12 +3980,12 @@
           "labels": {
             "4": "candlestick"
           },
-          "atomic_step": "Turn on the candlestick in the living room.",
+          "atomic_step": "Light the candlestick in the living room.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "in",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -6060,7 +6060,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -8776,7 +8776,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -9707,7 +9707,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off;vocab_gap:no_boil_action"
+              "mapping_source": "turn_off;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -10275,7 +10275,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },

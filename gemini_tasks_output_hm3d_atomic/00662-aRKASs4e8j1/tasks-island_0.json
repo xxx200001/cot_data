@@ -3412,7 +3412,7 @@
             {
               "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         },
@@ -4851,12 +4851,12 @@
           "labels": {
             "238": "coat rack"
           },
-          "atomic_step": "Reposition the coat rack.",
+          "atomic_step": "Align the coat rack.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "align",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->align"
             }
           ]
         },
@@ -5761,7 +5761,7 @@
             {
               "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         },
@@ -6327,12 +6327,12 @@
           "labels": {
             "416": "light fixture"
           },
-          "atomic_step": "Reposition the light fixture.",
+          "atomic_step": "Align the light fixture.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "align",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->align"
             }
           ]
         },
@@ -7373,7 +7373,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         }

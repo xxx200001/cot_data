@@ -191,7 +191,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -1154,7 +1154,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -2192,7 +2192,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -3259,7 +3259,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -3358,7 +3358,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -4136,7 +4136,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off;vocab_gap:no_boil_action"
+              "mapping_source": "turn_off;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -4813,7 +4813,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -4858,7 +4858,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -4958,7 +4958,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -6092,7 +6092,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -6834,7 +6834,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -7024,7 +7024,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -7292,7 +7292,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -7494,7 +7494,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -8154,7 +8154,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -8594,7 +8594,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -9515,12 +9515,12 @@
           "labels": {
             "1068": "kettle"
           },
-          "atomic_step": "Inspect the kettle.",
+          "atomic_step": "Turn on the kettle.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "repair_inspect_device"
+              "mapping_source": "repair_inspect_device;vocab_extension_v1:inspect->turn_on"
             }
           ]
         },
@@ -11001,12 +11001,12 @@
           "labels": {
             "470": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload the dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         }

@@ -2129,12 +2129,12 @@
           "labels": {
             "428": "coffee_maker"
           },
-          "atomic_step": "Inspect the coffee_maker.",
+          "atomic_step": "Start the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "repair_inspect_object"
+              "mapping_source": "repair_inspect_object;vocab_extension_v1:inspect->start_machine"
             }
           ]
         },
@@ -5472,12 +5472,12 @@
           "labels": {
             "291": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload the dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         },
@@ -7685,12 +7685,12 @@
           "labels": {
             "291": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload the dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         },

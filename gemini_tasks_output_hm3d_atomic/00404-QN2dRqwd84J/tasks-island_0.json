@@ -4859,7 +4859,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -9471,12 +9471,12 @@
           "labels": {
             "433": "toaster"
           },
-          "atomic_step": "Inspect the toaster.",
+          "atomic_step": "Turn on the toaster.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "repair_inspect_object"
+              "mapping_source": "repair_inspect_object;vocab_extension_v1:inspect->turn_on"
             }
           ]
         }

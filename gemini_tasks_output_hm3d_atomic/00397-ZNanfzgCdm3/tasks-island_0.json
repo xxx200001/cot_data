@@ -364,12 +364,12 @@
           "labels": {
             "26": "kitchen lower cabinet"
           },
-          "atomic_step": "Reposition the kitchen lower cabinet.",
+          "atomic_step": "Tighten the kitchen lower cabinet.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },
@@ -2506,7 +2506,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         }
@@ -3186,7 +3186,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -7233,12 +7233,12 @@
           "labels": {
             "32": "sink cabinet"
           },
-          "atomic_step": "Reposition the sink cabinet.",
+          "atomic_step": "Tighten the sink cabinet.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },

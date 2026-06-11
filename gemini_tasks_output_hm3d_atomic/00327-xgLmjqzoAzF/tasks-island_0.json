@@ -1295,12 +1295,12 @@
           "labels": {
             "457": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload the dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         },
@@ -1801,12 +1801,12 @@
           "labels": {
             "109": "exercise machine"
           },
-          "atomic_step": "Inspect the exercise machine.",
+          "atomic_step": "Turn on the exercise machine.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "fallback_inspect"
+              "mapping_source": "fallback_inspect;vocab_extension_v1:inspect->turn_on"
             }
           ]
         },
@@ -1857,7 +1857,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -1902,7 +1902,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -2131,7 +2131,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause;vocab_gap:no_ignite_action"
+              "mapping_source": "semantic_repair_v3:malformed_to_the_verb_clause;assume_gas_fireplace"
             }
           ]
         },
@@ -3687,7 +3687,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -6541,7 +6541,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -9625,7 +9625,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -9937,7 +9937,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -13639,12 +13639,12 @@
           "labels": {
             "690": "ironing board"
           },
-          "atomic_step": "Straighten the ironing board.",
+          "atomic_step": "Iron the clothes.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
-              "relation": null,
-              "mapping_source": "straighten"
+              "action_id": "iron",
+              "relation": "on",
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         },
@@ -14846,12 +14846,12 @@
           "labels": {
             "457": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload the clean dishes from the dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         },
@@ -15275,7 +15275,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -17200,7 +17200,7 @@
             {
               "action_id": "smooth",
               "relation": null,
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "replacement_from_straighten;vocab_gap:roll"
             }
           ]
         }
@@ -19595,7 +19595,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -20149,7 +20149,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -22299,7 +22299,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -25214,12 +25214,12 @@
           "labels": {
             "1105": "coffee_maker"
           },
-          "atomic_step": "Inspect the coffee_maker.",
+          "atomic_step": "Start the coffee_maker.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "repair_inspect_object"
+              "mapping_source": "repair_inspect_object;vocab_extension_v1:inspect->start_machine"
             }
           ]
         },
@@ -25264,7 +25264,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -27649,7 +27649,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -29157,7 +29157,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -30320,7 +30320,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -30593,12 +30593,12 @@
           "labels": {
             "690": "ironing board"
           },
-          "atomic_step": "Straighten the ironing board.",
+          "atomic_step": "Iron on the ironing board.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         },
@@ -34102,12 +34102,12 @@
           "labels": {
             "692": "clothes"
           },
-          "atomic_step": "Straighten the clothes on the board.",
+          "atomic_step": "Iron the clothes on the board.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         }

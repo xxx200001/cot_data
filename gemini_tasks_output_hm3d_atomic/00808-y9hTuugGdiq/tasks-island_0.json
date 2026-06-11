@@ -191,7 +191,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -2095,7 +2095,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -7012,7 +7012,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -7875,12 +7875,12 @@
           "labels": {
             "531": "bed"
           },
-          "atomic_step": "Smooth the bed.",
+          "atomic_step": "Iron on the bed.",
           "atomic_actions": [
             {
-              "action_id": "smooth",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "replacement_from_straighten;vocab_extension_v1:smooth->iron"
             }
           ]
         },

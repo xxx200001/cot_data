@@ -429,7 +429,7 @@
             {
               "action_id": "straighten",
               "relation": null,
-              "mapping_source": "smooth"
+              "mapping_source": "smooth;vocab_gap:roll"
             }
           ]
         },
@@ -2436,7 +2436,7 @@
             {
               "action_id": "straighten",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten"
+              "mapping_source": "semantic_robot_primitive_v3:tidy_to_straighten;vocab_gap:roll"
             }
           ]
         },

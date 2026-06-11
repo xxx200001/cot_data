@@ -510,7 +510,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -1882,7 +1882,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -2753,7 +2753,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -3909,7 +3909,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -4482,12 +4482,12 @@
           "labels": {
             "76": "coffee maker"
           },
-          "atomic_step": "Inspect the coffee maker.",
+          "atomic_step": "Start the coffee maker.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "start_machine",
               "relation": null,
-              "mapping_source": "repair_inspect_object"
+              "mapping_source": "repair_inspect_object;vocab_extension_v1:inspect->start_machine"
             }
           ]
         },
@@ -4777,7 +4777,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -5676,7 +5676,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -7930,12 +7930,12 @@
           "labels": {
             "136": "washer-dryer"
           },
-          "atomic_step": "Dump washer-dryer.",
+          "atomic_step": "Unload the washer-dryer.",
           "atomic_actions": [
             {
-              "action_id": "dump",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_to_dump"
+              "mapping_source": "semantic_robot_primitive_v3:empty_to_dump;vocab_extension_v1:dump->unload"
             }
           ]
         },
@@ -9745,7 +9745,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -11830,7 +11830,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },
@@ -12487,7 +12487,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;assume_gas_fireplace"
             }
           ]
         },

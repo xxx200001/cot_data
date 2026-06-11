@@ -1228,12 +1228,12 @@
           "labels": {
             "288": "candle holder"
           },
-          "atomic_step": "Turn on the candle holder.",
+          "atomic_step": "Light the candle holder.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -3200,7 +3200,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -3225,12 +3225,12 @@
           "labels": {
             "128": "fireplace sconce"
           },
-          "atomic_step": "Turn on the fireplace sconce.",
+          "atomic_step": "Light the fireplace sconce.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         }
@@ -8674,7 +8674,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off;vocab_gap:no_boil_action"
+              "mapping_source": "turn_off;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -9428,7 +9428,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -10852,7 +10852,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off;vocab_gap:no_boil_action"
+              "mapping_source": "turn_off;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -11992,7 +11992,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off;vocab_gap:no_boil_action"
+              "mapping_source": "turn_off;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -15158,7 +15158,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_preheat_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -16958,7 +16958,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -16988,7 +16988,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -18301,7 +18301,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -19473,7 +19473,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },

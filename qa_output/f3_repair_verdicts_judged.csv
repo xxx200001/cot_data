@@ -1,0 +1,70 @@
+file,task_idx,step_id,old_action,atomic_step,step_orig,objects,verdict,new_action,reason
+00022-gmuS7Wgsbrx\tasks-island_0.json,259,3,turn_on,Turn on the fan.,Repair the fan.,fan,FLAG,turn_on,"electrical fan, repair intent unclear in action space"
+00022-gmuS7Wgsbrx\tasks-island_0.json,259,7,turn_on,Turn on the lamp.,Repair the lamp.,lamp,FLAG,turn_on,"electrical lamp, repair intent unclear in action space"
+00023-zepmXAdrpjR\tasks-island_0.json,104,6,reposition,Reposition the rack.,Repair the rack.,rack,REMAP,tighten,rack repair = tightening screws/bolts
+00023-zepmXAdrpjR\tasks-island_0.json,169,4,reposition,Reposition the kitchen cabinet.,Repair the kitchen cabinet.,kitchen cabinet,FLAG,reposition,kitchen cabinet repair too ambiguous for single atomic action
+00031-Wo6kuutE9i7\tasks-island_0.json,108,3,reposition,Reposition the fence.,Repair the fence.,fence,REMAP,tighten,fence repair = tightening screws/bolts
+00043-Jfyvj3xn2aJ\tasks-island_2.json,45,1,reposition,Reposition the kitchen cabinet.,Repair the kitchen cabinet.,kitchen cabinet,FLAG,reposition,kitchen cabinet repair too ambiguous for single atomic action
+00059-kJxT5qssH4H\tasks-island_1.json,38,2,reposition,Reposition the sink.,Repair the sink.,sink,REMAP,tighten,sink repair = tightening screws/bolts
+00087-YY8rqV6L6rf\tasks-island_2.json,137,4,reposition,Reposition the telephone.,Repair the telephone.,telephone,FLAG,reposition,telephone repair too ambiguous for single atomic action
+00141-iigzG1rtanx\tasks-island_1.json,50,3,reposition,Reposition the dresser.,Repair the dresser.,dresser,FLAG,reposition,dresser repair too ambiguous for single atomic action
+00141-iigzG1rtanx\tasks-island_1.json,50,5,reposition,Reposition the cabinet.,Repair the cabinet.,cabinet,FLAG,reposition,cabinet repair too ambiguous for single atomic action
+00149-UuwwmrTsfBN\tasks-island_0.json,89,3,reposition,Reposition the cabinet.,Repair the cabinet.,cabinet,FLAG,reposition,cabinet repair too ambiguous for single atomic action
+00149-UuwwmrTsfBN\tasks-island_0.json,126,5,reposition,Reposition the toaster.,Repair the toaster.,toaster,FLAG,reposition,toaster repair too ambiguous for single atomic action
+00168-bHKTDQFJxTw\tasks-island_0.json,8,4,reposition,Reposition the toilet.,Repair the toilet.,toilet,FLAG,reposition,toilet repair too ambiguous for single atomic action
+00168-bHKTDQFJxTw\tasks-island_0.json,11,2,reposition,Reposition the toilet.,Repair the toilet.,toilet,FLAG,reposition,toilet repair too ambiguous for single atomic action
+00168-bHKTDQFJxTw\tasks-island_0.json,17,1,reposition,Reposition the machine.,Repair the machine.,machine,FLAG,reposition,machine repair too ambiguous for single atomic action
+00168-bHKTDQFJxTw\tasks-island_0.json,61,6,reposition,Reposition the machine.,Repair the machine in the restroom area.,machine,FLAG,reposition,machine repair too ambiguous for single atomic action
+00168-bHKTDQFJxTw\tasks-island_0.json,85,3,reposition,Reposition the machine.,Repair the machine.,machine,FLAG,reposition,machine repair too ambiguous for single atomic action
+00245-741Fdj7NLF9\tasks-island_0.json,66,4,reposition,Reposition the sink.,Repair the sink.,sink,REMAP,tighten,sink repair = tightening screws/bolts
+00245-741Fdj7NLF9\tasks-island_0.json,97,5,reposition,Reposition the drawer.,Repair the drawer.,drawer,REMAP,tighten,drawer repair = tightening screws/bolts
+00250-U3oQjwTuMX8\tasks-island_0.json,136,5,reposition,Reposition the sink.,Repair the sink.,sink,REMAP,tighten,sink repair = tightening screws/bolts
+00251-wsAYBFtQaL7\tasks-island_0.json,377,5,reposition,Reposition the vent.,Repair the vent.,vent,REMAP,tighten,vent repair = tightening screws/bolts
+00254-YMNvYDhK8mB\tasks-island_1.json,149,5,reposition,Reposition the keyboard.,Repair the keyboard.,keyboard,FLAG,reposition,keyboard repair too ambiguous for single atomic action
+00255-NGyoyh91xXJ\tasks-island_0.json,31,1,reposition,Reposition the ventilation.,Repair the ventilation.,ventilation,REMAP,tighten,ventilation repair = tightening screws/bolts
+00255-NGyoyh91xXJ\tasks-island_0.json,38,1,reposition,Reposition the ventilation.,Repair the ventilation.,ventilation,REMAP,tighten,ventilation repair = tightening screws/bolts
+00255-NGyoyh91xXJ\tasks-island_0.json,54,3,reposition,Reposition the cabinet door.,Repair the cabinet door.,cabinet door,REMAP,tighten,cabinet door repair = tightening screws/bolts
+00269-JNiWU5TZLtt\tasks-island_0.json,74,4,reposition,Reposition the rack.,Repair the rack.,rack,REMAP,tighten,rack repair = tightening screws/bolts
+00272-kA2nG18hCAr\tasks-island_0.json,71,5,reposition,Reposition the fireplace utensil.,Repair the fireplace utensil handle.,fireplace utensil,REMAP,tighten,step mentions fastener/fitting component
+00294-PPTLa8SkUfo\tasks-island_0.json,5,3,reposition,Reposition the heater.,Repair the heater unit.,heater,FLAG,reposition,heater repair too ambiguous for single atomic action
+00294-PPTLa8SkUfo\tasks-island_0.json,144,4,reposition,Reposition the heater.,Repair the heater in the bedroom.,heater,FLAG,reposition,heater repair too ambiguous for single atomic action
+00294-PPTLa8SkUfo\tasks-island_0.json,166,3,reposition,Reposition the heater.,Repair the heater.,heater,FLAG,reposition,heater repair too ambiguous for single atomic action
+00294-PPTLa8SkUfo\tasks-island_0.json,276,6,reposition,Reposition the bench.,Repair the bench.,bench,REMAP,tighten,bench repair = tightening screws/bolts
+00294-PPTLa8SkUfo\tasks-island_0.json,291,6,reposition,Reposition the bench.,Repair the bench.,bench,REMAP,tighten,bench repair = tightening screws/bolts
+00299-bdp1XNEdvmW\tasks-island_0.json,55,4,reposition,Reposition the cabinet.,Repair the cabinet.,cabinet,FLAG,reposition,cabinet repair too ambiguous for single atomic action
+00397-ZNanfzgCdm3\tasks-island_0.json,4,3,reposition,Reposition the kitchen lower cabinet.,Repair the kitchen lower cabinet.,kitchen lower cabinet,REMAP,tighten,kitchen lower cabinet repair = tightening screws/bolts
+00397-ZNanfzgCdm3\tasks-island_0.json,29,5,turn_on,Turn on the kitchen appliance.,Repair the kitchen appliance.,kitchen appliance,FLAG,turn_on,"electrical kitchen appliance, repair intent unclear in action space"
+00397-ZNanfzgCdm3\tasks-island_0.json,77,4,reposition,Reposition the sink cabinet.,Repair the sink cabinet.,sink cabinet,REMAP,tighten,sink cabinet repair = tightening screws/bolts
+00434-L5QEsaVqwrY\tasks-island_0.json,17,3,reposition,Reposition the sink.,Repair the sink.,sink,REMAP,tighten,sink repair = tightening screws/bolts
+00434-L5QEsaVqwrY\tasks-island_0.json,365,3,reposition,Reposition the sink.,Repair the sink pipes.,sink,REMAP,tighten,step mentions fastener/fitting component
+00434-L5QEsaVqwrY\tasks-island_0.json,433,3,reposition,Reposition the copier machine.,Repair the copier machine.,copier machine,REMAP,tighten,copier machine repair = tightening screws/bolts
+00487-erXNfWVjqZ8\tasks-island_0.json,192,6,turn_on,Turn on the dishwasher.,Repair the dishwasher.,dishwasher,FLAG,turn_on,"electrical dishwasher, repair intent unclear in action space"
+00495-CQWES1bawee\tasks-island_0.json,111,3,reposition,Reposition the sink.,Repair the sink connection.,sink,REMAP,tighten,step mentions fastener/fitting component
+00569-YJDUB7hWg9h\tasks-island_0.json,2,3,reposition,Reposition the bath cabinet.,Repair the hinge on the bath cabinet.,bath cabinet,REMAP,tighten,step mentions fastener/fitting component
+00591-JptJPosx1Z6\tasks-island_0.json,285,7,turn_on,Turn on the kitchen appliance.,Repair the kitchen appliance.,kitchen appliance,FLAG,turn_on,"electrical kitchen appliance, repair intent unclear in action space"
+00591-JptJPosx1Z6\tasks-island_0.json,308,6,turn_on,Turn on the kitchen appliance.,Repair the kitchen appliance.,kitchen appliance,FLAG,turn_on,"electrical kitchen appliance, repair intent unclear in action space"
+00626-XiJhRLvpKpX\tasks-island_0.json,493,7,turn_on,Turn on the wall lamp.,Repair the wall lamp.,wall lamp,FLAG,turn_on,"electrical wall lamp, repair intent unclear in action space"
+00626-XiJhRLvpKpX\tasks-island_0.json,522,3,reposition,Reposition the cabinet.,Repair the cabinet.,cabinet,FLAG,reposition,cabinet repair too ambiguous for single atomic action
+00643-ggNAcMh8JPT\tasks-island_1.json,67,5,reposition,Reposition the sink.,Repair the sink drain.,sink,REMAP,tighten,step mentions fastener/fitting component
+00643-ggNAcMh8JPT\tasks-island_1.json,83,5,turn_on,Turn on the appliance.,Repair the appliance.,appliance,FLAG,turn_on,"electrical appliance, repair intent unclear in action space"
+00657-TSJmdttd2GV\tasks-island_2.json,48,5,reposition,Reposition the mirror.,Repair the mirror.,mirror,REMAP,align,mirror repair = realignment
+00662-aRKASs4e8j1\tasks-island_0.json,41,2,reposition,Reposition the tap.,Repair the tap.,tap,FLAG,reposition,tap repair too ambiguous for single atomic action
+00662-aRKASs4e8j1\tasks-island_0.json,56,1,reposition,Reposition the coat rack.,Repair the coat rack.,coat rack,REMAP,align,coat rack repair = realignment
+00662-aRKASs4e8j1\tasks-island_0.json,65,3,reposition,Reposition the tap.,Repair the tap.,tap,FLAG,reposition,tap repair too ambiguous for single atomic action
+00662-aRKASs4e8j1\tasks-island_0.json,70,5,reposition,Reposition the light fixture.,Repair the light fixture.,light fixture,REMAP,align,light fixture repair = realignment
+00662-aRKASs4e8j1\tasks-island_0.json,79,6,turn_on,Turn on the printer.,Repair the printer.,printer,FLAG,turn_on,"electrical printer, repair intent unclear in action space"
+00685-ENiCjXWB6aQ\tasks-island_3.json,33,3,reposition,Reposition the cabinet drawer.,Repair the cabinet drawer track.,cabinet drawer,REMAP,tighten,step mentions fastener/fitting component
+00733-GtM3JtRvvvR\tasks-island_0.json,90,5,reposition,Reposition the wash cabinet.,Repair the wash cabinet.,wash cabinet,REMAP,tighten,wash cabinet repair = tightening screws/bolts
+00758-HfMobPm86Xn\tasks-island_0.json,146,5,reposition,Reposition the locker.,Repair the locker handle.,locker,REMAP,tighten,step mentions fastener/fitting component
+00810-CrMo8WxCyVb\tasks-island_0.json,78,3,reposition,Reposition the sink.,Repair the sink.,sink,REMAP,tighten,sink repair = tightening screws/bolts
+00810-CrMo8WxCyVb\tasks-island_0.json,110,5,turn_on,Turn on the lamp.,Repair the lamp.,lamp,FLAG,turn_on,"electrical lamp, repair intent unclear in action space"
+00810-CrMo8WxCyVb\tasks-island_0.json,117,3,reposition,Reposition the cabinet.,Repair the cabinet.,cabinet,FLAG,reposition,cabinet repair too ambiguous for single atomic action
+00810-CrMo8WxCyVb\tasks-island_0.json,134,5,reposition,Reposition the cabinet.,Repair the hinge on the cabinet.,cabinet,REMAP,tighten,step mentions fastener/fitting component
+00810-CrMo8WxCyVb\tasks-island_0.json,172,3,reposition,Reposition the bench.,Repair the bench.,bench,REMAP,tighten,bench repair = tightening screws/bolts
+00814-p53SfW6mjZe\tasks-island_0.json,105,4,reposition,Reposition the sink.,Repair the sink in the kitchen.,sink,REMAP,tighten,sink repair = tightening screws/bolts
+00815-h1zeeAwLh9Z\tasks-island_0.json,19,4,reposition,Reposition the piano.,Repair the piano.,piano,FLAG,reposition,piano repair too ambiguous for single atomic action
+00839-zt1RVoi7PcG\tasks-island_0.json,117,5,reposition,Reposition the fireplace.,Repair the fireplace in the lounge.,fireplace,FLAG,reposition,fireplace repair too ambiguous for single atomic action
+00862-LT9Jq6dN3Ea\tasks-island_0.json,84,2,turn_on,Turn on the lamp.,Repair the lamp.,lamp,FLAG,turn_on,"electrical lamp, repair intent unclear in action space"
+00876-mv2HUxq3B53\tasks-island_0.json,186,6,reposition,Reposition the support beam.,Repair the support beam.,support beam,REMAP,tighten,support beam repair = tightening screws/bolts
+00891-cvZr5TUy5C5\tasks-island_0.json,121,3,turn_on,Turn on the printer.,Repair the printer.,printer,FLAG,turn_on,"electrical printer, repair intent unclear in action space"
+00891-cvZr5TUy5C5\tasks-island_0.json,167,3,reposition,Reposition the cabinet.,Repair the cabinet door.,cabinet,FLAG,reposition,cabinet repair too ambiguous for single atomic action

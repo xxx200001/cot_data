@@ -2088,7 +2088,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -10975,7 +10975,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -11116,12 +11116,12 @@
           "labels": {
             "432": "dishwasher"
           },
-          "atomic_step": "Open dishwasher.",
+          "atomic_step": "Unload the dishwasher.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         }
@@ -12576,12 +12576,12 @@
           "labels": {
             "61": "curtain"
           },
-          "atomic_step": "Smooth the curtain.",
+          "atomic_step": "Iron the curtain for the nursery.",
           "atomic_actions": [
             {
-              "action_id": "smooth",
+              "action_id": "iron",
               "relation": null,
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "replacement_from_straighten;vocab_extension_v1:smooth->iron"
             }
           ]
         },
@@ -19736,7 +19736,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },

@@ -670,12 +670,12 @@
           "labels": {
             "964": "toaster"
           },
-          "atomic_step": "Inspect the toaster.",
+          "atomic_step": "Turn on the toaster.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "repair_inspect_object"
+              "mapping_source": "repair_inspect_object;vocab_extension_v1:inspect->turn_on"
             }
           ]
         },
@@ -1617,7 +1617,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -2594,7 +2594,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -6635,7 +6635,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -7737,7 +7737,7 @@
             {
               "action_id": "turn_off",
               "relation": null,
-              "mapping_source": "turn_off;vocab_gap:no_boil_action"
+              "mapping_source": "turn_off;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -9463,7 +9463,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -14662,7 +14662,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },

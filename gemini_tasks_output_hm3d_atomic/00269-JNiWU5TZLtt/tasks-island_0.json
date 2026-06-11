@@ -331,7 +331,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -6229,12 +6229,12 @@
           "labels": {
             "527": "rack"
           },
-          "atomic_step": "Reposition the rack.",
+          "atomic_step": "Tighten the rack.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         }
@@ -6577,7 +6577,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -17556,7 +17556,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -22659,7 +22659,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -24115,7 +24115,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -24696,7 +24696,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },

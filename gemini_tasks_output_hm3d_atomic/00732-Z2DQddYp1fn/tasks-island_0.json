@@ -684,7 +684,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -1382,7 +1382,7 @@
             {
               "action_id": "straighten",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:tidy_pose_to_straighten"
+              "mapping_source": "semantic_robot_primitive_v3:tidy_pose_to_straighten;vocab_gap:roll"
             }
           ]
         },
@@ -2257,7 +2257,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -2511,7 +2511,7 @@
             {
               "action_id": "smooth",
               "relation": null,
-              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat"
+              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat;vocab_gap:roll"
             }
           ]
         },
@@ -2848,7 +2848,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -3577,7 +3577,7 @@
             {
               "action_id": "smooth",
               "relation": null,
-              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat"
+              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat;vocab_gap:roll"
             }
           ]
         },
@@ -4445,7 +4445,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -5424,7 +5424,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -7717,7 +7717,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -8114,7 +8114,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -8671,7 +8671,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -10637,7 +10637,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare;vocab_gap:no_boil_action"
+              "mapping_source": "prepare;idiom_ok:turn_on_appliance"
             }
           ]
         },
@@ -11233,7 +11233,7 @@
             {
               "action_id": "straighten",
               "relation": null,
-              "mapping_source": "smooth"
+              "mapping_source": "smooth;vocab_gap:roll"
             }
           ]
         },
@@ -12094,7 +12094,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "prepare;vocab_gap:no_boil_action"
+              "mapping_source": "prepare;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -14119,7 +14119,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },
@@ -16488,7 +16488,7 @@
             {
               "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;vocab_gap:no_boil_action"
+              "mapping_source": "semantic_robot_primitive_v3:heat_device_to_turn_on;idiom_ok:turn_on_appliance"
             }
           ]
         },

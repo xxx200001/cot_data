@@ -15815,12 +15815,12 @@
           "labels": {
             "480": "washing machine"
           },
-          "atomic_step": "Open washing machine.",
+          "atomic_step": "Unload the washing machine.",
           "atomic_actions": [
             {
-              "action_id": "open",
+              "action_id": "unload",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open"
+              "mapping_source": "semantic_robot_primitive_v3:empty_openable_to_open;vocab_extension_v1:open->unload"
             }
           ]
         },

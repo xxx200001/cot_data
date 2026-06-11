@@ -48135,7 +48135,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         }
@@ -51712,7 +51712,7 @@
             {
               "action_id": "reposition",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         },
@@ -57836,7 +57836,7 @@
             {
               "action_id": "inspect",
               "relation": null,
-              "mapping_source": "fallback_inspect"
+              "mapping_source": "fallback_inspect;vocab_gap:roll"
             }
           ]
         },

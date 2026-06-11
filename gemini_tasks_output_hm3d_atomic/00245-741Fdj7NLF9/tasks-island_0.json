@@ -5850,12 +5850,12 @@
           "labels": {
             "177": "ironing board"
           },
-          "atomic_step": "Straighten items on the ironing board.",
+          "atomic_step": "Iron clothes on the ironing board.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         },
@@ -6320,12 +6320,12 @@
           "labels": {
             "50": "sink"
           },
-          "atomic_step": "Reposition the sink.",
+          "atomic_step": "Tighten the sink.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },
@@ -10022,12 +10022,12 @@
           "labels": {
             "36": "drawer"
           },
-          "atomic_step": "Reposition the drawer.",
+          "atomic_step": "Tighten the drawer.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },

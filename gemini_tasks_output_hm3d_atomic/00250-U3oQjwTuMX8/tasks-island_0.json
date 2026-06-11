@@ -12459,12 +12459,12 @@
           "labels": {
             "266": "sink"
           },
-          "atomic_step": "Reposition the sink.",
+          "atomic_step": "Tighten the sink.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },

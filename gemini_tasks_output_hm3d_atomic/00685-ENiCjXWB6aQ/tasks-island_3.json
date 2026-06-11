@@ -790,7 +790,7 @@
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;vocab_gap:no_faucet_action"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix;semantic_qa_v1:grounding_fix_faucet;idiom_ok:turn_on_appliance"
             }
           ]
         }
@@ -3220,12 +3220,12 @@
           "labels": {
             "487": "cabinet drawer"
           },
-          "atomic_step": "Reposition the cabinet drawer.",
+          "atomic_step": "Tighten the cabinet drawer.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },

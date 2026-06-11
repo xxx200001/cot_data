@@ -2476,7 +2476,7 @@
             {
               "action_id": "smooth",
               "relation": null,
-              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat"
+              "mapping_source": "semantic_object_pair_repair_v2:fold_floor_mat;vocab_gap:roll"
             }
           ]
         }
@@ -3631,12 +3631,12 @@
           "labels": {
             "400": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -5718,12 +5718,12 @@
           "labels": {
             "400": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -8018,12 +8018,12 @@
           "labels": {
             "400": "candle"
           },
-          "atomic_step": "Turn on the candle on the hearth.",
+          "atomic_step": "Light the candle on the hearth.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -11479,12 +11479,12 @@
           "labels": {
             "400": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },
@@ -17062,12 +17062,12 @@
           "labels": {
             "400": "candle"
           },
-          "atomic_step": "Turn on the candle.",
+          "atomic_step": "Light the candle.",
           "atomic_actions": [
             {
-              "action_id": "turn_on",
+              "action_id": "light",
               "relation": "on",
-              "mapping_source": "turn_on;vocab_gap:no_ignite_action"
+              "mapping_source": "turn_on;vocab_extension_v1:turn_on->light"
             }
           ]
         },

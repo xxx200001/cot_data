@@ -4793,12 +4793,12 @@
           "labels": {
             "602": "heater"
           },
-          "atomic_step": "Inspect the heater.",
+          "atomic_step": "Turn on the heater.",
           "atomic_actions": [
             {
-              "action_id": "inspect",
+              "action_id": "turn_on",
               "relation": null,
-              "mapping_source": "semantic_repair_fixed_action_lib:nonfood_device_heat_food"
+              "mapping_source": "semantic_repair_fixed_action_lib:nonfood_device_heat_food;vocab_extension_v1:inspect->turn_on"
             }
           ]
         }

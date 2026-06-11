@@ -1674,7 +1674,7 @@
             {
               "action_id": "inspect",
               "relation": null,
-              "mapping_source": "fallback_inspect"
+              "mapping_source": "fallback_inspect;vocab_gap:roll"
             }
           ]
         },
@@ -3321,7 +3321,7 @@
             {
               "action_id": "inspect",
               "relation": null,
-              "mapping_source": "fallback_inspect"
+              "mapping_source": "fallback_inspect;vocab_gap:roll"
             }
           ]
         }
@@ -3786,7 +3786,7 @@
             {
               "action_id": "straighten",
               "relation": null,
-              "mapping_source": "semantic_robot_primitive_v3:tidy_pose_to_straighten"
+              "mapping_source": "semantic_robot_primitive_v3:tidy_pose_to_straighten;vocab_gap:roll"
             }
           ]
         },
@@ -6536,12 +6536,12 @@
           "labels": {
             "541": "sink"
           },
-          "atomic_step": "Reposition the sink.",
+          "atomic_step": "Tighten the sink.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "tighten",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->tighten"
             }
           ]
         },
@@ -8485,7 +8485,7 @@
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_gap:repair"
             }
           ]
         },
@@ -9330,12 +9330,12 @@
           "labels": {
             "651": "robe"
           },
-          "atomic_step": "Straighten the robe.",
+          "atomic_step": "Iron the robe.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": null,
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         },
@@ -10305,7 +10305,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },

@@ -2901,12 +2901,12 @@
           "labels": {
             "386": "iron board"
           },
-          "atomic_step": "Straighten items on the iron board.",
+          "atomic_step": "Iron the clothes on the iron board.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         },
@@ -4073,7 +4073,7 @@
             {
               "action_id": "carry",
               "relation": null,
-              "mapping_source": "move"
+              "mapping_source": "move;vocab_gap:roll"
             }
           ]
         },

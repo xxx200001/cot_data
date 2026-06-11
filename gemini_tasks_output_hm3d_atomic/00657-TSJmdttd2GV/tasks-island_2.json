@@ -4101,7 +4101,7 @@
             {
               "action_id": "smooth",
               "relation": null,
-              "mapping_source": "replacement_from_straighten"
+              "mapping_source": "replacement_from_straighten;vocab_gap:roll"
             }
           ]
         },
@@ -4253,12 +4253,12 @@
           "labels": {
             "916": "mirror"
           },
-          "atomic_step": "Reposition the mirror.",
+          "atomic_step": "Align the mirror.",
           "atomic_actions": [
             {
-              "action_id": "reposition",
+              "action_id": "align",
               "relation": null,
-              "mapping_source": "replacement_from_repair"
+              "mapping_source": "replacement_from_repair;vocab_extension_v1:repair_remap->align"
             }
           ]
         }

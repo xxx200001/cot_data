@@ -3669,12 +3669,12 @@
           "labels": {
             "175": "ironing board"
           },
-          "atomic_step": "Straighten items on the ironing board.",
+          "atomic_step": "Iron a shirt on the ironing board.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         },
@@ -5533,12 +5533,12 @@
           "labels": {
             "175": "ironing board"
           },
-          "atomic_step": "Straighten items on the ironing board.",
+          "atomic_step": "Iron a shirt on the ironing board.",
           "atomic_actions": [
             {
-              "action_id": "straighten",
+              "action_id": "iron",
               "relation": "on",
-              "mapping_source": "straighten"
+              "mapping_source": "straighten;vocab_extension_v1:straighten->iron"
             }
           ]
         }
