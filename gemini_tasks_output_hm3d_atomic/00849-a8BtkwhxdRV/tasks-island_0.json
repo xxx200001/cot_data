@@ -3120,12 +3120,12 @@
           "labels": {
             "690": "wardrobe"
           },
-          "atomic_step": "Place wardrobe in receptacle.",
+          "atomic_step": "Place the clothes in the wardrobe.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -3325,12 +3325,12 @@
           "labels": {
             "447": "coffee table"
           },
-          "atomic_step": "Place coffee table on surface.",
+          "atomic_step": "Straighten the coffee table.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         }

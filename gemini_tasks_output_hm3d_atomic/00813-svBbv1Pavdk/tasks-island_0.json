@@ -745,12 +745,12 @@
           "labels": {
             "334": "flower vase"
           },
-          "atomic_step": "Place flower vase on surface.",
+          "atomic_step": "Straighten the flower vase.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -1688,12 +1688,12 @@
           "labels": {
             "407": "camera"
           },
-          "atomic_step": "Place camera on surface.",
+          "atomic_step": "Reposition the camera.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -1718,12 +1718,12 @@
           "labels": {
             "334": "flower vase"
           },
-          "atomic_step": "Place flower vase on surface.",
+          "atomic_step": "Straighten the flower vase.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -2424,12 +2424,12 @@
           "labels": {
             "334": "flower vase"
           },
-          "atomic_step": "Place flower vase on surface.",
+          "atomic_step": "Straighten the flower vase.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -3362,12 +3362,12 @@
           "labels": {
             "360": "tray"
           },
-          "atomic_step": "Place tray on surface.",
+          "atomic_step": "Place the tray on the table.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G1"
             }
           ]
         },
@@ -5584,12 +5584,12 @@
           "labels": {
             "347": "stove"
           },
-          "atomic_step": "Place stove on surface.",
+          "atomic_step": "Straighten the stove.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -11251,12 +11251,12 @@
           "labels": {
             "360": "tray"
           },
-          "atomic_step": "Place tray on surface.",
+          "atomic_step": "Straighten the tray.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -12676,12 +12676,12 @@
           "labels": {
             "334": "flower vase"
           },
-          "atomic_step": "Place flower vase on surface.",
+          "atomic_step": "Straighten the flower vase.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },

@@ -482,12 +482,12 @@
           "labels": {
             "351": "flowerpot"
           },
-          "atomic_step": "Place flowerpot on surface.",
+          "atomic_step": "Reposition the flowerpot.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         }
@@ -1384,12 +1384,12 @@
           "labels": {
             "362": "speaker"
           },
-          "atomic_step": "Place speaker in receptacle.",
+          "atomic_step": "Reposition the speaker.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
-              "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G2"
             }
           ]
         },
@@ -1557,12 +1557,12 @@
           "labels": {
             "351": "flowerpot"
           },
-          "atomic_step": "Place flowerpot on surface.",
+          "atomic_step": "Reposition the flowerpot.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         }
@@ -2177,12 +2177,12 @@
           "labels": {
             "351": "flowerpot"
           },
-          "atomic_step": "Place flowerpot on surface.",
+          "atomic_step": "Reposition the flowerpot.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },

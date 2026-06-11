@@ -186,12 +186,12 @@
           "labels": {
             "292": "printer"
           },
-          "atomic_step": "Place printer in receptacle.",
+          "atomic_step": "Place the papers near the printer.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
-              "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "action_id": "place_on",
+              "relation": "at",
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -862,12 +862,12 @@
           "labels": {
             "55": "cabinet"
           },
-          "atomic_step": "Place cabinet on surface.",
+          "atomic_step": "Straighten the cabinet.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         }
@@ -1487,12 +1487,12 @@
           "labels": {
             "183": "armchair"
           },
-          "atomic_step": "Fluff items on the armchair.",
+          "atomic_step": "Fluff the pillow on the armchair.",
           "atomic_actions": [
             {
               "action_id": "fluff",
               "relation": "on",
-              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff"
+              "mapping_source": "semantic_qa_v1:rollback_r02_straighten-->fluff;referent_grounding_v1:G3"
             }
           ]
         },
@@ -3242,12 +3242,12 @@
           "labels": {
             "101": "sink"
           },
-          "atomic_step": "Use the sink to fill a container.",
+          "atomic_step": "Fill the cup at the sink.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": "at",
-              "mapping_source": "fill"
+              "mapping_source": "fill;referent_grounding_v1:G4"
             }
           ]
         },
@@ -3757,12 +3757,12 @@
           "labels": {
             "454": "wardrobe"
           },
-          "atomic_step": "Place wardrobe on surface.",
+          "atomic_step": "Straighten the wardrobe.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         }
@@ -4482,12 +4482,12 @@
           "labels": {
             "295": "monitor"
           },
-          "atomic_step": "Place monitor on surface.",
+          "atomic_step": "Reposition the monitor.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -4595,12 +4595,12 @@
           "labels": {
             "455": "wardrobe"
           },
-          "atomic_step": "Place wardrobe on surface.",
+          "atomic_step": "Straighten the wardrobe.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -4770,12 +4770,12 @@
           "labels": {
             "507": "plate"
           },
-          "atomic_step": "Place plate on surface.",
+          "atomic_step": "Straighten the plate.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -5113,12 +5113,12 @@
           "labels": {
             "85": "cabinet"
           },
-          "atomic_step": "Place cabinet in receptacle.",
+          "atomic_step": "Place the items in the cabinet.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -5854,12 +5854,12 @@
           "labels": {
             "502": "cup"
           },
-          "atomic_step": "Place cup on surface.",
+          "atomic_step": "Place the cup on the table.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G1"
             }
           ]
         },
@@ -6182,12 +6182,12 @@
           "labels": {
             "298": "keyboard"
           },
-          "atomic_step": "Place keyboard on surface.",
+          "atomic_step": "Reposition the keyboard.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -7202,12 +7202,12 @@
           "labels": {
             "156": "tray"
           },
-          "atomic_step": "Place tray on surface.",
+          "atomic_step": "Straighten the tray.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         }
@@ -7372,12 +7372,12 @@
           "labels": {
             "101": "sink"
           },
-          "atomic_step": "Use the sink to fill a container.",
+          "atomic_step": "Fill the cup at the sink.",
           "atomic_actions": [
             {
               "action_id": "fill",
               "relation": "at",
-              "mapping_source": "fill"
+              "mapping_source": "fill;referent_grounding_v1:G4"
             }
           ]
         },
@@ -7470,12 +7470,12 @@
           "labels": {
             "39": "shelf"
           },
-          "atomic_step": "Place shelf on surface.",
+          "atomic_step": "Straighten the shelf.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -7515,12 +7515,12 @@
           "labels": {
             "92": "rack"
           },
-          "atomic_step": "Place rack on surface.",
+          "atomic_step": "Place the items on the rack.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G1"
             }
           ]
         },
@@ -7530,12 +7530,12 @@
           "labels": {
             "102": "dishwasher"
           },
-          "atomic_step": "Place items in the dishwasher.",
+          "atomic_step": "Place the plates in the dishwasher.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "subject_preserving_rewrite"
+              "mapping_source": "subject_preserving_rewrite;referent_grounding_v1:G3"
             }
           ]
         }
@@ -7698,12 +7698,12 @@
           "labels": {
             "338": "figurine"
           },
-          "atomic_step": "Place figurine on surface.",
+          "atomic_step": "Straighten the figurine.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -7728,12 +7728,12 @@
           "labels": {
             "342": "stuffed animal"
           },
-          "atomic_step": "Place stuffed animal on surface.",
+          "atomic_step": "Reposition the stuffed animal.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -8956,12 +8956,12 @@
           "labels": {
             "219": "towel"
           },
-          "atomic_step": "Place towel on surface.",
+          "atomic_step": "Straighten the towel.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -9184,12 +9184,12 @@
           "labels": {
             "156": "tray"
           },
-          "atomic_step": "Place tray on surface.",
+          "atomic_step": "Straighten the tray.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -10147,12 +10147,12 @@
           "labels": {
             "185": "wood"
           },
-          "atomic_step": "Place wood in receptacle.",
+          "atomic_step": "Straighten the wood.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
-              "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G2"
             }
           ]
         },
@@ -10275,12 +10275,12 @@
           "labels": {
             "156": "tray"
           },
-          "atomic_step": "Place tray on surface.",
+          "atomic_step": "Straighten the tray.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -10973,12 +10973,12 @@
           "labels": {
             "298": "keyboard"
           },
-          "atomic_step": "Place keyboard on surface.",
+          "atomic_step": "Reposition the keyboard.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -12103,12 +12103,12 @@
           "labels": {
             "507": "plate"
           },
-          "atomic_step": "Place plate on surface.",
+          "atomic_step": "Straighten the plate.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -12118,12 +12118,12 @@
           "labels": {
             "157": "decorative plant"
           },
-          "atomic_step": "Place decorative plant on surface.",
+          "atomic_step": "Reposition the decorative plant.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -13223,12 +13223,12 @@
           "labels": {
             "298": "keyboard"
           },
-          "atomic_step": "Place keyboard on surface.",
+          "atomic_step": "Reposition the keyboard.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -14041,12 +14041,12 @@
           "labels": {
             "141": "decorative plant"
           },
-          "atomic_step": "Place decorative plant on surface.",
+          "atomic_step": "Straighten the decorative plant.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -14713,12 +14713,12 @@
           "labels": {
             "156": "tray"
           },
-          "atomic_step": "Place tray on surface.",
+          "atomic_step": "Place the tea set on the tray.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G1"
             }
           ]
         },
@@ -14816,12 +14816,12 @@
           "labels": {
             "342": "stuffed animal"
           },
-          "atomic_step": "Place stuffed animal on surface.",
+          "atomic_step": "Straighten the stuffed animal.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -15191,12 +15191,12 @@
           "labels": {
             "197": "decorative plant"
           },
-          "atomic_step": "Place decorative plant on surface.",
+          "atomic_step": "Straighten the decorative plant.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -16352,12 +16352,12 @@
           "labels": {
             "160": "decorative plant"
           },
-          "atomic_step": "Place decorative plant on surface.",
+          "atomic_step": "Straighten the decorative plant.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },

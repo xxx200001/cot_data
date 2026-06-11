@@ -328,12 +328,12 @@
           "labels": {
             "461": "basket"
           },
-          "atomic_step": "Place basket on surface.",
+          "atomic_step": "Straighten the basket.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -636,12 +636,12 @@
           "labels": {
             "415": "ladder"
           },
-          "atomic_step": "Place ladder on surface.",
+          "atomic_step": "Straighten the aside the ladder.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -2512,12 +2512,12 @@
           "labels": {
             "428": "wreath"
           },
-          "atomic_step": "Place wreath on surface.",
+          "atomic_step": "Straighten the wreath.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -3128,12 +3128,12 @@
           "labels": {
             "415": "ladder"
           },
-          "atomic_step": "Place ladder on surface.",
+          "atomic_step": "Reposition the ladder.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -3672,12 +3672,12 @@
           "labels": {
             "415": "ladder"
           },
-          "atomic_step": "Place ladder on surface.",
+          "atomic_step": "Reposition the ladder.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "reposition",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -4295,12 +4295,12 @@
           "labels": {
             "462": "basket"
           },
-          "atomic_step": "Place basket on surface.",
+          "atomic_step": "Straighten the basket.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -4994,12 +4994,12 @@
           "labels": {
             "439": "wreath"
           },
-          "atomic_step": "Place wreath on surface.",
+          "atomic_step": "Straighten the wreath.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },

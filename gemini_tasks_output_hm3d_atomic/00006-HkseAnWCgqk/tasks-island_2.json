@@ -1983,12 +1983,12 @@
           "labels": {
             "337": "dining table"
           },
-          "atomic_step": "Place dining table on surface.",
+          "atomic_step": "Straighten the dining table.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -3540,12 +3540,12 @@
           "labels": {
             "363": "bottles of wine"
           },
-          "atomic_step": "Place bottles of wine on surface.",
+          "atomic_step": "Straighten the bottles of wine.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },

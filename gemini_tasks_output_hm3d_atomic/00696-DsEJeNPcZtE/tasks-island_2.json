@@ -279,12 +279,12 @@
           "labels": {
             "57": "container"
           },
-          "atomic_step": "Place container in receptacle.",
+          "atomic_step": "Place the travel cables in the container.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -705,12 +705,12 @@
           "labels": {
             "56": "container"
           },
-          "atomic_step": "Place container in receptacle.",
+          "atomic_step": "Place the items into the container.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -720,12 +720,12 @@
           "labels": {
             "595": "basket"
           },
-          "atomic_step": "Place basket in receptacle.",
+          "atomic_step": "Place the items in the basket.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -1355,12 +1355,12 @@
           "labels": {
             "56": "container"
           },
-          "atomic_step": "Place container in receptacle.",
+          "atomic_step": "Place the parts into the container.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -2167,12 +2167,12 @@
           "labels": {
             "55": "container"
           },
-          "atomic_step": "Place container in receptacle.",
+          "atomic_step": "Place the cleaning supplies in the container.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -2299,12 +2299,12 @@
           "labels": {
             "18": "bag"
           },
-          "atomic_step": "Place bag in receptacle.",
+          "atomic_step": "Place the items in the bag.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         }
@@ -2484,12 +2484,12 @@
           "labels": {
             "57": "container"
           },
-          "atomic_step": "Place container in receptacle.",
+          "atomic_step": "Place the hardware in the container.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -2631,12 +2631,12 @@
           "labels": {
             "595": "basket"
           },
-          "atomic_step": "Place items in the basket.",
+          "atomic_step": "Place the linens in the basket.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "subject_preserving_rewrite"
+              "mapping_source": "subject_preserving_rewrite;referent_grounding_v1:G3"
             }
           ]
         },
@@ -2863,12 +2863,12 @@
           "labels": {
             "18": "bag"
           },
-          "atomic_step": "Place bag in receptacle.",
+          "atomic_step": "Place the toiletries in the bag.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },

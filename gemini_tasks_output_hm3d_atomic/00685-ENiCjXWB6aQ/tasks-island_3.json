@@ -136,12 +136,12 @@
           "labels": {
             "458": "luggage"
           },
-          "atomic_step": "Place luggage in receptacle.",
+          "atomic_step": "Place the luggage in the corner.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         }
@@ -597,12 +597,12 @@
           "labels": {
             "487": "cabinet drawer"
           },
-          "atomic_step": "Place cabinet drawer in receptacle.",
+          "atomic_step": "Straighten the cabinet drawer.",
           "atomic_actions": [
             {
-              "action_id": "place_in",
-              "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G2"
             }
           ]
         },
@@ -1156,12 +1156,12 @@
           "labels": {
             "486": "bathroom utensil"
           },
-          "atomic_step": "Place bathroom utensil on surface.",
+          "atomic_step": "Straighten the bathroom utensil.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -1512,12 +1512,12 @@
           "labels": {
             "402": "photo mount"
           },
-          "atomic_step": "Place photo mount on surface.",
+          "atomic_step": "Straighten the photo mount.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -1830,12 +1830,12 @@
           "labels": {
             "451": "towel"
           },
-          "atomic_step": "Place towel on surface.",
+          "atomic_step": "Straighten the aside the towel.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },
@@ -2184,12 +2184,12 @@
           "labels": {
             "458": "luggage"
           },
-          "atomic_step": "Place luggage in receptacle.",
+          "atomic_step": "Place the luggage in the bathroom.",
           "atomic_actions": [
             {
               "action_id": "place_in",
               "relation": "in",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_in;referent_grounding_v1:G1"
             }
           ]
         },
@@ -2229,12 +2229,12 @@
           "labels": {
             "932": "shampoo"
           },
-          "atomic_step": "Place shampoo on surface.",
+          "atomic_step": "Place the shampoo on the ledge.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G1"
             }
           ]
         },
@@ -2472,12 +2472,12 @@
           "labels": {
             "454": "wash cabinet"
           },
-          "atomic_step": "Place wash cabinet on surface.",
+          "atomic_step": "Straighten the wash cabinet.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         }
@@ -3465,12 +3465,12 @@
           "labels": {
             "389": "chest of drawers"
           },
-          "atomic_step": "Place chest of drawers on surface.",
+          "atomic_step": "Place the items on the chest of drawers.",
           "atomic_actions": [
             {
               "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G1"
             }
           ]
         },
@@ -3510,12 +3510,12 @@
           "labels": {
             "479": "bathroom utensil"
           },
-          "atomic_step": "Place bathroom utensil on surface.",
+          "atomic_step": "Straighten the bathroom utensil.",
           "atomic_actions": [
             {
-              "action_id": "place_on",
-              "relation": "on",
-              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on"
+              "action_id": "straighten",
+              "relation": null,
+              "mapping_source": "semantic_robot_primitive_v3:arrange_to_place_on;referent_grounding_v1:G2"
             }
           ]
         },

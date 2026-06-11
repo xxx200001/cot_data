@@ -1,0 +1,685 @@
+﻿======================================================================
+PROOF 1: step 原文含 surface/receptacle/container → 未被改动
+----------------------------------------------------------------------
+  [surface] step: Clear the table surface.
+         atomic: Wipe table.
+         NOT in plan (correct)
+
+  [surface] step: Clean the mirror surface.
+         atomic: Wipe mirror.
+         NOT in plan (correct)
+
+  [surface] step: Clean the shelf surface.
+         atomic: Dust shelf.
+         NOT in plan (correct)
+
+  [surface] step: Wipe the table surface.
+         atomic: Wipe the table.
+         NOT in plan (correct)
+
+  [container] step: Check inside the container.
+         atomic: Inspect the container.
+         NOT in plan (correct)
+
+  [surface] step: Clean the speaker surface.
+         atomic: Wipe speaker.
+         NOT in plan (correct)
+
+  [container] step: Put the food into a container.
+         atomic: Place the food in a container.
+         NOT in plan (correct)
+
+  [container] step: Get a mixing container from the kitchen cabinet.
+         atomic: Open the kitchen cabinet.
+         NOT in plan (correct)
+
+  [surface] step: Dry the surface with a bath towel.
+         atomic: Pick up the bath towel.
+         NOT in plan (correct)
+
+  [container] step: Add fertilizer from the container.
+         atomic: Open the container.
+         NOT in plan (correct)
+
+  Total entries with surface/receptacle/container in step: 980
+
+======================================================================
+PROOF 2: step 原文含 'items' → 未被改动
+----------------------------------------------------------------------
+  step:   Pack the items on the shelf.
+  atomic: Place items on the shelf.
+  NOT in plan (correct)
+
+  step:   Open the cabinet to store items.
+  atomic: Open the cabinet to store items.
+  NOT in plan (correct)
+
+  step:   Pack items from the shelf.
+  atomic: Place items on the shelf.
+  NOT in plan (correct)
+
+  step:   Place items on the shelf.
+  atomic: Place items on the shelf.
+  NOT in plan (correct)
+
+  step:   Pack the items into the handbag.
+  atomic: Load items into the handbag.
+  NOT in plan (correct)
+
+  step:   Store the items in the kitchen cabinet.
+  atomic: Store the items in the kitchen cabinet.
+  NOT in plan (correct)
+
+  step:   Hang clean items on the hanger.
+  atomic: Hang items on the hanger.
+  NOT in plan (correct)
+
+  step:   Place items in the cabinet.
+  atomic: Place items in the cabinet.
+  NOT in plan (correct)
+
+  step:   Place extra items in the container.
+  atomic: Place extra items in the container.
+  NOT in plan (correct)
+
+  step:   Load the dishwasher with used items.
+  atomic: Load the dishwasher with the used items.
+  NOT in plan (correct)
+
+  Total: 578
+
+======================================================================
+G2 SAMPLES: 10 条改写前后对照
+----------------------------------------------------------------------
+  step:     Position the mouse.
+  OLD at:   Place mouse on surface.
+  NEW at:   Straighten the mouse.
+  action:   place_on -> straighten
+
+  step:     Position the speaker stand.
+  OLD at:   Place speaker stand in receptacle.
+  NEW at:   Straighten the speaker stand.
+  action:   place_in -> straighten
+
+  step:     Arrange the bath towel.
+  OLD at:   Place bath towel on surface.
+  NEW at:   Straighten the bath towel.
+  action:   place_on -> straighten
+
+  step:     Position the mouse by the computer.
+  OLD at:   Place mouse on surface.
+  NEW at:   Straighten the mouse by the computer.
+  action:   place_on -> straighten
+
+  step:     Arrange the sofa seat.
+  OLD at:   Place sofa seat on surface.
+  NEW at:   Straighten the sofa seat.
+  action:   place_on -> straighten
+
+  step:     Arrange the easy chair.
+  OLD at:   Place easy chair on surface.
+  NEW at:   Straighten the easy chair.
+  action:   place_on -> straighten
+
+  step:     Arrange the decoration
+  OLD at:   Place decoration on surface.
+  NEW at:   Straighten the decoration.
+  action:   place_on -> straighten
+
+  step:     Position the keyboard.
+  OLD at:   Place keyboard on surface.
+  NEW at:   Straighten the keyboard.
+  action:   place_on -> straighten
+
+  step:     Arrange the boards.
+  OLD at:   Place boards in receptacle.
+  NEW at:   Straighten the boards.
+  action:   place_in -> straighten
+
+  step:     Set the glass.
+  OLD at:   Place glass on surface.
+  NEW at:   Straighten the glass.
+  action:   place_on -> straighten
+
+======================================================================
+G1 SAMPLES: 10 条框架还原
+----------------------------------------------------------------------
+  step:     Set the bowl on the table.
+  OLD at:   Place bowl on surface.
+  NEW at:   Place the bowl on the table.
+  action:   place_on -> place_on
+
+  step:     Organize the items on the dresser.
+  OLD at:   Place dresser on surface.
+  NEW at:   Place the items on the dresser.
+  action:   place_on -> place_on
+
+  step:     Set the camera on the desk.
+  OLD at:   Place camera on surface.
+  NEW at:   Place the camera on the desk.
+  action:   place_on -> place_on
+
+  step:     Set the cup on the table.
+  OLD at:   Place cup on surface.
+  NEW at:   Place the cup on the table.
+  action:   place_on -> place_on
+
+  step:     Organize the items on the storage shelving.
+  OLD at:   Place storage shelving on surface.
+  NEW at:   Place the items on the storage shelving.
+  action:   place_on -> place_on
+
+  step:     Sort the items in the bag.
+  OLD at:   Place bag in receptacle.
+  NEW at:   Place the items in the bag.
+  action:   place_in -> place_in
+
+  step:     Organize the knives in the knife holder.
+  OLD at:   Place knife holder in receptacle.
+  NEW at:   Place the knives in the knife holder.
+  action:   place_in -> place_in
+
+  step:     Organize the cleaning supplies in the container.
+  OLD at:   Place container in receptacle.
+  NEW at:   Place the cleaning supplies in the container.
+  action:   place_in -> place_in
+
+  step:     Set the plate on the table.
+  OLD at:   Place plate on surface.
+  NEW at:   Place the plate on the table.
+  action:   place_on -> place_on
+
+  step:     Tidy the items in the case.
+  OLD at:   Place case in receptacle.
+  NEW at:   Place the items in the case.
+  action:   place_in -> place_in
+
+======================================================================
+G3 SAMPLES: 10 条 items 还原
+----------------------------------------------------------------------
+  step:     Put the laundry detergent away in the cabinet.
+  OLD at:   Store items in the cabinet.
+  NEW at:   Store the laundry detergent away in the cabinet.
+
+  step:     Hang the robe on the coat rack.
+  OLD at:   Hang items on the coat rack.
+  NEW at:   Hang the robe on the coat rack.
+
+  step:     Place the basket on the floor.
+  OLD at:   Place items on the basket of something.
+  NEW at:   Place the basket on the basket of something.
+
+  step:     Pack the camera into the backpack.
+  OLD at:   Load items into the backpack.
+  NEW at:   Load the camera into the backpack.
+
+  step:     Refill paper in the printer.
+  OLD at:   Use the printer to load items.
+  NEW at:   Use the printer to load the paper.
+
+  step:     Fluff the pillows on the sofa.
+  OLD at:   Fluff items on the sofa.
+  NEW at:   Fluff the pillows on the sofa.
+
+  step:     Put the box away in the cabinet.
+  OLD at:   Store items in the cabinet.
+  NEW at:   Store the box away in the cabinet.
+
+  step:     Hang the clean shirts in the wardrobe.
+  OLD at:   Hang items in the wardrobe.
+  NEW at:   Hang the clean shirts in the wardrobe.
+
+  step:     Refill the paper in the printer.
+  OLD at:   Use the printer to load items.
+  NEW at:   Use the printer to load the paper.
+
+  step:     Replace the bulb in the desk lamp.
+  OLD at:   Place items in the desk lamp.
+  NEW at:   Place the bulb in the desk lamp.
+
+======================================================================
+G4 VERDICTS: 全部条目
+----------------------------------------------------------------------
+  Resolved: 106
+  Flag:     61
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it with water at the tap.
+          new:  Fill the vase at the tap.
+
+  [RESOLVED] step: Fill it from the sink.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill a pitcher at the sink.
+          new:  Fill the vase at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [FLAG] step: Fill a water bottle from the pitcher.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill a pitcher at the sink.
+          new:  Fill the pot at the sink.
+
+  [FLAG] step: Fill a kettle at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill a pitcher at the sink.
+          new:  Fill the pot at the sink.
+
+  [FLAG] step: Refill the glass at the sink.
+
+  [RESOLVED] step: Refill the pitcher at the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Refill water at the sink.
+          new:  Fill the vase at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill with water at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the cup with water at the tap.
+          new:  Fill the cup at the tap.
+
+  [RESOLVED] step: Fill the vase with water at the sink.
+          new:  Fill the vase at the sink.
+
+  [FLAG] step: Fill the glass at the sink.
+
+  [RESOLVED] step: Fill the kettle at the sink.
+          new:  Fill the vase at the sink.
+
+  [FLAG] step: Fill the kettle at the sink.
+
+  [FLAG] step: Refill the soap near the sink.
+
+  [FLAG] step: Fill a pot at the sink.
+
+  [RESOLVED] step: Fill a watering can at the sink.
+          new:  Fill the pot at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [RESOLVED] step: Fill a pot at the faucet.
+          new:  Fill the kettle at the faucet.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [FLAG] step: Fill a water bottle at the sink.
+
+  [RESOLVED] step: Fill the kettle at the sink.
+          new:  Fill the cup at the sink.
+
+  [FLAG] step: Fill a bottle at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [FLAG] step: Fill a water bottle at the bathtub.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the kettle at the sink.
+
+  [FLAG] step: Fill the bottle at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill it from the pitcher.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it from the pitcher.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the cup from the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [FLAG] step: Fill a bottle at the water fountain.
+
+  [RESOLVED] step: Fill the cup at the water fountain.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the pitcher at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [FLAG] step: Fill a bottle at the water fountain.
+
+  [RESOLVED] step: Fill it at the water fountain.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill it from the faucet.
+          new:  Fill the cup at the faucet.
+
+  [FLAG] step: Fill a bottle at the faucet.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [RESOLVED] step: Fill it at the refrigerator.
+          new:  Fill the pitcher at the sink.
+
+  [FLAG] step: Fill the pan with water at the sink.
+
+  [RESOLVED] step: Refill the watering can at the tap.
+          new:  Fill the vase at the tap.
+
+  [FLAG] step: Fill it at the tap.
+
+  [FLAG] step: Fill a water bowl at the sink.
+
+  [RESOLVED] step: Sort the containers.
+          new:  Fill the bucket at the sink.
+
+  [RESOLVED] step: Fill a pitcher at the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill it with water from the kitchen sink.
+          new:  Fill the pitcher at the sink.
+
+  [FLAG] step: Fill the machine with water at the kitchen sink.
+
+  [RESOLVED] step: Fill the kettle at the sink.
+          new:  Fill the kettle at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the bucket at the sink.
+
+  [RESOLVED] step: Fill the bucket with water from the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill a jug at the sink.
+          new:  Fill the pot at the sink.
+
+  [FLAG] step: Fill the pitcher with water from the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it with water at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [FLAG] step: Fill a bottle at the sink.
+
+  [FLAG] step: Refill water at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the pitcher at the drinking fountain.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill the pitcher at the drinking fountain.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill it up at the washbasin.
+          new:  Fill the bottle at the sink.
+
+  [FLAG] step: Refill water at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [FLAG] step: Refill water from the sink.
+
+  [RESOLVED] step: Fill it at the water dispenser.
+          new:  Fill the jar at the sink.
+
+  [RESOLVED] step: Fill it at the water dispenser.
+          new:  Fill the bowl at the sink.
+
+  [FLAG] step: Fill a jug at the sink.
+
+  [RESOLVED] step: Refill the soap at the sink.
+          new:  Fill the bottle at the sink.
+
+  [RESOLVED] step: Fill the cup using the tap.
+          new:  Fill the cup at the tap.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Refill the supply at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Refill water from the sink.
+          new:  Fill the kettle at the sink.
+
+  [FLAG] step: Fill the kettle with water from the sink.
+
+  [FLAG] step: Fill a watering can at the sink.
+
+  [FLAG] step: Fill a bottle at the water dispenser.
+
+  [RESOLVED] step: Fill it from the refrigerator.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill a watering can at the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill the kettle at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the watering can at the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the pot at the sink.
+
+  [FLAG] step: Fill a vessel at the sink.
+
+  [FLAG] step: Fill the soap dispenser at the sink.
+
+  [FLAG] step: Fill a bottle at the sink.
+
+  [RESOLVED] step: Fill a jug at the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [FLAG] step: Fill a glass from the water dispenser.
+
+  [RESOLVED] step: Refill the water at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill the pitcher at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [FLAG] step: Fill it at the sink.
+
+  [RESOLVED] step: Fill the pitcher at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill the pot at the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill it with water at the sink.
+          new:  Fill the vase at the sink.
+
+  [RESOLVED] step: Fill the kettle at the sink.
+          new:  Fill the kettle at the sink.
+
+  [RESOLVED] step: Fill the pitcher at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [FLAG] step: Fill the water bowl at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the glass at the sink.
+          new:  Fill the bottle at the sink.
+
+  [FLAG] step: Fill a cup with water at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [FLAG] step: Fill a water bottle at the sink.
+
+  [FLAG] step: Fill the kettle at the sink.
+
+  [RESOLVED] step: Fill the reservoir at the faucet.
+          new:  Fill the cup at the faucet.
+
+  [RESOLVED] step: Fill the pitcher at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Refill the pitcher at the sink.
+          new:  Fill the vase at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill a pitcher at the sink.
+          new:  Fill the pot at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [FLAG] step: Refill the bottle at the sink.
+
+  [RESOLVED] step: Fill it at the tap.
+          new:  Fill the cup at the tap.
+
+  [FLAG] step: Refill the watering can at the sink.
+
+  [RESOLVED] step: Fill it with water from the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it with water at the kitchen sink.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [FLAG] step: Fill the cup at the sink.
+
+  [FLAG] step: Refill the watering can at the sink.
+
+  [RESOLVED] step: Fill it from the refrigerator.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the vase at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the bucket at the sink.
+
+  [FLAG] step: Fill a bucket at the sink.
+
+  [RESOLVED] step: Fill the cup at the sink.
+          new:  Fill the cup at the sink.
+
+  [RESOLVED] step: Refill the watering can at the sink.
+          new:  Fill the vase at the sink.
+
+  [RESOLVED] step: Fill it using the tap.
+          new:  Fill the pitcher at the tap.
+
+  [FLAG] step: Fill the kettle at the tap.
+
+  [RESOLVED] step: Fill it at the tap.
+          new:  Fill the pitcher at the tap.
+
+  [FLAG] step: Fill the pitcher at the tap.
+
+  [RESOLVED] step: Fill the pitcher at the tap.
+          new:  Fill the bottle at the tap.
+
+  [FLAG] step: Fill the kettle at the tap.
+
+  [FLAG] step: Fill the glass at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the cup at the sink.
+
+  [FLAG] step: Fill a glass from the tap.
+
+  [FLAG] step: Fill the glass at the sink.
+
+  [RESOLVED] step: Fill the vase with water in the sink.
+          new:  Fill the vase at the sink.
+
+  [RESOLVED] step: Fill the kettle at the sink.
+          new:  Fill the kettle at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [RESOLVED] step: Fill a pitcher at the sink.
+          new:  Fill the vase at the sink.
+
+  [RESOLVED] step: Fill a bowl with water from the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill the bottle at the sink.
+          new:  Fill the bottle at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the pot at the sink.
+
+  [RESOLVED] step: Fill it at the sink.
+          new:  Fill the pitcher at the sink.
+
+  [RESOLVED] step: Fill it with water from the pitcher.
+          new:  Fill the cup at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [FLAG] step: Fill a pitcher at the sink.
+
+  [RESOLVED] step: Fill the kettle at the sink.
+          new:  Fill the kettle at the sink.
+
+  [FLAG] step: Refill the watering can at the sink.
+
+  [RESOLVED] step: Fill it with water at the sink.
+          new:  Fill the watering can at the sink.
+
+  [FLAG] step: Fill a glass of water from the sink.
+
