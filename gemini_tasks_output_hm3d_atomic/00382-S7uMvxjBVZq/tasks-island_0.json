@@ -5359,12 +5359,12 @@
           "labels": {
             "370": "bathtub"
           },
-          "atomic_step": "Turn on the bathtub.",
+          "atomic_step": "Turn on the bathtub faucet.",
           "atomic_actions": [
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix"
             }
           ]
         },
@@ -12094,12 +12094,12 @@
           "labels": {
             "574": "curtain rod"
           },
-          "atomic_step": "Open the curtain rod.",
+          "atomic_step": "Open the curtain.",
           "atomic_actions": [
             {
               "action_id": "open",
               "relation": null,
-              "mapping_source": "open"
+              "mapping_source": "semantic_repair_v5:curtain_rod_to_curtain"
             }
           ]
         },

@@ -46,6 +46,7 @@ reposition,stool,589
 pick_up,sunglasses,588
 lift,towel,567
 set,alarm_clock,560
+straighten,couch,557
 wipe,microwave,544
 turn_on,fireplace,531
 inspect,mirror,518
@@ -57,7 +58,6 @@ wipe,desk,499
 hang,towel,498
 straighten,kitchen cabinet,489
 fluff,cushion,473
-straighten,couch,452
 open,wardrobe,444
 dust,shelf,438
 turn_off,tv,433
@@ -120,12 +120,14 @@ start_machine,coffee machine,289
 wipe,sink cabinet,284
 pick_up,pan,283
 turn_on,coffee machine,280
+straighten,sofa,278
 push,stool,277
 push,couch,269
 wipe,picture,266
 set_control,radiator,265
 pick_up,pliers,264
 pick_up,laptop_computer,264
+straighten,armchair,262
 place_on,flower vase,257
 straighten,basket,257
 turn_on,microwave,256
@@ -148,7 +150,6 @@ smooth,mat,226
 rinse,plate,222
 smooth,carpet,221
 align,picture,220
-straighten,armchair,220
 straighten,chest of drawers,219
 open,laptop_computer,217
 wipe,side table,216
@@ -158,7 +159,6 @@ load,washing machine,213
 dust,lamp,212
 place_in,basket,212
 vacuum,rug,211
-straighten,sofa,209
 pick_up,bottle,197
 turn_on,wall lamp,197
 wipe,radiator,196
@@ -234,6 +234,7 @@ dump,trash_can,141
 pull,chair,139
 store,handbag,139
 wipe,stairs railing,138
+set_control,clock,137
 inspect,shelf,136
 push,sofa chair,136
 turn_on,monitor,135
@@ -308,7 +309,6 @@ wipe,computer_keyboard,107
 carry,plant,106
 set_control,heater,106
 straighten,basket of something,106
-fluff,couch,105
 pick_up,can,105
 place_on,handbag,105
 close,cabinet door,104
@@ -316,7 +316,7 @@ fold,throw blanket,104
 rinse,toothbrush,104
 carry,backpack,103
 carry,handbag,103
-set_control,clock,103
+set_control,wall clock,103
 dust,ornament,102
 dust,plant,101
 straighten,refrigerator,101
@@ -339,6 +339,7 @@ set_control,table lamp,97
 smooth,towel,97
 straighten,kitchen lower cabinet,97
 straighten,backpack,97
+straighten,sofa chair,97
 wipe,wash cabinet,97
 inspect,calendar,96
 store,bag,96
@@ -350,7 +351,6 @@ inspect,coffee_maker,94
 place_in,washing machine,94
 carry,suitcase,93
 fill,shampoo,93
-set_control,wall clock,93
 wipe,wall panel,93
 wipe,bed table,93
 wipe,chest of drawers,93
@@ -369,7 +369,6 @@ align,chair,90
 inspect,knife,90
 pick_up,paper,90
 place_on,chair,90
-straighten,sofa chair,90
 wipe,faucet,90
 carry,table,88
 dust,ceiling lamp,88
@@ -391,6 +390,7 @@ straighten,plant,86
 straighten,hanger,86
 turn_off,ceiling fan,86
 open,laptop,85
+store,cabinet,85
 straighten,art frame,85
 straighten,bed table,85
 close,box,84
@@ -410,7 +410,6 @@ dust,bookshelf,81
 dust,table lamp,81
 open,window curtain,81
 place_on,shoe,81
-store,cabinet,81
 pick_up,dustpan,80
 place_on,cabinet,80
 wipe,dining chair,80
@@ -460,7 +459,6 @@ inspect,backpack,70
 straighten,display cabinet,70
 wipe,mirror frame,70
 dust,monitor,69
-fluff,sofa,69
 open,cabinet door,69
 place_on,jar,69
 smooth,window curtain,69
@@ -473,6 +471,7 @@ straighten,sink cabinet,68
 turn_off,bedside lamp,68
 wipe,book rack,68
 hang,wardrobe,67
+hang,bath towel,67
 inspect,screwdriver,67
 inspect,boiler,67
 lift,bathrobe,67
@@ -487,6 +486,7 @@ plug_in,cellular_telephone,66
 turn_on,computer,66
 turn_on,laptop_computer,66
 inspect,armchair,65
+load,printer,65
 place_in,handbag,65
 place_on,box,65
 push,bench,65
@@ -499,6 +499,7 @@ straighten,wall cabinet,64
 wipe,screen,64
 close,sliding door,63
 fold,cloth,63
+hang,bathrobe,63
 inspect,couch,63
 inspect,camera,63
 open,chest of drawers,63
@@ -507,7 +508,6 @@ store,shampoo,63
 straighten,closet,63
 wipe,oven and stove,63
 dust,stand,62
-hang,bath towel,62
 inspect,box,62
 inspect,pliers,62
 pick_up,vacuum cleaner,62
@@ -564,7 +564,6 @@ straighten,cardboard box,56
 turn_on,dishwasher,56
 wipe,tv stand,56
 wipe,appliance,56
-hang,bathrobe,55
 inspect,table,55
 open,microwave,55
 reposition,footrest,55
@@ -601,8 +600,8 @@ hang,rack,52
 inspect,monitor,52
 pick_up,stack of papers,52
 place_in,dishwasher,52
-smooth,crib,52
 store,wine_bottle,52
+straighten,crib,52
 wipe,exercise machine,52
 inspect,kitchen cabinet,51
 inspect,bookshelf,51
@@ -689,7 +688,6 @@ wipe,bath wall,43
 close,shutter,42
 dust,stairs railing,42
 dust,floor lamp,42
-fluff,armchair,42
 inspect,tv,42
 place_in,shampoo,42
 place_on,sofa seat,42
@@ -721,12 +719,12 @@ place_in,cup,40
 place_on,basket,40
 set_control,tv,40
 set_control,bedside lamp,40
+straighten,sofa seat,40
 wipe,closet mirror wall,40
 wipe,laptop_computer,40
 wipe,whiteboard,40
 close,laptop,39
 close,window shutters,39
-fill,printer,39
 inspect,rack,39
 inspect,scale,39
 inspect,towel,39
@@ -780,7 +778,6 @@ rinse,tray,36
 set_control,window shade,36
 set_up,laptop,36
 straighten,clutter,36
-straighten,sofa seat,36
 straighten,rack,36
 straighten,photo mount,36
 straighten,stack of books,36
@@ -822,7 +819,6 @@ straighten,laundry basket,34
 straighten,ironing board,34
 tighten,pipe,34
 turn_off,oven,34
-turn_on,clock,34
 wipe,speaker,34
 wipe,desk chair,34
 wipe,bathtub,34
@@ -994,7 +990,6 @@ inspect,computer_keyboard,26
 inspect,keyboard,26
 inspect,vent,26
 inspect,tap,26
-load,printer,26
 pick_up,kitchen utensil,26
 pick_up,shovel,26
 place_in,case,26
@@ -1333,6 +1328,7 @@ store,laptop,17
 store,screwdriver,17
 store,pitcher,17
 store,container,17
+straighten,l-shaped sofa,17
 straighten,bowl,17
 straighten,bedside table,17
 turn_on,ventilation,17
@@ -1377,7 +1373,6 @@ store,vacuum cleaner,16
 store,mouse,16
 store,towel,16
 straighten,kitchen appliance,16
-straighten,l-shaped sofa,16
 straighten,bar chair,16
 straighten,closet door,16
 straighten,computer desk,16
@@ -1402,7 +1397,6 @@ dust,dustpan,15
 dust,appliance,15
 dust,staircase handrail,15
 fill,tap,15
-fill,toilet paper dispenser,15
 inspect,wine_bottle,15
 inspect,faucet,15
 inspect,sign,15
@@ -1422,6 +1416,7 @@ set_control,bed light,15
 set_control,lampshade,15
 stack,stack of books,15
 store,tray,15
+store,toilet paper dispenser,15
 straighten,bed stand,15
 straighten,computer equipment,15
 straighten,stairs railing,15
@@ -1729,6 +1724,7 @@ set_up,vase,11
 smooth,bathroom towel,11
 stack,container,11
 start_machine,washing machine,11
+store,toilet paper,11
 store,hat,11
 store,pillow,11
 straighten,sink,11
@@ -1770,7 +1766,6 @@ dust,bathroom cabinet,10
 dust,decor,10
 dust,computer,10
 dust,hunting trophy,10
-fill,toilet paper,10
 hang,scarf,10
 inspect,display cabinet,10
 inspect,book rack,10
@@ -1833,6 +1828,7 @@ reposition,umbrella,10
 rinse,dish,10
 set_control,coffee machine,10
 set_control,music player,10
+set_control,antique clock,10
 set_up,desk chair,10
 set_up,printer,10
 set_up,projector,10
@@ -1841,6 +1837,7 @@ smooth,bed sheet,10
 smooth,bath towel,10
 start_machine,clothes dryer,10
 store,tool box,10
+store,paper towel,10
 straighten,shower-bath cabinet,10
 straighten,wine_bottle,10
 straighten,folding chair,10
@@ -1860,7 +1857,6 @@ straighten,gym mat,10
 tighten,shelf,10
 turn_off,appliance,10
 turn_off,radio,10
-turn_on,wall clock,10
 turn_on,pan,10
 turn_on,stovetop,10
 turn_on,roomba,10
@@ -2050,8 +2046,6 @@ dust,elephant sculpture,8
 dust,wall board,8
 dust,entertainment set,8
 fill,bath tub,8
-fill,paper towel,8
-fill,bathrobe,8
 fill,coffee_maker,8
 inspect,closet mirror wall,8
 inspect,cloth,8
@@ -2066,7 +2060,6 @@ inspect,mixer,8
 inspect,water dispenser,8
 inspect,wine rack,8
 inspect,copier,8
-load,wardrobe,8
 open,file cabinet,8
 open,glass door,8
 open,shades,8
@@ -2198,9 +2191,6 @@ dust,garage door motor,7
 fill,bowl of fruit,7
 fill,faucet,7
 fill,beverage dispenser,7
-fill,tissue,7
-fill,paper towel dispenser,7
-fluff,sofa chair,7
 fold,scarf,7
 hang,photo,7
 inspect,trash_can,7
@@ -2308,6 +2298,8 @@ stack,stacked chair,7
 stack,stack of plates,7
 store,keyboard,7
 store,hanger,7
+store,tissue,7
+store,paper towel dispenser,7
 straighten,laptop_computer,7
 straighten,stack of clothes,7
 straighten,knife holder,7
@@ -2428,6 +2420,7 @@ open,safe,6
 open,elevator door,6
 open,box with photos,6
 pick_up,stack of clothes,6
+pick_up,wardrobe,6
 pick_up,clothes hanger,6
 pick_up,detergent,6
 pick_up,bouquet,6
@@ -2515,6 +2508,7 @@ stack,magazines,6
 start_machine,laundry machine,6
 store,chest of drawers,6
 store,cutting board,6
+store,tissue box,6
 store,dishes,6
 store,magazine,6
 store,computer_keyboard,6
@@ -2537,6 +2531,7 @@ straighten,sitting bench,6
 straighten,plate,6
 straighten,railing,6
 straighten,closet shelving,6
+straighten,sofa set,6
 straighten,beanbag,6
 straighten,artwork,6
 straighten,wreath,6
@@ -2556,7 +2551,6 @@ turn_off,ceiling fan lamp,6
 turn_off,night lamp,6
 turn_on,electric heater,6
 turn_on,barbecue,6
-turn_on,antique clock,6
 turn_on,lamp shade,6
 turn_on,vent,6
 turn_on,dehumidifier,6
@@ -2602,6 +2596,7 @@ align,sunbed,5
 align,couch,5
 align,panel screen,5
 attach,staircase handrail,5
+attach,hose,5
 carry,doormat,5
 carry,newspaper,5
 carry,pc tower,5
@@ -2651,9 +2646,7 @@ dust,painting frame,5
 dust,window shade,5
 dust,fireplace shelf,5
 dust,podium,5
-fill,bath towel,5
 fill,container,5
-fill,tissue box,5
 fill,electric kettle,5
 fluff,bed,5
 fold,blankets,5
@@ -2749,7 +2742,6 @@ place_on,lid,5
 place_on,chassis,5
 place_on,bowl of sweets,5
 place_on,lace doily,5
-plug_in,hose,5
 polish,decoration,5
 polish,chest of drawers,5
 polish,painting,5
@@ -2821,7 +2813,6 @@ straighten,makeup accessories,5
 straighten,tree branch,5
 straighten,bedding,5
 straighten,speaker,5
-straighten,sofa set,5
 straighten,clock,5
 straighten,entertainment set,5
 straighten,albums,5
@@ -2952,11 +2943,9 @@ dust,staircase trim,4
 dust,statue/art,4
 fill,wine_bottle,4
 fill,backpack,4
-fill,cabinet,4
 fill,bathroom accessory,4
 fill,washbasin,4
 fill,mini fridge,4
-fluff,sofa seat,4
 fluff,round cushion,4
 fluff,beanbag,4
 fold,stack of clothes,4
@@ -3156,7 +3145,6 @@ set_control,piano,4
 set_control,laptop,4
 set_control,medical lamp,4
 set_control,microwave_oven,4
-set_control,antique clock,4
 set_control,keyboard stand,4
 set_control,night lamp,4
 set_up,sofa seat,4
@@ -4098,7 +4086,6 @@ dust,pedestal,2
 dust,holy cross,2
 fill,bowl with sweets,2
 fill,dishwasher,2
-fill,paper towels,2
 fill,toothbrush,2
 fill,stationery,2
 fill,kitchen cabinet,2
@@ -4233,6 +4220,7 @@ load,mouse,2
 load,oven,2
 load,container,2
 load,hairbrush,2
+load,wardrobe,2
 load,stack of papers,2
 load,machine,2
 load,folder,2
@@ -4655,9 +4643,9 @@ store,boxes,2
 store,brush,2
 store,bowl with sweets,2
 store,saw,2
+store,paper towels,2
 store,game board,2
 store,trash bag,2
-store,paper towel,2
 store,press,2
 store,shelving,2
 store,basket of towels,2
@@ -5367,8 +5355,6 @@ fill,glass,1
 fill,clothes container,1
 fill,rack,1
 fill,handbag,1
-fluff,l-shaped sofa,1
-fluff,sofa set,1
 fluff,dog bed,1
 fluff,throw blanket,1
 fluff,ottoman,1
@@ -6506,7 +6492,6 @@ store,control,1
 store,bread box,1
 store,detergent,1
 store,bar,1
-store,tissue box,1
 store,golf sticks,1
 store,rolled carpet,1
 store,pet bed,1
@@ -6518,7 +6503,6 @@ store,pouffe,1
 store,wall cabinet,1
 store,microwave_oven,1
 store,photo,1
-store,toilet paper,1
 store,printer,1
 store,board,1
 store,dishwasher,1

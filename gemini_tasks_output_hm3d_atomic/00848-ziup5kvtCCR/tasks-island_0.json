@@ -3098,12 +3098,12 @@
           "labels": {
             "52": "curtain rod"
           },
-          "atomic_step": "Close the curtain rod in the bedroom.",
+          "atomic_step": "Close the curtain in the bedroom.",
           "atomic_actions": [
             {
               "action_id": "close",
               "relation": "in",
-              "mapping_source": "close"
+              "mapping_source": "semantic_repair_v5:curtain_rod_to_curtain"
             }
           ]
         }

@@ -1632,12 +1632,12 @@
           "labels": {
             "819": "bathtub"
           },
-          "atomic_step": "Turn on the bathtub.",
+          "atomic_step": "Turn on the bathtub faucet.",
           "atomic_actions": [
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix"
             }
           ]
         },
@@ -8472,12 +8472,12 @@
           "labels": {
             "819": "bathtub"
           },
-          "atomic_step": "Turn on the bathtub.",
+          "atomic_step": "Turn on the bathtub faucet.",
           "atomic_actions": [
             {
               "action_id": "turn_on",
               "relation": "on",
-              "mapping_source": "turn_on"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix"
             }
           ]
         },
@@ -15014,12 +15014,12 @@
           "labels": {
             "887": "cellular_telephone"
           },
-          "atomic_step": "Adjust the cellular_telephone.",
+          "atomic_step": "Place the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "repair_set_to_control"
+              "mapping_source": "semantic_repair_v5:set_phone_to_place_on"
             }
           ]
         }
@@ -15490,9 +15490,9 @@
           "atomic_step": "Set the cellular telephone.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "full_semantic_rewrite"
+              "mapping_source": "semantic_repair_v5:set_phone_to_place_on"
             }
           ]
         },
@@ -41611,12 +41611,12 @@
           "labels": {
             "819": "bathtub"
           },
-          "atomic_step": "Turn on the bathtub.",
+          "atomic_step": "Turn on the bathtub faucet.",
           "atomic_actions": [
             {
               "action_id": "turn_on",
               "relation": "in",
-              "mapping_source": "turn_on"
+              "mapping_source": "semantic_repair_v5:turn_on_bathtub_text_fix"
             }
           ]
         },

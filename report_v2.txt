@@ -1,0 +1,193 @@
+﻿======================================================================
+Semantic Check v2 (improved matching)
+======================================================================
+
+Scanned: 217 files, 179546 steps
+Found: 7099 issues
+
+Unique (action, object) combos with issues: 534
+
+  [1] close + curtain  (count=1622)
+      step='Close the curtain.' → atomic='Close the curtain.'
+      step='Close the curtain.' → atomic='Close the curtain.'
+  [2] close + blinds  (count=621)
+      step='Close the blinds.' → atomic='Close the blinds.'
+      step='Close the blinds.' → atomic='Close the blinds.'
+  [3] turn_on + fireplace  (count=531)
+      step='Light the fireplace.' → atomic='Turn on the fireplace.'
+      step='Light the fireplace.' → atomic='Turn on the fireplace.'
+  [4] open + curtain  (count=313)
+      step='Open the curtain to let in light.' → atomic='Open the curtain to let in light.'
+      step='Open the curtain for natural light.' → atomic='Open the curtain.'
+  [5] turn_on + kettle  (count=310)
+      step='Boil water in the kettle.' → atomic='Turn on kettle.'
+      step='Prepare the kettle.' → atomic='Turn on the kettle.'
+  [6] set_control + radiator  (count=265)
+      step='Adjust the radiator setting.' → atomic='Adjust the radiator.'
+      step='Adjust the radiator in the hallway.' → atomic='Adjust the radiator in the hallway.'
+  [7] close + shower curtain  (count=228)
+      step='Close the shower curtain.' → atomic='Close the shower curtain.'
+      step='Close the curtain.' → atomic='Close the shower curtain.'
+  [8] turn_on + radiator  (count=190)
+      step='Turn on the radiator.' → atomic='Turn on the radiator.'
+      step='Turn on the radiator.' → atomic='Turn on the radiator.'
+  [9] open + blinds  (count=160)
+      step='Open the blinds.' → atomic='Open the blinds.'
+      step='Open the blinds.' → atomic='Open the blinds.'
+  [10] open + wine_bottle  (count=144)
+      step='Open the wine bottle.' → atomic='Open the wine_bottle.'
+      step='Open a wine_bottle for the guests.' → atomic='Open the wine_bottle.'
+  [11] turn_on + chandelier  (count=121)
+      step='Turn on the chandelier.' → atomic='Turn on the chandelier.'
+      step='Switch on the chandelier for better light.' → atomic='Turn on the chandelier.'
+  [12] turn_off + alarm_clock  (count=121)
+      step='Turn off the alarm clock.' → atomic='Turn off the alarm_clock.'
+      step='Turn off the alarm_clock.' → atomic='Turn off the alarm_clock.'
+  [13] turn_on + candle  (count=98)
+      step='Light the candle.' → atomic='Turn on the candle.'
+      step='Light the candle.' → atomic='Turn on the candle.'
+  [14] fill + shampoo  (count=93)
+      step='Refill the shampoo.' → atomic='Fill the shampoo dispenser.'
+      step='Refill the shampoo bottle.' → atomic='Fill the shampoo dispenser.'
+  [15] set_control + chandelier  (count=61)
+      step='Dim the chandelier.' → atomic='Adjust the chandelier.'
+      step='Dim the chandelier.' → atomic='Adjust the chandelier.'
+  [16] set_control + guitar  (count=58)
+      step='Tune the guitar.' → atomic='Adjust the guitar.'
+      step='Tune the guitar.' → atomic='Adjust the guitar.'
+  [17] turn_on + music player  (count=50)
+      step='Turn on the music player.' → atomic='Turn on the music player.'
+      step='Turn on the music player.' → atomic='Turn on the music player.'
+  [18] open + washing machine  (count=48)
+      step='Empty the washing machine.' → atomic='Open washing machine.'
+      step='Empty the washing machine.' → atomic='Open washing machine.'
+  [19] open + piano  (count=46)
+      step='Open the piano.' → atomic='Open the piano.'
+      step='Open the piano.' → atomic='Open the piano.'
+  [20] turn_off + chandelier  (count=45)
+      step='Turn off the chandelier.' → atomic='Turn off the chandelier.'
+      step='Turn off the chandelier.' → atomic='Turn off the chandelier.'
+  [21] turn_on + candle holder  (count=43)
+      step='Light the candle holder.' → atomic='Turn on the candle holder.'
+      step='Light the candle holder.' → atomic='Turn on the candle holder.'
+  [22] close + shutter  (count=42)
+      step='Close the shutter.' → atomic='Close the shutter.'
+      step='Close the shutter.' → atomic='Close the shutter.'
+  [23] turn_on + air conditioning  (count=39)
+      step='Turn on the air conditioning.' → atomic='Turn on the air conditioning.'
+      step='Turn on the air conditioning.' → atomic='Turn on the air conditioning.'
+  [24] open + dresser  (count=39)
+      step='Open the dresser.' → atomic='Open the dresser.'
+      step='Open the dresser drawer.' → atomic='Open the dresser.'
+  [25] turn_off + radiator  (count=39)
+      step='Turn off the radiator.' → atomic='Turn off the radiator.'
+      step='Turn off the radiator.' → atomic='Turn off the radiator.'
+  [26] turn_on + range hood  (count=38)
+      step='Switch on the range hood.' → atomic='Turn on the range hood.'
+      step='Turn on the range hood.' → atomic='Turn on the range hood.'
+  [27] turn_on + cooker  (count=32)
+      step='Preheat the cooker.' → atomic='Turn on cooker.'
+      step='Turn on the cooker.' → atomic='Turn on the cooker.'
+  [28] set_control + screen  (count=31)
+      step='Adjust the screen.' → atomic='Adjust the screen.'
+      step='Adjust the screen.' → atomic='Adjust the screen.'
+  [29] turn_on + kitchen extractor  (count=30)
+      step='Turn on the kitchen extractor.' → atomic='Turn on the kitchen extractor.'
+      step='Turn on the kitchen extractor.' → atomic='Turn on the kitchen extractor.'
+  [30] turn_on + furnace  (count=30)
+      step='Turn on the furnace in the living area.' → atomic='Turn on the furnace in the living area.'
+      step='Turn on the furnace.' → atomic='Turn on the furnace.'
+  [31] close + dresser  (count=29)
+      step='Close the dresser drawer.' → atomic='Close the dresser.'
+      step='Close the dresser drawer.' → atomic='Close the dresser.'
+  [32] turn_on + amplifier  (count=25)
+      step='Turn on the amplifier.' → atomic='Turn on the amplifier.'
+      step='Turn on the amplifier.' → atomic='Turn on the amplifier.'
+  [33] turn_on + candlestick  (count=23)
+      step='Light the candlestick.' → atomic='Turn on the candlestick.'
+      step='Light the candlestick.' → atomic='Turn on the candlestick.'
+  [34] close + shade  (count=23)
+      step='Lower the shade to reduce glare.' → atomic='Close the shade to reduce glare.'
+      step='Close the shade for privacy.' → atomic='Close the shade.'
+  [35] open + umbrella  (count=23)
+      step='Open the umbrella for shade.' → atomic='Open the umbrella.'
+      step='Open the umbrella for shade.' → atomic='Open the umbrella.'
+  [36] open + shower curtain  (count=20)
+      step='Open the shower curtain.' → atomic='Open the shower curtain.'
+      step='Open the shower curtain.' → atomic='Open the shower curtain.'
+  [37] close + attic hatch  (count=19)
+      step='Close the attic hatch.' → atomic='Close the attic hatch.'
+      step='Close the attic hatch.' → atomic='Close the attic hatch.'
+  [38] close + shades  (count=19)
+      step='Draw the shades.' → atomic='Close the shades.'
+      step='Close the shades in the adjacent room.' → atomic='Close the shades in the adjacent room.'
+  [39] turn_on + laptop  (count=18)
+      step='Boot up the laptop.' → atomic='Turn on the laptop.'
+      step='Turn on the laptop.' → atomic='Turn on the laptop.'
+  [40] turn_on + treadmill  (count=18)
+      step='Start the treadmill for a run.' → atomic='Turn on the treadmill.'
+      step='Start the treadmill.' → atomic='Turn on the treadmill.'
+  [41] turn_off + fireplace  (count=18)
+      step='Turn off the fireplace.' → atomic='Turn off the fireplace.'
+      step='Turn off the fireplace.' → atomic='Turn off the fireplace.'
+  [42] fill + liquid soap  (count=18)
+      step='Refill the liquid soap.' → atomic='Fill the liquid soap dispenser.'
+      step='Refill the liquid soap.' → atomic='Fill the liquid soap dispenser.'
+  [43] open + laundry machine  (count=16)
+      step='Empty the laundry machine.' → atomic='Open laundry machine.'
+      step='Empty the laundry machine.' → atomic='Open laundry machine.'
+  [44] close + curtain rod  (count=16)
+      step='Close the curtain rod to block drafts.' → atomic='Close the curtain rod to block drafts.'
+      step='Close the curtain rod.' → atomic='Close the curtain rod.'
+  [45] turn_on + screen  (count=16)
+      step='Turn on the screen.' → atomic='Turn on the screen.'
+      step='Turn on the screen.' → atomic='Turn on the screen.'
+  [46] fill + tap  (count=15)
+      step='Fill it with water at the tap.' → atomic='Use the tap to fill a container.'
+      step='Fill the cup with water at the tap.' → atomic='Use the tap to fill a container.'
+  [47] turn_on + arcade game  (count=15)
+      step='Boot up the arcade game.' → atomic='Turn on the arcade game.'
+      step='Turn on the arcade game.' → atomic='Turn on the arcade game.'
+  [48] turn_on + record player  (count=14)
+      step='Turn on the record player.' → atomic='Turn on the record player.'
+      step='Start the record player.' → atomic='Turn on the record player.'
+  [49] turn_on + pc tower  (count=14)
+      step='Turn on the pc tower.' → atomic='Turn on the pc tower.'
+      step='Turn on the pc tower.' → atomic='Turn on the pc tower.'
+  [50] open + attic hatch  (count=14)
+      step='Open the attic hatch.' → atomic='Open the attic hatch.'
+      step='Open the attic hatch.' → atomic='Open the attic hatch.'
+  [51] turn_on + bathtub  (count=14)
+      step='Turn on the bathtub.' → atomic='Turn on the bathtub.'
+      step='Turn on the bathtub.' → atomic='Turn on the bathtub.'
+  [52] close + shutters  (count=14)
+      step='Close the shutters before leaving.' → atomic='Close the shutters.'
+      step='Close the shutters to keep the room cool.' → atomic='Close the shutters to keep the room cool.'
+  [53] open + archway  (count=14)
+      step='Open the archway.' → atomic='Open the archway.'
+      step='Open the archway.' → atomic='Open the archway.'
+  [54] fill + basket  (count=13)
+      step='Fill the basket with popcorn.' → atomic='Fill the basket with the popcorn.'
+      step='Refill the basket.' → atomic='Fill the basket.'
+  [55] set_control + kettle  (count=13)
+      step='Set the kettle.' → atomic='Adjust the kettle.'
+      step='Set the kettle on the kitchen cabinet.' → atomic='Adjust the kettle.'
+  [56] stack + case  (count=13)
+      step='Stack the case.' → atomic='Stack the case.'
+      step='Stack the case.' → atomic='Stack the case.'
+  [57] set_control + keyboard  (count=13)
+      step='Adjust the keyboard.' → atomic='Adjust the keyboard.'
+      step='Adjust the keyboard position.' → atomic='Adjust the keyboard.'
+  [58] turn_on + grill  (count=12)
+      step='Prepare the grill.' → atomic='Turn on the grill.'
+      step='Prepare the grill.' → atomic='Turn on the grill.'
+  [59] set_control + cellular_telephone  (count=12)
+      step='Set the cellular_telephone on the desk.' → atomic='Adjust the cellular_telephone.'
+      step='Set the cellular_telephone on the side table.' → atomic='Adjust the cellular_telephone.'
+  [60] set_control + telephone  (count=12)
+      step='Reset the telephone.' → atomic='Adjust the telephone to reset.'
+      step='Adjust the telephone.' → atomic='Adjust the telephone.'
+
+  ... and 474 more
+
+Report saved: d:\微信文件\xwechat_files\wxid_mviguy0cna1m22_c0e5\msg\file\2026-06\cot_data\cot_data\semantic_issues_report_v2.json

@@ -1477,12 +1477,12 @@
           "labels": {
             "857": "cellular_telephone"
           },
-          "atomic_step": "Adjust the cellular_telephone.",
+          "atomic_step": "Place the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "repair_set_to_control"
+              "mapping_source": "semantic_repair_v5:set_phone_to_place_on"
             }
           ]
         },

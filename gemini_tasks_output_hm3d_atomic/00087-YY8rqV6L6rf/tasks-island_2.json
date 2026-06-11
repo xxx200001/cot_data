@@ -586,12 +586,12 @@
           "labels": {
             "39": "curtain rod"
           },
-          "atomic_step": "Close the curtain rod.",
+          "atomic_step": "Close the curtain.",
           "atomic_actions": [
             {
               "action_id": "close",
               "relation": null,
-              "mapping_source": "close"
+              "mapping_source": "semantic_repair_v5:curtain_rod_to_curtain"
             }
           ]
         },
@@ -2565,12 +2565,12 @@
           "labels": {
             "39": "curtain rod"
           },
-          "atomic_step": "Close the curtain rod.",
+          "atomic_step": "Close the curtain.",
           "atomic_actions": [
             {
               "action_id": "close",
               "relation": null,
-              "mapping_source": "close"
+              "mapping_source": "semantic_repair_v5:curtain_rod_to_curtain"
             }
           ]
         },
@@ -4526,12 +4526,12 @@
           "labels": {
             "39": "curtain rod"
           },
-          "atomic_step": "Close the curtain rod.",
+          "atomic_step": "Close the curtain.",
           "atomic_actions": [
             {
               "action_id": "close",
               "relation": null,
-              "mapping_source": "close"
+              "mapping_source": "semantic_repair_v5:curtain_rod_to_curtain"
             }
           ]
         },
@@ -5704,12 +5704,12 @@
           "labels": {
             "39": "curtain rod"
           },
-          "atomic_step": "Close the curtain rod.",
+          "atomic_step": "Close the curtain.",
           "atomic_actions": [
             {
               "action_id": "close",
               "relation": null,
-              "mapping_source": "close"
+              "mapping_source": "semantic_repair_v5:curtain_rod_to_curtain"
             }
           ]
         }
@@ -12919,12 +12919,12 @@
           "labels": {
             "39": "curtain rod"
           },
-          "atomic_step": "Close the curtain rod.",
+          "atomic_step": "Close the curtain.",
           "atomic_actions": [
             {
               "action_id": "close",
               "relation": null,
-              "mapping_source": "close"
+              "mapping_source": "semantic_repair_v5:curtain_rod_to_curtain"
             }
           ]
         },
@@ -16510,12 +16510,12 @@
           "labels": {
             "583": "cellular_telephone"
           },
-          "atomic_step": "Adjust the cellular_telephone.",
+          "atomic_step": "Place the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "repair_set_to_control"
+              "mapping_source": "semantic_repair_v5:set_phone_to_place_on"
             }
           ]
         }
@@ -17003,12 +17003,12 @@
           "labels": {
             "583": "cellular_telephone"
           },
-          "atomic_step": "Adjust the cellular_telephone.",
+          "atomic_step": "Place the cellular_telephone.",
           "atomic_actions": [
             {
-              "action_id": "set_control",
+              "action_id": "place_on",
               "relation": "on",
-              "mapping_source": "repair_set_to_control"
+              "mapping_source": "semantic_repair_v5:set_phone_to_place_on"
             }
           ]
         },
